@@ -1,0 +1,16 @@
+/* Kinstride: pergamino y tinta, como el mapa de la app. */
+:root{--papel:#EBDDBC;--hoja:#F7EED8;--tinta:#2B1F12;--suave:#5A4630;--borde:#B49A6C;--acento:#8E2F17}
+@media (prefers-color-scheme:dark){:root{--papel:#1A2130;--hoja:#1F2735;--tinta:#EDE6D6;--suave:#C9C1AE;--borde:#4A5770;--acento:#E9A23B;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papel);color:var(--tinta);font:500 17px/1.6 'Alegreya Sans',system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 20px 64px}
+h1,h2,.marca{font-family:'IM Fell English SC',Georgia,serif;font-weight:400;line-height:1.15}
+h1{font-size:clamp(34px,6vw,52px);margin:8px 0 12px;text-wrap:balance}
+h2{font-size:26px;margin:36px 0 8px;border-bottom:1px solid var(--borde);padding-bottom:4px}
+.marca{font-size:18px;letter-spacing:3px;color:var(--acento);text-decoration:none}
+.bajada{font-family:'IM Fell English',Georgia,serif;font-style:italic;font-size:21px;color:var(--suave)}
+a{color:var(--acento)}
+.resumen{background:var(--hoja);border:1px solid var(--borde);border-radius:14px;padding:14px 18px}
+.pie{margin-top:48px;font-size:14px;color:var(--suave)}
+ul{padding-left:22px}
+li{margin:4px 0}
