@@ -12,9 +12,9 @@
 <main>
 <a class="marca" href="/">KINSTRIDE</a>
 <h1>Privacy policy</h1>
-<p>Last updated: 26 October 2026 · <a href="/es/privacidad/">Versión en español</a></p>
+<p>Last updated: 27 October 2026 · <a href="/es/privacidad/">Versión en español</a></p>
 
-<p class="resumen">In short: Kinstride turns your walks into a journey. Your exact route never leaves your phone. Your steps stay on
+<p class="resumen">In short: Kinstride turns your walks into a journey. Your exact route never leaves your phone (only an approximate area, for parks and weather). Your steps stay on
 your phone unless you join a Company, and then only your kilometres per day are shared with its members. No ads, no selling data, no tracking.</p>
 
 <h2>Who is responsible</h2>
@@ -31,10 +31,16 @@ location in the background at any other time.</p>
 <p>From the GPS points it calculates distance, time, pace, pauses and climb. The points themselves are kept only in memory during the
 expedition and are discarded at the end: <b>your route is never saved and never sent anywhere</b>. Only the summary
 (kilometres, minutes, steps, metres climbed) is stored on your phone.</p>
+<p>At the end of an expedition Kinstride sends an <b>approximate area</b> (never the route) to two free public services:</p>
+<ul>
+<li><a href="https://www.openstreetmap.org">OpenStreetMap</a> (Overpass): a rectangle around your walk, rounded to a grid of about 1 km, to get the parks and nature areas nearby. Your phone then calculates what part of the walk went through them; only that percentage is stored.</li>
+<li><a href="https://open-meteo.com">Open-Meteo</a>: your starting point rounded to about 11 km, to get the temperature and whether it was raining.</li>
+</ul>
+<p>Neither service receives your name, an account or your route. These results feed some classes and lineage variants.</p>
 
 <h2>Steps, distance and walks from your watch (Health Connect)</h2>
 <p>If you allow it, Kinstride <b>reads</b> from Health Connect your <b>steps</b> and <b>distance</b> per day, and your <b>exercise sessions</b>
-(only walks, runs and hikes, for example from your watch) with their <b>elevation gained</b>, starting on the day you began your journey
+(only walks, runs, hikes and bike rides, for example from your watch) with their <b>elevation gained</b>, starting on the day you began your journey
 and for the last 30 days at most. It does not read any other health data and never writes to Health Connect.</p>
 <ul>
 <li>Use: to move your marker along the map, reach camps, level up and estimate the lineage your walking resembles.</li>
@@ -48,7 +54,7 @@ and for the last 30 days at most. It does not read any other health data and nev
 <h2>Companies</h2>
 <p>A Company lets up to 9 friends move one marker together. To use it, Kinstride creates an <b>anonymous account</b> on this phone: no
 email, no password, no name from your Google account. The Company stores: the name you choose to show, your lineage, your level and your
-kilometres per day since you joined. Only members of the same Company can see them. It is stored with
+kilometres per day since you joined, and the start and end time of your outings (not where), to know when members walked together. Only members of the same Company can see them. It is stored with
 <a href="https://supabase.com">Supabase</a>, our provider, over an encrypted connection.</p>
 
 <h2>Purchases</h2>
