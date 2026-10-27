@@ -35,8 +35,13 @@ T = {
                 'Steady and loves the climbs? Dwarf. Quick and light? Elf. Short steps with plenty of stops? Halfling.',
                 'Nine lineages, read from your last 4 weeks: walk differently and your lineage changes.',
                 'Level up from 1 to 20, from Doorstep Wanderer to The Unwearied.']),
+            ('Your class, your items, your rides', [
+                'Twelve classes from your habits: Ranger, Paladin, Monk, Druid, Bard… and the screen "How to change" tells you exactly what to do to become another.',
+                'Lineage variants: Wood Elf, Drow, Frost Goliath and more, from where, when and in what weather you walk.',
+                '103 magic items hidden along the road, each with its drawing and story. Equip one and it shows on your postcards.',
+                'Bike rides count as riding a pony or a horse, and a narrator reads each camp aloud when you reach it.']),
             ('Keep going', [
-                'A daily goal in steps or distance, with a streak.',
+                'A daily goal in steps or distance, with a streak and one rest day a week.',
                 'A weekly summary compared with last week.',
                 '22 achievements: your first campfire, a half marathon, a week on the road and more.',
                 'Walk as a Company with friends or family: your kilometres move you together along the same road.']),
@@ -76,8 +81,13 @@ T = {
                 '¿Firme y te gustan las subidas? Enano. ¿Rápido y liviano? Elfo. ¿Pasos cortos y muchas paradas? Mediano.',
                 'Nueve linajes, según tus últimas 4 semanas: si cambias tu forma de caminar, cambia tu linaje.',
                 'Sube del nivel 1 al 20, de Andariego del Umbral a El Incansable.']),
+            ('Tu clase, tus objetos, tus cabalgatas', [
+                'Doce clases según tus costumbres: Explorador, Paladín, Monje, Druida, Bardo… y la pantalla "Cómo cambiar" te dice qué hacer para ser otra.',
+                'Variantes de linaje: Elfo del bosque, Drow, Goliat de escarcha y más, según dónde, cuándo y con qué clima caminas.',
+                '103 objetos mágicos escondidos en el camino, cada uno con su dibujo y su historia. Lleva uno equipado y saldrá en tus postales.',
+                'La bicicleta cuenta como ir en pony o a caballo, y un narrador lee cada parada en voz alta al llegar.']),
             ('Sigue adelante', [
-                'Meta diaria en pasos o distancia, con racha.',
+                'Meta diaria en pasos o distancia, con racha y un día de descanso por semana.',
                 'Resumen de la semana comparado con la anterior.',
                 '22 logros: tu primera fogata, una media maratón, una semana en el camino y más.',
                 'Camina en Compañía con amigos o familia: sus kilómetros avanzan juntos por el mismo camino.']),
