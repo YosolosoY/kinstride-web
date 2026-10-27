@@ -14,3 +14,21 @@ a{color:var(--acento)}
 .pie{margin-top:48px;font-size:14px;color:var(--suave)}
 ul{padding-left:22px}
 li{margin:4px 0}
+/* Página principal */
+main.ancho{max-width:980px}
+.cabeza{max-width:720px}
+.icono{display:block;width:80px;height:80px;border-radius:18px;margin-bottom:12px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.botones{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 8px}
+.boton{display:inline-block;background:var(--acento);color:var(--papel);text-decoration:none;font-weight:700;padding:12px 22px;border-radius:999px}
+.boton.secundario{background:transparent;color:var(--acento);border:2px solid var(--acento)}
+.aviso{font-size:15px;color:var(--suave);margin:0}
+.galeria{display:flex;gap:16px;overflow-x:auto;padding:28px 2px 10px;scroll-snap-type:x mandatory}
+.galeria figure{margin:0;flex:0 0 min(240px,62vw);scroll-snap-align:start}
+.galeria img{width:100%;height:auto;border-radius:22px;border:3px solid var(--borde);display:block}
+.galeria figcaption{font-size:14px;color:var(--suave);text-align:center;margin-top:6px}
+section{max-width:720px}
+.tester{margin-top:36px}
+.tester h2{margin-top:0}
+.tester ol{padding-left:22px}
+.tester li{margin:8px 0}
+.nota{font-size:14px;color:var(--suave)}
