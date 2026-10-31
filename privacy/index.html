@@ -33,7 +33,7 @@ expedition and are discarded at the end: <b>your route is never saved and never 
 (kilometres, minutes, steps, metres climbed) is stored on your phone.</p>
 <p>At the end of an expedition Kinstride sends an <b>approximate area</b> (never the route) to two free public services:</p>
 <ul>
-<li><a href="https://www.openstreetmap.org">OpenStreetMap</a> (Overpass): a rectangle around your walk, rounded to a grid of about 1 km, to get the parks and nature areas nearby. Your phone then calculates what part of the walk went through them; only that percentage is stored.</li>
+<li><a href="https://www.openstreetmap.org">OpenStreetMap</a> (Overpass): a rectangle around your walk, rounded to a grid of about 1 km, to get the parks and nature areas nearby. Your phone then calculates what part of the walk went through them; only that percentage is stored. To ask OpenStreetMap only once per area, Kinstride also looks up those squares of about 2 km in its own cache on Supabase, and saves the public park shapes there. The cache holds no account, name or walk.</li>
 <li><a href="https://open-meteo.com">Open-Meteo</a>: your starting point rounded to about 11 km, to get the temperature and whether it was raining.</li>
 </ul>
 <p>Neither service receives your name, an account or your route. These results feed some classes and lineage variants.</p>
