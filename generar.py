@@ -37,7 +37,7 @@ T = {
                 'Level up from 1 to 20, from Doorstep Wanderer to The Unwearied.']),
             ('Your class, your items, your rides', [
                 'Twelve classes from your habits: Ranger, Paladin, Monk, Druid, Bard… and the screen "How to change" tells you exactly what to do to become another.',
-                'Lineage variants: Wood Elf, Drow, Frost Goliath and more, from where, when and in what weather you walk.',
+                'Lineage variants: Wood Elf, Dusk Elf, Frost Goliath and more, from where, when and in what weather you walk.',
                 '103 magic items hidden along the road, each with its drawing and story. Equip one and it shows on your postcards.',
                 'Bike rides count as riding a pony or a horse, and a narrator reads each camp aloud when you reach it.']),
             ('Keep going', [
@@ -83,7 +83,7 @@ T = {
                 'Sube del nivel 1 al 20, de Andariego del Umbral a El Incansable.']),
             ('Tu clase, tus objetos, tus cabalgatas', [
                 'Doce clases según tus costumbres: Explorador, Paladín, Monje, Druida, Bardo… y la pantalla "Cómo cambiar" te dice qué hacer para ser otra.',
-                'Variantes de linaje: Elfo del bosque, Drow, Goliat de escarcha y más, según dónde, cuándo y con qué clima caminas.',
+                'Variantes de linaje: Elfo del bosque, Elfo del ocaso, Goliat de escarcha y más, según dónde, cuándo y con qué clima caminas.',
                 '103 objetos mágicos escondidos en el camino, cada uno con su dibujo y su historia. Lleva uno equipado y saldrá en tus postales.',
                 'La bicicleta cuenta como ir en pony o a caballo, y un narrador lee cada parada en voz alta al llegar.']),
             ('Sigue adelante', [
