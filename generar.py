@@ -47,7 +47,7 @@ T = {
                 'Walk as a Company with friends or family: your kilometres move you together along the same road.']),
         ],
         precio_t='Free and complete',
-        precio='No ads and no distance limit. <b>Kinstride Pro</b> (US$9.99 a year, or US$24.99 once for life) adds the three rare lineages (Gnome, Goliath and Emberkin), larger companies, special postcards and everything that comes next.',
+        precio='No ads and no distance limit. <b>Kinstride Pro</b> (US$9.99 a year, or US$24.99 once for life) adds the three rare lineages (Gnome, Goliath and Emberkin), the magic classes, separate routes, larger companies, postcards without logo and everything that comes next.',
         tester_t='Become a tester',
         tester_intro='Before Kinstride opens to everyone, Google asks for people to test it for 14 days. You need an Android phone and the Gmail account you use on Play Store.',
         pasos=[
@@ -93,7 +93,7 @@ T = {
                 'Camina en Compañía con amigos o familia: sus kilómetros avanzan juntos por el mismo camino.']),
         ],
         precio_t='Gratis y completa',
-        precio='Sin anuncios y sin límite de distancia. <b>Kinstride Pro</b> (US$9,99 al año, o US$24,99 una sola vez para siempre) suma los tres linajes raros (Gnomo, Goliat y Ascuano), compañías más grandes, postales especiales y todo lo que viene.',
+        precio='Sin anuncios y sin límite de distancia. <b>Kinstride Pro</b> (US$9,99 al año, o US$24,99 una sola vez para siempre) suma los tres linajes raros (Gnomo, Goliat y Ascuano), las clases de magia, rutas aparte, compañías más grandes, postales sin logo y todo lo que viene.',
         tester_t='Ser tester',
         tester_intro='Antes de abrir Kinstride para todos, Google pide que algunas personas la prueben durante 14 días. Necesitas un teléfono Android y la cuenta de Gmail que usas en Play Store.',
         pasos=[
