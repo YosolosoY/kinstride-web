@@ -15,20 +15,80 @@ a{color:var(--acento)}
 ul{padding-left:22px}
 li{margin:4px 0}
 /* Página principal */
-main.ancho{max-width:980px}
-.cabeza{max-width:720px}
-.icono{display:block;width:80px;height:80px;border-radius:18px;margin-bottom:12px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+main.ancho{max-width:1040px;padding-top:12px;padding-bottom:24px}
+.icono{display:block;width:72px;height:72px;border-radius:16px;margin-bottom:10px;box-shadow:0 6px 18px rgba(0,0,0,.35)}
 .botones{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 8px}
-.boton{display:inline-block;background:var(--acento);color:var(--papel);text-decoration:none;font-weight:700;padding:12px 22px;border-radius:999px}
-.boton.secundario{background:transparent;color:var(--acento);border:2px solid var(--acento)}
+.boton{display:inline-block;background:var(--acento);color:#F7EED8;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:999px}
+.boton.secundario{background:transparent;color:var(--acento);border:2px solid var(--acento);padding:10px 20px}
 .aviso{font-size:15px;color:var(--suave);margin:0}
-.galeria{display:flex;gap:16px;overflow-x:auto;padding:28px 2px 10px;scroll-snap-type:x mandatory}
-.galeria figure{margin:0;flex:0 0 min(240px,62vw);scroll-snap-align:start}
+/* Portada: el mapa es el fondo y las hojas se abren encima */
+.heroe{position:relative;overflow:hidden;background:#20281f url(/img/mapa.webp) 32% 58%/170% auto;color:#F7EED8}
+.heroe::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(20,26,36,.92) 0,rgba(20,26,36,.74) 44%,rgba(20,26,36,.05) 100%)}
+.heroe-dentro{position:relative;max-width:1120px;margin:0 auto;padding:56px 24px 64px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:24px;align-items:center;min-height:620px}
+.heroe h1{font-size:clamp(38px,5.6vw,66px);margin:8px 0 14px;color:#F7EED8}
+.heroe .marca{color:#E9A23B}
+.heroe .bajada,.heroe .aviso{color:#E6DCC7}
+.heroe .boton{background:#E9A23B;color:#1A2130}
+.heroe .boton.secundario{background:transparent;color:#F7EED8;border-color:#F7EED8}
+.abanico{position:relative;height:520px}
+.abanico img{position:absolute;top:0;left:50%;width:280px;height:auto;border-radius:6px;box-shadow:0 18px 40px rgba(0,0,0,.55)}
+.abanico img:nth-child(1){transform:translateX(-96%) rotate(-9deg) translateY(30px)}
+.abanico img:nth-child(2){transform:translateX(-4%) rotate(8deg) translateY(30px)}
+.abanico img:nth-child(3){transform:translateX(-50%)}
+h3{font-family:'IM Fell English SC',Georgia,serif;font-weight:400;font-size:24px;line-height:1.2;margin:0 0 4px}
+section{max-width:720px}
+section.amplia,section.como{max-width:none}
+.intro{max-width:720px;font-size:19px}
+/* Cómo funciona: tres paradas sobre un camino punteado, como en el mapa */
+.camino{list-style:none;counter-reset:p;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:30px 0 0;margin:0;position:relative}
+.camino::before{content:"";position:absolute;left:24px;right:24px;top:53px;border-top:3px dotted var(--acento)}
+.camino li{counter-increment:p;margin:0;position:relative}
+.camino li::before{content:counter(p);display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:var(--acento);color:#F7EED8;font:400 24px 'IM Fell English',Georgia,serif;margin-bottom:14px;position:relative}
+.camino p{margin:0;color:var(--suave)}
+.galeria{display:flex;gap:16px;overflow-x:auto;padding:18px 2px 10px;scroll-snap-type:x mandatory}
+.galeria figure{margin:0;flex:0 0 min(230px,62vw);scroll-snap-align:start}
 .galeria img{width:100%;height:auto;border-radius:22px;border:3px solid var(--borde);display:block}
 .galeria figcaption{font-size:14px;color:var(--suave);text-align:center;margin-top:6px}
-section{max-width:720px}
-.tester{margin-top:36px}
+.razas{display:grid;grid-template-columns:repeat(9,1fr);gap:0;margin:22px 0 14px;background:#F6ECD3;border:1px solid var(--borde);border-radius:14px;padding:14px 8px;align-items:start}
+.razas figure{margin:0;text-align:center;min-width:0}
+.razas img{width:100%;height:auto;display:block}
+.razas figcaption{font-size:13px;line-height:1.25;color:#5A4630;padding:6px 3px 0}
+.razas b{display:block;font-family:'IM Fell English SC',Georgia,serif;font-weight:400;font-size:17px;color:#2B1F12}
+.habilidades{list-style:none;padding:0;margin:16px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.habilidades li{margin:0;border:1px solid var(--borde);background:var(--hoja);border-radius:999px;padding:3px 14px;font-size:15px;color:var(--suave)}
+.habilidades b{color:var(--tinta)}
+.hojas{display:flex;gap:18px;overflow-x:auto;padding:22px 4px 14px;scroll-snap-type:x proximity}
+.hojas figure{margin:0;flex:0 0 min(300px,76vw);scroll-snap-align:center}
+.hojas img{width:100%;height:auto;display:block;border-radius:5px;box-shadow:0 8px 20px rgba(0,0,0,.28)}
+.centro{text-align:center}
+.banda{max-width:none;margin-top:44px;background:linear-gradient(rgba(20,26,36,.72),rgba(20,26,36,.82)),url(/img/mapa.webp) 62% 40%/cover;color:#F7EED8}
+.banda-dentro{max-width:1040px;margin:0 auto;padding:44px 20px}
+.banda h2{margin-top:0;border-color:#B49A6C}
+.cifras{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:22px 0}
+.cifras b{display:block;font:400 clamp(30px,4.6vw,48px)/1.1 'IM Fell English',Georgia,serif;color:#E9A23B}
+.cifras span{font-size:15px;color:#E6DCC7}
+.tabla{overflow-x:auto;margin-top:14px}
+table{border-collapse:collapse;width:100%;min-width:460px;background:var(--hoja);border:1px solid var(--borde);font-size:16px}
+th,td{padding:9px 12px;border-bottom:1px solid var(--borde);text-align:left;vertical-align:top}
+thead th{font:400 20px 'IM Fell English SC',Georgia,serif}
+tbody th{font-weight:700}
+.viene{display:grid;grid-template-columns:repeat(2,1fr);gap:4px 28px;padding-left:22px;max-width:760px}
+.tester{margin-top:36px;max-width:720px}
 .tester h2{margin-top:0}
 .tester ol{padding-left:22px}
 .tester li{margin:8px 0}
 .nota{font-size:14px;color:var(--suave)}
+.legal{font-size:12px;margin-top:10px}
+@media (max-width:860px){
+.heroe-dentro{grid-template-columns:1fr;padding:36px 20px 28px;min-height:0}
+.heroe::before{background:linear-gradient(rgba(20,26,36,.9),rgba(20,26,36,.72))}
+.abanico{height:360px}
+.abanico img{width:190px}
+.camino{grid-template-columns:1fr;gap:20px}
+.camino::before{left:23px;right:auto;top:20px;bottom:20px;border-top:0;border-left:3px dotted var(--acento)}
+.camino li{padding-left:64px}
+.camino li::before{position:absolute;left:0;top:0}
+.razas{grid-template-columns:repeat(3,1fr);row-gap:12px}
+.cifras{grid-template-columns:repeat(2,1fr)}
+.viene{grid-template-columns:1fr}
+}
