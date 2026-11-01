@@ -92,3 +92,15 @@ tbody th{font-weight:700}
 .cifras{grid-template-columns:repeat(2,1fr)}
 .viene{grid-template-columns:1fr}
 }
+
+.historias-dentro{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:26px;align-items:start;margin-top:14px}
+.historias-dentro>img{width:100%;height:auto;display:block;border-radius:6px;box-shadow:0 8px 20px rgba(0,0,0,.28)}
+.rutas-lista{display:grid;gap:18px}
+.rutas-lista h3{margin:0}
+.rutas-lista p{margin:4px 0 0}
+.rutas-lista .dato{color:var(--suave);font-weight:700;font-size:15px}
+.crecer{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 30px;padding:0;margin:14px 0 0;list-style:none;max-width:860px}
+.crecer b{display:block}
+@media (max-width:760px){.historias-dentro,.crecer{grid-template-columns:1fr}}
+.cifras{grid-template-columns:repeat(5,1fr)}
+@media (max-width:760px){.cifras{grid-template-columns:repeat(2,1fr)}}

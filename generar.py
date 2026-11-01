@@ -23,7 +23,7 @@ T = {
         priv='/privacy/', borrar='/delete-data/', priv_t='Privacy', borrar_t='Delete your data',
         desc='Your real walks cross a hand-drawn fantasy map, and the way you walk decides who your character becomes. Free, no ads, for Android.',
         h1='Walk. Discover who you become.',
-        bajada='Your real steps carry you across a hand-drawn fantasy world, and the way you walk shapes your character: lineage, class, abilities and all.',
+        bajada='Your real steps carry you across a hand-drawn fantasy world, with thousands of kilometres of stories. The way you walk shapes your character: lineage, class, abilities and all.',
         play='Get it on Google Play', ser_tester='Become a tester',
         aviso='In closed testing: for now Google Play only shows it to testers.',
         como_t='How it works',
@@ -32,7 +32,7 @@ T = {
               ('You become someone', 'After three expeditions your lineage is revealed. Your habits earn a class. Walk differently and your character changes with you.')],
         pantallas_t='A map, not a dashboard',
         capturas=[('presentacion', 'A short welcome tells you what to expect'), ('mapa', 'The map is your home screen'), ('personaje', 'Your stride, read in a radar'),
-                  ('revelacion', 'The reveal after three expeditions'), ('parada', 'Camps with their own story'), ('rutas', 'Choose your road'), ('camino', 'Every camp ahead'), ('logros', '25 achievements')],
+                  ('revelacion', 'The reveal after three expeditions'), ('parada', 'Camps with their own story'), ('rutas', 'Choose your road'), ('caceria', 'The Hunt: the clock is running'), ('dragon', 'The end of the Dragon Road'), ('plan', 'A 4-week plan towards a lineage'), ('historia', 'Your stride month by month'), ('bestiario', 'The bestiary'), ('camino', 'Every camp ahead'), ('logros', '31 achievements')],
         razas_t='Nine lineages. You don’t pick one.',
         razas_p='Kinstride reads the last four weeks of how you walk: pace, stride for your height, climbs, rests, running. Then it tells you who you walk like. And it tells you what to change if you want to become something else.',
         razas=[('mediano', 'Halfling', 'Short, lively steps'), ('enano', 'Dwarf', 'Real climbs'), ('humano', 'Human', 'A bit of everything'),
@@ -44,18 +44,28 @@ T = {
         habilidades=[('Strength', 'climbs'), ('Dexterity', 'cadence'), ('Constitution', 'endurance'), ('Intelligence', 'camps found'), ('Wisdom', 'consistency'), ('Charisma', 'walks with others')],
         hojas_n='Example sheets with made-up characters.',
         mundo_t='A journey the size of a legend',
-        cifras=[('2,865 km', 'The Long Road, then the way home'), ('657', 'camps, each with a story'), ('103', 'magic items to find'), ('25', 'achievements')],
+        cifras=[('4,638 km', 'of roads with their own stories'), ('1,081', 'camps, each with a story'), ('104', 'magic items to find'), ('33', 'creatures on the road'), ('31', 'achievements')],
         mundo_p='Bike rides count as a pony or a horse, a narrator can read each camp aloud, and one rest day a week never breaks your streak.',
+        rutas_t='More roads, more stories',
+        rutas_p='The Long Road is free and never ends. With Pro, these roads open too.',
+        rutas=[('The Dragon Road', '1,556 km · 362 camps', 'Every hundred years Old Oriel the dragon asks for a story she has not heard. This time the village chose you to carry the book. No treasure, no burglary: just a very long walk, and what you bring back.'),
+               ('The Hunt', '217 km in 30 days', 'Thieves took the Ember Lantern and they have three days on you. Finish in time to keep it. If you run out of days you lose nothing. For ultramarathoners there is Legend Mode: 4 days.'),
+               ('The Last Stretch', '190 km', 'The hardest days of the Long Road, walked on their own.'),
+               ('Free Stretch', '110 combinations', 'Pick two places of the Long Road and walk only that part, there or back.')],
+        crecer_t='A walk that keeps changing',
+        crecer=[('Your stride month by month', 'See which lineage you were each month, and how your stride, speed and climbs changed. Pro.'),
+                ('4-week plans', 'Choose a lineage and get one goal for the week, taken from the same rules that measure you. Pro.'),
+                ('The bestiary', 'Goblins, griffons, a very suspicious chest. Nobody fights here: you meet them, you keep walking, and they go in your book. Free.'),
+                ('Events of the year', 'Three weeks a year, on the same dates: the Harvest Fair, the Week of Fires and Road Menders’ Week. Free.')],
         grupo_t='Walk as a Company',
         grupo_p='Up to 9 friends, one marker. Everyone’s steps push the group toward the next place, and you can open each other’s character sheets.',
         pro_t='Free and complete. Pro if you want more.',
         col=('', 'Free', 'Pro'),
         filas=[('Distance, map and camps', 'No limit, no ads', 'No limit, no ads'), ('Lineages', '6', '9, with every variant'), ('Classes', '8', '12, with magic'),
-               ('Character sheet', 'Yes', 'With portrait and sharing'), ('Equipment slots', '1', '4'), ('Routes', 'The Long Road and the way home', 'Also separate routes'),
+               ('Character sheet', 'Yes', 'With portrait and sharing'), ('Equipment slots', '1', '4'), ('Routes', 'The Long Road and the way home', 'Also the Dragon Road, The Hunt, the Last Stretch and Free Stretch'),
+               ('Bestiary and events of the year', 'Yes', 'Yes'), ('Your stride month by month', '—', 'Yes'), ('4-week plans', '—', 'Yes'),
                ('Create a Company', 'Up to 3', 'Up to 9'), ('Postcards', 'With small logo', 'Without logo')],
         pro_n='Pro costs US$9.99 a year, or US$24.99 once for life. Whatever comes next is included.',
-        viene_t='On the road ahead',
-        viene=['The Hunt: 217 km against the clock', 'The Dragon Road: the other great journey', 'Your stride month by month', 'Training plans to become another lineage'],
         tester_t='Become a tester',
         tester_intro='Before Kinstride opens to everyone, Google asks for people to test it for 14 days. You need an Android phone and the Gmail account you use on Play Store.',
         pasos=[
@@ -71,7 +81,7 @@ T = {
         priv='/es/privacidad/', borrar='/es/borrar-datos/', priv_t='Privacidad', borrar_t='Borrar tus datos',
         desc='Tus caminatas reales cruzan un mapa de fantasía dibujado a mano, y tu forma de caminar decide en quién se convierte tu personaje. Gratis, sin anuncios, para Android.',
         h1='Camina. Descubre en quién te conviertes.',
-        bajada='Tus pasos reales te llevan por un mundo de fantasía dibujado a mano, y tu forma de caminar va formando a tu personaje: linaje, clase y habilidades.',
+        bajada='Tus pasos reales te llevan por un mundo de fantasía dibujado a mano, con miles de kilómetros de historias. Tu forma de caminar va formando a tu personaje: linaje, clase y habilidades.',
         play='Disponible en Google Play', ser_tester='Ser tester',
         aviso='En prueba cerrada: por ahora Google Play solo la muestra a los testers.',
         como_t='Cómo funciona',
@@ -80,7 +90,7 @@ T = {
               ('Te conviertes en alguien', 'Tras tres expediciones se revela tu linaje. Tus costumbres te ganan una clase. Si caminas distinto, tu personaje cambia contigo.')],
         pantallas_t='Un mapa, no un tablero de números',
         capturas=[('presentacion', 'Una bienvenida corta te dice qué esperar'), ('mapa', 'El mapa es tu pantalla principal'), ('personaje', 'Tu paso, leído en un radar'),
-                  ('revelacion', 'La revelación tras tres expediciones'), ('parada', 'Paradas con su historia'), ('rutas', 'Elige tu camino'), ('camino', 'Cada parada que viene'), ('logros', '25 logros')],
+                  ('revelacion', 'La revelación tras tres expediciones'), ('parada', 'Paradas con su historia'), ('rutas', 'Elige tu camino'), ('caceria', 'La Cacería: el reloj corre'), ('dragon', 'El final del Camino del Dragón'), ('plan', 'Un plan de 4 semanas hacia un linaje'), ('historia', 'Tu paso mes a mes'), ('bestiario', 'El Bestiario'), ('camino', 'Cada parada que viene'), ('logros', '31 logros')],
         razas_t='Nueve linajes. Tú no eliges.',
         razas_p='Kinstride lee cómo caminaste las últimas cuatro semanas: ritmo, largo del paso para tu estatura, subidas, descansos y trote. Luego te dice a quién te pareces. Y también qué cambiar si quieres ser otra cosa.',
         razas=[('mediano', 'Mediano', 'Pasos cortos y vivos'), ('enano', 'Enano', 'Subidas de verdad'), ('humano', 'Humano', 'Un poco de todo'),
@@ -92,18 +102,28 @@ T = {
         habilidades=[('Fuerza', 'subidas'), ('Destreza', 'cadencia'), ('Constitución', 'resistencia'), ('Inteligencia', 'paradas halladas'), ('Sabiduría', 'constancia'), ('Carisma', 'salidas en grupo')],
         hojas_n='Hojas de ejemplo con personajes inventados.',
         mundo_t='Un viaje del tamaño de una leyenda',
-        cifras=[('2.865 km', 'El Gran Viaje, y luego el regreso'), ('657', 'paradas, cada una con su historia'), ('103', 'objetos mágicos por encontrar'), ('25', 'logros')],
+        cifras=[('4.638 km', 'de caminos con historias propias'), ('1.081', 'paradas, cada una con su historia'), ('104', 'objetos mágicos por encontrar'), ('33', 'criaturas en el camino'), ('31', 'logros')],
         mundo_p='La bicicleta cuenta como pony o caballo, un narrador puede leer cada parada en voz alta, y un día de descanso a la semana nunca corta tu racha.',
+        rutas_t='Más caminos, más historias',
+        rutas_p='El Gran Viaje es gratis y nunca termina. Con Pro se abren además estos caminos.',
+        rutas=[('El Camino del Dragón', '1.556 km · 362 paradas', 'Cada cien años, la vieja Oriel, la dragona, pide un cuento que no haya oído. Esta vez el pueblo te eligió a ti para llevar el libro. Sin tesoro ni robos: solo una caminata larguísima, y lo que traes contigo.'),
+               ('La Cacería', '217 km en 30 días', 'Unos ladrones se llevaron el Farol de Brasa y te llevan tres días. Llega a tiempo y quédatelo. Si se acaba el plazo no pierdes nada. Para ultramaratonistas está el Modo Leyenda: 4 días.'),
+               ('El Último Tramo', '190 km', 'Los días más duros del Gran Viaje, caminados aparte.'),
+               ('Tramo libre', '110 combinaciones', 'Elige dos lugares del Gran Viaje y camina solo esa parte, de ida o de vuelta.')],
+        crecer_t='Una caminata que sigue cambiando',
+        crecer=[('Tu paso mes a mes', 'Mira qué linaje fuiste cada mes, y cómo cambiaron tu paso, tu velocidad y tus subidas. Pro.'),
+                ('Planes de 4 semanas', 'Elige un linaje y recibe una meta para la semana, sacada de las mismas reglas que te miden. Pro.'),
+                ('El Bestiario', 'Goblins, grifos, un cofre muy sospechoso. Aquí no se pelea: te los cruzas, sigues caminando y quedan en tu libro. Gratis.'),
+                ('Eventos del año', 'Tres semanas al año, siempre en las mismas fechas: la Feria de la Cosecha, la Semana de las Hogueras y la Semana de los Camineros. Gratis.')],
         grupo_t='Camina en Compañía',
         grupo_p='Hasta 9 amigos, un solo marcador. Los pasos de todos empujan al grupo hacia el próximo lugar, y pueden abrir la hoja de personaje de cada uno.',
         pro_t='Gratis y completa. Pro si quieres más.',
         col=('', 'Gratis', 'Pro'),
         filas=[('Distancia, mapa y paradas', 'Sin límite, sin anuncios', 'Sin límite, sin anuncios'), ('Linajes', '6', '9, con todas las variantes'), ('Clases', '8', '12, con magia'),
-               ('Hoja de personaje', 'Sí', 'Con retrato y para compartir'), ('Casillas de equipo', '1', '4'), ('Rutas', 'El Gran Viaje y el regreso', 'También rutas aparte'),
+               ('Hoja de personaje', 'Sí', 'Con retrato y para compartir'), ('Casillas de equipo', '1', '4'), ('Rutas', 'El Gran Viaje y el regreso', 'También el Camino del Dragón, La Cacería, el Último Tramo y el Tramo libre'),
+               ('Bestiario y eventos del año', 'Sí', 'Sí'), ('Tu paso mes a mes', '—', 'Sí'), ('Planes de 4 semanas', '—', 'Sí'),
                ('Crear una Compañía', 'Hasta 3', 'Hasta 9'), ('Postales', 'Con logo pequeño', 'Sin logo')],
         pro_n='Pro cuesta US$9,99 al año, o US$24,99 una sola vez para siempre. Lo que venga después está incluido.',
-        viene_t='Lo que viene en el camino',
-        viene=['La Cacería: 217 km contra el reloj', 'El Camino del Dragón: el otro gran viaje', 'Tu paso mes a mes', 'Planes de entrenamiento para llegar a otro linaje'],
         tester_t='Ser tester',
         tester_intro='Antes de abrir Kinstride para todos, Google pide que algunas personas la prueben durante 14 días. Necesitas un teléfono Android y la cuenta de Gmail que usas en Play Store.',
         pasos=[
@@ -131,7 +151,8 @@ def pagina(t: dict) -> str:
     hojas = ''.join(f'<figure>{img_hoja(n, "loading=lazy")}</figure>' for n in HOJAS)
     cifras = ''.join(f'<div><b>{n}</b><span>{d}</span></div>' for n, d in t['cifras'])
     filas = ''.join(f'<tr><th scope="row">{a}</th><td>{b}</td><td>{c}</td></tr>' for a, b, c in t['filas'])
-    viene = ''.join(f'<li>{x}</li>' for x in t['viene'])
+    rutas = ''.join(f'<article><h3>{n}</h3><p class="dato">{d}</p><p>{p}</p></article>' for n, d, p in t['rutas'])
+    crecer = ''.join(f'<li><b>{n}</b> {p}</li>' for n, p in t['crecer'])
     pasos = ''.join(f'<li>{p}</li>' for p in t['pasos'])
     return f'''<!doctype html>
 <html lang="{l}">
@@ -178,9 +199,10 @@ def pagina(t: dict) -> str:
 </main>
 <section class="banda"><div class="banda-dentro"><h2>{t['mundo_t']}</h2><div class="cifras">{cifras}</div><p>{t['mundo_p']}</p></div></section>
 <main class="ancho">
+<section class="amplia historias"><h2>{t['rutas_t']}</h2><p class="intro">{t['rutas_p']}</p><div class="historias-dentro"><img src="/img/escena-dragon.webp" alt="" width="720" height="909" loading="lazy"><div class="rutas-lista">{rutas}</div></div></section>
+<section class="amplia"><h2>{t['crecer_t']}</h2><ul class="crecer">{crecer}</ul></section>
 <section class="amplia"><h2>{t['grupo_t']}</h2><p class="intro">{t['grupo_p']}</p></section>
 <section class="amplia"><h2>{t['pro_t']}</h2><div class="tabla"><table><thead><tr><th>{t['col'][0]}</th><th>{t['col'][1]}</th><th>{t['col'][2]}</th></tr></thead><tbody>{filas}</tbody></table></div><p class="nota">{t['pro_n']}</p></section>
-<section class="amplia"><h2>{t['viene_t']}</h2><ul class="viene">{viene}</ul></section>
 <section id="tester" class="resumen tester"><h2>{t['tester_t']}</h2><p>{t['tester_intro']}</p><ol>{pasos}</ol><p class="nota">{t['tester_nota']}</p></section>
 <p class="pie"><a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a> · <a href="{t['otro']}">{t['otro_nombre']}</a></p>
 <p class="pie legal">{SRD}</p>
