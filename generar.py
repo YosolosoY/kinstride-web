@@ -8,6 +8,8 @@ Hojas de ejemplo y pantallas: ~/Projects/kinstride/scripts/tienda/hojas.mjs
 import json
 from pathlib import Path
 
+import generar_linajes
+
 RAIZ = Path(__file__).parent
 SITIO = 'https://getkinstride.com'
 PLAY = 'https://play.google.com/store/apps/details?id=co.com.monsalve.kinstride'
@@ -17,6 +19,7 @@ CORREO = 'lince.revision@gmail.com'
 SRD = ('This work includes material from the System Reference Document 5.2 (“SRD 5.2”) by Wizards of the Coast LLC, available at '
        '<a href="https://www.dndbeyond.com/srd">https://www.dndbeyond.com/srd</a>. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 '
        'International License, available at <a href="https://creativecommons.org/licenses/by/4.0/legalcode">https://creativecommons.org/licenses/by/4.0/legalcode</a>.')
+UMAMI = '<script defer src="https://cloud.umami.is/script.js" data-website-id="5f0c28aa-1fbb-4ae9-ad0e-06f031213437" data-domains="getkinstride.com" data-do-not-track="true"></script>'
 HOJAS = ['orrin', 'mira', 'bruna', 'kael', 'tamsin', 'nettle']
 HOJA_TAM = 'min(300px, 76vw)'
 ABANICO_TAM = '(max-width: 860px) 190px, 280px'
@@ -28,7 +31,7 @@ T = {
         desc='A fantasy walking RPG for Android: your real walks cross an illustrated map, and the way you walk decides who your character becomes. Free, no ads.',
         h1='Walk. Discover who you become.',
         bajada='A fantasy walking RPG for Android. Your real steps carry you across an illustrated world, with thousands of kilometres of stories. The way you walk shapes your character: lineage, class, abilities and all.',
-        ser_tester='Become a tester',
+        ser_tester='Become a tester', test_t='Take the walking test', test_url='/test/', linajes_url='/lineages/', linajes_t='Read about all nine lineages', tiktok='TikTok',
         aviso='In closed testing: to install it today, join as a tester.',
         como_t='How it works',
         como=[('You walk', 'Daily steps count on their own. Walks from your watch count too. Or start an expedition and GPS measures your pace, stride, climbs and rests.'),
@@ -88,7 +91,7 @@ T = {
         desc='Juego de rol para caminar en Android: tus caminatas reales cruzan un mapa ilustrado y tu forma de caminar decide en quién te conviertes. Gratis, sin anuncios.',
         h1='Camina. Descubre en quién te conviertes.',
         bajada='Un juego de rol para caminar, en Android. Tus pasos reales te llevan por un mundo de fantasía ilustrado, con miles de kilómetros de historias. Tu forma de caminar va formando a tu personaje: linaje, clase y habilidades.',
-        ser_tester='Ser tester',
+        ser_tester='Ser tester', test_t='Hacer el test de caminar', test_url='/es/test/', linajes_url='/es/linajes/', linajes_t='Conoce los nueve linajes', tiktok='TikTok',
         aviso='En prueba cerrada: para instalarla hoy, entra como tester.',
         como_t='Cómo funciona',
         como=[('Caminas', 'Tus pasos del día cuentan solos, y las caminatas de tu reloj también. O inicia una expedición y el GPS mide tu ritmo, tu paso, las subidas y los descansos.'),
@@ -148,7 +151,7 @@ T = {
 def pagina(t: dict) -> str:
     datos = json.dumps({'@context': 'https://schema.org', '@type': 'MobileApplication', 'name': 'Kinstride', 'url': f"{SITIO}{'/' if t['lang'] == 'en' else '/es/'}",
                         'description': t['desc'], 'operatingSystem': 'Android', 'applicationCategory': 'GameApplication', 'inLanguage': ['en', 'es'],
-                        'image': f'{SITIO}/img/compartir.jpg', 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}, ensure_ascii=False)
+                        'image': f'{SITIO}/img/compartir.jpg', 'sameAs': [generar_linajes.TIKTOK], 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}, ensure_ascii=False)
     l = t['lang']
     url = 'https://getkinstride.com' + ('/es/' if l == 'es' else '/')
     img_hoja = lambda n, tam, extra='', alt='': f'<img src="/img/{l}-hoja-{n}.webp" srcset="/img/{l}-hoja-{n}-360.webp 360w, /img/{l}-hoja-{n}.webp 720w" sizes="{tam}" alt="{alt}" width="720" height="1272" {extra}>'
@@ -157,7 +160,7 @@ def pagina(t: dict) -> str:
         for n, txt in t['capturas'])
     como = ''.join(f'<li><h3>{h}</h3><p>{p}</p></li>' for h, p in t['como'])
     razas = ''.join(
-        f'<figure><img src="/img/raza-{r}.webp" alt="{n}: {d}" width="360" height="480" loading="lazy"><figcaption><b>{n}</b>{d}</figcaption></figure>' for r, n, d in t['razas'])
+        f'<figure><a href="{generar_linajes.url_linaje(t["lang"], r)}"><img src="/img/raza-{r}.webp" alt="{n}: {d}" width="360" height="480" loading="lazy"><figcaption><b>{n}</b>{d}</figcaption></a></figure>' for r, n, d in t['razas'])
     habilidades = ''.join(f'<li><b>{a}</b> {m}</li>' for a, m in t['habilidades'])
     hojas = ''.join(f'<figure>{img_hoja(n, HOJA_TAM, 'loading="lazy"', t['hoja_alt'][n])}</figure>' for n in HOJAS)
     cifras = ''.join(f'<div><b>{n}</b><span>{d}</span></div>' for n, d in t['cifras'])
@@ -196,7 +199,7 @@ def pagina(t: dict) -> str:
 <link rel="preload" href="/fuentes/alegreya-sans-normal-500.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="/img/{l}-hoja-mira.webp" imagesrcset="/img/{l}-hoja-mira-360.webp 360w, /img/{l}-hoja-mira.webp 720w" imagesizes="{ABANICO_TAM}" fetchpriority="high">
 <link rel="stylesheet" href="/estilo.css">
-<script defer src="https://cloud.umami.is/script.js" data-website-id="5f0c28aa-1fbb-4ae9-ad0e-06f031213437" data-domains="getkinstride.com" data-do-not-track="true"></script>
+{UMAMI}
 </head>
 <body class="portada">
 <header class="heroe">
@@ -206,7 +209,7 @@ def pagina(t: dict) -> str:
 <span class="marca">KINSTRIDE</span>
 <h1>{t['h1']}</h1>
 <p class="bajada">{t['bajada']}</p>
-<p class="botones"><a class="boton" href="#tester" data-umami-event="ser-tester">{t['ser_tester']}</a></p>
+<p class="botones"><a class="boton" href="#tester" data-umami-event="ser-tester">{t['ser_tester']}</a> <a class="boton secundario claro" href="{t['test_url']}" data-umami-event="ir-test">{t['test_t']}</a></p>
 <p class="aviso">{t['aviso']}</p>
 </div>
 <div class="abanico" aria-hidden="true">{img_hoja('kael', ABANICO_TAM)}{img_hoja('orrin', ABANICO_TAM)}{img_hoja('mira', ABANICO_TAM, 'fetchpriority="high"')}</div>
@@ -219,7 +222,7 @@ def pagina(t: dict) -> str:
 <div class="galeria">
 {capturas}
 </div>
-<section class="amplia"><h2>{t['razas_t']}</h2><p class="intro">{t['razas_p']}</p><div class="razas">{razas}</div><p class="intro">{t['clases']}</p></section>
+<section class="amplia"><h2>{t['razas_t']}</h2><p class="intro">{t['razas_p']}</p><div class="razas">{razas}</div><p class="intro"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a></p><p class="intro">{t['clases']}</p></section>
 <section class="amplia hojas-sec"><h2>{t['hojas_t']}</h2><p class="intro">{t['hojas_p']}</p><ul class="habilidades">{habilidades}</ul></section>
 <div class="hojas">{hojas}</div>
 <p class="nota centro">{t['hojas_n']}</p>
@@ -234,7 +237,7 @@ def pagina(t: dict) -> str:
 </div>
 </main>
 <footer class="ancho">
-<p class="pie"><a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a> · <a href="{t['otro']}">{t['otro_nombre']}</a></p>
+<p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a> · <a href="{t['otro']}">{t['otro_nombre']}</a></p>
 <p class="pie legal">{SRD}</p>
 </footer>
 </body>
@@ -245,7 +248,7 @@ def pagina(t: dict) -> str:
 (RAIZ / 'index.html').write_text(pagina(T['en']))
 (RAIZ / 'es' / 'index.html').write_text(pagina(T['es']))
 (RAIZ / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
-direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/']
+direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/'] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD)
 (RAIZ / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                   + ''.join(f'<url><loc>{SITIO}{d}</loc></url>\n' for d in direcciones) + '</urlset>\n')
 (RAIZ / '404.html').write_text('''<!doctype html>

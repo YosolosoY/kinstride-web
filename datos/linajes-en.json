@@ -1,0 +1,432 @@
+{
+ "reglas": {
+  "mediano": {
+   "llave": {
+    "k": "zancada",
+    "a": 0.455,
+    "b": 0.405
+   },
+   "factores": [
+    {
+     "k": "duracion",
+     "entre": [
+      25,
+      70,
+      30
+     ]
+    },
+    {
+     "k": "pausasPorHora",
+     "a": 1,
+     "b": 4
+    },
+    {
+     "k": "deDia",
+     "a": 0,
+     "b": 1
+    }
+   ]
+  },
+  "gnomo": {
+   "factores": [
+    {
+     "k": "zancada",
+     "a": 0.43,
+     "b": 0.37
+    },
+    {
+     "k": "cadencia",
+     "a": 115,
+     "b": 132
+    }
+   ]
+  },
+  "enano": {
+   "llave": {
+    "k": "desnivelPorKm",
+    "a": 8,
+    "b": 24
+   },
+   "factores": [
+    {
+     "k": "variacion",
+     "a": 0.1,
+     "b": 0.04
+    },
+    {
+     "k": "duracion",
+     "a": 60,
+     "b": 120
+    }
+   ]
+  },
+  "elfo": {
+   "llave": {
+    "k": "velocidadMejor",
+    "a": 4.85,
+    "b": 5.9
+   },
+   "factores": [
+    {
+     "k": "variacion",
+     "a": 0.07,
+     "b": 0.03
+    },
+    {
+     "k": "constancia",
+     "a": 0.6,
+     "b": 0.9
+    }
+   ]
+  },
+  "orco": {
+   "llave": {
+    "k": "trote",
+    "a": 0.3,
+    "b": 0.75
+   },
+   "factores": [
+    {
+     "k": "velocidadTotal",
+     "a": 7,
+     "b": 10
+    },
+    {
+     "k": "variacion",
+     "a": 0.12,
+     "b": 0.05
+    }
+   ]
+  },
+  "ascuano": {
+   "factores": [
+    {
+     "k": "trote",
+     "entre": [
+      0.2,
+      0.55,
+      0.15
+     ]
+    },
+    {
+     "k": "variacion",
+     "a": 0.1,
+     "b": 0.22
+    }
+   ]
+  },
+  "goliat": {
+   "factores": [
+    {
+     "k": "zancada",
+     "a": 0.47,
+     "b": 0.55
+    }
+   ]
+  },
+  "arboreo": {
+   "llave": {
+    "k": "velocidadMejor",
+    "a": 4.9,
+    "b": 3.9
+   },
+   "factores": [
+    {
+     "k": "duracion",
+     "a": 60,
+     "b": 140
+    },
+    {
+     "k": "pausasPorHora",
+     "a": 1.5,
+     "b": 0.3
+    }
+   ]
+  },
+  "humano": {
+   "llave": {
+    "k": "hazanas",
+    "a": 2,
+    "b": 4
+   },
+   "factores": [
+    {
+     "k": "salidas",
+     "a": 5,
+     "b": 10
+    },
+    {
+     "k": "constancia",
+     "a": 0.3,
+     "b": 0.5
+    }
+   ]
+  }
+ },
+ "razas": [
+  {
+   "id": "mediano",
+   "pro": false,
+   "nombre": "Halfling",
+   "resumen": "Short, lively steps, unhurried walks with plenty of stops",
+   "variantes": [],
+   "metas": [
+    {
+     "medida": "Stride length (of your height)",
+     "meta": "41 % or less",
+     "llave": true,
+     "metaImperial": "41 % or less"
+    },
+    {
+     "medida": "Length of each outing",
+     "meta": "between 25 min and 70 min",
+     "llave": false,
+     "metaImperial": "between 25 min and 70 min"
+    },
+    {
+     "medida": "Stops per hour",
+     "meta": "4 or more",
+     "llave": false,
+     "metaImperial": "4 or more"
+    },
+    {
+     "medida": "Daytime outings (8 am–6 pm)",
+     "meta": "100 % or more",
+     "llave": false,
+     "metaImperial": "100 % or more"
+    }
+   ]
+  },
+  {
+   "id": "enano",
+   "pro": false,
+   "nombre": "Dwarf",
+   "resumen": "Steady as stone, loves the climbs, goes the distance",
+   "variantes": [],
+   "metas": [
+    {
+     "medida": "Climb",
+     "meta": "24 m / km or more",
+     "llave": true,
+     "metaImperial": "127 ft / mi or more"
+    },
+    {
+     "medida": "Pace changes between stretches",
+     "meta": "±4 % or less",
+     "llave": false,
+     "metaImperial": "±4 % or less"
+    },
+    {
+     "medida": "Length of each outing",
+     "meta": "120 min or more",
+     "llave": false,
+     "metaImperial": "120 min or more"
+    }
+   ]
+  },
+  {
+   "id": "humano",
+   "pro": false,
+   "nombre": "Human",
+   "resumen": "Does it all: climbs, speed, distance and running. The hardest lineage to earn",
+   "variantes": [],
+   "metas": [
+    {
+     "medida": "Feats: a hard climb (20 m per km), walking at 6 km/h, 75 minutes and running",
+     "meta": "4 of 4 or more",
+     "llave": true,
+     "metaImperial": "4 of 4 or more"
+    },
+    {
+     "medida": "Outings in 4 weeks",
+     "meta": "10 or more",
+     "llave": false,
+     "metaImperial": "10 or more"
+    },
+    {
+     "medida": "Active days",
+     "meta": "50 % or more",
+     "llave": false,
+     "metaImperial": "50 % or more"
+    }
+   ]
+  },
+  {
+   "id": "elfo",
+   "pro": false,
+   "nombre": "Elf",
+   "resumen": "Quick and light, a pace that never wavers",
+   "variantes": [
+    {
+     "nombre": "Wood Elf",
+     "porque": "You head out at dawn or through parks and nature."
+    },
+    {
+     "nombre": "High Elf",
+     "porque": "Your pace is nearly perfect: it changes less than 2% between stretches."
+    },
+    {
+     "nombre": "Nightfall Elf",
+     "porque": "You walk at night."
+    }
+   ],
+   "metas": [
+    {
+     "medida": "Walking speed",
+     "meta": "5.9 km/h or more",
+     "llave": true,
+     "metaImperial": "3.7 mph or more"
+    },
+    {
+     "medida": "Pace changes between stretches",
+     "meta": "±3 % or less",
+     "llave": false,
+     "metaImperial": "±3 % or less"
+    },
+    {
+     "medida": "Active days",
+     "meta": "90 % or more",
+     "llave": false,
+     "metaImperial": "90 % or more"
+    }
+   ]
+  },
+  {
+   "id": "orco",
+   "pro": false,
+   "nombre": "Orc",
+   "resumen": "All in, hard from start to finish",
+   "variantes": [],
+   "metas": [
+    {
+     "medida": "Time jogging",
+     "meta": "75 % or more",
+     "llave": true,
+     "metaImperial": "75 % or more"
+    },
+    {
+     "medida": "Speed on your outings",
+     "meta": "10 km/h or more",
+     "llave": false,
+     "metaImperial": "6.2 mph or more"
+    },
+    {
+     "medida": "Pace changes between stretches",
+     "meta": "±5 % or less",
+     "llave": false,
+     "metaImperial": "±5 % or less"
+    }
+   ]
+  },
+  {
+   "id": "arboreo",
+   "pro": false,
+   "nombre": "Barkfolk",
+   "resumen": "Slow to start, never stops, for hours",
+   "variantes": [],
+   "metas": [
+    {
+     "medida": "Walking speed",
+     "meta": "3.9 km/h or less",
+     "llave": true,
+     "metaImperial": "2.4 mph or less"
+    },
+    {
+     "medida": "Length of each outing",
+     "meta": "140 min or more",
+     "llave": false,
+     "metaImperial": "140 min or more"
+    },
+    {
+     "medida": "Stops per hour",
+     "meta": "0.3 or less",
+     "llave": false,
+     "metaImperial": "0.3 or less"
+    }
+   ]
+  },
+  {
+   "id": "gnomo",
+   "pro": true,
+   "nombre": "Gnome",
+   "resumen": "Tiny, rapid steps and a curious path",
+   "variantes": [
+    {
+     "nombre": "Forest Gnome",
+     "porque": "Your little steps go through parks and nature."
+    },
+    {
+     "nombre": "Rock Gnome",
+     "porque": "Your little steps roam the city."
+    }
+   ],
+   "metas": [
+    {
+     "medida": "Stride length (of your height)",
+     "meta": "37 % or less",
+     "llave": false,
+     "metaImperial": "37 % or less"
+    },
+    {
+     "medida": "Steps per minute",
+     "meta": "132 or more",
+     "llave": false,
+     "metaImperial": "132 or more"
+    }
+   ]
+  },
+  {
+   "id": "goliat",
+   "pro": true,
+   "nombre": "Goliath",
+   "resumen": "Giant strides for your height",
+   "variantes": [
+    {
+     "nombre": "Stone Goliath",
+     "porque": "Your strides climb hills."
+    },
+    {
+     "nombre": "Frost Goliath",
+     "porque": "You walk in the cold (below 8 °C / 46 °F)."
+    },
+    {
+     "nombre": "Fire Goliath",
+     "porque": "You walk in the heat (above 26 °C / 79 °F)."
+    },
+    {
+     "nombre": "Storm Goliath",
+     "porque": "You walk in the rain."
+    }
+   ],
+   "metas": [
+    {
+     "medida": "Stride length (of your height)",
+     "meta": "55 % or more",
+     "llave": false,
+     "metaImperial": "55 % or more"
+    }
+   ]
+  },
+  {
+   "id": "ascuano",
+   "pro": true,
+   "nombre": "Emberkin",
+   "resumen": "Fiery bursts: run, walk, run again",
+   "variantes": [],
+   "metas": [
+    {
+     "medida": "Time jogging",
+     "meta": "between 20 % and 55 %",
+     "llave": false,
+     "metaImperial": "between 20 % and 55 %"
+    },
+    {
+     "medida": "Pace changes between stretches",
+     "meta": "±22 % or more",
+     "llave": false,
+     "metaImperial": "±22 % or more"
+    }
+   ]
+  }
+ ]
+}
