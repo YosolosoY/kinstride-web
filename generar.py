@@ -18,14 +18,16 @@ SRD = ('This work includes material from the System Reference Document 5.2 (“S
        '<a href="https://www.dndbeyond.com/srd">https://www.dndbeyond.com/srd</a>. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 '
        'International License, available at <a href="https://creativecommons.org/licenses/by/4.0/legalcode">https://creativecommons.org/licenses/by/4.0/legalcode</a>.')
 HOJAS = ['orrin', 'mira', 'bruna', 'kael', 'tamsin', 'nettle']
+HOJA_TAM = 'min(300px, 76vw)'
+ABANICO_TAM = '(max-width: 860px) 190px, 280px'
 
 T = {
     'en': dict(
-        lang='en', locale='en_US', titulo='Kinstride: Fantasy Walking RPG for Android', otro='/es/', otro_nombre='Español',
+        lang='en', locale='en_US', compartir_alt='Kinstride logo over an illustrated fantasy map', titulo='Kinstride: Fantasy Walking RPG for Android', otro='/es/', otro_nombre='Español',
         priv='/privacy/', borrar='/delete-data/', priv_t='Privacy', borrar_t='Delete your data',
-        desc='Your real walks cross a illustrated fantasy map, and the way you walk decides who your character becomes. Free, no ads, for Android.',
+        desc='A fantasy walking RPG for Android: your real walks cross an illustrated map, and the way you walk decides who your character becomes. Free, no ads.',
         h1='Walk. Discover who you become.',
-        bajada='Your real steps carry you across a illustrated fantasy world, with thousands of kilometres of stories. The way you walk shapes your character: lineage, class, abilities and all.',
+        bajada='A fantasy walking RPG for Android. Your real steps carry you across an illustrated world, with thousands of kilometres of stories. The way you walk shapes your character: lineage, class, abilities and all.',
         ser_tester='Become a tester',
         aviso='In closed testing: to install it today, join as a tester.',
         como_t='How it works',
@@ -44,7 +46,8 @@ T = {
         hojas_t='A character sheet you earned',
         hojas_p='Every walker gets a real sheet: your name, level, six abilities built from your walks, and the items you carry. Share it as an image, or take it to your table: it’s compatible with fifth edition.',
         habilidades=[('Strength', 'climbs'), ('Dexterity', 'cadence'), ('Constitution', 'endurance'), ('Intelligence', 'camps found'), ('Wisdom', 'consistency'), ('Charisma', 'walks with others')],
-        hojas_n='Example sheets with made-up characters.', hoja_alt='Example Kinstride character sheet',
+        hojas_n='Example sheets with made-up characters.', hoja_alt={'orrin': 'Example character sheet: Orrin, Nightfall Elf Wizard, level 14', 'mira': 'Example character sheet: Mira, Dwarf Ranger, level 9', 'bruna': 'Example character sheet: Bruna, Orc Barbarian, level 11', 'kael': 'Example character sheet: Kael, Emberkin Sorcerer, level 8', 'tamsin': 'Example character sheet: Tamsin, Halfling Rogue, level 5', 'nettle': 'Example character sheet: Nettle, Barkfolk Druid, level 16'},
+        dragon_alt='Old Aldith the dragon coiled around a stone column, listening to a hooded traveller who reads from a book',
         mundo_t='A journey the size of a legend',
         cifras=[('4,638 km', 'of roads with their own stories'), ('1,081', 'camps, each with a story'), ('104', 'magic items to find'), ('33', 'creatures on the road'), ('32', 'achievements')],
         mundo_p='Bike rides count as a pony or a horse, a narrator can read each camp aloud, and one rest day a week never breaks your streak. Four travellers keep to your pace: catch one and they leave you a short scene and a little XP. Pause or resume an expedition from its notification.',
@@ -80,11 +83,11 @@ T = {
         tester_nota='The group is named after Lince, our other app; it is the right one. If step 2 says the app is not available, wait a few minutes after joining the group and try again.',
     ),
     'es': dict(
-        lang='es', locale='es_419', titulo='Kinstride: juego de rol para caminar en Android', otro='/', otro_nombre='English',
+        lang='es', locale='es_419', compartir_alt='Logo de Kinstride sobre un mapa de fantasía ilustrado', titulo='Kinstride: juego de rol para caminar en Android', otro='/', otro_nombre='English',
         priv='/es/privacidad/', borrar='/es/borrar-datos/', priv_t='Privacidad', borrar_t='Borrar tus datos',
-        desc='Tus caminatas reales cruzan un mapa de fantasía ilustrado, y tu forma de caminar decide en quién se convierte tu personaje. Gratis, sin anuncios, para Android.',
+        desc='Juego de rol para caminar en Android: tus caminatas reales cruzan un mapa ilustrado y tu forma de caminar decide en quién te conviertes. Gratis, sin anuncios.',
         h1='Camina. Descubre en quién te conviertes.',
-        bajada='Tus pasos reales te llevan por un mundo de fantasía ilustrado, con miles de kilómetros de historias. Tu forma de caminar va formando a tu personaje: linaje, clase y habilidades.',
+        bajada='Un juego de rol para caminar, en Android. Tus pasos reales te llevan por un mundo de fantasía ilustrado, con miles de kilómetros de historias. Tu forma de caminar va formando a tu personaje: linaje, clase y habilidades.',
         ser_tester='Ser tester',
         aviso='En prueba cerrada: para instalarla hoy, entra como tester.',
         como_t='Cómo funciona',
@@ -103,7 +106,8 @@ T = {
         hojas_t='Una hoja de personaje que te ganaste',
         hojas_p='Cada caminante tiene una hoja de verdad: tu nombre, tu nivel, seis habilidades que salen de tus caminatas y los objetos que llevas. Compártela como imagen o llévala a tu mesa: es compatible con quinta edición.',
         habilidades=[('Fuerza', 'subidas'), ('Destreza', 'cadencia'), ('Constitución', 'resistencia'), ('Inteligencia', 'paradas halladas'), ('Sabiduría', 'constancia'), ('Carisma', 'salidas en grupo')],
-        hojas_n='Hojas de ejemplo con personajes inventados.', hoja_alt='Hoja de personaje de ejemplo de Kinstride',
+        hojas_n='Hojas de ejemplo con personajes inventados.', hoja_alt={'orrin': 'Hoja de personaje de ejemplo: Orrin, Elfo del anochecer, Mago, nivel 14', 'mira': 'Hoja de personaje de ejemplo: Mira, Enano, Explorador, nivel 9', 'bruna': 'Hoja de personaje de ejemplo: Bruna, Orco, Bárbaro, nivel 11', 'kael': 'Hoja de personaje de ejemplo: Kael, Ascuano, Hechicero, nivel 8', 'tamsin': 'Hoja de personaje de ejemplo: Tamsin, Mediano, Pícaro, nivel 5', 'nettle': 'Hoja de personaje de ejemplo: Nettle, Arbóreo, Druida, nivel 16'},
+        dragon_alt='La vieja Aldith, la dragona, enroscada en una columna de piedra, escucha a una viajera encapuchada que lee un libro',
         mundo_t='Un viaje del tamaño de una leyenda',
         cifras=[('4.638 km', 'de caminos con historias propias'), ('1.081', 'paradas, cada una con su historia'), ('104', 'objetos mágicos por encontrar'), ('33', 'criaturas en el camino'), ('32', 'logros')],
         mundo_p='Cuatro viajeros siguen tu ritmo: al alcanzar a uno, te deja una escena corta y un poco de XP. Puedes pausar o seguir una expedición desde su notificación. La bicicleta cuenta como pony o caballo, un narrador puede leer cada parada en voz alta, y un día de descanso a la semana nunca corta tu racha.',
@@ -147,15 +151,15 @@ def pagina(t: dict) -> str:
                         'image': f'{SITIO}/img/compartir.jpg', 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}, ensure_ascii=False)
     l = t['lang']
     url = 'https://getkinstride.com' + ('/es/' if l == 'es' else '/')
-    img_hoja = lambda n, extra='', alt='': f'<img src="/img/{l}-hoja-{n}.webp" alt="{alt}" width="720" height="1272" {extra}>'
+    img_hoja = lambda n, tam, extra='', alt='': f'<img src="/img/{l}-hoja-{n}.webp" srcset="/img/{l}-hoja-{n}-360.webp 360w, /img/{l}-hoja-{n}.webp 720w" sizes="{tam}" alt="{alt}" width="720" height="1272" {extra}>'
     capturas = '\n'.join(
-        f'<figure><img src="/img/{l}-{n}.webp" alt="{txt}" width="480" height="839" loading="lazy"><figcaption>{txt}</figcaption></figure>'
+        f'<figure><img src="/img/{l}-{n}.webp" srcset="/img/{l}-{n}-240.webp 240w, /img/{l}-{n}.webp 480w" sizes="min(230px, 62vw)" alt="{txt}" width="480" height="839" loading="lazy"><figcaption>{txt}</figcaption></figure>'
         for n, txt in t['capturas'])
     como = ''.join(f'<li><h3>{h}</h3><p>{p}</p></li>' for h, p in t['como'])
     razas = ''.join(
-        f'<figure><img src="/img/raza-{r}.webp" alt="{n}" width="360" height="480" loading="lazy"><figcaption><b>{n}</b>{d}</figcaption></figure>' for r, n, d in t['razas'])
+        f'<figure><img src="/img/raza-{r}.webp" alt="{n}: {d}" width="360" height="480" loading="lazy"><figcaption><b>{n}</b>{d}</figcaption></figure>' for r, n, d in t['razas'])
     habilidades = ''.join(f'<li><b>{a}</b> {m}</li>' for a, m in t['habilidades'])
-    hojas = ''.join(f'<figure>{img_hoja(n, 'loading="lazy"', t['hoja_alt'])}</figure>' for n in HOJAS)
+    hojas = ''.join(f'<figure>{img_hoja(n, HOJA_TAM, 'loading="lazy"', t['hoja_alt'][n])}</figure>' for n in HOJAS)
     cifras = ''.join(f'<div><b>{n}</b><span>{d}</span></div>' for n, d in t['cifras'])
     filas = ''.join(f'<tr><th scope="row">{a}</th><td>{b}</td><td>{c}</td></tr>' for a, b, c in t['filas'])
     rutas = ''.join(f'<article><h3>{n}</h3><p class="dato">{d}</p><p>{p}</p></article>' for n, d, p in t['rutas'])
@@ -176,16 +180,21 @@ def pagina(t: dict) -> str:
 <meta property="og:image" content="{SITIO}/img/compartir.jpg">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="500">
+<meta property="og:image:alt" content="{t['compartir_alt']}">
 <meta property="og:url" content="{url}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{url}">
-<link rel="icon" href="/favicon.png">
+<link rel="icon" href="/favicon.png" sizes="32x32">
+<link rel="icon" href="/img/icono-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/img/icono-180.png">
+<meta name="theme-color" content="#20281f">
 <link rel="alternate" hreflang="en" href="{SITIO}/">
 <link rel="alternate" hreflang="es" href="{SITIO}/es/">
 <link rel="alternate" hreflang="x-default" href="{SITIO}/">
 <script type="application/ld+json">{datos}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya+Sans:wght@500;700&display=swap">
+<link rel="preload" href="/fuentes/im-fell-english-sc-normal-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fuentes/alegreya-sans-normal-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="/img/{l}-hoja-mira.webp" imagesrcset="/img/{l}-hoja-mira-360.webp 360w, /img/{l}-hoja-mira.webp 720w" imagesizes="{ABANICO_TAM}" fetchpriority="high">
 <link rel="stylesheet" href="/estilo.css">
 <script defer src="https://cloud.umami.is/script.js" data-website-id="5f0c28aa-1fbb-4ae9-ad0e-06f031213437" data-domains="getkinstride.com" data-do-not-track="true"></script>
 </head>
@@ -200,10 +209,11 @@ def pagina(t: dict) -> str:
 <p class="botones"><a class="boton" href="#tester" data-umami-event="ser-tester">{t['ser_tester']}</a></p>
 <p class="aviso">{t['aviso']}</p>
 </div>
-<div class="abanico" aria-hidden="true">{img_hoja('kael')}{img_hoja('orrin')}{img_hoja('mira')}</div>
+<div class="abanico" aria-hidden="true">{img_hoja('kael', ABANICO_TAM)}{img_hoja('orrin', ABANICO_TAM)}{img_hoja('mira', ABANICO_TAM, 'fetchpriority="high"')}</div>
 </div>
 </header>
-<main class="ancho">
+<main class="principal">
+<div class="ancho">
 <section class="como"><h2>{t['como_t']}</h2><ol class="camino">{como}</ol></section>
 <section class="amplia"><h2>{t['pantallas_t']}</h2></section>
 <div class="galeria">
@@ -213,17 +223,20 @@ def pagina(t: dict) -> str:
 <section class="amplia hojas-sec"><h2>{t['hojas_t']}</h2><p class="intro">{t['hojas_p']}</p><ul class="habilidades">{habilidades}</ul></section>
 <div class="hojas">{hojas}</div>
 <p class="nota centro">{t['hojas_n']}</p>
-</main>
+</div>
 <section class="banda"><div class="banda-dentro"><h2>{t['mundo_t']}</h2><div class="cifras">{cifras}</div><p>{t['mundo_p']}</p></div></section>
-<main class="ancho">
-<section class="amplia historias"><h2>{t['rutas_t']}</h2><p class="intro">{t['rutas_p']}</p><div class="historias-dentro"><img src="/img/escena-dragon.webp" alt="" width="720" height="909" loading="lazy"><div class="rutas-lista">{rutas}</div></div></section>
+<div class="ancho">
+<section class="amplia historias"><h2>{t['rutas_t']}</h2><p class="intro">{t['rutas_p']}</p><div class="historias-dentro"><img src="/img/escena-dragon.webp" alt="{t['dragon_alt']}" width="720" height="909" loading="lazy"><div class="rutas-lista">{rutas}</div></div></section>
 <section class="amplia"><h2>{t['crecer_t']}</h2><ul class="crecer">{crecer}</ul></section>
 <section class="amplia"><h2>{t['grupo_t']}</h2><p class="intro">{t['grupo_p']}</p></section>
 <section class="amplia"><h2>{t['pro_t']}</h2><div class="tabla"><table><thead><tr><th>{t['col'][0]}</th><th>{t['col'][1]}</th><th>{t['col'][2]}</th></tr></thead><tbody>{filas}</tbody></table></div><p class="nota">{t['pro_n']}</p></section>
 <section id="tester" class="resumen tester"><h2>{t['tester_t']}</h2><p>{t['tester_intro']}</p><ol>{pasos}</ol><p class="nota">{t['tester_nota']}</p></section>
+</div>
+</main>
+<footer class="ancho">
 <p class="pie"><a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a> · <a href="{t['otro']}">{t['otro_nombre']}</a></p>
 <p class="pie legal">{SRD}</p>
-</main>
+</footer>
 </body>
 </html>
 '''

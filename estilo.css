@@ -1,4 +1,9 @@
 /* Kinstride: pergamino y tinta, como el mapa de la app. */
+@font-face{font-family:'Alegreya Sans';font-style:normal;font-weight:500;font-display:swap;src:url(/fuentes/alegreya-sans-normal-500.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Alegreya Sans';font-style:normal;font-weight:700;font-display:swap;src:url(/fuentes/alegreya-sans-normal-700.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IM Fell English';font-style:italic;font-weight:400;font-display:swap;src:url(/fuentes/im-fell-english-italic-400.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IM Fell English';font-style:normal;font-weight:400;font-display:swap;src:url(/fuentes/im-fell-english-normal-400.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IM Fell English SC';font-style:normal;font-weight:400;font-display:swap;src:url(/fuentes/im-fell-english-sc-normal-400.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
 :root{--papel:#EBDDBC;--hoja:#F7EED8;--tinta:#2B1F12;--suave:#5A4630;--borde:#B49A6C;--acento:#8E2F17}
 @media (prefers-color-scheme:dark){:root{--papel:#1A2130;--hoja:#1F2735;--tinta:#EDE6D6;--suave:#C9C1AE;--borde:#4A5770;--acento:#E9A23B;color-scheme:dark}}
 *{box-sizing:border-box}
@@ -15,7 +20,8 @@ a{color:var(--acento)}
 ul{padding-left:22px}
 li{margin:4px 0}
 /* Página principal */
-main.ancho{max-width:1040px;padding-top:12px;padding-bottom:24px}
+main.principal{max-width:none;padding:0}
+.ancho{max-width:1040px;margin:0 auto;padding:12px 20px 24px}
 .icono{display:block;width:72px;height:72px;border-radius:16px;margin-bottom:10px;box-shadow:0 6px 18px rgba(0,0,0,.35)}
 .botones{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 8px}
 .boton{display:inline-block;background:var(--acento);color:#F7EED8;text-decoration:none;font-weight:700;padding:12px 22px;border-radius:999px}
@@ -81,6 +87,7 @@ tbody th{font-weight:700}
 .legal{font-size:12px;margin-top:10px}
 @media (max-width:860px){
 .heroe-dentro{grid-template-columns:1fr;padding:36px 20px 28px;min-height:0}
+.heroe{background-image:url(/img/mapa-1000.webp)}
 .heroe::before{background:linear-gradient(rgba(20,26,36,.9),rgba(20,26,36,.72))}
 .abanico{height:360px}
 .abanico img{width:190px}
