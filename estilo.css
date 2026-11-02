@@ -120,8 +120,9 @@ tbody th{font-weight:700}
 .barra span a:hover{text-decoration:underline}
 body.sub h1{margin-top:22px}
 .intro{max-width:720px}
-.test{margin-top:20px;background:var(--hoja);border:1px solid var(--borde);border-radius:14px;padding:22px;min-height:360px;display:block}
-.test-fila{display:block;width:100%;max-width:900px;height:auto;margin:24px auto 0;border-radius:8px}
+.test{margin-top:20px;background:var(--hoja);border:1px solid var(--borde);border-radius:14px;padding:22px;display:block}
+section.test-portada{max-width:none}
+.test-linajes{display:grid;grid-template-columns:repeat(9,1fr);gap:8px;margin-top:22px}
 .test h2{border:0;margin:6px 0 14px;font-size:clamp(24px,4vw,32px);outline:none}
 .test-avance{margin:0 0 6px;font-size:14px;color:var(--suave)}
 .test-barra{height:6px;border-radius:3px;background:var(--papel);overflow:hidden}
@@ -157,5 +158,6 @@ th em{font-weight:500;font-style:normal;color:var(--acento)}
 .test-resultado img,.linaje-pag>img{max-width:240px}
 .linajes-lista{grid-template-columns:1fr}
 .linajes-mini{grid-template-columns:repeat(4,1fr)}
+.test-linajes{grid-template-columns:repeat(3,1fr)}
 }
 .boton.secundario.claro{color:#F7EED8;border-color:#F7EED8}

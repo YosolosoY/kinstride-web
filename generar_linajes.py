@@ -178,9 +178,9 @@ def pie(lang, srd):
 '''
 
 
-def tarjetas(lang, datos, saltar=None):
+def tarjetas(lang, datos, saltar=None, carga='lazy'):
     r = {x['id']: x for x in datos['razas']}
-    return ''.join(f'''<a class="linaje" href="{url_linaje(lang, i)}"><img src="/img/raza-{i}.webp" alt="" width="360" height="480" loading="lazy"><b>{r[i]['nombre']}</b></a>''' for i in ORDEN if i != saltar)
+    return ''.join(f'''<a class="linaje" href="{url_linaje(lang, i)}"><img src="/img/raza-{i}.webp" alt="" width="360" height="480" loading="{carga}"><b>{r[i]['nombre']}</b></a>''' for i in ORDEN if i != saltar)
 
 
 def pagina_test(lang, raiz, sitio, umami, srd):
@@ -194,7 +194,7 @@ def pagina_test(lang, raiz, sitio, umami, srd):
     u, o = RUTA[lang]['test'], RUTA[otro]['test']
     html = cabeza(lang, sitio, umami, t['test_titulo'], t['test_desc'], u, o, f'/img/og-test-{lang}.jpg') + barra(lang, o) + f'''<main class="ancho">
 <section class="test-portada"><h1>{t['test_h1']}</h1><p class="intro">{t['test_intro']}</p>
-<div id="test" class="test" aria-live="polite"><button type="button" id="test-empezar" class="boton">{t['empezar']}</button><img class="test-fila" src="/img/og-fila.webp" alt="" width="900" height="150"></div>
+<div id="test" class="test" aria-live="polite"><button type="button" id="test-empezar" class="boton">{t['empezar']}</button><div class="test-linajes">{tarjetas(lang, datos, carga='eager')}</div></div>
 <noscript><p><a href="{RUTA[lang]['linajes']}">{t['sin_js']}</a></p></noscript></section>
 <section class="amplia"><h2>{t['faq_t']}</h2>{faq}</section>
 </main>

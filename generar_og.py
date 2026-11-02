@@ -36,12 +36,6 @@ def carta(img, r, x, y, alto):
     return f.width
 
 
-fila = Image.new('RGB', (900, 150), (235, 221, 188))
-for i, r in enumerate(ORDEN):
-    f = Image.open(RAIZ / f'img/raza-{r}.webp').convert('RGB').resize((100, 133), Image.LANCZOS)
-    fila.paste(f, (i * 100, 8))
-fila.save(RAIZ / 'img/og-fila.webp', quality=80, method=6)
-
 for lang in ('en', 'es'):
     datos = json.loads((RAIZ / f'datos/linajes-{lang}.json').read_text())
     pregunta, pie = TXT[lang]
