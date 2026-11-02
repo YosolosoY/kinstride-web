@@ -5,9 +5,11 @@
 
 Hojas de ejemplo y pantallas: ~/Projects/kinstride/scripts/tienda/hojas.mjs
 """
+import json
 from pathlib import Path
 
 RAIZ = Path(__file__).parent
+SITIO = 'https://getkinstride.com'
 PLAY = 'https://play.google.com/store/apps/details?id=co.com.monsalve.kinstride'
 PRUEBA = 'https://play.google.com/apps/testing/co.com.monsalve.kinstride'
 GRUPO = 'https://groups.google.com/g/lince-app-testers'
@@ -19,20 +21,20 @@ HOJAS = ['orrin', 'mira', 'bruna', 'kael', 'tamsin', 'nettle']
 
 T = {
     'en': dict(
-        lang='en', titulo='Kinstride: walking adventure', otro='/es/', otro_nombre='Español',
+        lang='en', locale='en_US', titulo='Kinstride: Fantasy Walking RPG for Android', otro='/es/', otro_nombre='Español',
         priv='/privacy/', borrar='/delete-data/', priv_t='Privacy', borrar_t='Delete your data',
-        desc='Your real walks cross a hand-drawn fantasy map, and the way you walk decides who your character becomes. Free, no ads, for Android.',
+        desc='Your real walks cross a illustrated fantasy map, and the way you walk decides who your character becomes. Free, no ads, for Android.',
         h1='Walk. Discover who you become.',
-        bajada='Your real steps carry you across a hand-drawn fantasy world, with thousands of kilometres of stories. The way you walk shapes your character: lineage, class, abilities and all.',
-        play='Get it on Google Play', ser_tester='Become a tester',
-        aviso='In closed testing: for now Google Play only shows it to testers.',
+        bajada='Your real steps carry you across a illustrated fantasy world, with thousands of kilometres of stories. The way you walk shapes your character: lineage, class, abilities and all.',
+        ser_tester='Become a tester',
+        aviso='In closed testing: to install it today, join as a tester.',
         como_t='How it works',
         como=[('You walk', 'Daily steps count on their own. Walks from your watch count too. Or start an expedition and GPS measures your pace, stride, climbs and rests.'),
-              ('The world opens', 'Every step moves your marker across the Farwander. The fog lifts, and every few steps there is a camp with its own illustrated story.'),
+              ('The world opens', 'Every step moves your marker across the Farwander. The fog lifts, and every few steps there is a camp with its own story.'),
               ('You become someone', 'After three expeditions your lineage is revealed. Your habits earn a class. Walk differently and your character changes with you.')],
         pantallas_t='A map, not a dashboard',
         capturas=[('presentacion', 'A short welcome tells you what to expect'), ('mapa', 'The map is your home screen'), ('personaje', 'Your stride, read in a radar'),
-                  ('revelacion', 'The reveal after three expeditions'), ('parada', 'Camps with their own story'), ('rutas', 'Choose your road'), ('caceria', 'The Hunt: the clock is running'), ('dragon', 'The end of the Dragon Road'), ('plan', 'A 4-week plan towards a lineage'), ('historia', 'Your stride month by month'), ('bestiario', 'The bestiary'), ('camino', 'Every camp ahead'), ('logros', '31 achievements')],
+                  ('revelacion', 'The reveal after three expeditions'), ('parada', 'Camps with their own story'), ('rutas', 'Choose your road'), ('caceria', 'The Hunt: the clock is running'), ('dragon', 'The end of the Dragon Road'), ('plan', 'A 4-week plan towards a lineage'), ('historia', 'Your stride month by month'), ('bestiario', 'The bestiary'), ('camino', 'Every camp ahead'), ('logros', '32 achievements')],
         razas_t='Nine lineages. You don’t pick one.',
         razas_p='Kinstride reads the last four weeks of how you walk: pace, stride for your height, climbs, rests, running. Then it tells you who you walk like. And it tells you what to change if you want to become something else.',
         razas=[('mediano', 'Halfling', 'Short, lively steps'), ('enano', 'Dwarf', 'Real climbs'), ('humano', 'Human', 'Does it all. The hardest to earn'),
@@ -42,9 +44,9 @@ T = {
         hojas_t='A character sheet you earned',
         hojas_p='Every walker gets a real sheet: your name, level, six abilities built from your walks, and the items you carry. Share it as an image, or take it to your table: it’s compatible with fifth edition.',
         habilidades=[('Strength', 'climbs'), ('Dexterity', 'cadence'), ('Constitution', 'endurance'), ('Intelligence', 'camps found'), ('Wisdom', 'consistency'), ('Charisma', 'walks with others')],
-        hojas_n='Example sheets with made-up characters.',
+        hojas_n='Example sheets with made-up characters.', hoja_alt='Example Kinstride character sheet',
         mundo_t='A journey the size of a legend',
-        cifras=[('4,638 km', 'of roads with their own stories'), ('1,081', 'camps, each with a story'), ('104', 'magic items to find'), ('33', 'creatures on the road'), ('31', 'achievements')],
+        cifras=[('4,638 km', 'of roads with their own stories'), ('1,081', 'camps, each with a story'), ('104', 'magic items to find'), ('33', 'creatures on the road'), ('32', 'achievements')],
         mundo_p='Bike rides count as a pony or a horse, a narrator can read each camp aloud, and one rest day a week never breaks your streak. Four travellers keep to your pace: catch one and they leave you a short scene and a little XP. Pause or resume an expedition from its notification.',
         rutas_t='More roads, more stories',
         rutas_p='The Long Road is free and never ends. With Pro, these roads open too.',
@@ -63,7 +65,7 @@ T = {
         pro_t='Free and complete. Pro if you want more.',
         col=('', 'Free', 'Pro'),
         filas=[('Distance, map and camps', 'No limit, no ads', 'No limit, no ads'), ('Lineages', '6', '9, with every variant'), ('Classes', '8', '12, with magic'),
-               ('Character sheet', 'Yes', 'With portrait and sharing'), ('Equipment slots', '1', '4'), ('Routes', 'The Long Road and the way home', 'Also the Dragon Road, The Hunt, the Last Stretch and Free Stretch'),
+               ('Character sheet', 'Yes', 'With portrait and sharing'), ('Equipment slots', '1', '4'), ('Routes', 'The Long Road and the way home', 'Also the Dragon Road, The Hunt, The Great Crossing, the Last Stretch and Free Stretch'),
                ('Bestiary and events of the year', 'Yes', 'Yes'), ('Your stride month by month', '—', 'Yes'), ('4-week plans', '—', 'Yes'),
                ('Create a Company', 'Up to 3', 'Up to 9'), ('Postcards', 'With small logo', 'Without logo, in 3 styles')],
         pro_n='Pro costs US$9.99 a year, or US$24.99 once for life. Whatever comes next is included.',
@@ -75,23 +77,23 @@ T = {
             f'Install Kinstride from <a href="{PLAY}">Google Play</a> and <b>keep it installed for 14 days</b>. Walk as usual; one expedition helps a lot.',
             f'Tell us what you think, or anything that fails: <b>{CORREO}</b>',
         ],
-        tester_nota='If step 2 says the app is not available, wait a few minutes after joining the group and try again.',
+        tester_nota='The group is named after Lince, our other app; it is the right one. If step 2 says the app is not available, wait a few minutes after joining the group and try again.',
     ),
     'es': dict(
-        lang='es', titulo='Kinstride: aventura a pie', otro='/', otro_nombre='English',
+        lang='es', locale='es_419', titulo='Kinstride: juego de rol para caminar en Android', otro='/', otro_nombre='English',
         priv='/es/privacidad/', borrar='/es/borrar-datos/', priv_t='Privacidad', borrar_t='Borrar tus datos',
-        desc='Tus caminatas reales cruzan un mapa de fantasía dibujado a mano, y tu forma de caminar decide en quién se convierte tu personaje. Gratis, sin anuncios, para Android.',
+        desc='Tus caminatas reales cruzan un mapa de fantasía ilustrado, y tu forma de caminar decide en quién se convierte tu personaje. Gratis, sin anuncios, para Android.',
         h1='Camina. Descubre en quién te conviertes.',
-        bajada='Tus pasos reales te llevan por un mundo de fantasía dibujado a mano, con miles de kilómetros de historias. Tu forma de caminar va formando a tu personaje: linaje, clase y habilidades.',
-        play='Disponible en Google Play', ser_tester='Ser tester',
-        aviso='En prueba cerrada: por ahora Google Play solo la muestra a los testers.',
+        bajada='Tus pasos reales te llevan por un mundo de fantasía ilustrado, con miles de kilómetros de historias. Tu forma de caminar va formando a tu personaje: linaje, clase y habilidades.',
+        ser_tester='Ser tester',
+        aviso='En prueba cerrada: para instalarla hoy, entra como tester.',
         como_t='Cómo funciona',
         como=[('Caminas', 'Tus pasos del día cuentan solos, y las caminatas de tu reloj también. O inicia una expedición y el GPS mide tu ritmo, tu paso, las subidas y los descansos.'),
-              ('El mundo se abre', 'Cada paso mueve tu marcador por Las Tierras Lejanas. La niebla se levanta y, cada poco, aparece una parada con su propia historia ilustrada.'),
+              ('El mundo se abre', 'Cada paso mueve tu marcador por Las Tierras Lejanas. La niebla se levanta y, cada poco, aparece una parada con su propia historia.'),
               ('Te conviertes en alguien', 'Tras tres expediciones se revela tu linaje. Tus costumbres te ganan una clase. Si caminas distinto, tu personaje cambia contigo.')],
         pantallas_t='Un mapa, no un tablero de números',
         capturas=[('presentacion', 'Una bienvenida corta te dice qué esperar'), ('mapa', 'El mapa es tu pantalla principal'), ('personaje', 'Tu paso, leído en un radar'),
-                  ('revelacion', 'La revelación tras tres expediciones'), ('parada', 'Paradas con su historia'), ('rutas', 'Elige tu camino'), ('caceria', 'La Cacería: el reloj corre'), ('dragon', 'El final del Camino del Dragón'), ('plan', 'Un plan de 4 semanas hacia un linaje'), ('historia', 'Tu paso mes a mes'), ('bestiario', 'El Bestiario'), ('camino', 'Cada parada que viene'), ('logros', '31 logros')],
+                  ('revelacion', 'La revelación tras tres expediciones'), ('parada', 'Paradas con su historia'), ('rutas', 'Elige tu camino'), ('caceria', 'La Cacería: el reloj corre'), ('dragon', 'El final del Camino del Dragón'), ('plan', 'Un plan de 4 semanas hacia un linaje'), ('historia', 'Tu paso mes a mes'), ('bestiario', 'El Bestiario'), ('camino', 'Cada parada que viene'), ('logros', '32 logros')],
         razas_t='Nueve linajes. Tú no eliges.',
         razas_p='Kinstride lee cómo caminaste las últimas cuatro semanas: ritmo, largo del paso para tu estatura, subidas, descansos y trote. Luego te dice a quién te pareces. Y también qué cambiar si quieres ser otra cosa.',
         razas=[('mediano', 'Mediano', 'Pasos cortos y vivos'), ('enano', 'Enano', 'Subidas de verdad'), ('humano', 'Humano', 'Lo hace todo. El más difícil'),
@@ -101,9 +103,9 @@ T = {
         hojas_t='Una hoja de personaje que te ganaste',
         hojas_p='Cada caminante tiene una hoja de verdad: tu nombre, tu nivel, seis habilidades que salen de tus caminatas y los objetos que llevas. Compártela como imagen o llévala a tu mesa: es compatible con quinta edición.',
         habilidades=[('Fuerza', 'subidas'), ('Destreza', 'cadencia'), ('Constitución', 'resistencia'), ('Inteligencia', 'paradas halladas'), ('Sabiduría', 'constancia'), ('Carisma', 'salidas en grupo')],
-        hojas_n='Hojas de ejemplo con personajes inventados.',
+        hojas_n='Hojas de ejemplo con personajes inventados.', hoja_alt='Hoja de personaje de ejemplo de Kinstride',
         mundo_t='Un viaje del tamaño de una leyenda',
-        cifras=[('4.638 km', 'de caminos con historias propias'), ('1.081', 'paradas, cada una con su historia'), ('104', 'objetos mágicos por encontrar'), ('33', 'criaturas en el camino'), ('31', 'logros')],
+        cifras=[('4.638 km', 'de caminos con historias propias'), ('1.081', 'paradas, cada una con su historia'), ('104', 'objetos mágicos por encontrar'), ('33', 'criaturas en el camino'), ('32', 'logros')],
         mundo_p='Cuatro viajeros siguen tu ritmo: al alcanzar a uno, te deja una escena corta y un poco de XP. Puedes pausar o seguir una expedición desde su notificación. La bicicleta cuenta como pony o caballo, un narrador puede leer cada parada en voz alta, y un día de descanso a la semana nunca corta tu racha.',
         rutas_t='Más caminos, más historias',
         rutas_p='El Gran Viaje es gratis y nunca termina. Con Pro se abren además estos caminos.',
@@ -122,7 +124,7 @@ T = {
         pro_t='Gratis y completa. Pro si quieres más.',
         col=('', 'Gratis', 'Pro'),
         filas=[('Distancia, mapa y paradas', 'Sin límite, sin anuncios', 'Sin límite, sin anuncios'), ('Linajes', '6', '9, con todas las variantes'), ('Clases', '8', '12, con magia'),
-               ('Hoja de personaje', 'Sí', 'Con retrato y para compartir'), ('Casillas de equipo', '1', '4'), ('Rutas', 'El Gran Viaje y el regreso', 'También el Camino del Dragón, La Cacería, el Último Tramo y el Tramo libre'),
+               ('Hoja de personaje', 'Sí', 'Con retrato y para compartir'), ('Casillas de equipo', '1', '4'), ('Rutas', 'El Gran Viaje y el regreso', 'También el Camino del Dragón, La Cacería, La Gran Travesía, el Último Tramo y el Tramo libre'),
                ('Bestiario y eventos del año', 'Sí', 'Sí'), ('Tu paso mes a mes', '—', 'Sí'), ('Planes de 4 semanas', '—', 'Sí'),
                ('Crear una Compañía', 'Hasta 3', 'Hasta 9'), ('Postales', 'Con logo pequeño', 'Sin logo, en 3 estilos')],
         pro_n='Pro cuesta US$9,99 al año, o US$24,99 una sola vez para siempre. Lo que venga después está incluido.',
@@ -140,9 +142,12 @@ T = {
 
 
 def pagina(t: dict) -> str:
+    datos = json.dumps({'@context': 'https://schema.org', '@type': 'MobileApplication', 'name': 'Kinstride', 'url': f"{SITIO}{'/' if t['lang'] == 'en' else '/es/'}",
+                        'description': t['desc'], 'operatingSystem': 'Android', 'applicationCategory': 'GameApplication', 'inLanguage': ['en', 'es'],
+                        'image': f'{SITIO}/img/compartir.jpg', 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}, ensure_ascii=False)
     l = t['lang']
-    url = 'https://kinstride.monsalve.com.co' + ('/es/' if l == 'es' else '/')
-    img_hoja = lambda n, extra='': f'<img src="/img/{l}-hoja-{n}.webp" alt="" width="720" height="1272" {extra}>'
+    url = 'https://getkinstride.com' + ('/es/' if l == 'es' else '/')
+    img_hoja = lambda n, extra='', alt='': f'<img src="/img/{l}-hoja-{n}.webp" alt="{alt}" width="720" height="1272" {extra}>'
     capturas = '\n'.join(
         f'<figure><img src="/img/{l}-{n}.webp" alt="{txt}" width="480" height="839" loading="lazy"><figcaption>{txt}</figcaption></figure>'
         for n, txt in t['capturas'])
@@ -150,7 +155,7 @@ def pagina(t: dict) -> str:
     razas = ''.join(
         f'<figure><img src="/img/raza-{r}.webp" alt="{n}" width="360" height="480" loading="lazy"><figcaption><b>{n}</b>{d}</figcaption></figure>' for r, n, d in t['razas'])
     habilidades = ''.join(f'<li><b>{a}</b> {m}</li>' for a, m in t['habilidades'])
-    hojas = ''.join(f'<figure>{img_hoja(n, "loading=lazy")}</figure>' for n in HOJAS)
+    hojas = ''.join(f'<figure>{img_hoja(n, 'loading="lazy"', t['hoja_alt'])}</figure>' for n in HOJAS)
     cifras = ''.join(f'<div><b>{n}</b><span>{d}</span></div>' for n, d in t['cifras'])
     filas = ''.join(f'<tr><th scope="row">{a}</th><td>{b}</td><td>{c}</td></tr>' for a, b, c in t['filas'])
     rutas = ''.join(f'<article><h3>{n}</h3><p class="dato">{d}</p><p>{p}</p></article>' for n, d, p in t['rutas'])
@@ -165,11 +170,20 @@ def pagina(t: dict) -> str:
 <meta name="description" content="{t['desc']}">
 <meta property="og:title" content="{t['titulo']}">
 <meta property="og:description" content="{t['desc']}">
-<meta property="og:image" content="https://kinstride.monsalve.com.co/img/compartir.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kinstride">
+<meta property="og:locale" content="{t['locale']}">
+<meta property="og:image" content="{SITIO}/img/compartir.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
 <meta property="og:url" content="{url}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="{url}">
 <link rel="icon" href="/favicon.png">
-<link rel="alternate" hreflang="en" href="https://kinstride.monsalve.com.co/">
-<link rel="alternate" hreflang="es" href="https://kinstride.monsalve.com.co/es/">
+<link rel="alternate" hreflang="en" href="{SITIO}/">
+<link rel="alternate" hreflang="es" href="{SITIO}/es/">
+<link rel="alternate" hreflang="x-default" href="{SITIO}/">
+<script type="application/ld+json">{datos}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya+Sans:wght@500;700&display=swap">
 <link rel="stylesheet" href="/estilo.css">
@@ -182,7 +196,7 @@ def pagina(t: dict) -> str:
 <span class="marca">KINSTRIDE</span>
 <h1>{t['h1']}</h1>
 <p class="bajada">{t['bajada']}</p>
-<p class="botones"><a class="boton" href="{PLAY}">{t['play']}</a> <a class="boton secundario" href="#tester">{t['ser_tester']}</a></p>
+<p class="botones"><a class="boton" href="#tester">{t['ser_tester']}</a></p>
 <p class="aviso">{t['aviso']}</p>
 </div>
 <div class="abanico" aria-hidden="true">{img_hoja('kael')}{img_hoja('orrin')}{img_hoja('mira')}</div>
@@ -216,4 +230,28 @@ def pagina(t: dict) -> str:
 
 (RAIZ / 'index.html').write_text(pagina(T['en']))
 (RAIZ / 'es' / 'index.html').write_text(pagina(T['es']))
-print('index.html y es/index.html listos')
+(RAIZ / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
+direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/']
+(RAIZ / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                  + ''.join(f'<url><loc>{SITIO}{d}</loc></url>\n' for d in direcciones) + '</urlset>\n')
+(RAIZ / '404.html').write_text('''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lost on the road · Kinstride</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.png">
+<link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+<main>
+<a class="marca" href="/">KINSTRIDE</a>
+<h1>This road ends here</h1>
+<p class="bajada">The page you were looking for is not on the map.</p>
+<p><a href="/">Back to Kinstride</a> · <a href="/es/">Volver en español</a></p>
+</main>
+</body>
+</html>
+''')
+print('index.html, es/index.html, robots.txt, sitemap.xml y 404.html listos')
