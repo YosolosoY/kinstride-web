@@ -72,9 +72,9 @@ T = {
         tester_t='Become a tester',
         tester_intro='Before Kinstride opens to everyone, Google asks for people to test it for 14 days. You need an Android phone and the Gmail account you use on Play Store.',
         pasos=[
-            f'Join the test group with that Gmail account: <a href="{GRUPO}">groups.google.com/g/lince-app-testers</a> → <b>Join group</b>.',
-            f'On your Android phone, open <a href="{PRUEBA}">the Kinstride test on Google Play</a> → <b>Become a tester</b>.',
-            f'Install Kinstride from <a href="{PLAY}">Google Play</a> and <b>keep it installed for 14 days</b>. Walk as usual; one expedition helps a lot.',
+            f'Join the test group with that Gmail account: <a href="{GRUPO}" data-umami-event="tester-grupo">groups.google.com/g/lince-app-testers</a> → <b>Join group</b>.',
+            f'On your Android phone, open <a href="{PRUEBA}" data-umami-event="tester-prueba">the Kinstride test on Google Play</a> → <b>Become a tester</b>.',
+            f'Install Kinstride from <a href="{PLAY}" data-umami-event="tester-instalar">Google Play</a> and <b>keep it installed for 14 days</b>. Walk as usual; one expedition helps a lot.',
             f'Tell us what you think, or anything that fails: <b>{CORREO}</b>',
         ],
         tester_nota='The group is named after Lince, our other app; it is the right one. If step 2 says the app is not available, wait a few minutes after joining the group and try again.',
@@ -131,12 +131,12 @@ T = {
         tester_t='Ser tester',
         tester_intro='Antes de abrir Kinstride para todos, Google pide que algunas personas la prueben durante 14 días. Necesitas un teléfono Android y la cuenta de Gmail que usas en Play Store.',
         pasos=[
-            f'Únete al grupo de prueba con esa cuenta de Gmail: <a href="{GRUPO}">groups.google.com/g/lince-app-testers</a> → <b>Unirse al grupo</b>.',
-            f'En tu teléfono Android, abre <a href="{PRUEBA}">la prueba de Kinstride en Google Play</a> → <b>Convertirse en tester</b>.',
-            f'Instala Kinstride desde <a href="{PLAY}">Google Play</a> y <b>déjala instalada 14 días</b>. Camina como siempre; una expedición ayuda mucho.',
+            f'Únete al grupo de prueba con esa cuenta de Gmail: <a href="{GRUPO}" data-umami-event="tester-grupo">groups.google.com/g/lince-app-testers</a> → <b>Unirse al grupo</b>.',
+            f'En tu teléfono Android, abre <a href="{PRUEBA}" data-umami-event="tester-prueba">la prueba de Kinstride en Google Play</a> → <b>Convertirse en tester</b>.',
+            f'Instala Kinstride desde <a href="{PLAY}" data-umami-event="tester-instalar">Google Play</a> y <b>déjala instalada 14 días</b>. Camina como siempre; una expedición ayuda mucho.',
             f'Cuéntanos qué te parece, o cualquier cosa que falle: <b>{CORREO}</b>',
         ],
-        tester_nota='Si el paso 2 dice que la app no está disponible, espera unos minutos después de unirte al grupo y vuelve a intentarlo.',
+        tester_nota='El grupo lleva el nombre de Lince, nuestra otra app; es el correcto. Si el paso 2 dice que la app no está disponible, espera unos minutos después de unirte al grupo y vuelve a intentarlo.',
     ),
 }
 
@@ -187,6 +187,7 @@ def pagina(t: dict) -> str:
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Alegreya+Sans:wght@500;700&display=swap">
 <link rel="stylesheet" href="/estilo.css">
+<script defer src="https://cloud.umami.is/script.js" data-website-id="5f0c28aa-1fbb-4ae9-ad0e-06f031213437" data-domains="getkinstride.com" data-do-not-track="true"></script>
 </head>
 <body class="portada">
 <header class="heroe">
@@ -196,7 +197,7 @@ def pagina(t: dict) -> str:
 <span class="marca">KINSTRIDE</span>
 <h1>{t['h1']}</h1>
 <p class="bajada">{t['bajada']}</p>
-<p class="botones"><a class="boton" href="#tester">{t['ser_tester']}</a></p>
+<p class="botones"><a class="boton" href="#tester" data-umami-event="ser-tester">{t['ser_tester']}</a></p>
 <p class="aviso">{t['aviso']}</p>
 </div>
 <div class="abanico" aria-hidden="true">{img_hoja('kael')}{img_hoja('orrin')}{img_hoja('mira')}</div>
