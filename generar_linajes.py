@@ -170,7 +170,7 @@ def barra(lang, otra):
 def pie(lang, srd):
     t = T[lang]
     return f'''<footer class="ancho">
-<p class="pie"><a href="{RUTA[lang]['test']}">{t['nav_test']}</a> · <a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a> · <a href="{TIKTOK}" rel="me">TikTok</a> · <a href="{t['priv'][0]}">{t['priv'][1]}</a> · <a href="{t['borrar'][0]}">{t['borrar'][1]}</a></p>
+<p class="pie"><a href="{RUTA[lang]['test']}">{t['nav_test']}</a> · <a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a> · <a href="{TIKTOK}" rel="me">TikTok</a> · <a href="/discord/">Discord</a> · <a href="{t['priv'][0]}">{t['priv'][1]}</a> · <a href="{t['borrar'][0]}">{t['borrar'][1]}</a></p>
 <p class="pie legal">{srd}</p>
 </footer>
 </body>

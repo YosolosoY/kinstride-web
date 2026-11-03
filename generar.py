@@ -30,7 +30,7 @@ T = {
         priv='/privacy/', borrar='/delete-data/', priv_t='Privacy', borrar_t='Delete your data',
         desc='A fantasy walking RPG for Android: your real walks cross an illustrated map, and the way you walk decides who your character becomes. Free, no ads.',
         h1='Walk. Discover who you become.',
-        bajada='A fantasy walking RPG for Android. Your real steps carry you across an illustrated world, with thousands of kilometres of stories. The way you walk shapes your character: lineage, class, abilities and all.',
+        bajada='A fantasy walking RPG for Android that reads how you really walk. No manual logging: your steps carry you across an illustrated world, and your stride reveals your lineage.',
         ser_tester='Become a tester', test_t='Take the walking test', test_url='/test/', linajes_url='/lineages/', linajes_t='Read about all nine lineages', tiktok='TikTok',
         aviso='In closed testing: to install it today, join as a tester.',
         como_t='How it works',
@@ -64,7 +64,7 @@ T = {
         crecer_t='A walk that keeps changing',
         crecer=[('Your stride month by month', 'See which lineage you were each month, and how your stride, speed and climbs changed. Pro.'),
                 ('4-week plans', 'Choose a lineage and get one goal for the week, taken from the same rules that measure you. Pro.'),
-                ('The bestiary', 'Goblins, griffons, a very suspicious chest. Nobody fights here: you meet them, you keep walking, and they go in your book. Free.'),
+                ('The bestiary', '33 illustrated creatures: goblins, griffons, a very suspicious chest. Nobody fights here: you meet them, you keep walking, and they go in your book. Free.'),
                 ('Events of the year', 'Three weeks a year, on the same dates: the Harvest Fair, the Week of Fires and Road Menders’ Week. Free.')],
         grupo_t='Walk as a Company',
         grupo_p='Up to 9 friends, one marker. Everyone’s steps push the group toward the next place, and you can open each other’s character sheets.',
@@ -90,7 +90,7 @@ T = {
         priv='/es/privacidad/', borrar='/es/borrar-datos/', priv_t='Privacidad', borrar_t='Borrar tus datos',
         desc='Juego de rol para caminar en Android: tus caminatas reales cruzan un mapa ilustrado y tu forma de caminar decide en quién te conviertes. Gratis, sin anuncios.',
         h1='Camina. Descubre en quién te conviertes.',
-        bajada='Un juego de rol para caminar, en Android. Tus pasos reales te llevan por un mundo de fantasía ilustrado, con miles de kilómetros de historias. Tu forma de caminar va formando a tu personaje: linaje, clase y habilidades.',
+        bajada='Un juego de rol para caminar, en Android, que mide cómo caminas de verdad. Sin registrar nada a mano: tus pasos te llevan por un mundo ilustrado y tu forma de andar revela tu linaje.',
         ser_tester='Ser tester', test_t='Hacer el test de caminar', test_url='/es/test/', linajes_url='/es/linajes/', linajes_t='Conoce los nueve linajes', tiktok='TikTok',
         aviso='En prueba cerrada: para instalarla hoy, entra como tester.',
         como_t='Cómo funciona',
@@ -124,7 +124,7 @@ T = {
         crecer_t='Una caminata que sigue cambiando',
         crecer=[('Tu paso mes a mes', 'Mira qué linaje fuiste cada mes, y cómo cambiaron tu paso, tu velocidad y tus subidas. Pro.'),
                 ('Planes de 4 semanas', 'Elige un linaje y recibe una meta para la semana, sacada de las mismas reglas que te miden. Pro.'),
-                ('El Bestiario', 'Goblins, grifos, un cofre muy sospechoso. Aquí no se pelea: te los cruzas, sigues caminando y quedan en tu libro. Gratis.'),
+                ('El Bestiario', '33 criaturas ilustradas: goblins, grifos, un cofre muy sospechoso. Aquí no se pelea: te los cruzas, sigues caminando y quedan en tu libro. Gratis.'),
                 ('Eventos del año', 'Tres semanas al año, siempre en las mismas fechas: la Feria de la Cosecha, la Semana de las Hogueras y la Semana de los Camineros. Gratis.')],
         grupo_t='Camina en Compañía',
         grupo_p='Hasta 9 amigos, un solo marcador. Los pasos de todos empujan al grupo hacia el próximo lugar, y pueden abrir la hoja de personaje de cada uno.',
@@ -237,7 +237,7 @@ def pagina(t: dict) -> str:
 </div>
 </main>
 <footer class="ancho">
-<p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a> · <a href="{t['otro']}">{t['otro_nombre']}</a></p>
+<p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="/discord/">Discord</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a> · <a href="{t['otro']}">{t['otro_nombre']}</a></p>
 <p class="pie legal">{SRD}</p>
 </footer>
 </body>
