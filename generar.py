@@ -149,11 +149,15 @@ T = {
 
 
 def pagina(t: dict) -> str:
-    datos = json.dumps({'@context': 'https://schema.org', '@type': 'MobileApplication', 'name': 'Kinstride', 'url': f"{SITIO}{'/' if t['lang'] == 'en' else '/es/'}",
-                        'description': t['desc'], 'operatingSystem': 'Android', 'applicationCategory': 'GameApplication', 'inLanguage': ['en', 'es'],
-                        'image': f'{SITIO}/img/compartir.jpg', 'sameAs': [generar_linajes.TIKTOK], 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}, ensure_ascii=False)
     l = t['lang']
     url = 'https://getkinstride.com' + ('/es/' if l == 'es' else '/')
+    datos = json.dumps([
+        {'@context': 'https://schema.org', '@type': 'MobileApplication', 'name': 'Kinstride', 'url': url,
+         'description': t['desc'], 'operatingSystem': 'Android', 'applicationCategory': 'GameApplication', 'applicationSubCategory': 'RolePlaying', 'inLanguage': ['en', 'es'],
+         'image': f'{SITIO}/img/compartir.jpg', 'screenshot': [f'{SITIO}/img/{l}-mapa.webp', f'{SITIO}/img/{l}-personaje.webp', f'{SITIO}/img/{l}-bestiario.webp'],
+         'sameAs': [generar_linajes.TIKTOK], 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}},
+        {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Kinstride', 'url': f'{SITIO}/', 'inLanguage': ['en', 'es']}
+    ], ensure_ascii=False)
     img_hoja = lambda n, tam, extra='', alt='': f'<img src="/img/{l}-hoja-{n}.webp" srcset="/img/{l}-hoja-{n}-360.webp 360w, /img/{l}-hoja-{n}.webp 720w" sizes="{tam}" alt="{alt}" width="720" height="1272" {extra}>'
     capturas = '\n'.join(
         f'<figure><img src="/img/{l}-{n}.webp" srcset="/img/{l}-{n}-240.webp 240w, /img/{l}-{n}.webp 480w" sizes="min(230px, 62vw)" alt="{txt}" width="480" height="839" loading="lazy"><figcaption>{txt}</figcaption></figure>'
@@ -175,6 +179,7 @@ def pagina(t: dict) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{t['titulo']}</title>
 <meta name="description" content="{t['desc']}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta property="og:title" content="{t['titulo']}">
 <meta property="og:description" content="{t['desc']}">
 <meta property="og:type" content="website">
@@ -190,13 +195,14 @@ def pagina(t: dict) -> str:
 <link rel="icon" href="/favicon.png" sizes="32x32">
 <link rel="icon" href="/img/icono-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
-<meta name="theme-color" content="#20281f">
+<meta name="theme-color" content="#1B1C1F">
 <link rel="alternate" hreflang="en" href="{SITIO}/">
 <link rel="alternate" hreflang="es" href="{SITIO}/es/">
 <link rel="alternate" hreflang="x-default" href="{SITIO}/">
 <script type="application/ld+json">{datos}</script>
-<link rel="preload" href="/fuentes/im-fell-english-sc-normal-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fuentes/alegreya-sans-normal-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fuentes/saira-extra-condensed-normal-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fuentes/saira-extra-condensed-normal-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fuentes/schibsted-grotesk-normal-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="/img/{l}-hoja-mira.webp" imagesrcset="/img/{l}-hoja-mira-360.webp 360w, /img/{l}-hoja-mira.webp 720w" imagesizes="{ABANICO_TAM}" fetchpriority="high">
 <link rel="stylesheet" href="/estilo.css">
 {UMAMI}
@@ -250,7 +256,7 @@ def pagina(t: dict) -> str:
 (RAIZ / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
 direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/'] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD)
 (RAIZ / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                  + ''.join(f'<url><loc>{SITIO}{d}</loc></url>\n' for d in direcciones) + '</urlset>\n')
+                                  + ''.join(f'<url><loc>{SITIO}{d}</loc><lastmod>2026-11-04</lastmod></url>\n' for d in direcciones) + '</urlset>\n')
 (RAIZ / '404.html').write_text('''<!doctype html>
 <html lang="en">
 <head>

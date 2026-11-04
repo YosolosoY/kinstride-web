@@ -134,6 +134,7 @@ def cabeza(lang, sitio, umami, titulo, desc, url, otra, og, extra=''):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{titulo}</title>
 <meta name="description" content="{desc}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta property="og:title" content="{titulo}">
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
@@ -148,12 +149,13 @@ def cabeza(lang, sitio, umami, titulo, desc, url, otra, og, extra=''):
 <link rel="icon" href="/favicon.png" sizes="32x32">
 <link rel="icon" href="/img/icono-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/img/icono-180.png">
-<meta name="theme-color" content="#20281f">
+<meta name="theme-color" content="#1B1C1F">
 <link rel="alternate" hreflang="en" href="{sitio}{en}">
 <link rel="alternate" hreflang="es" href="{sitio}{es}">
 <link rel="alternate" hreflang="x-default" href="{sitio}{en}">
-<link rel="preload" href="/fuentes/im-fell-english-sc-normal-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fuentes/alegreya-sans-normal-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fuentes/saira-extra-condensed-normal-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fuentes/saira-extra-condensed-normal-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fuentes/schibsted-grotesk-normal-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/estilo.css">
 {umami}{extra}
 </head>
@@ -192,7 +194,11 @@ def pagina_test(lang, raiz, sitio, umami, srd):
     j = json.dumps({'reglas': datos['reglas'], 'razas': razas, 'preguntas': preguntas, 't': textos}, ensure_ascii=False, separators=(',', ':'))
     faq = ''.join(f'<h3>{q}</h3><p>{a}</p>' for q, a in t['faq'])
     u, o = RUTA[lang]['test'], RUTA[otro]['test']
-    html = cabeza(lang, sitio, umami, t['test_titulo'], t['test_desc'], u, o, f'/img/og-test-{lang}.jpg') + barra(lang, o) + f'''<main class="ancho">
+    faq_ld = '<script type="application/ld+json">' + json.dumps({
+        '@context': 'https://schema.org', '@type': 'FAQPage',
+        'mainEntity': [{'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q, a in t['faq']]
+    }, ensure_ascii=False) + '</script>' + miga(sitio, [('Kinstride', RUTA[lang]['inicio']), (t['nav_test'], u)])
+    html = cabeza(lang, sitio, umami, t['test_titulo'], t['test_desc'], u, o, f'/img/og-test-{lang}.jpg', faq_ld) + barra(lang, o) + f'''<main class="ancho">
 <section class="test-portada"><h1>{t['test_h1']}</h1><p class="intro">{t['test_intro']}</p>
 <div id="test" class="test" aria-live="polite"><button type="button" id="test-empezar" class="boton">{t['empezar']}</button><div class="test-linajes">{tarjetas(lang, datos, carga='eager')}</div></div>
 <noscript><p><a href="{RUTA[lang]['linajes']}">{t['sin_js']}</a></p></noscript></section>
@@ -223,7 +229,11 @@ def pagina_linajes(lang, raiz, sitio, umami, srd):
     datos_otro = {r['id']: r for r in datos['razas']}
     u, o = RUTA[lang]['linajes'], RUTA[otro]['linajes']
     lista = ''.join(f'''<article class="linaje-fila"><a href="{url_linaje(lang, i)}"><img src="/img/raza-{i}.webp" alt="{datos_otro[i]['nombre']}" width="360" height="480" loading="lazy"></a><div><h2><a href="{url_linaje(lang, i)}">{datos_otro[i]['nombre']}</a></h2><p>{datos_otro[i]['resumen']}.</p></div></article>''' for i in ORDEN)
-    html = cabeza(lang, sitio, umami, t['linajes_titulo'], t['linajes_desc'], u, o, f'/img/og-test-{lang}.jpg') + barra(lang, o) + f'''<main class="ancho">
+    lista_ld = '<script type="application/ld+json">' + json.dumps({
+        '@context': 'https://schema.org', '@type': 'ItemList', 'name': t['linajes_h1'],
+        'itemListElement': [{'@type': 'ListItem', 'position': idx + 1, 'name': datos_otro[i]['nombre'], 'url': sitio + url_linaje(lang, i)} for idx, i in enumerate(ORDEN)]
+    }, ensure_ascii=False) + '</script>' + miga(sitio, [('Kinstride', RUTA[lang]['inicio']), (t['intro_miga'], u)])
+    html = cabeza(lang, sitio, umami, t['linajes_titulo'], t['linajes_desc'], u, o, f'/img/og-test-{lang}.jpg', lista_ld) + barra(lang, o) + f'''<main class="ancho">
 <h1>{t['linajes_h1']}</h1><p class="intro">{t['linajes_intro']}</p>
 <div class="linajes-lista">{lista}</div>
 {cta(lang)}</main>
