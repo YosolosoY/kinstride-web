@@ -8,6 +8,7 @@ import re
 from pathlib import Path
 
 TIKTOK = 'https://www.tiktok.com/@kinstrideapp'
+YOUTUBE = 'https://www.youtube.com/@Kinstride'
 SLUG = {'en': {'mediano': 'halfling', 'enano': 'dwarf', 'humano': 'human', 'elfo': 'elf', 'orco': 'orc', 'arboreo': 'barkfolk', 'gnomo': 'gnome', 'goliat': 'goliath', 'ascuano': 'emberkin'},
         'es': {'mediano': 'mediano', 'enano': 'enano', 'humano': 'humano', 'elfo': 'elfo', 'orco': 'orco', 'arboreo': 'arboreo', 'gnomo': 'gnomo', 'goliat': 'goliat', 'ascuano': 'ascuano'}}
 RUTA = {'en': {'inicio': '/', 'test': '/test/', 'linajes': '/lineages/'}, 'es': {'inicio': '/es/', 'test': '/es/test/', 'linajes': '/es/linajes/'}}
@@ -172,7 +173,7 @@ def barra(lang, otra):
 def pie(lang, srd):
     t = T[lang]
     return f'''<footer class="ancho">
-<p class="pie"><a href="{RUTA[lang]['test']}">{t['nav_test']}</a> · <a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a> · <a href="{TIKTOK}" rel="me">TikTok</a> · <a href="/discord/">Discord</a> · <a href="{t['priv'][0]}">{t['priv'][1]}</a> · <a href="{t['borrar'][0]}">{t['borrar'][1]}</a></p>
+<p class="pie"><a href="{RUTA[lang]['test']}">{t['nav_test']}</a> · <a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a> · <a href="{TIKTOK}" rel="me">TikTok</a> · <a href="{YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{t['priv'][0]}">{t['priv'][1]}</a> · <a href="{t['borrar'][0]}">{t['borrar'][1]}</a></p>
 <p class="pie legal">{srd}</p>
 </footer>
 </body>

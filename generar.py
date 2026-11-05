@@ -155,7 +155,7 @@ def pagina(t: dict) -> str:
         {'@context': 'https://schema.org', '@type': 'MobileApplication', 'name': 'Kinstride', 'url': url,
          'description': t['desc'], 'operatingSystem': 'Android', 'applicationCategory': 'GameApplication', 'applicationSubCategory': 'RolePlaying', 'inLanguage': ['en', 'es'],
          'image': f'{SITIO}/img/compartir.jpg', 'screenshot': [f'{SITIO}/img/{l}-mapa.webp', f'{SITIO}/img/{l}-personaje.webp', f'{SITIO}/img/{l}-bestiario.webp'],
-         'sameAs': [generar_linajes.TIKTOK], 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}},
+         'sameAs': [generar_linajes.TIKTOK, generar_linajes.YOUTUBE], 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}},
         {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Kinstride', 'url': f'{SITIO}/', 'inLanguage': ['en', 'es']}
     ], ensure_ascii=False)
     img_hoja = lambda n, tam, extra='', alt='': f'<img src="/img/{l}-hoja-{n}.webp" srcset="/img/{l}-hoja-{n}-360.webp 360w, /img/{l}-hoja-{n}.webp 720w" sizes="{tam}" alt="{alt}" width="720" height="1272" {extra}>'
@@ -243,7 +243,7 @@ def pagina(t: dict) -> str:
 </div>
 </main>
 <footer class="ancho">
-<p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="/discord/">Discord</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a> · <a href="{t['otro']}">{t['otro_nombre']}</a></p>
+<p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="{generar_linajes.YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a> · <a href="{t['otro']}">{t['otro_nombre']}</a></p>
 <p class="pie legal">{SRD}</p>
 </footer>
 </body>
@@ -256,7 +256,7 @@ def pagina(t: dict) -> str:
 (RAIZ / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
 direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/'] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD)
 (RAIZ / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                  + ''.join(f'<url><loc>{SITIO}{d}</loc><lastmod>2026-11-04</lastmod></url>\n' for d in direcciones) + '</urlset>\n')
+                                  + ''.join(f'<url><loc>{SITIO}{d}</loc><lastmod>2026-11-05</lastmod></url>\n' for d in direcciones) + '</urlset>\n')
 (RAIZ / '404.html').write_text('''<!doctype html>
 <html lang="en">
 <head>
