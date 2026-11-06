@@ -50,6 +50,7 @@ T = {
             ('How often do you go out?', ['One or two days a week', 'Three or four days a week', 'Most days', 'Every day']),
         ],
         pregunta='Question', atras='← Back', caminas='You walk like {}', ver='More about the {}', compartir='Share my result', copiado='Link copied', repetir='Take it again',
+        ir_app='Walk with the Android app', ir_discord='Claim your {} role on Discord',
         raro='A rare lineage: in the app, Pro reveals it.', estimado='An estimate from your answers. The app reads your real walks, so it may tell you something else.',
         texto_compartir='I walk like {}. Which lineage do you walk like?',
         linajes_titulo='The 9 Fantasy Lineages of Kinstride, by Walking Style',
@@ -58,7 +59,8 @@ T = {
         test_cta='Take the walking test', test_cta_p='Not sure which one is yours?', mide_t='What the app measures', mide_p='These are the marks that give full score, taken straight from the rules of the app. You get partial score on the way there.',
         col=('Measure', 'Full score at'), llave='the key', llave_p='Without the key measure there is no {}, whatever the rest says.',
         variantes_t='Variants', variantes_p='With Pro, where and how you walk can make you a variant:', otros_t='The other lineages', raro_pag='A rare lineage. Kinstride calculates it for everyone; Pro reveals it.', gratis_pag='One of the six lineages open to everyone.', intro_miga='Lineages',
-        tester_p='Kinstride is in closed testing on Android. Test it for 14 days and see what your real walks say.',
+        tester_p='Kinstride is in closed testing on Android. Test it for 14 days and see what your real walks say, or join the community on Discord to claim your lineage role.',
+        discord_btn='Join Discord',
     ),
     'es': dict(
         marca='Inicio de Kinstride', pag_desc='{resumen}. Cómo camina {art}, qué mide Kinstride y un test gratis de linajes.', nav_test='Test de caminar', nav_linajes='Linajes', otro='English', tester='Ser tester', tester_url='/es/#tester',
@@ -82,6 +84,7 @@ T = {
             ('¿Cada cuánto sales?', ['Uno o dos días a la semana', 'Tres o cuatro días a la semana', 'Casi todos los días', 'Todos los días']),
         ],
         pregunta='Pregunta', atras='← Atrás', caminas='Caminas como {}', ver='Más sobre el {}', compartir='Compartir mi resultado', copiado='Enlace copiado', repetir='Repetir el test',
+        ir_app='Caminar con la app en Android', ir_discord='Reclamar mi rol de {} en Discord',
         raro='Un linaje raro: en la app lo revela Pro.', estimado='Es una estimación con tus respuestas. La app lee tus caminatas reales, así que puede decirte otra cosa.',
         texto_compartir='Camino como {}. ¿A qué linaje te pareces tú?',
         linajes_titulo='Los 9 linajes de fantasía de Kinstride, según cómo caminas',
@@ -90,7 +93,8 @@ T = {
         test_cta='Hacer el test', test_cta_p='¿No sabes cuál es el tuyo?', mide_t='Qué mide la app', mide_p='Estas son las marcas que dan el puntaje completo, tomadas directamente de las reglas de la app. Antes de llegar a ellas sumas una parte.',
         col=('Medida', 'Puntaje completo'), llave='la llave', llave_p='Sin la medida llave no hay {}, diga lo que diga el resto.',
         variantes_t='Variantes', variantes_p='Con Pro, dónde y cómo caminas puede volverte una variante:', otros_t='Los otros linajes', raro_pag='Un linaje raro. Kinstride lo calcula para todos; Pro lo revela.', gratis_pag='Uno de los seis linajes abiertos a todos.', intro_miga='Linajes',
-        tester_p='Kinstride está en prueba cerrada en Android. Pruébala 14 días y mira qué dicen tus caminatas reales.',
+        tester_p='Kinstride está en prueba cerrada en Android. Pruébala 14 días y mira qué dicen tus caminatas reales, o entra a nuestra comunidad en Discord para reclamar el rol de tu linaje.',
+        discord_btn='Entrar a Discord',
     ),
 }
 
@@ -192,7 +196,7 @@ def pagina_test(lang, raiz, sitio, umami, srd):
     otro = 'es' if lang == 'en' else 'en'
     razas = {r['id']: {'nombre': r['nombre'], 'resumen': r['resumen'], 'pro': r['pro'], 'conArticulo': C[r['id']][lang]['art'], 'url': url_linaje(lang, r['id']), 'img': f"/img/raza-{r['id']}.webp"} for r in datos['razas']}
     preguntas = [{'q': q, 'a': [[o, RESPUESTAS[i][j]] for j, o in enumerate(ops)]} for i, (q, ops) in enumerate(t['preguntas'])]
-    textos = {k: t[k] for k in ('pregunta', 'atras', 'caminas', 'ver', 'compartir', 'copiado', 'repetir', 'raro', 'estimado')} | {'textoCompartir': t['texto_compartir']}
+    textos = {k: t[k] for k in ('pregunta', 'atras', 'caminas', 'ver', 'compartir', 'copiado', 'repetir', 'raro', 'estimado', 'ir_app', 'ir_discord', 'tester_url')} | {'textoCompartir': t['texto_compartir']}
     j = json.dumps({'reglas': datos['reglas'], 'razas': razas, 'preguntas': preguntas, 't': textos}, ensure_ascii=False, separators=(',', ':'))
     faq = ''.join(f'<h3>{q}</h3><p>{a}</p>' for q, a in t['faq'])
     u, o = RUTA[lang]['test'], RUTA[otro]['test']
@@ -205,7 +209,7 @@ def pagina_test(lang, raiz, sitio, umami, srd):
 <div id="test" class="test" aria-live="polite"><button type="button" id="test-empezar" class="boton">{t['empezar']}</button><div class="test-linajes">{tarjetas(lang, datos, carga='eager')}</div></div>
 <noscript><p><a href="{RUTA[lang]['linajes']}">{t['sin_js']}</a></p></noscript></section>
 <section class="amplia"><h2>{t['faq_t']}</h2>{faq}</section>
-</main>
+{cta(lang)}</main>
 <script type="application/json" id="datos-test">{j}</script>
 <script src="/test.js" defer></script>
 ''' + pie(lang, srd)
@@ -221,7 +225,7 @@ def miga(sitio, items):
 
 def cta(lang):
     t = T[lang]
-    return f'''<section class="resumen tester"><p>{t['test_cta_p']} <a href="{RUTA[lang]['test']}">{t['test_cta']}</a>.</p><p>{t['tester_p']}</p><p class="botones"><a class="boton" href="{t['tester_url']}" data-umami-event="ser-tester">{t['tester']}</a></p></section>
+    return f'''<section class="resumen tester"><p>{t['test_cta_p']} <a href="{RUTA[lang]['test']}">{t['test_cta']}</a>.</p><p>{t['tester_p']}</p><p class="botones"><a class="boton" href="{t['tester_url']}" data-umami-event="ser-tester">{t['tester']}</a> <a class="boton secundario" href="/discord/" data-umami-event="cta-discord">{t['discord_btn']}</a></p></section>
 '''
 
 

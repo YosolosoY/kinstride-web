@@ -101,11 +101,17 @@
     nota.textContent = g.pro ? `${d.t.raro} ${d.t.estimado}` : d.t.estimado;
     const acc = document.createElement('p');
     acc.className = 'botones';
-    const ver = document.createElement('a');
-    ver.className = 'boton';
-    ver.href = g.url;
-    ver.textContent = d.t.ver.replace('{}', g.nombre);
-    acc.append(ver, boton(d.t.compartir, 'boton secundario', async (e) => {
+    const irApp = document.createElement('a');
+    irApp.className = 'boton';
+    irApp.href = d.t.tester_url || '/#tester';
+    irApp.textContent = d.t.ir_app;
+    irApp.addEventListener('click', () => evento('test-ir-app', { linaje: r[0].id }));
+    const irDisc = document.createElement('a');
+    irDisc.className = 'boton secundario';
+    irDisc.href = '/discord/';
+    irDisc.textContent = d.t.ir_discord.replace('{}', g.nombre);
+    irDisc.addEventListener('click', () => evento('test-ir-discord', { linaje: r[0].id }));
+    acc.append(irApp, irDisc, boton(d.t.compartir, 'boton secundario', async (e) => {
       const url = new URL(g.url, location.href).href;
       const texto = d.t.textoCompartir.replace('{}', g.conArticulo);
       evento('test-compartir', { linaje: r[0].id });
@@ -116,8 +122,14 @@
         e.target.textContent = d.t.copiado;
       }
     }));
+    const mas = document.createElement('p');
+    const ver = document.createElement('a');
+    ver.href = g.url;
+    ver.textContent = d.t.ver.replace('{}', g.nombre);
+    const sep = document.createTextNode(' · ');
     const otra = boton(d.t.repetir, 'test-atras', () => { res.length = 0; pregunta(0); });
-    div.append(h, res1, ul, nota, acc, otra);
+    mas.append(ver, sep, otra);
+    div.append(h, res1, ul, nota, acc, mas);
     const f = document.createElement('div');
     f.className = 'test-resultado';
     f.append(fig, div);
