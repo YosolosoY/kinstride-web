@@ -10,8 +10,9 @@ from pathlib import Path
 TIKTOK = 'https://www.tiktok.com/@kinstrideapp'
 INSTAGRAM = 'https://www.instagram.com/kinstrideapp/'
 YOUTUBE = 'https://www.youtube.com/@Kinstride'
-ARTISTAS = 'https://drive.google.com/drive/folders/1OBFikRTkBE2lEb-fHCZbTaovcWxoU2fB'
+ARTISTAS = 'https://drive.google.com/drive/folders/1OBFikRTkBE2lEb-fHCZbTaovcWxoU2fB'  # carpeta de Drive PRIVADA: se pide acceso desde la página de artistas
 ARTISTAS_T = {'en': 'Artists', 'es': 'Artistas'}
+ARTISTAS_URL = {'en': '/artists/', 'es': '/es/artistas/'}
 SLUG = {'en': {'mediano': 'halfling', 'enano': 'dwarf', 'humano': 'human', 'elfo': 'elf', 'orco': 'orc', 'arboreo': 'barkfolk', 'gnomo': 'gnome', 'goliat': 'goliath', 'ascuano': 'emberkin'},
         'es': {'mediano': 'mediano', 'enano': 'enano', 'humano': 'humano', 'elfo': 'elfo', 'orco': 'orco', 'arboreo': 'arboreo', 'gnomo': 'gnomo', 'goliat': 'goliat', 'ascuano': 'ascuano'}}
 RUTA = {'en': {'inicio': '/', 'test': '/test/', 'linajes': '/lineages/'}, 'es': {'inicio': '/es/', 'test': '/es/test/', 'linajes': '/es/linajes/'}}
@@ -182,7 +183,7 @@ def barra(lang, otra):
 def pie(lang, srd):
     t = T[lang]
     return f'''<footer class="ancho">
-<p class="pie"><a href="{RUTA[lang]['test']}">{t['nav_test']}</a> · <a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a> · <a href="{TIKTOK}" rel="me">TikTok</a> · <a href="{INSTAGRAM}" rel="me">Instagram</a> · <a href="{YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{ARTISTAS}" rel="noopener">{ARTISTAS_T[lang]}</a> · <a href="{t['priv'][0]}">{t['priv'][1]}</a> · <a href="{t['borrar'][0]}">{t['borrar'][1]}</a></p>
+<p class="pie"><a href="{RUTA[lang]['test']}">{t['nav_test']}</a> · <a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a> · <a href="{TIKTOK}" rel="me">TikTok</a> · <a href="{INSTAGRAM}" rel="me">Instagram</a> · <a href="{YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{ARTISTAS_URL[lang]}">{ARTISTAS_T[lang]}</a> · <a href="{t['priv'][0]}">{t['priv'][1]}</a> · <a href="{t['borrar'][0]}">{t['borrar'][1]}</a></p>
 <p class="pie legal">{srd}</p>
 </footer>
 </body>
