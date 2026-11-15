@@ -139,6 +139,14 @@ def unidades(soup: BeautifulSoup):
 def parsear(pag: str) -> BeautifulSoup:
     return BeautifulSoup(archivo(pag).read_text(), 'html.parser')
 
+ILUSTRADORES = {
+    'Illustrators': {'pt': 'Ilustradores', 'fr': 'Illustrateurs', 'de': 'Illustratoren', 'it': 'Illustratori'},
+    'The illustrations in Kinstride are drawn by these artists. Each piece carries the artist’s name.': {
+        'pt': 'As ilustrações do Kinstride são desenhadas por estes artistas. Cada peça leva o nome de quem a desenhou.',
+        'fr': 'Les illustrations de Kinstride sont dessinées par ces artistes. Chaque pièce porte le nom de son auteur.',
+        'de': 'Die Illustrationen in Kinstride stammen von diesen Künstlern. Jedes Werk trägt den Namen seiner Urheber.',
+        'it': 'Le illustrazioni di Kinstride sono disegnate da questi artisti. Ogni opera porta il nome di chi l’ha disegnata.'}}
+
 def cache(lang: str) -> dict:
     p = CACHE / f'{lang}.json'
     return json.loads(p.read_text()) if p.exists() else {}
@@ -153,9 +161,15 @@ def cmd_faltan():
     print(f'{len(todas)} textos únicos en {len(paginas_en())} páginas ({sum(len(t) for t in todas.values())} caracteres)')
     # textos legales que se dejan en inglés tal cual (licencia CC-BY del SRD y la declaración de Health Connect que exige Google)
     fijos = {h for h, t in todas.items() if t.startswith(('This work includes material from the System Reference Document', 'The use of information received from Health Connect'))}
+    # la lista de artistas (nombre con enlace a su perfil, sin texto que traducir) también queda tal cual
+    fijos |= {h for h, t in todas.items() if t.startswith('<a href="https://') and 'rel="noopener"' in t and ' · ' in t}
     for lang in NUEVOS:
         c = cache(lang)
         for h in fijos: c.setdefault(h, [todas[h], todas[h]])
+        # la sección de ilustradores de /artists/ (generar.py): traducida a mano, sin API
+        for en, tr in ILUSTRADORES.items():
+            h = huella(en)
+            if en in todas.values(): c.setdefault(h, [en, tr[lang]])
         (CACHE / f'{lang}.json').write_text(json.dumps(c, ensure_ascii=False, indent=1))
         f = {h: t for h, t in todas.items() if h not in c}
         (CACHE / f'faltan-{lang}.json').write_text(json.dumps(f, ensure_ascii=False, indent=1))

@@ -281,8 +281,16 @@ ART = {
    ('Cómo participar', '<ol><li>Pulsa el botón de abajo. Abre una carpeta de Google Drive con la guía de estilo (PDF), la lista de piezas y las imágenes de referencia.</li><li>La carpeta es privada. Entra con tu cuenta de Google y pulsa <b>Solicitar acceso</b>; escribe tu nombre y tu @ de Instagram (o tu web o portafolio si no tienes Instagram) en el mensaje.</li><li>Cuando te den acceso verás la guía y las referencias.</li></ol><p class="botones"><a class="boton" href="__URL__" rel="noopener">Solicitar acceso a la carpeta</a></p><p class="nota">Las imágenes de referencia son el arte actual de la app, hecho con IA: úsalas como guía de qué dibujar y cómo componerlo. No las copies ni las calques.</p>'),
  ])
 }
+# Artistas con obra en la app (datos/artistas.json, exportado de la app con scripts/tienda/artistas-sitio.ts). Con la lista
+# vacía no se añade nada. El crédito es siempre del artista: su nombre enlaza a su Instagram o, si no tiene, a su web.
+_ILUS = {'en': ('Illustrators', 'The illustrations in Kinstride are drawn by these artists. Each piece carries the artist’s name.'),
+         'es': ('Ilustradores', 'Las ilustraciones de Kinstride las dibujan estos artistas. Cada pieza lleva el nombre de quien la dibujó.')}
+_ARTISTAS_APP = json.loads((Path(__file__).parent / 'datos' / 'artistas.json').read_text()) if (Path(__file__).parent / 'datos' / 'artistas.json').exists() else []
 for _k, _a in ART.items():
     _cuerpo = ''.join(f'<h2>{h}</h2>{c}' for h, c in _a['secs']).replace('__URL__', generar_linajes.ARTISTAS)
+    if _ARTISTAS_APP:
+        _li = ''.join(f'<li><a href="{x["enlace"]}" rel="noopener">{x["nombre"]}</a> · {x["visible"]}</li>' for x in _ARTISTAS_APP)
+        _cuerpo = f'<h2>{_ILUS[_k][0]}</h2><p>{_ILUS[_k][1]}</p><ul>{_li}</ul>' + _cuerpo
     _pag = f"""<!doctype html>
 <html lang="{_a['lang']}">
 <head>
