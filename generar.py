@@ -256,8 +256,8 @@ def pagina(t: dict) -> str:
 
 # ---- Página para artistas (la carpeta de Drive es privada: se pide acceso) ----
 ART = {
- 'en': dict(ruta='/artists/', otra='/es/artistas/', lang='en', t='Artists · Kinstride',
-  d='Illustrators: how to put your art in Kinstride, with credit on every piece. Style guide and reference images, free access on request.',
+ 'en': dict(ruta='/artists/', otra='/es/artistas/', lang='en', t='Illustrators wanted: game art with your name on it',
+  d='Kinstride accepts 2 new illustrators a month: your name and link on every piece, US$50 once your first 10 pieces are accepted. Style guide free on request.',
   h1='Put your art in Kinstride', otro='Versión en español',
   resumen='Kinstride is an Android walking game. Every image in it (creatures, scenes, travellers, portraits, objects) can be drawn by a human illustrator, with the artist’s name on every piece. If you are an illustrator and want real work in a published app, this page explains how.',
   secs=[
@@ -268,8 +268,8 @@ ART = {
    ('Terms in short', '<ul><li>You own your work and may show it in your portfolio, social media and CV.</li><li>Kinstride may use it in the app, the store, this site and its promotion, always with your credit. The licence is non-exclusive and of indefinite duration: your piece can stay in Kinstride for as long as it exists.</li><li>Only technical changes are made (ink colour, crop, size, background). Kinstride may add motion to your piece, including with third-party AI tools; it does not publish animations that change your design and does not control how those tools treat files.</li><li>Kinstride does not use your art to train AI or to imitate your style.</li></ul><p class="nota">This is a summary; the collaboration is confirmed in a short signed licence.</p>'),
    ('How to join', '<p><b>We accept 2 new illustrators each month.</b></p><ol><li>Press the button below. It opens a Google Drive folder with the style guide (PDF), the list of pieces and reference images.</li><li>The folder is private. Sign in with your Google account and press <b>Request access</b>; add your name and Instagram handle (or your website or portfolio if you have no Instagram) in the message.</li><li>When access is granted you will see the guide and the references.</li></ol><p class="botones"><a class="boton" href="__URL__" rel="noopener">Request access to the folder</a></p><p class="nota">The reference images are the app’s current AI-made art: use them as a guide for what to draw and how to compose it. Do not copy or trace them.</p>'),
  ]),
- 'es': dict(ruta='/es/artistas/', otra='/artists/', lang='es', t='Artistas · Kinstride',
-  d='Ilustradores: cómo poner tu arte en Kinstride, con crédito en cada pieza. Guía de estilo e imágenes de referencia, acceso gratis por solicitud.',
+ 'es': dict(ruta='/es/artistas/', otra='/artists/', lang='es', t='Se buscan ilustradores: arte de juego con tu nombre',
+  d='Kinstride acepta 2 ilustradores nuevos al mes: tu nombre y enlace en cada pieza, US$50 al aceptarse tus primeras 10 piezas. Guía de estilo gratis por solicitud.',
   h1='Pon tu arte en Kinstride', otro='English version',
   resumen='Kinstride es un juego de caminar para Android. Todas sus imágenes (criaturas, escenas, viajeros, retratos y objetos) pueden ser dibujadas por ilustradores humanos, con el nombre del artista en cada pieza. Si eres ilustrador y quieres trabajo real en una app publicada, aquí te explico cómo.',
   secs=[
@@ -292,6 +292,11 @@ ART['es']['secs'].append(ENLACES['es'])
 ART.update(ARTICULOS)
 for _k, _a in ART.items():
     _cuerpo = _a.get('cuerpo') or ''.join(f'<h2>{h}</h2>{c}' for h, c in _a['secs']).replace('__URL__', generar_linajes.ARTISTAS)
+    if not _a.get('articulo'):
+        _cap = {'en': [('bestiario', 'The bestiary'), ('mapa', 'The map is your home screen'), ('personaje', 'Your stride, read in a radar')],
+                'es': [('bestiario', 'El Bestiario'), ('mapa', 'El mapa es tu pantalla principal'), ('personaje', 'Tu paso, leído en un radar')]}[_a['lang']]
+        _gal = '<div class="galeria">' + ''.join(f'<figure><img src="/img/{_a["lang"]}-{n}.webp" srcset="/img/{_a["lang"]}-{n}-240.webp 240w, /img/{_a["lang"]}-{n}.webp 480w" sizes="min(230px, 62vw)" alt="{txt}" width="480" height="839" loading="lazy"><figcaption>{txt}</figcaption></figure>' for n, txt in _cap) + '</div>'
+        _cuerpo = _gal + _cuerpo
     if _ARTISTAS_APP and not _a.get('articulo'):
         _li = ''.join(f'<li><a href="{x["enlace"]}" rel="noopener">{x["nombre"]}</a> · {x["visible"]}</li>' for x in _ARTISTAS_APP)
         _cuerpo = f'<h2>{_ILUS[_k][0]}</h2><p>{_ILUS[_k][1]}</p><ul>{_li}</ul>' + _cuerpo
