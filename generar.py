@@ -153,10 +153,10 @@ def pagina(t: dict) -> str:
     url = 'https://getkinstride.com' + ('/es/' if l == 'es' else '/')
     datos = json.dumps([
         {'@context': 'https://schema.org', '@type': 'MobileApplication', 'name': 'Kinstride', 'url': url,
-         'description': t['desc'], 'operatingSystem': 'Android', 'applicationCategory': 'GameApplication', 'applicationSubCategory': 'RolePlaying', 'inLanguage': ['en', 'es'],
+         'description': t['desc'], 'operatingSystem': 'Android', 'applicationCategory': 'GameApplication', 'applicationSubCategory': 'RolePlaying', 'inLanguage': ['en', 'es', 'pt', 'fr', 'de', 'it'],
          'image': f'{SITIO}/img/compartir.jpg', 'screenshot': [f'{SITIO}/img/{l}-mapa.webp', f'{SITIO}/img/{l}-personaje.webp', f'{SITIO}/img/{l}-bestiario.webp'],
          'sameAs': [generar_linajes.TIKTOK, generar_linajes.INSTAGRAM, generar_linajes.YOUTUBE], 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}},
-        {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Kinstride', 'url': f'{SITIO}/', 'inLanguage': ['en', 'es']}
+        {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Kinstride', 'url': f'{SITIO}/', 'inLanguage': ['en', 'es', 'pt', 'fr', 'de', 'it']}
     ], ensure_ascii=False)
     img_hoja = lambda n, tam, extra='', alt='': f'<img src="/img/{l}-hoja-{n}.webp" srcset="/img/{l}-hoja-{n}-360.webp 360w, /img/{l}-hoja-{n}.webp 720w" sizes="{tam}" alt="{alt}" width="720" height="1272" {extra}>'
     capturas = '\n'.join(
@@ -290,6 +290,18 @@ for _k, _a in ART.items():
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{_a['t']}</title>
 <meta name="description" content="{_a['d']}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta property="og:title" content="{_a['t']}">
+<meta property="og:description" content="{_a['d']}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kinstride">
+<meta property="og:locale" content="{'es_419' if _a['lang'] == 'es' else 'en_US'}">
+<meta property="og:image" content="{SITIO}/img/compartir.jpg">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta property="og:image:alt" content="{'Logo de Kinstride sobre un mapa de fantasía ilustrado' if _a['lang'] == 'es' else 'Kinstride logo over an illustrated fantasy map'}">
+<meta property="og:url" content="{SITIO}{_a['ruta']}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{SITIO}{_a['ruta']}">
 <link rel="alternate" hreflang="en" href="{SITIO}/artists/">
 <link rel="alternate" hreflang="es" href="{SITIO}/es/artistas/">
@@ -321,7 +333,7 @@ for _k, _a in ART.items():
 (RAIZ / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
 direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/', '/artists/', '/es/artistas/'] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD)
 (RAIZ / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-                                  + ''.join(f'<url><loc>{SITIO}{d}</loc><lastmod>2026-11-05</lastmod></url>\n' for d in direcciones) + '</urlset>\n')
+                                  + ''.join(f'<url><loc>{SITIO}{d}</loc><lastmod>{__import__('datetime').date.today().isoformat()}</lastmod></url>\n' for d in direcciones) + '</urlset>\n')
 (RAIZ / '404.html').write_text('''<!doctype html>
 <html lang="en">
 <head>

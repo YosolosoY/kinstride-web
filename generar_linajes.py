@@ -262,7 +262,7 @@ def pagina_linajes(lang, raiz, sitio, umami, srd):
             var = f'''<section class="amplia"><h2>{t['variantes_t']}</h2><p>{t['variantes_p']}</p><ul>''' + ''.join(f"<li><b>{v['nombre']}.</b> {v['porque']}</li>" for v in r['variantes']) + '</ul></section>'
         miga_j = miga(sitio, [('Kinstride', RUTA[lang]['inicio']), (t['intro_miga'], RUTA[lang]['linajes']), (r['nombre'], u)])
         html = cabeza(lang, sitio, umami, f"{c['titulo']} | Kinstride", t['pag_desc'].format(resumen=r['resumen'], art=c['art']), u, o, f"/img/og-{lang}-{i}.jpg", miga_j) + barra(lang, o) + f'''<main class="ancho">
-<article class="linaje-pag"><img src="/img/raza-{i}.webp" alt="{r['nombre']}: {r['resumen']}" width="360" height="480"><div><p class="miga"><a href="{RUTA[lang]['linajes']}">{t['intro_miga']}</a></p><h1>{c['titulo']}</h1><p class="bajada">{r['resumen']}.</p><p>{c['uno']}</p><p>{c['dos']}</p><p class="nota">{t['raro_pag'] if r['pro'] else t['gratis_pag']}</p></div></article>
+<article class="linaje-pag"><img src="/img/raza-{i}.webp" alt="{r['nombre']}: {r['resumen']}" width="360" height="480" fetchpriority="high"><div><p class="miga"><a href="{RUTA[lang]['linajes']}">{t['intro_miga']}</a></p><h1>{c['titulo']}</h1><p class="bajada">{r['resumen']}.</p><p>{c['uno']}</p><p>{c['dos']}</p><p class="nota">{t['raro_pag'] if r['pro'] else t['gratis_pag']}</p></div></article>
 <section class="amplia"><h2>{t['mide_t']}</h2><p>{t['mide_p']}</p><div class="tabla"><table><thead><tr><th>{t['col'][0]}</th><th>{t['col'][1]}</th></tr></thead><tbody>{filas}</tbody></table></div><p class="nota">{nota}</p></section>
 {var}
 {cta(lang)}<section class="amplia"><h2>{t['otros_t']}</h2><div class="linajes-mini">{tarjetas(lang, datos, i)}</div></section>

@@ -1,0 +1,1866 @@
+{
+"2e5cd5b95b": [
+"This work includes material from the System Reference Document 5.2 (“SRD 5.2”) by Wizards of the Coast LLC, available at <a href=\"https://www.dndbeyond.com/srd\">https://www.dndbeyond.com/srd</a>. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 International License, available at <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\">https://creativecommons.org/licenses/by/4.0/legalcode</a>.",
+"This work includes material from the System Reference Document 5.2 (“SRD 5.2”) by Wizards of the Coast LLC, available at <a href=\"https://www.dndbeyond.com/srd\">https://www.dndbeyond.com/srd</a>. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 International License, available at <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\">https://creativecommons.org/licenses/by/4.0/legalcode</a>."
+],
+"6a5f9055eb": [
+"This work includes material from the System Reference Document 5.2 (“SRD 5.2”) by Wizards of the Coast LLC, available at\nhttps://www.dndbeyond.com/srd, licensed under the Creative Commons Attribution 4.0 International License.",
+"This work includes material from the System Reference Document 5.2 (“SRD 5.2”) by Wizards of the Coast LLC, available at\nhttps://www.dndbeyond.com/srd, licensed under the Creative Commons Attribution 4.0 International License."
+],
+"b04ac8e68a": [
+"The use of information received from Health Connect adheres to the\n<a href=\"https://support.google.com/googleplay/android-developer/answer/12991134\">Health Connect Permissions policy</a>, including the Limited Use requirements.",
+"The use of information received from Health Connect adheres to the\n<a href=\"https://support.google.com/googleplay/android-developer/answer/12991134\">Health Connect Permissions policy</a>, including the Limited Use requirements."
+],
+"009e0180fa": [
+"Everything on your phone is deleted when you uninstall the app. To delete what is stored for Companies, see\n<a href=\"/delete-data/\">Delete your data</a>.",
+"Alles auf deinem Handy wird gelöscht, wenn du die App deinstallierst. Um zu löschen, was für die Gefährten gespeichert ist, siehe\n<a href=\"/delete-data/\">Daten löschen</a>."
+],
+"36f800782d": [
+"This website",
+"Diese Website"
+],
+"0a0e1b9100": [
+"This website counts visits with <a href=\"https://umami.is\">Umami</a>: pages viewed, the site you came from, country, device type and clicks on the tester links and the walking test. The answers to that test stay in your browser: we only count that it was used and which lineage it gave. It uses no cookies, and we use these totals only to see how people find Kinstride. If your browser sends a Do Not Track signal, your visit is not counted. This applies to the website only: the app sends nothing to Umami.",
+"Diese Website zählt Besuche mit <a href=\"https://umami.is\">Umami</a>: aufgerufene Seiten, die Website, von der du kommst, Land, Gerätetyp sowie Klicks auf die Tester-Links und auf den Wandertest. Die Antworten auf diesen Test bleiben in deinem Browser: Wir zählen nur, dass er genutzt wurde und welche Abstammung er ergeben hat. Es werden keine Cookies verwendet, und wir nutzen diese Gesamtwerte nur, um zu sehen, wie Menschen Kinstride finden. Wenn dein Browser ein Do-Not-Track-Signal sendet, wird dein Besuch nicht gezählt. Das gilt nur für die Website: Die App sendet nichts an Umami."
+],
+"8aa57de6dc": [
+"Changes",
+"Änderungen"
+],
+"db7341a59a": [
+"If this policy changes, we will update this page and its date.",
+"Wenn sich diese Richtlinie ändert, aktualisieren wir diese Seite und ihr Datum."
+],
+"2f699a38f0": [
+"Delete your data · Kinstride",
+"Daten löschen · Kinstride"
+],
+"477ec242e2": [
+"How to delete the data Kinstride stores for you, on your phone and in Companies.",
+"So löschst du die Daten, die Kinstride für dich speichert, auf deinem Handy und bei den Gefährten."
+],
+"40ab22037b": [
+"Delete your data",
+"Daten löschen"
+],
+"ced0d0cab7": [
+"Versión en español",
+"Versión en español"
+],
+"8b3c146c86": [
+"Kinstride keeps almost everything on your phone. Here is how to delete each part:",
+"Kinstride speichert fast alles auf deinem Handy. So löschst du die einzelnen Teile:"
+],
+"621f94fdbb": [
+"What is on your phone",
+"Was auf deinem Handy ist"
+],
+"714bbd44c4": [
+"Your height, your journey, your expeditions and your daily steps are only on your phone. Uninstall Kinstride and they are deleted.",
+"Deine Körpergröße, deine Reise, deine Expeditionen und deine täglichen Schritte befinden sich nur auf deinem Handy. Deinstalliere Kinstride, und sie sind gelöscht."
+],
+"fa286d22a2": [
+"What is in the cloud (Companies)",
+"Was in der Cloud ist (Gefährten)"
+],
+"6adf11527e": [
+"If you joined a Company, the cloud holds the name you chose to show, your lineage, your level and your kilometres per day. To delete it:",
+"Wenn du einer Gefährtengruppe beigetreten bist, speichert die Cloud den Namen, den du anzeigen wolltest, deine Abstammung, deine Stufe und deine Kilometer pro Tag. So löschst du sie:"
+],
+"a720c36936": [
+"Open Kinstride.",
+"Öffne Kinstride."
+],
+"c82f79e494": [
+"Go to <b>Character</b> and tap the gear icon (Settings).",
+"Gehe zu <b>Charakter</b> und tippe auf das Zahnradsymbol (Einstellungen)."
+],
+"211f2f1186": [
+"Tap <b>Delete my cloud data</b> and confirm.",
+"Tippe auf <b>Meine Cloud-Daten löschen</b> und bestätige."
+],
+"d6ea34f6b2": [
+"You leave your Company and all your data there is deleted at once. A Company left with no members is deleted too.",
+"Du verlässt deine Gefährtengruppe, und alle deine Daten dort werden sofort gelöscht. Eine Gefährtengruppe ohne Mitglieder wird ebenfalls gelöscht."
+],
+"1201973a21": [
+"What is in your Google Drive",
+"Was in deinem Google Drive ist"
+],
+"af3bb997f3": [
+"If you turned on saving, open Settings in the app, tap <b>Stop saving</b> and choose <b>Delete the copy</b>. Without the app, open Drive on the web, go to Settings, then Manage apps, and delete the hidden Kinstride data.",
+"Wenn du das Speichern aktiviert hast, öffne die Einstellungen in der App, tippe auf <b>Speichern beenden</b> und wähle <b>Kopie löschen</b>. Ohne die App öffnest du Drive im Web, gehst zu Einstellungen, dann zu Apps verwalten, und löschst die versteckten Kinstride-Daten."
+],
+"c275e23d10": [
+"Usage statistics are tied to a random identifier for this installation, not to your name or account, and Google Analytics deletes them after the period set for Kinstride. To stop sending them, open Settings in the app and set <b>Usage statistics</b> to Off.",
+"Nutzungsstatistiken sind mit einer zufälligen Kennung für diese Installation verknüpft, nicht mit deinem Namen oder Konto, und Google Analytics löscht sie nach dem für Kinstride festgelegten Zeitraum. Um das Senden zu beenden, öffne die Einstellungen in der App und stelle <b>Nutzungsstatistiken</b> auf Aus."
+],
+"f75852aabe": [
+"If you no longer have the app",
+"Wenn du die App nicht mehr hast"
+],
+"1cb3ef5cc6": [
+"Write to <a href=\"mailto:lince.revision@gmail.com\">lince.revision@gmail.com</a> with the name you used in your Company and the Company name.\nWe delete the data within 30 days and confirm by email.",
+"Schreibe an <a href=\"mailto:lince.revision@gmail.com\">lince.revision@gmail.com</a> und nenne den Namen, den du in deiner Gefährtengruppe verwendet hast, sowie den Namen der Gefährtengruppe.\nWir löschen die Daten innerhalb von 30 Tagen und bestätigen es per E-Mail."
+],
+"c5e09a97ee": [
+"Purchases are kept by Google Play and RevenueCat as required for payment records.",
+"Käufe werden von Google Play und RevenueCat gespeichert, wie es für Zahlungsunterlagen erforderlich ist."
+],
+"3c0d7e9744": [
+"Artists · Kinstride",
+"Illustrator:innen · Kinstride"
+],
+"ffbd8fc82e": [
+"Illustrators: how to put your art in Kinstride, with credit on every piece. Style guide and reference images, free access on request.",
+"Für Illustrator:innen: So kommt deine Kunst in Kinstride, mit Namensnennung bei jedem Werk. Stilguide und Referenzbilder, Zugang kostenlos auf Anfrage."
+],
+"728433a4d2": [
+"Put your art in Kinstride",
+"Bring deine Kunst in Kinstride"
+],
+"f0f5bdbc09": [
+"Kinstride is an Android walking game. Every image in it (creatures, scenes, travellers, portraits, objects) can be drawn by a human illustrator, with the artist’s name on every piece. If you are an illustrator and want real work in a published app, this page explains how.",
+"Kinstride ist ein Wanderspiel für Android. Jedes Bild darin (Kreaturen, Szenen, Reisende, Porträts, Objekte) kann von einer menschlichen Illustratorin oder einem menschlichen Illustrator gezeichnet werden, mit dem Namen der Künstlerin oder des Künstlers bei jedem Werk. Wenn du Illustrator:in bist und echte Arbeit in einer veröffentlichten App willst, erklärt diese Seite, wie."
+],
+"1367903e29": [
+"Why we are doing this",
+"Warum wir das tun"
+],
+"bf6ef15e48": [
+"Kinstride is an independent project. Today its images were generated with AI, and we want to replace them with human work. You get real, published work with a brief, a style guide and review. Later, users will be able to choose which artist’s drawings they see in the app, or see a mix of all of them.",
+"Kinstride ist ein unabhängiges Projekt. Heute wurden die Bilder mit KI erzeugt, und wir wollen sie durch menschliche Arbeit ersetzen. Du bekommst echte, veröffentlichte Arbeit mit Briefing, Stilguide und Durchsicht. Später können Nutzer wählen, welche Zeichnungen sie in der App sehen, oder eine Mischung aus allen."
+],
+"8ac7aa173f": [
+"What you get",
+"Was du bekommst"
+],
+"1683b5477f": [
+"<b>Credit on every piece</b>: your name and a link to your Instagram (or to your website or portfolio if you do not use Instagram) on each of your images, on the postcards users share and on an “Artists” page inside the app.",
+"<b>Namensnennung bei jedem Werk</b>: dein Name und ein Link zu deinem Instagram (oder zu deiner Website oder deinem Portfolio, falls du Instagram nicht nutzt) bei jedem deiner Bilder, auf den Postkarten, die Nutzer teilen, und auf einer Seite „Künstler:innen“ in der App."
+],
+"8d73e7aab3": [
+"An “Artists” page in the app and on this site, with your link.",
+"Eine Seite „Künstler:innen“ in der App und auf dieser Website, mit deinem Link."
+],
+"05beebdaeb": [
+"A signed letter confirming the collaboration: what you did, how many pieces, the date and the Google Play link.",
+"Ein unterschriebenes Schreiben, das die Zusammenarbeit bestätigt: was du gemacht hast, wie viele Werke, das Datum und den Google-Play-Link."
+],
+"ab78be7eff": [
+"Your work counts as “published” when a version that includes it reaches production on Google Play. We will tell you the date.",
+"Dein Werk gilt als „veröffentlicht“, sobald eine Version, die es enthält, bei Google Play in die Produktion geht. Wir nennen dir das Datum."
+],
+"aef4de226a": [
+"What the app needs (281 pieces)",
+"Was die App braucht (281 Werke)"
+],
+"3deb745651": [
+"Type",
+"Art"
+],
+"cfb369a510": [
+"Pieces",
+"Werke"
+],
+"f8c94a3b4b": [
+"What it is",
+"Was es ist"
+],
+"1c0d569446": [
+"Bestiary",
+"Bestiarium"
+],
+"f8cf49be05": [
+"One creature per plate",
+"Eine Kreatur pro Tafel"
+],
+"f77fd1fdb9": [
+"Scenes",
+"Szenen"
+],
+"def5d2e8e1": [
+"12 places + 20 road stretches",
+"12 Orte + 20 Wegabschnitte"
+],
+"f5ecba7425": [
+"Travellers",
+"Reisende"
+],
+"7e2f4f6896": [
+"Characters met on the road",
+"Figuren, denen man auf der Straße begegnet"
+],
+"3753846951": [
+"Portraits",
+"Porträts"
+],
+"ba3993f572": [
+"9 lineages × 12 classes",
+"9 Abstammungen × 12 Klassen"
+],
+"72a83add2c": [
+"Objects",
+"Objekte"
+],
+"e9d25dc10f": [
+"One magic object, centred",
+"Ein magisches Objekt, zentriert"
+],
+"b3907c136c": [
+"You can try all 281 pieces, but you do not have to do them all. You receive the list with exact file names and the text the app shows for each one.",
+"Du kannst alle 281 Werke ausprobieren, musst aber nicht alle machen. Du erhältst die Liste mit den genauen Dateinamen und dem Text, den die App zu jedem Werk zeigt."
+],
+"6d65106285": [
+"Style: Kinstride identity, your touch",
+"Stil: Kinstride-Identität, deine Handschrift"
+],
+"b1a6a7d720": [
+"<b>Fixed:</b> field-notebook look, ink or marker sketch; black and greys only (the app inks it in its own colour, day and night); plain white background; no text or signature inside the image; a recognisable subject with personality.",
+"<b>Festgelegt:</b> Feldnotizbuch-Look, Tusche- oder Markerskizze; nur Schwarz und Grautöne (die App färbt sie in ihrer eigenen Farbe ein, bei Tag und Nacht); schlichter weißer Hintergrund; kein Text und keine Signatur im Bild; ein erkennbares Motiv mit Persönlichkeit."
+],
+"65c13cad03": [
+"<b>Yours:</b> your line, hatching, proportions, stylisation, humour, pose and details.",
+"<b>Deins:</b> deine Linienführung, Schraffur, Proportionen, Stilisierung, dein Humor, die Pose und die Details."
+],
+"04872df71c": [
+"<b>Delivery:</b> PNG, 3:4 (min. 1800×2400 px) for creatures, travellers and portraits; 4:5 (1800×2250) for scenes; 1:1 (1536×1536) for objects.",
+"<b>Lieferung:</b> PNG, 3:4 (mind. 1800×2400 px) für Kreaturen, Reisende und Porträts; 4:5 (1800×2250) für Szenen; 1:1 (1536×1536) für Objekte."
+],
+"76558b464d": [
+"<b>Not allowed:</b> characters or creatures from other franchises, logos, brands, and generative AI to create your piece.",
+"<b>Nicht erlaubt:</b> Figuren oder Kreaturen aus anderen Franchises, Logos, Marken und generative KI zur Erstellung deines Werks."
+],
+"7d0145c119": [
+"Terms in short",
+"Die Bedingungen in Kürze"
+],
+"c0f2975f01": [
+"You own your work and may show it in your portfolio, social media and CV.",
+"Dein Werk gehört dir, und du darfst es in deinem Portfolio, in sozialen Medien und in deinem Lebenslauf zeigen."
+],
+"947add5401": [
+"Kinstride may use it in the app, the store, this site and its promotion, always with your credit. The licence is non-exclusive and of indefinite duration: your piece can stay in Kinstride for as long as it exists.",
+"Kinstride darf es in der App, im Store, auf dieser Website und in der Werbung verwenden, immer mit deiner Namensnennung. Die Lizenz ist nicht exklusiv und zeitlich unbefristet: Dein Werk kann in Kinstride bleiben, solange es die App gibt."
+],
+"9f4698f17e": [
+"Only technical changes are made (ink colour, crop, size, background). Kinstride may add motion to your piece, including with third-party AI tools; it does not publish animations that change your design and does not control how those tools treat files.",
+"Es werden nur technische Änderungen vorgenommen (Tintenfarbe, Zuschnitt, Größe, Hintergrund). Kinstride darf deinem Werk Bewegung hinzufügen, auch mit KI-Werkzeugen von Drittanbietern; es veröffentlicht keine Animationen, die dein Design verändern, und hat keinen Einfluss darauf, wie diese Werkzeuge Dateien behandeln."
+],
+"bd2f26b32d": [
+"Kinstride does not use your art to train AI or to imitate your style.",
+"Kinstride verwendet deine Kunst weder zum Trainieren von KI noch zum Nachahmen deines Stils."
+],
+"5bad04e22b": [
+"This is a summary; the collaboration is confirmed in a short signed licence.",
+"Das ist eine Zusammenfassung; die Zusammenarbeit wird in einer kurzen, unterschriebenen Lizenz bestätigt."
+],
+"8c41406bad": [
+"How to join",
+"So machst du mit"
+],
+"e0dc30ef80": [
+"Press the button below. It opens a Google Drive folder with the style guide (PDF), the list of pieces and reference images.",
+"Drücke auf die Schaltfläche unten. Sie öffnet einen Google-Drive-Ordner mit dem Stilguide (PDF), der Liste der Werke und Referenzbildern."
+],
+"bedc67ff16": [
+"The folder is private. Sign in with your Google account and press <b>Request access</b>; add your name and Instagram handle (or your website or portfolio if you have no Instagram) in the message.",
+"Der Ordner ist privat. Melde dich mit deinem Google-Konto an und drücke auf <b>Zugriff anfordern</b>; gib in der Nachricht deinen Namen und deinen Instagram-Namen an (oder deine Website oder dein Portfolio, falls du kein Instagram hast)."
+],
+"42d96722f8": [
+"When access is granted you will see the guide and the references.",
+"Sobald der Zugriff gewährt ist, siehst du den Guide und die Referenzen."
+],
+"adec724532": [
+"Request access to the folder",
+"Zugriff auf den Ordner anfordern"
+],
+"20f0d23eba": [
+"The reference images are the app’s current AI-made art: use them as a guide for what to draw and how to compose it. Do not copy or trace them.",
+"Die Referenzbilder sind die aktuelle, mit KI erstellte Kunst der App: Nutze sie als Orientierung dafür, was du zeichnen und wie du es komponieren sollst. Kopiere sie nicht und zeichne sie nicht durch."
+],
+"4190c8d7eb": [
+"Kinstride",
+"Kinstride"
+],
+"e7728dad61": [
+"Which Fantasy Lineage Do You Walk Like? Free Test | Kinstride",
+"Welche Abstammung hat dein Gang? Gratis-Test | Kinstride"
+],
+"0ab862b7ce": [
+"Answer 8 questions about how you walk and find out if you walk like an Elf, a Dwarf, a Goliath or something rarer. Free, with no sign-up.",
+"Beantworte 8 Fragen zu deinem Gehstil und finde heraus, ob du wie ein Elf, Zwerg, Goliath oder etwas Selteneres gehst. Kostenlos, ohne Anmeldung."
+],
+"306509a126": [
+"Kinstride home",
+"Kinstride Startseite"
+],
+"94f16f9452": [
+"Walking test",
+"Wandertest"
+],
+"2001ca082b": [
+"Español",
+"Español"
+],
+"5484c2bd40": [
+"Which lineage do you walk like?",
+"Welcher Abstammung entspricht dein Gang?"
+],
+"791fd07629": [
+"Eight questions about how you really walk. One minute, no sign-up, and the answer comes from the same rules the Kinstride app uses on real walks.",
+"Acht Fragen dazu, wie du wirklich gehst. Eine Minute, keine Anmeldung, und die Antwort stammt aus denselben Regeln, die die Kinstride-App bei echten Wanderungen verwendet."
+],
+"946ac318d4": [
+"Start the test",
+"Test starten"
+],
+"2626f41400": [
+"Halfling",
+"Halbling"
+],
+"c06ffc520d": [
+"Dwarf",
+"Zwerg"
+],
+"e31663b107": [
+"Human",
+"Mensch"
+],
+"234ac699c9": [
+"Elf",
+"Elf"
+],
+"25431a9722": [
+"Orc",
+"Ork"
+],
+"1c40aa977a": [
+"Barkfolk",
+"Rindenvolk"
+],
+"862b771db5": [
+"Gnome",
+"Gnom"
+],
+"ca7ea6902f": [
+"Goliath",
+"Goliath"
+],
+"21febe8d0e": [
+"Emberkin",
+"Glutvolk"
+],
+"2f9896f9a4": [
+"This test needs JavaScript. You can still read about the nine lineages.",
+"Dieser Test benötigt JavaScript. Über die neun Abstammungen kannst du trotzdem lesen."
+],
+"2584996eb3": [
+"About this test",
+"Über diesen Test"
+],
+"e21860bf37": [
+"How does it work?",
+"Wie funktioniert er?"
+],
+"1fa83030a3": [
+"Each answer estimates something Kinstride measures on a walk, like pace, stride or climb. Those estimates go through the rules of the app, and the lineage closest to you wins.",
+"Jede Antwort schätzt etwas, das Kinstride bei einer Wanderung misst, etwa Tempo, Schrittlänge oder Anstieg. Diese Schätzungen durchlaufen die Regeln der App, und die Abstammung, die dir am nächsten kommt, gewinnt."
+],
+"283e60c200": [
+"Is it as accurate as the app?",
+"Ist er so genau wie die App?"
+],
+"f933ecae7c": [
+"No. The test trusts your memory. The app measures four weeks of real walks with GPS and your steps, so your lineage there may be different, and it can change when your walking changes.",
+"Nein. Der Test vertraut auf dein Gedächtnis. Die App misst vier Wochen echter Wanderungen mit GPS und deinen Schritten, deshalb kann deine Abstammung dort eine andere sein, und sie kann sich ändern, wenn sich dein Gehen ändert."
+],
+"bb3c4198a7": [
+"Do you save my answers?",
+"Speichert ihr meine Antworten?"
+],
+"70d756f7ea": [
+"<a href=\"/test/\">Take the walking test</a> · <a href=\"/lineages/\">Read about all nine lineages</a> · <a href=\"https://www.tiktok.com/@kinstrideapp\" rel=\"me\">TikTok</a> · <a href=\"https://www.instagram.com/kinstrideapp/\" rel=\"me\">Instagram</a> · <a href=\"https://www.youtube.com/@Kinstride\" rel=\"me\">YouTube</a> · <a href=\"/discord/\">Discord</a> · <a href=\"/artists/\">Artists</a> · <a href=\"/privacy/\">Privacy</a> · <a href=\"/delete-data/\">Delete your data</a> · <a href=\"/es/\">Español</a>",
+"<a href=\"/test/\">Mach den Wandertest</a> · <a href=\"/lineages/\">Lies über alle neun Abstammungen</a> · <a href=\"https://www.tiktok.com/@kinstrideapp\" rel=\"me\">TikTok</a> · <a href=\"https://www.instagram.com/kinstrideapp/\" rel=\"me\">Instagram</a> · <a href=\"https://www.youtube.com/@Kinstride\" rel=\"me\">YouTube</a> · <a href=\"/discord/\">Discord</a> · <a href=\"/artists/\">Künstler</a> · <a href=\"/privacy/\">Datenschutz</a> · <a href=\"/delete-data/\">Lösche deine Daten</a> · <a href=\"/es/\">Español</a>"
+],
+"e976eccef7": [
+"Privacy policy · Kinstride",
+"Datenschutzerklärung · Kinstride"
+],
+"f302571e84": [
+"How Kinstride handles your data: your exact route never leaves your phone, no ads, no selling data.",
+"So geht Kinstride mit deinen Daten um: Deine genaue Route verlässt nie dein Handy, keine Werbung, kein Datenverkauf."
+],
+"7ceacdcaab": [
+"Privacy policy",
+"Datenschutzerklärung"
+],
+"544b9d9fb6": [
+"Last updated: 2 November 2026 · <a href=\"/es/privacidad/\">Versión en español</a>",
+"Zuletzt aktualisiert: 2. November 2026 · <a href=\"/es/privacidad/\">Versión en español</a>"
+],
+"a5c35a050b": [
+"In short: Kinstride turns your walks into a journey. Your exact route never leaves your phone (only an approximate area, for parks and weather). Your steps stay on\nyour phone unless you join a Company, where only your kilometres per day are shared with its members, or you choose to save your journey to your own Google Drive. No ads and no selling data. The app counts usage statistics, which you can turn off.",
+"Kurz gesagt: Kinstride verwandelt deine Wanderungen in eine Reise. Deine genaue Route verlässt nie dein Handy (nur ein ungefähres Gebiet, für Parks und Wetter). Deine Schritte bleiben auf\ndeinem Handy, es sei denn, du trittst einer Gefährtengruppe bei – dann werden nur deine Kilometer pro Tag mit deren Mitgliedern geteilt – oder du speicherst deine Reise in deinem eigenen Google Drive. Keine Werbung und kein Verkauf von Daten. Die App zählt Nutzungsstatistiken, die du ausschalten kannst."
+],
+"9852c0afce": [
+"Who is responsible",
+"Wer verantwortlich ist"
+],
+"829f9ff124": [
+"Kinstride is developed in Chile by an independent developer. For any privacy question, write to\n<a href=\"mailto:lince.revision@gmail.com\">lince.revision@gmail.com</a>.",
+"Kinstride wird in Chile von einem unabhängigen Entwickler entwickelt. Bei Fragen zum Datenschutz schreib an\n<a href=\"mailto:lince.revision@gmail.com\">lince.revision@gmail.com</a>."
+],
+"d18ec514be": [
+"Your height",
+"Deine Körpergröße"
+],
+"51ef1be909": [
+"When you start, Kinstride asks your height to understand whether your stride is short or long for you. It is stored only on your phone.",
+"Beim Start fragt Kinstride nach deiner Körpergröße, um zu verstehen, ob deine Schrittlänge für dich kurz oder lang ist. Sie wird nur auf deinem Handy gespeichert."
+],
+"faa168c4f7": [
+"Location (expeditions)",
+"Standort (Expeditionen)"
+],
+"10c5672c94": [
+"Kinstride uses your location <b>only while an expedition is running</b>, which you start and end yourself. While it runs, a\nnotification stays visible (\"Expedition under way\") so it can keep measuring with the screen off. Kinstride does not use your\nlocation in the background at any other time. Swims and rows read from Health Connect stay on your phone. Journey news are scheduled on your phone and never go through a server. You can turn them off in Settings.",
+"Kinstride nutzt deinen Standort <b>nur während einer laufenden Expedition</b>, die du selbst startest und beendest. Solange sie läuft, bleibt eine\nBenachrichtigung sichtbar („Expedition unterwegs“), damit die Messung auch bei ausgeschaltetem Bildschirm weiterlaufen kann. Zu keinem anderen Zeitpunkt nutzt Kinstride deinen\nStandort im Hintergrund. Schwimm- und Ru1der-Einheiten, die aus Health Connect gelesen werden, bleiben auf deinem Handy. Reisenachrichten werden auf deinem Handy geplant und laufen nie über einen Server. Du kannst sie in den Einstellungen ausschalten."
+],
+"ce03969b13": [
+"From the GPS points it calculates distance, time, pace, pauses and climb. The points themselves are kept only in memory during the\nexpedition and are discarded at the end: <b>your route is never saved and never sent anywhere</b>. Only the summary\n(kilometres, minutes, steps, metres climbed) is stored on your phone.",
+"Aus den GPS-Punkten berechnet die App Distanz, Zeit, Tempo, Pausen und Anstieg. Die Punkte selbst werden nur während der\nExpedition im Arbeitsspeicher gehalten und am Ende verworfen: <b>Deine Route wird nie gespeichert und nie irgendwohin gesendet</b>. Nur die Zusammenfassung\n(Kilometer, Minuten, Schritte, bewältigte Höhenmeter) wird auf deinem Handy gespeichert."
+],
+"da1f331cb2": [
+"At the end of an expedition Kinstride sends an <b>approximate area</b> (never the route) to two free public services:",
+"Am Ende einer Expedition sendet Kinstride ein <b>ungefähres Gebiet</b> (nie die Route) an zwei kostenlose öffentliche Dienste:"
+],
+"df48dda608": [
+"<a href=\"https://www.openstreetmap.org\">OpenStreetMap</a> (Overpass): a rectangle around your walk, rounded to a grid of about 1 km, to get the parks and nature areas nearby. Your phone then calculates what part of the walk went through them; only that percentage is stored. To ask OpenStreetMap only once per area, Kinstride also looks up those squares of about 2 km in its own cache on Supabase, and saves the public park shapes there. The cache holds no account, name or walk.",
+"<a href=\"https://www.openstreetmap.org\">OpenStreetMap</a> (Overpass): ein Rechteck um deine Wanderung, auf ein Raster von etwa 1 km gerundet, um die Parks und Naturgebiete in der Nähe abzurufen. Dein Handy berechnet dann, welcher Teil der Wanderung durch sie führte; nur dieser Prozentsatz wird gespeichert. Damit OpenStreetMap pro Gebiet nur einmal angefragt wird, schlägt Kinstride diese Quadrate von etwa 2 km außerdem in einem eigenen Cache auf Supabase nach und speichert dort die öffentlichen Parkformen. Der Cache enthält weder ein Konto noch einen Namen noch eine Wanderung."
+],
+"b4754b5bca": [
+"<a href=\"https://open-meteo.com\">Open-Meteo</a>: your starting point rounded to about 11 km, to get the temperature and whether it was raining.",
+"<a href=\"https://open-meteo.com\">Open-Meteo</a>: dein Startpunkt, auf etwa 11 km gerundet, um die Temperatur abzurufen und ob es geregnet hat."
+],
+"4855144026": [
+"Neither service receives your name, an account or your route. These results feed some classes and lineage variants.",
+"Keiner der beiden Dienste erhält deinen Namen, ein Konto oder deine Route. Diese Ergebnisse fließen in einige Klassen und Varianten der Abstammung ein."
+],
+"a31d24d93e": [
+"Steps, distance and walks from your watch (Health Connect)",
+"Schritte, Distanz und Wanderungen von deiner Uhr (Health Connect)"
+],
+"c2b00360d6": [
+"If you allow it, Kinstride <b>reads</b> from Health Connect your <b>steps</b> and <b>distance</b> per day, and your <b>exercise sessions</b>\n(only walks, runs, hikes and bike rides, for example from your watch) with their <b>elevation gained</b>, starting on the day you began your journey\nand for the last 30 days at most. It does not read any other health data and never writes to Health Connect.",
+"Wenn du es erlaubst, <b>liest</b> Kinstride aus Health Connect deine <b>Schritte</b> und deine <b>Distanz</b> pro Tag sowie deine <b>Trainingseinheiten</b>\n(nur Wanderungen, Läufe, Bergwanderungen und Radfahrten, zum Beispiel von deiner Uhr) mit ihrem <b>Höhengewinn</b>, beginnend an dem Tag, an dem du deine Reise begonnen hast,\nund höchstens für die letzten 30 Tage. Es liest keine anderen Gesundheitsdaten und schreibt nie in Health Connect."
+],
+"a5ff0245fe": [
+"To find walks in your day, Kinstride also reads when your steps were recorded over the last 28 days. Only the start time, length, steps and an estimate of the distance of each walk it finds stay on your phone. These walks shape your class and, until you have a measured outing, a provisional lineage.",
+"Um Wanderungen in deinem Tag zu finden, liest Kinstride außerdem, wann deine Schritte in den letzten 28 Tagen aufgezeichnet wurden. Nur Startzeit, Länge, Schritte und eine Schätzung der Distanz jeder gefundenen Wanderung bleiben auf deinem Handy. Diese Wanderungen prägen deine Klasse und, bis du eine gemessene Tour hast, eine vorläufige Abstammung."
+],
+"3af1492167": [
+"If you also allow reading in the background, the Kinstride widget reads <b>today’s steps and distance</b> about every 30 minutes with the app closed, only to show them on your home screen. They stay on your phone and are not sent anywhere. You can remove this permission at any time in Health Connect.",
+"Wenn du außerdem das Lesen im Hintergrund erlaubst, liest das Kinstride-Widget etwa alle 30 Minuten bei geschlossener App <b>die heutigen Schritte und die heutige Distanz</b>, nur um sie auf deinem Startbildschirm anzuzeigen. Sie bleiben auf deinem Handy und werden nirgendwohin gesendet. Du kannst diese Berechtigung jederzeit in Health Connect entziehen."
+],
+"a2040f5dcf": [
+"Use: to move your marker along the map, reach camps, level up and estimate the lineage your walking resembles.",
+"Verwendung: um deine Markierung auf der Karte voranzubewegen, Lagerplätze zu erreichen, Stufen aufzusteigen und die Abstammung abzuschätzen, der dein Gehen ähnelt."
+],
+"06116964ee": [
+"Storage: daily totals and a summary of each walk or run (distance, time, steps, climb) on your phone; never the route. If you join a Company, your kilometres per day (not your steps) are sent to it.",
+"Speicherung: Tagessummen und eine Zusammenfassung jeder Wanderung oder jedes Laufs (Distanz, Zeit, Schritte, Anstieg) auf deinem Handy; nie die Route. Wenn du einer Gefährtengruppe beitrittst, werden deine Kilometer pro Tag (nicht deine Schritte) an sie gesendet."
+],
+"44127877bb": [
+"Kinstride does not use this data for advertising, does not sell it and does not share it with anyone else.",
+"Kinstride verwendet diese Daten nicht für Werbung, verkauft sie nicht und gibt sie an niemanden sonst weiter."
+],
+"5685ac7c19": [
+"You can remove the permission at any time in Health Connect (Kinstride › Settings › Open Health Connect).",
+"Du kannst die Berechtigung jederzeit in Health Connect entziehen (Kinstride › Einstellungen › Health Connect öffnen)."
+],
+"9dba7ad7c5": [
+"Companies",
+"Gefährtengruppen"
+],
+"ebf83f5e44": [
+"A Company lets up to 9 friends move one marker together. To use it, Kinstride creates an <b>anonymous account</b> on this phone: no\nemail, no password, no name from your Google account. The Company stores: the name you choose to show, your lineage, your level, your\ncharacter sheet (class, abilities, equipped item, total distance and camps), your kilometres per day since you joined, and the start and end time of your outings (not where), to know when members walked together. Only members of the same Company can see them. It is stored with\n<a href=\"https://supabase.com\">Supabase</a>, our provider, over an encrypted connection.",
+"Eine Gefährtengruppe lässt bis zu 9 Freunde gemeinsam eine Markierung bewegen. Um sie zu nutzen, legt Kinstride auf diesem Handy ein <b>anonymes Konto</b> an: keine\nE-Mail, kein Passwort, kein Name aus deinem Google-Konto. Die Gefährtengruppe speichert: den Namen, den du anzeigen möchtest, deine Abstammung, deine Stufe, deinen\nCharakterbogen (Klasse, Fähigkeiten, ausgerüsteter Gegenstand, Gesamtdistanz und Lagerplätze), deine Kilometer pro Tag seit deinem Beitritt sowie Start- und Endzeit deiner Touren (nicht wo), um zu wissen, wann Mitglieder gemeinsam gewandert sind. Nur Mitglieder derselben Gefährtengruppe können sie sehen. Sie werden bei\n<a href=\"https://supabase.com\">Supabase</a>, unserem Anbieter, über eine verschlüsselte Verbindung gespeichert."
+],
+"6c4e94f104": [
+"Purchases",
+"Käufe"
+],
+"19a152ca8e": [
+"Kinstride Pro is purchased through Google Play; we never see your card. To know what you bought we use\n<a href=\"https://www.revenuecat.com\">RevenueCat</a>, which receives the purchase information (product, date and status) linked to an\nidentifier of this app.",
+"Kinstride Pro wird über Google Play gekauft; deine Karte sehen wir nie. Um zu wissen, was du gekauft hast, nutzen wir\n<a href=\"https://www.revenuecat.com\">RevenueCat</a>, das die Kaufinformationen (Produkt, Datum und Status) erhält, verknüpft mit einer\nKennung dieser App."
+],
+"38d0ba4d52": [
+"Saving your journey (optional)",
+"Deine Reise speichern (optional)"
+],
+"6aec7275ef": [
+"If you turn on <b>Save with Google</b>, the app keeps a copy of your journey in a hidden folder of your own Google Drive, which only Kinstride can see. The copy holds your height, your journey, your expedition summaries, your daily steps and distance, your settings and a secret key that recovers your Company place. It holds no coordinates or routes, and it does not go through any Kinstride server. The app can only reach that hidden folder, not the rest of your Drive. To stop, open Settings, tap <b>Stop saving</b> and choose whether to delete the copy. You can also export your journey to a file, which stays wherever you put it.",
+"Wenn du <b>Mit Google speichern</b> einschaltest, legt die App eine Kopie deiner Reise in einem versteckten Ordner in deinem eigenen Google Drive ab, den nur Kinstride sehen kann. Die Kopie enthält deine Körpergröße, deine Reise, die Zusammenfassungen deiner Expeditionen, deine täglichen Schritte und deine Distanz, deine Einstellungen und einen geheimen Schlüssel, mit dem du deinen Platz in der Gefährtengruppe wiederherstellst. Sie enthält keine Koordinaten oder Routen und läuft über keinen Kinstride-Server. Die App kann nur auf diesen versteckten Ordner zugreifen, nicht auf den Rest deines Drive. Zum Beenden öffne die Einstellungen, tippe auf <b>Speichern beenden</b> und wähle, ob die Kopie gelöscht werden soll. Du kannst deine Reise auch in eine Datei exportieren, die dort bleibt, wo du sie ablegst."
+],
+"966aad6d34": [
+"Usage statistics",
+"Nutzungsstatistiken"
+],
+"011cfd8f58": [
+"The app uses Google Analytics for Firebase to count actions such as finishing the welcome, starting or finishing an expedition, seeing the Pro screen, buying Pro or joining a Company, so we can see what to improve. Google also receives the app version, device model, a random identifier for this installation and an approximate country derived from your connection. Kinstride never sends your steps, distance, route, height, lineage, or anything read from Health Connect, and it does not use the advertising identifier. These statistics are not used for ads. To turn them off, open Settings in the app and set Usage statistics to Off.",
+"Die App nutzt Google Analytics for Firebase, um Aktionen zu zählen, etwa das Abschließen der Einführung, das Starten oder Beenden einer Expedition, das Aufrufen des Pro-Bildschirms, den Kauf von Pro oder den Beitritt zu einer Gefährtengruppe, damit wir sehen, was wir verbessern können. Google erhält außerdem die App-Version, das Gerätemodell, eine zufällige Kennung dieser Installation und ein ungefähres Land, das aus deiner Verbindung abgeleitet wird. Kinstride sendet nie deine Schritte, Distanz, Route, Körpergröße, Abstammung oder irgendetwas, das aus Health Connect gelesen wurde, und nutzt die Werbekennung nicht. Diese Statistiken werden nicht für Werbung verwendet. Zum Ausschalten öffne die Einstellungen in der App und stelle Nutzungsstatistiken auf Aus."
+],
+"dcf75191c5": [
+"Children",
+"Kinder"
+],
+"6ea4267b1e": [
+"Kinstride is not directed at children under 13.",
+"Kinstride richtet sich nicht an Kinder unter 13 Jahren."
+],
+"e1081b221f": [
+"Deleting your data",
+"Deine Daten löschen"
+],
+"6f1c17006a": [
+"All in, hard from start to finish. How an Orc walks, what Kinstride measures and a free lineage test.",
+"Voll dabei, hart von Anfang bis Ende. Wie ein Ork geht, was Kinstride misst und ein kostenloser Abstammungstest."
+],
+"1095ad83f5": [
+"Orc: All in, hard from start to finish",
+"Ork: Voll dabei, hart von Anfang bis Ende"
+],
+"f17c932189": [
+"Move Like an Orc: All In, Running",
+"Beweg dich wie ein Ork: Volles Tempo, laufend"
+],
+"80b0598d7c": [
+"Orcs do not stroll. They run most of the way, and they run hard from the first minute to the last.",
+"Orks spazieren nicht. Sie laufen den größten Teil des Weges, und das hart von der ersten bis zur letzten Minute."
+],
+"e86e59b966": [
+"Running comes first: without it there is no Orc. Overall speed and a sustained effort then show how strong that run really is.",
+"Laufen kommt zuerst: Ohne es gibt es keinen Ork. Das Gesamttempo und eine durchgehende Anstrengung zeigen dann, wie stark dieser Lauf wirklich ist."
+],
+"99e7f58af4": [
+"Time jogging <em>(the key)</em>",
+"Zeit beim Joggen <em>(der Schlüssel)</em>"
+],
+"131d5576fa": [
+"75 % or more",
+"75 % oder mehr"
+],
+"7b98829695": [
+"Speed on your outings",
+"Tempo bei deinen Touren"
+],
+"6446dd342c": [
+"10 km/h or more (6.2 mph or more)",
+"10 km/h oder mehr (6,2 mph oder mehr)"
+],
+"112db68e07": [
+"±5 % or less",
+"±5 % oder weniger"
+],
+"0f740316bb": [
+"Without the key measure there is no Orc, whatever the rest says.",
+"Ohne das Schlüsselmaß gibt es keinen Ork, egal was der Rest sagt."
+],
+"065694f789": [
+"Walk Like Barkfolk: Slow, for Hours | Kinstride",
+"Geh wie das Rindenvolk: langsam, stundenlang | Kinstride"
+],
+"c82f6a77e0": [
+"Slow to start, never stops, for hours. How Barkfolk walks, what Kinstride measures and a free lineage test.",
+"Langsam im Start, nie am Ende, stundenlang. Wie das Rindenvolk geht, was Kinstride misst und ein kostenloser Abstammungstest."
+],
+"a3bbd08f48": [
+"Barkfolk: Slow to start, never stops, for hours",
+"Rindenvolk: Langsam im Start, hört nie auf, stundenlang"
+],
+"61d688b7f9": [
+"Walk Like Barkfolk: Slow, for Hours",
+"Geh wie das Rindenvolk: langsam, stundenlang"
+],
+"fa441a838e": [
+"Barkfolk are slow to start and slower to stop. Their walking pace is unhurried, their outings last for hours, and they rarely pause, because nothing about the road makes them tired.",
+"Das Rindenvolk kommt langsam in Gang und hört noch langsamer auf. Sein Gehtempo ist gemächlich, seine Touren dauern Stunden, und es hält selten inne, denn nichts an der Straße macht es müde."
+],
+"bce62a89e3": [
+"An unhurried pace comes first. Without it there are no Barkfolk. Long outings with very few stops then deepen the roots.",
+"Ein gemächliches Tempo kommt zuerst. Ohne es gibt es kein Rindenvolk. Lange Touren mit sehr wenigen Pausen lassen die Wurzeln dann tiefer reichen."
+],
+"793d72c6eb": [
+"3.9 km/h or less (2.4 mph or less)",
+"3,9 km/h oder weniger (2,4 mph oder weniger)"
+],
+"fe101fd54b": [
+"140 min or more",
+"140 min oder mehr"
+],
+"cbe2bc521b": [
+"0.3 or less",
+"0,3 oder weniger"
+],
+"7d8f37a9d9": [
+"Without the key measure there is no Barkfolk, whatever the rest says.",
+"Ohne das Schlüsselmaß gibt es kein Rindenvolk, egal was der Rest sagt."
+],
+"91234b6ebf": [
+"Walk Like a Gnome: Tiny, Rapid Steps | Kinstride",
+"Geh wie ein Gnom: winzige, flinke Schritte | Kinstride"
+],
+"94e335ab03": [
+"Tiny, rapid steps and a curious path. How a Gnome walks, what Kinstride measures and a free lineage test.",
+"Winzige, flinke Schritte und ein neugieriger Weg. Wie ein Gnom geht, was Kinstride misst und ein kostenloser Abstammungstest."
+],
+"c777525a54": [
+"Gnome: Tiny, rapid steps and a curious path",
+"Gnom: Winzige, flinke Schritte und ein neugieriger Weg"
+],
+"68653bea0e": [
+"Walk Like a Gnome: Tiny, Rapid Steps",
+"Geh wie ein Gnom: winzige, flinke Schritte"
+],
+"9619b259af": [
+"Gnomes take more steps than anyone else on the road. Their stride is very short for their height and their cadence is very high, as if their feet had something urgent to tell the ground.",
+"Gnome machen mehr Schritte als alle anderen auf der Straße. Ihre Schrittlänge ist für ihre Größe sehr kurz und ihre Schrittfrequenz sehr hoch, als hätten ihre Füße dem Boden etwas Dringendes mitzuteilen."
+],
+"0bb8c055cc": [
+"Kinstride reads only two things here: how short your stride is and how many steps you take per minute.",
+"Kinstride liest hier nur zwei Dinge ab: wie kurz deine Schrittlänge ist und wie viele Schritte du pro Minute machst."
+],
+"0067c35990": [
+"A rare lineage. Kinstride calculates it for everyone; Pro reveals it.",
+"Eine seltene Abstammung. Kinstride berechnet sie für alle; Pro enthüllt sie."
+],
+"a1863a1ce4": [
+"Stride length (of your height)",
+"Schrittlänge (im Verhältnis zu deiner Größe)"
+],
+"c12cb17835": [
+"37 % or less",
+"37 % oder weniger"
+],
+"5541b3116e": [
+"Steps per minute",
+"Schritte pro Minute"
+],
+"44e27d8e8c": [
+"132 or more",
+"132 oder mehr"
+],
+"0fdfa7b426": [
+"<b>Forest Gnome.</b> Your little steps go through parks and nature.",
+"<b>Waldgnom.</b> Deine kleinen Schritte führen durch Parks und Natur."
+],
+"523b9573e6": [
+"<b>Rock Gnome.</b> Your little steps roam the city.",
+"<b>Felsgnom.</b> Deine kleinen Schritte streifen durch die Stadt."
+],
+"59813f3998": [
+"Walk Like a Goliath: Giant Strides | Kinstride",
+"Geh wie ein Goliath: Riesenschritte | Kinstride"
+],
+"259d6c0a8c": [
+"Giant strides for your height. How a Goliath walks, what Kinstride measures and a free lineage test.",
+"Riesenschritte für deine Größe. Wie ein Goliath geht, was Kinstride misst und ein kostenloser Abstammungstest."
+],
+"1f4c6dfab1": [
+"Goliath: Giant strides for your height",
+"Goliath: Riesenschritte für deine Größe"
+],
+"470a80fbfe": [
+"Walk Like a Goliath: Giant Strides",
+"Geh wie ein Goliath: Riesenschritte"
+],
+"e9d2ab8d4c": [
+"Goliaths cover in one step what others need two for. Height is not the point: Kinstride compares your stride with your own height, so anyone with a long reach can be one.",
+"Goliaths schaffen mit einem Schritt, wofür andere zwei brauchen. Auf die Körpergröße kommt es nicht an: Kinstride vergleicht deine Schrittlänge mit deiner eigenen Größe, also kann jeder mit weitem Ausgriff einer sein."
+],
+"e04d182f69": [
+"Only one measure counts here, and it is the length of your stride for your height.",
+"Hier zählt nur ein Maß: deine Schrittlänge im Verhältnis zu deiner Größe."
+],
+"fe10639076": [
+"55 % or more",
+"55 % oder mehr"
+],
+"dc6ad38edd": [
+"<b>Stone Goliath.</b> Your strides climb hills.",
+"<b>Stein-Goliath.</b> Deine Schritte erklimmen Hügel."
+],
+"5d14240974": [
+"<b>Frost Goliath.</b> You walk in the cold (below 8 °C / 46 °F).",
+"<b>Frost-Goliath.</b> Du gehst in der Kälte (unter 8 °C / 46 °F)."
+],
+"8e74472e08": [
+"<b>Fire Goliath.</b> You walk in the heat (above 26 °C / 79 °F).",
+"<b>Feuer-Goliath.</b> Du gehst in der Hitze (über 26 °C / 79 °F)."
+],
+"17c0be2814": [
+"<b>Storm Goliath.</b> You walk in the rain.",
+"<b>Sturm-Goliath.</b> Du gehst im Regen."
+],
+"63821830b0": [
+"Move Like Emberkin: Bursts of Fire | Kinstride",
+"Beweg dich wie das Glutvolk: Feuerstöße | Kinstride"
+],
+"56e7e2bea9": [
+"Fiery bursts: run, walk, run again. How Emberkin walks, what Kinstride measures and a free lineage test.",
+"Feurige Schübe: laufen, gehen, wieder laufen. Wie das Glutvolk geht, was Kinstride misst und ein kostenloser Abstammungstest."
+],
+"46359599df": [
+"Emberkin: Fiery bursts: run, walk, run again",
+"Glutvolk: Feurige Schübe – laufen, gehen, wieder laufen"
+],
+"888d1fd850": [
+"Move Like Emberkin: Bursts of Fire",
+"Beweg dich wie das Glutvolk: Feuerstöße"
+],
+"8ca54ecc3f": [
+"Emberkin burn in bursts. They run, walk, run again, and no two stretches look the same. Calm is simply the moment before the next spark.",
+"Das Glutvolk brennt in Schüben. Es läuft, geht, läuft wieder, und keine zwei Abschnitte gleichen sich. Ruhe ist nur der Moment vor dem nächsten Funken."
+],
+"bfdc7c8c93": [
+"Kinstride looks for a share of running in the middle of your walks and a pace that keeps changing.",
+"Kinstride sucht nach einem Laufanteil mitten in deinen Wanderungen und nach einem Tempo, das sich ständig ändert."
+],
+"d830c6375f": [
+"Time jogging",
+"Zeit beim Joggen"
+],
+"8d6532a8d0": [
+"between 20 % and 55 %",
+"zwischen 20 % und 55 %"
+],
+"b0cfdb5b5b": [
+"±22 % or more",
+"±22 % oder mehr"
+],
+"ea43b01fa6": [
+"Does it all: climbs, speed, distance and running. The hardest lineage to earn.",
+"Kann alles: Anstiege, Tempo, Distanz und Laufen. Die am schwersten zu erlangende Abstammung."
+],
+"5d64b73ecf": [
+"Quick and light, a pace that never wavers.",
+"Schnell und leicht, ein Tempo, das nie schwankt."
+],
+"731cc19e07": [
+"All in, hard from start to finish.",
+"Volle Kraft, hart von Anfang bis Ende."
+],
+"7b15ca2b59": [
+"Slow to start, never stops, for hours.",
+"Langsam im Start, hört nie auf, stundenlang."
+],
+"8f298de942": [
+"Tiny, rapid steps and a curious path.",
+"Winzige, rasche Schritte und ein neugieriger Weg."
+],
+"52d1abe546": [
+"Giant strides for your height.",
+"Riesige Schritte im Verhältnis zur Größe."
+],
+"6eff701d14": [
+"Fiery bursts: run, walk, run again.",
+"Feurige Schübe: laufen, gehen, wieder laufen."
+],
+"2f2ff36417": [
+"Walk Like a Halfling: Short, Lively Steps | Kinstride",
+"Geh wie ein Halbling: kurze, flinke Schritte | Kinstride"
+],
+"55115830cd": [
+"Short, lively steps, unhurried walks with plenty of stops. How a Halfling walks, what Kinstride measures and a free lineage test.",
+"Kurze, flinke Schritte, gemütliche Touren mit vielen Stopps. So geht ein Halbling, was Kinstride misst und ein kostenloser Abstammungstest."
+],
+"28786d9d8c": [
+"Halfling: Short, lively steps, unhurried walks with plenty of stops",
+"Halbling: kurze, flinke Schritte, gemütliche Touren mit vielen Stopps"
+],
+"3cb318bb28": [
+"Walk Like a Halfling: Short, Lively Steps",
+"Geh wie ein Halbling: kurze, flinke Schritte"
+],
+"240c64ebff": [
+"Halflings are in no hurry, and the road is better for it. Their stride is short for their height, their walks rarely pass the hour, and there is always a reason to stop: a bakery, a dog, a view, a bench that looks underused.",
+"Halblinge haben es nicht eilig, und der Weg gewinnt dabei. Ihre Schrittlänge ist kurz im Verhältnis zur Größe, ihre Touren dauern selten länger als eine Stunde, und es gibt immer einen Grund anzuhalten: eine Bäckerei, ein Hund, eine Aussicht, eine Bank, die kaum genutzt aussieht."
+],
+"24329c3d5f": [
+"Short steps come first. Without them there is no Halfling, however many stops you make. Daytime strolls and frequent pauses then say how Halfling you really are.",
+"Kurze Schritte kommen zuerst. Ohne sie gibt es keinen Halbling, egal wie viele Stopps du einlegst. Spaziergänge tagsüber und häufige Pausen zeigen dann, wie sehr du ein Halbling bist."
+],
+"1bd5dece9e": [
+"One of the six lineages open to everyone.",
+"Eine von sechs Abstammungen, die allen offenstehen."
+],
+"3377cfba06": [
+"What the app measures",
+"Was die App misst"
+],
+"6da0a86d26": [
+"These are the marks that give full score, taken straight from the rules of the app. You get partial score on the way there.",
+"Das sind die Werte, die die volle Punktzahl geben, direkt aus den Regeln der App. Auf dem Weg dorthin bekommst du Teilpunkte."
+],
+"d4fd0a232e": [
+"Measure",
+"Messwert"
+],
+"16fef42c07": [
+"Full score at",
+"Volle Punktzahl bei"
+],
+"17893d65d2": [
+"Stride length (of your height) <em>(the key)</em>",
+"Schrittlänge (im Verhältnis zu deiner Größe) <em>(der Schlüsselwert)</em>"
+],
+"5c9bcc6d52": [
+"41 % or less",
+"41 % oder weniger"
+],
+"57d5774c24": [
+"Length of each outing",
+"Dauer jeder Tour"
+],
+"9c96859c24": [
+"between 25 min and 70 min",
+"zwischen 25 min und 70 min"
+],
+"d2b82d631c": [
+"Stops per hour",
+"Stopps pro Stunde"
+],
+"a9d06134ad": [
+"4 or more",
+"4 oder mehr"
+],
+"248c6e9289": [
+"Daytime outings (8 am–6 pm)",
+"Touren tagsüber (8–18 Uhr)"
+],
+"9dbdf14da0": [
+"Without the key measure there is no Halfling, whatever the rest says.",
+"Ohne den Schlüsselwert gibt es keinen Halbling, egal was der Rest sagt."
+],
+"1dd00b1ba9": [
+"The other lineages",
+"Die anderen Abstammungen"
+],
+"301647f22a": [
+"Walk Like a Dwarf: Steady Up Every Climb | Kinstride",
+"Geh wie ein Zwerg: stetig jeden Anstieg hinauf | Kinstride"
+],
+"b93d6093e9": [
+"Steady as stone, loves the climbs, goes the distance. How a Dwarf walks, what Kinstride measures and a free lineage test.",
+"Fest wie Stein, liebt die Anstiege, hält die Distanz durch. So geht ein Zwerg, was Kinstride misst"
+],
+"8f9fb6eef3": [
+"Walk Like a Dwarf: Steady Up Every Climb",
+"Geh wie ein Zwerg: Jeden Anstieg gleichmäßig meistern"
+],
+"66d4961ca8": [
+"Dwarves do not mind the hill. They prefer it. Their walks climb, their pace barely changes from the bottom to the top, and they stay out long after others have turned back.",
+"Zwerge stört der Hang nicht. Sie ziehen ihn vor. Ihre Wege führen bergauf, ihr Tempo ändert sich vom Fuß bis zum Gipfel kaum, und sie bleiben draußen, lange nachdem andere umgekehrt sind."
+],
+"a84a22d124": [
+"Climbing comes first. Without real ascent there is no Dwarf. An even pace and long outings then add to it.",
+"Der Anstieg zählt zuerst. Ohne echten Aufstieg gibt es keinen Zwerg. Ein gleichmäßiges Tempo und lange Touren kommen dann noch dazu."
+],
+"d8d1aa0715": [
+"Climb <em>(the key)</em>",
+"Anstieg <em>(das Schlüsselmaß)</em>"
+],
+"29618715a1": [
+"24 m / km or more (127 ft / mi or more)",
+"24 m / km oder mehr (127 ft / mi oder mehr)"
+],
+"07baacb097": [
+"Pace changes between stretches",
+"Tempoänderung zwischen den Abschnitten"
+],
+"55a39ab245": [
+"±4 % or less",
+"±4 % oder weniger"
+],
+"d54648d8f6": [
+"120 min or more",
+"120 min oder mehr"
+],
+"5eadd6d600": [
+"Without the key measure there is no Dwarf, whatever the rest says.",
+"Ohne das Schlüsselmaß gibt es keinen Zwerg, egal was der Rest sagt."
+],
+"b9513189f3": [
+"Walk Like a Human: The Hardest Lineage to Earn | Kinstride",
+"Geh wie ein Mensch: Die schwerste Abstammung | Kinstride"
+],
+"99d8ccfa72": [
+"Does it all: climbs, speed, distance and running. The hardest lineage to earn. How a Human walks, what Kinstride measures and a free lineage test.",
+"Kann alles: Anstiege, Tempo, Distanz und Laufen. Die schwerste Abstammung. Wie ein Mensch geht, was Kinstride misst, plus ein kostenloser Test."
+],
+"e402659bac": [
+"Human: Does it all: climbs, speed, distance and running. The hardest lineage to earn",
+"Mensch: Kann alles: Anstiege, Tempo, Distanz und Laufen. Die schwerste Abstammung"
+],
+"9d1d18b50d": [
+"Walk Like a Human: The Hardest Lineage to Earn",
+"Geh wie ein Mensch: Die schwerste Abstammung"
+],
+"bce69d5337": [
+"Humans refuse to be just one thing. A hard climb one day, a fast walk the next, a long outing on Saturday, a run when nobody expected it.",
+"Menschen weigern sich, nur eins zu sein. Ein harter Anstieg an einem Tag, ein schneller Marsch am nächsten, eine lange Tour am Samstag, ein Lauf, wenn niemand damit rechnet."
+],
+"02428a28a0": [
+"This is the hardest lineage in Kinstride. It asks for four different feats within four weeks, plenty of outings and steady habits. Nobody starts as a Human: you have to walk your way there.",
+"Das ist die schwerste Abstammung in Kinstride. Sie verlangt vier verschiedene Leistungen innerhalb von vier Wochen, viele Touren und feste Gewohnheiten. Niemand beginnt als Mensch: Du musst dir den Weg dorthin erlaufen."
+],
+"f42e7fe4f3": [
+"Feats: a hard climb (20 m per km), walking at 6 km/h, 75 minutes and running <em>(the key)</em>",
+"Leistungen: ein harter Anstieg (20 m pro km), Gehen mit 6 km/h, 75 Minuten und Laufen <em>(das Schlüsselmaß)</em>"
+],
+"f757f2dd9b": [
+"4 of 4",
+"4 von 4"
+],
+"8d2dd51363": [
+"Outings in 4 weeks",
+"Touren in 4 Wochen"
+],
+"1ce4896016": [
+"10 or more",
+"10 oder mehr"
+],
+"340f3c0ba3": [
+"Active days",
+"Aktive Tage"
+],
+"5fd8b0a3d3": [
+"50 % or more",
+"50 % oder mehr"
+],
+"cf0d30789e": [
+"Without the key measure there is no Human, whatever the rest says.",
+"Ohne das Schlüsselmaß gibt es keinen Menschen, egal was der Rest sagt."
+],
+"81564b8f6f": [
+"Walk Like an Elf: Quick, Light and Even | Kinstride",
+"Geh wie ein Elf: Flink, leicht und gleichmäßig | Kinstride"
+],
+"069f834e47": [
+"Quick and light, a pace that never wavers. How an Elf walks, what Kinstride measures and a free lineage test.",
+"Flink und leicht, in einem Tempo, das nie schwankt. Wie ein Elf geht, was Kinstride misst, plus ein kostenloser Test."
+],
+"a4184e6765": [
+"Elf: Quick and light, a pace that never wavers",
+"Elf: Flink und leicht, in einem Tempo, das nie schwankt"
+],
+"57fe0f888a": [
+"Walk Like an Elf: Quick, Light and Even",
+"Geh wie ein Elf: Flink, leicht und gleichmäßig"
+],
+"082928e54e": [
+"Elves seem to cover ground without trying. Their pace is quick, it hardly changes from one stretch to the next, and they come back to the road almost every day.",
+"Elfen scheinen mühelos Strecke zu machen. Ihr Tempo ist flink, ändert sich von Abschnitt zu Abschnitt kaum, und sie kehren fast jeden Tag auf die Straße zurück."
+],
+"6e6d61250c": [
+"Speed comes first. Without a quick walking pace there is no Elf. An even rhythm and steady days then say how Elf you really are.",
+"Das Tempo zählt zuerst. Ohne eine flotte Gehgeschwindigkeit gibt es keinen Elf. Ein gleichmäßiger Rhythmus und regelmäßige Tage zeigen dann, wie sehr du Elf bist."
+],
+"c9fb983e52": [
+"Walking speed <em>(the key)</em>",
+"Gehgeschwindigkeit <em>(das Schlüsselmaß)</em>"
+],
+"e6ffc0411d": [
+"5.9 km/h or more (3.7 mph or more)",
+"5,9 km/h oder mehr (3,7 mph oder mehr)"
+],
+"261d7e7aa8": [
+"±3 % or less",
+"±3 % oder weniger"
+],
+"50e3008ba3": [
+"90 % or more",
+"90 % oder mehr"
+],
+"5ccd7b2472": [
+"Without the key measure there is no Elf, whatever the rest says.",
+"Ohne das Schlüsselmaß gibt es keinen Elf, egal was der Rest sagt."
+],
+"1bc3d368f8": [
+"Variants",
+"Varianten"
+],
+"8a744c7b38": [
+"With Pro, where and how you walk can make you a variant:",
+"Mit Pro kann dich, wo und wie du gehst, zu einer Variante machen:"
+],
+"556dcbe1ef": [
+"<b>Wood Elf.</b> You head out at dawn or through parks and nature.",
+"<b>Waldelf.</b> Du brichst im Morgengrauen auf oder gehst durch Parks und Natur."
+],
+"e4d147e3d5": [
+"<b>High Elf.</b> Your pace is nearly perfect: it changes less than 2% between stretches.",
+"<b>Hochelf.</b> Dein Tempo ist nahezu perfekt: Es ändert sich zwischen den Abschnitten um weniger als 2 %."
+],
+"35fb34fc78": [
+"<b>Nightfall Elf.</b> You walk at night.",
+"<b>Dämmerelf.</b> Du wanderst nachts."
+],
+"ce34dc06e7": [
+"Move Like an Orc: All In, Running | Kinstride",
+"Beweg dich wie ein Ork: Alles geben, laufen | Kinstride"
+],
+"ad93721417": [
+"Kinstride: Fantasy Walking RPG for Android",
+"Kinstride: Fantasy-Wander-RPG für Android"
+],
+"7a01370bd5": [
+"A fantasy walking RPG for Android: your real walks cross an illustrated map, and the way you walk decides who your character becomes. Free, no ads.",
+"Fantasy-Wander-RPG für Android: Deine echten Wege führen über eine illustrierte Karte, und wie du gehst, bestimmt deinen Charakter. Kostenlos, ohne Werbung."
+],
+"b99d072a87": [
+"KINSTRIDE",
+"KINSTRIDE"
+],
+"c7c100f384": [
+"Walk. Discover who you become.",
+"Geh los. Entdecke, wer du wirst."
+],
+"2f469b277d": [
+"A fantasy walking RPG for Android that reads how you really walk. No manual logging: your steps carry you across an illustrated world, and your stride reveals your lineage.",
+"Ein Fantasy-Wander-RPG für Android, das liest, wie du wirklich gehst. Kein manuelles Eintragen: Deine Schritte tragen dich durch eine illustrierte Welt, und deine Schrittlänge verrät deine Abstammung."
+],
+"eaf67c2584": [
+"Become a tester",
+"Tester werden"
+],
+"49f2101930": [
+"Take the walking test",
+"Den Wandertest machen"
+],
+"362b6e99b7": [
+"In closed testing: to install it today, join as a tester.",
+"In der geschlossenen Testphase: Um die App heute zu installieren, werde Tester."
+],
+"1dd6a17cb4": [
+"How it works",
+"So funktioniert es"
+],
+"c892bef3ba": [
+"You walk",
+"Du gehst"
+],
+"785a3f41ae": [
+"Daily steps count on their own. Walks from your watch count too. Or start an expedition and GPS measures your pace, stride, climbs and rests.",
+"Tägliche Schritte werden automatisch gezählt. Wanderungen von deiner Uhr zählen ebenfalls. Oder starte eine Expedition, und GPS misst dein Tempo, deine Schrittlänge, Anstiege und Pausen."
+],
+"0c202aedec": [
+"The world opens",
+"Die Welt öffnet sich"
+],
+"0597d60fb3": [
+"Every step moves your marker across the Farwander. The fog lifts, and every few steps there is a camp with its own story.",
+"Jeder Schritt bewegt deine Markierung durch die Fernlande. Der Nebel lichtet sich, und alle paar Schritte wartet ein Lager mit eigener Geschichte."
+],
+"2d8ccc4eca": [
+"You become someone",
+"Du wirst jemand"
+],
+"42fa32ca93": [
+"After three expeditions your lineage is revealed. Your habits earn a class. Walk differently and your character changes with you.",
+"Nach drei Expeditionen wird deine Abstammung enthüllt. Deine Gewohnheiten verdienen dir eine Klasse. Geh anders, und dein Charakter verändert sich mit dir."
+],
+"ee48b7957b": [
+"A map, not a dashboard",
+"Eine Karte, kein Dashboard"
+],
+"4386ece442": [
+"A short welcome tells you what to expect",
+"Eine kurze Begrüßung sagt dir, was dich erwartet"
+],
+"271b672524": [
+"The map is your home screen",
+"Die Karte ist dein Startbildschirm"
+],
+"d36c75da51": [
+"Your stride, read in a radar",
+"Deine Schrittlänge, im Radar gelesen"
+],
+"f969ba6963": [
+"The reveal after three expeditions",
+"Die Enthüllung nach drei Expeditionen"
+],
+"6c1f3b9cea": [
+"Camps with their own story",
+"Lager mit eigener Geschichte"
+],
+"7f2db4430f": [
+"Choose your road",
+"Wähle deinen Weg"
+],
+"58c6de2a2c": [
+"The Hunt: the clock is running",
+"Die Jagd: Die Uhr läuft"
+],
+"b0b6456631": [
+"The end of the Dragon Road",
+"Das Ende der Drachenstraße"
+],
+"6d605979f9": [
+"A 4-week plan towards a lineage",
+"Ein 4-Wochen-Plan zu einer Abstammung"
+],
+"8d72160268": [
+"Your stride month by month",
+"Deine Schrittlänge Monat für Monat"
+],
+"e482c01867": [
+"The bestiary",
+"Das Bestiarium"
+],
+"6c182067bd": [
+"Every camp ahead",
+"Jedes Lager auf deinem Weg"
+],
+"4890286d61": [
+"32 achievements",
+"32 Erfolge"
+],
+"dec8ce2316": [
+"Four travellers, each with a character of their own",
+"Vier Reisende, jeder mit eigenem Charakter"
+],
+"db5df87cbb": [
+"Nine lineages. You don’t pick one.",
+"Neun Abstammungen. Du suchst dir keine aus."
+],
+"57a6e228e1": [
+"Kinstride reads the last four weeks of how you walk: pace, stride for your height, climbs, rests, running. Then it tells you who you walk like. And it tells you what to change if you want to become something else.",
+"Kinstride liest die letzten vier Wochen deines Gehens: Tempo, Schrittlänge im Verhältnis zu deiner Größe, Anstiege, Pausen, Laufen. Dann sagt es dir, wem du im Gehen gleichst. Und es sagt dir, was du ändern musst, wenn du etwas anderes werden willst."
+],
+"2fa9da2289": [
+"Halfling: Short, lively steps",
+"Halbling: Kurze, flotte Schritte"
+],
+"620bfe3c40": [
+"<b>Halfling</b>Short, lively steps",
+"<b>Halbling</b>Kurze, flotte Schritte"
+],
+"540547e9c2": [
+"Dwarf: Real climbs",
+"Zwerg: Echte Anstiege"
+],
+"44942f3468": [
+"<b>Dwarf</b>Real climbs",
+"<b>Zwerg</b>Echte Anstiege"
+],
+"6045fab038": [
+"Human: Does it all. The hardest to earn",
+"Mensch: Kann alles. Am schwersten zu verdienen"
+],
+"ec9170d83d": [
+"<b>Human</b>Does it all. The hardest to earn",
+"<b>Mensch</b>Kann alles. Am schwersten zu verdienen"
+],
+"70cbb50332": [
+"Elf: Quick and even",
+"Elf: Schnell und gleichmäßig"
+],
+"1b89dbca72": [
+"<b>Elf</b>Quick and even",
+"<b>Elf</b>Schnell und gleichmäßig"
+],
+"dbef2a3a3a": [
+"Orc: All in, running",
+"Ork: Alles oder nichts, im Laufschritt"
+],
+"141df080a6": [
+"<b>Orc</b>All in, running",
+"<b>Ork</b>Alles oder nichts, im Laufschritt"
+],
+"2bb41c097e": [
+"Barkfolk: Slow, for hours",
+"Rindenvolk: Langsam, stundenlang"
+],
+"40917c644f": [
+"<b>Barkfolk</b>Slow, for hours",
+"<b>Rindenvolk</b>Langsam, stundenlang"
+],
+"df1eb588cd": [
+"Gnome: Tiny, rapid steps",
+"Gnom: Winzige, schnelle Schritte"
+],
+"69fc635a14": [
+"<b>Gnome</b>Tiny, rapid steps",
+"<b>Gnom</b>Winzige, schnelle Schritte"
+],
+"5147cf9e22": [
+"Goliath: Giant strides",
+"Goliath: Riesige Schritte"
+],
+"0dcb35072d": [
+"<b>Goliath</b>Giant strides",
+"<b>Goliath</b>Riesige Schritte"
+],
+"52c9d0754c": [
+"Emberkin: Bursts of fire",
+"Glutvolk: Feuerstöße"
+],
+"57bcaa7d07": [
+"<b>Emberkin</b>Bursts of fire",
+"<b>Glutvolk</b>Feuerstöße"
+],
+"d93222c7e6": [
+"<a href=\"/test/\">Take the walking test</a> · <a href=\"/lineages/\">Read about all nine lineages</a>",
+"<a href=\"/test/\">Den Wandertest machen</a> · <a href=\"/lineages/\">Alles über die neun Abstammungen lesen</a>"
+],
+"ddb0581d7f": [
+"Twelve classes come from your habits: Ranger, Paladin, Monk, Barbarian, Rogue, Druid, Bard, Fighter, Wizard, Sorcerer, Warlock and Cleric. With 108 portraits, one for each lineage and class.",
+"Zwölf Klassen ergeben sich aus deinen Gewohnheiten: Waldläufer, Paladin, Mönch, Barbar, Schurke, Druide, Barde, Kämpfer, Magier, Zauberer, Hexenmeister und Kleriker. Mit 108 Porträts, eines für jede Abstammung und Klasse."
+],
+"5bf889f7bf": [
+"A character sheet you earned",
+"Ein Charakterbogen, den du dir verdient hast"
+],
+"71679de72f": [
+"Every walker gets a real sheet: your name, level, six abilities built from your walks, and the items you carry. Share it as an image, or take it to your table: it’s compatible with fifth edition.",
+"Jeder Wanderer bekommt einen echten Bogen: deinen Namen, deine Stufe, sechs Fähigkeiten, die aus deinen Wegen entstehen, und die Gegenstände, die du trägst. Teile ihn als Bild oder nimm ihn mit an deinen Spieltisch: Er ist mit der fünften Edition kompatibel."
+],
+"2adad77db3": [
+"<b>Strength</b> climbs",
+"<b>Stärke</b> Anstiege"
+],
+"2910de20b6": [
+"<b>Dexterity</b> cadence",
+"<b>Geschicklichkeit</b> Schrittfrequenz"
+],
+"a5286bb845": [
+"<b>Constitution</b> endurance",
+"<b>Konstitution</b> Ausdauer"
+],
+"8a252301da": [
+"<b>Intelligence</b> camps found",
+"<b>Intelligenz</b> gefundene Lagerplätze"
+],
+"432aba60e7": [
+"<b>Wisdom</b> consistency",
+"<b>Weisheit</b> Beständigkeit"
+],
+"b9953f540b": [
+"<b>Charisma</b> walks with others",
+"<b>Charisma</b> Wandern mit anderen"
+],
+"4faef46771": [
+"Example character sheet: Orrin, Nightfall Elf Wizard, level 14",
+"Beispiel-Charakterbogen: Orrin, Dämmerelf-Magier, Stufe 14"
+],
+"ae3932e59c": [
+"Example character sheet: Mira, Dwarf Ranger, level 9",
+"Beispiel-Charakterbogen: Mira, Zwerg-Waldläuferin, Stufe 9"
+],
+"6762b11d7b": [
+"Example character sheet: Bruna, Orc Barbarian, level 11",
+"Beispiel-Charakterbogen: Bruna, Ork-Barbarin, Stufe 11"
+],
+"6087b44952": [
+"Example character sheet: Kael, Emberkin Sorcerer, level 8",
+"Beispiel-Charakterbogen: Kael, Glutvolk-Zauberer, Stufe 8"
+],
+"73338ddc83": [
+"Example character sheet: Tamsin, Halfling Rogue, level 5",
+"Beispiel-Charakterbogen: Tamsin, Halbling-Schurkin, Stufe 5"
+],
+"69cfb8b933": [
+"Example character sheet: Nettle, Barkfolk Druid, level 16",
+"Beispiel-Charakterbogen: Nettle, Rindenvolk-Druidin, Stufe 16"
+],
+"41b0781f54": [
+"Example sheets with made-up characters.",
+"Beispielbögen mit erfundenen Charakteren."
+],
+"c756df03e3": [
+"A journey the size of a legend",
+"Eine Reise von legendärem Ausmaß"
+],
+"4372b61749": [
+"4,638 km",
+"4.638 km"
+],
+"238e5c49f7": [
+"of roads with their own stories",
+"Straßen mit eigenen Geschichten"
+],
+"4f61d399cd": [
+"camps, each with a story",
+"Lagerplätze, jeder mit einer Geschichte"
+],
+"ecf039a6dd": [
+"magic items to find",
+"magische Gegenstände zu finden"
+],
+"c55218de90": [
+"creatures on the road",
+"Kreaturen auf der Straße"
+],
+"c8e55211da": [
+"achievements",
+"Erfolge"
+],
+"d0558bdb5f": [
+"Bike rides count as a pony or a horse, a narrator can read each camp aloud, and one rest day a week never breaks your streak. Four illustrated travellers keep to your pace: catch one and they leave you a short scene and a little XP, and you can open their card. Notices open the camp, the traveller or the new creature, and you can pause or resume an expedition from its notification. A short interactive tutorial is always one tap away in Settings.",
+"Radtouren zählen als Pony oder Pferd, ein Erzähler kann dir jedes Lager vorlesen, und ein Ruhetag pro Woche unterbricht nie deine Serie. Vier illustrierte Reisende halten sich an dein Tempo: Fang einen, und er hinterlässt dir eine kurze Szene und ein wenig XP, und du kannst seine Karte öffnen. Benachrichtigungen öffnen das Lager, den Reisenden oder die neue Kreatur, und du kannst eine Expedition direkt über ihre Benachrichtigung pausieren oder fortsetzen. Ein kurzes interaktives Tutorial ist in den Einstellungen immer nur einen Fingertipp entfernt."
+],
+"d8aa7eccce": [
+"More roads, more stories",
+"Mehr Straßen, mehr Geschichten"
+],
+"5f6ffa3519": [
+"The Long Road is free and never ends. With Pro, these roads open too.",
+"Der Lange Weg ist kostenlos und endet nie. Mit Pro öffnen sich auch diese Straßen."
+],
+"ce33d6377d": [
+"Old Aldith the dragon coiled around a stone column, listening to a hooded traveller who reads from a book",
+"Die alte Drachin Aldith, um eine Steinsäule geringelt, hört einem Reisenden mit Kapuze zu, der aus einem Buch liest"
+],
+"06b8665276": [
+"The Dragon Road",
+"Die Drachenstraße"
+],
+"a7073b4084": [
+"1,556 km · 362 camps",
+"1.556 km · 362 Lagerplätze"
+],
+"0586ff6de3": [
+"Every hundred years Old Aldith the dragon asks for a story she has not heard. This time the village chose you to carry the book. No treasure, no burglary: just a very long walk, and what you bring back.",
+"Alle hundert Jahre verlangt die alte Drachin Aldith nach einer Geschichte, die sie noch nicht kennt. Diesmal hat das Dorf dich auserwählt, das Buch zu tragen. Kein Schatz, kein Einbruch: nur ein sehr langer Weg, und was du von ihm mitbringst."
+],
+"d4582cc812": [
+"The Hunt",
+"Die Jagd"
+],
+"f8fa06a5b7": [
+"217 km in 30 days",
+"217 km in 30 Tagen"
+],
+"15c9aabfe3": [
+"Thieves took the Ember Lantern and they have three days on you. Finish in time to keep it. If you run out of days you lose nothing. For ultramarathoners there is Legend Mode: 4 days.",
+"Diebe haben die Glutlaterne gestohlen und drei Tage Vorsprung vor dir. Komm rechtzeitig ans Ziel, um sie zu behalten. Wenn dir die Tage ausgehen, verlierst du nichts. Für Ultramarathonläufer gibt es den Legendenmodus: 4 Tage."
+],
+"165cce8b12": [
+"The Last Stretch",
+"Die Letzte Etappe"
+],
+"55e8160ae4": [
+"190 km",
+"190 km"
+],
+"64816027f0": [
+"The hardest days of the Long Road, walked on their own.",
+"Die härtesten Tage des Langen Wegs, für sich allein gegangen."
+],
+"1e59906bbf": [
+"Free Stretch",
+"Freie Strecke"
+],
+"7d855ad57e": [
+"110 combinations",
+"110 Kombinationen"
+],
+"f1351197c5": [
+"Pick two places of the Long Road and walk only that part, there or back.",
+"Wähle zwei Orte auf dem Langen Weg und geh nur diesen Abschnitt, hin oder zurück."
+],
+"fe183934a8": [
+"The Great Crossing",
+"Die Große Überquerung"
+],
+"9e5041b1b8": [
+"339 km",
+"339 km"
+],
+"916255627a": [
+"By water, horse and foot, to the Last Lighthouse. Swims and bike rides count, and it moves on its own beside your route.",
+"Zu Wasser, zu Pferd und zu Fuß bis zum Letzten Leuchtturm. Schwimmen und Radfahren zählen, und sie rückt von allein neben deiner Route vor."
+],
+"5307126a83": [
+"A walk that keeps changing",
+"Ein Weg, der sich ständig verändert"
+],
+"d374967444": [
+"<b>Your stride month by month</b> See which lineage you were each month, and how your stride, speed and climbs changed. Pro.",
+"<b>Deine Schrittlänge Monat für Monat</b> Sieh, welche Abstammung du in jedem Monat warst und wie sich deine Schrittlänge, dein Tempo und deine Anstiege verändert haben. Pro."
+],
+"b2b6c5e561": [
+"<b>4-week plans</b> Choose a lineage and get one goal for the week, taken from the same rules that measure you. Pro.",
+"<b>4-Wochen-Pläne</b> Wähle eine Abstammung und erhalte ein Ziel für die Woche, abgeleitet aus denselben Regeln, die dich messen. Pro."
+],
+"6734a48dde": [
+"<b>The bestiary</b> 33 illustrated creatures: goblins, griffons, a very suspicious chest. Nobody fights here: you meet them, you keep walking, and they go in your book. Free.",
+"<b>Das Bestiarium</b> 33 illustrierte Kreaturen: Goblins, Greife, eine sehr verdächtige Truhe. Hier kämpft niemand: Du begegnest ihnen, gehst weiter, und sie landen in deinem Buch. Kostenlos."
+],
+"f680c0fa0c": [
+"<b>Events of the year</b> Three weeks a year, on the same dates: the Harvest Fair, the Week of Fires and Road Menders’ Week. Free.",
+"<b>Ereignisse des Jahres</b> Drei Wochen im Jahr, jedes Jahr zu denselben Terminen: Der Erntemarkt, die Woche der Feuer und die Woche der Wegebauer. Kostenlos."
+],
+"7a29cb8fe4": [
+"Walk as a Company",
+"Wandere mit den Gefährten"
+],
+"8d0cd31194": [
+"Up to 9 friends, one marker. Everyone’s steps push the group toward the next place, and you can open each other’s character sheets.",
+"Bis zu 9 Freunde, eine Markierung. Die Schritte aller bringen die Gruppe zum nächsten Ort, und ihr könnt gegenseitig eure Charakterbögen öffnen."
+],
+"a05723a65b": [
+"Free and complete. Pro if you want more.",
+"Kostenlos und vollständig. Pro, wenn du mehr willst."
+],
+"75f527181b": [
+"Free",
+"Kostenlos"
+],
+"66d0c5e6b1": [
+"Pro",
+"Pro"
+],
+"58beeab4c3": [
+"Distance, map and camps",
+"Distanz, Karte und Lagerplätze"
+],
+"e9d11247c6": [
+"No limit, no ads",
+"Ohne Limit, ohne Werbung"
+],
+"1640730219": [
+"Lineages",
+"Abstammungen"
+],
+"6ec7162d9e": [
+"9, with every variant",
+"9, mit allen Varianten"
+],
+"ed1846afee": [
+"Classes",
+"Klassen"
+],
+"fb4b2c4cc3": [
+"12, with magic",
+"12, mit Magie"
+],
+"d512179c05": [
+"Character sheet",
+"Charakterbogen"
+],
+"5397e0583f": [
+"Yes",
+"Ja"
+],
+"3a88ed3da4": [
+"With portrait and sharing",
+"Mit Porträt und Teilen"
+],
+"d20e49329c": [
+"Equipment slots",
+"Ausrüstungsplätze"
+],
+"03730e5840": [
+"Routes",
+"Routen"
+],
+"322e4c3338": [
+"The Long Road and the way home",
+"Der Lange Weg und der Heimweg"
+],
+"a467b668ea": [
+"Also the Dragon Road, The Hunt, The Great Crossing, the Last Stretch and Free Stretch",
+"Außerdem die Drachenstraße, Die Jagd, Die Große Überquerung, Die Letzte Etappe und Freie Strecke"
+],
+"48733b8fa3": [
+"Bestiary and events of the year",
+"Bestiarium und Ereignisse des Jahres"
+],
+"2f3a0f66e8": [
+"4-week plans",
+"Pläne für 4 Wochen"
+],
+"b1b1e2335b": [
+"Create a Company",
+"Gefährten gründen"
+],
+"71454d03b9": [
+"Up to 3",
+"Bis zu 3"
+],
+"03bcb60bd4": [
+"Up to 9",
+"Bis zu 9"
+],
+"fb31148ad8": [
+"Postcards",
+"Postkarten"
+],
+"fcca1eec54": [
+"With small logo",
+"Mit kleinem Logo"
+],
+"b52ac86dff": [
+"Without logo, in 3 styles",
+"Ohne Logo, in 3 Stilen"
+],
+"f33c62a61c": [
+"Pro costs US$9.99 a year, or US$24.99 once for life. Whatever comes next is included.",
+"Pro kostet 9,99 US$ im Jahr oder einmalig 24,99 US$ für immer. Alles, was noch kommt, ist inbegriffen."
+],
+"d4c699ebbd": [
+"Before Kinstride opens to everyone, Google asks for people to test it for 14 days. You need an Android phone and the Gmail account you use on Play Store.",
+"Bevor Kinstride für alle öffnet, verlangt Google, dass es 14 Tage lang von Testern ausprobiert wird. Du brauchst ein Android-Handy und das Gmail-Konto, das du im Play Store verwendest."
+],
+"3fce36d58b": [
+"Join the test group with that Gmail account: <a data-umami-event=\"tester-grupo\" href=\"https://groups.google.com/g/lince-app-testers\">groups.google.com/g/lince-app-testers</a> → <b>Join group</b>.",
+"Tritt mit diesem Gmail-Konto der Testgruppe bei: <a data-umami-event=\"tester-grupo\" href=\"https://groups.google.com/g/lince-app-testers\">groups.google.com/g/lince-app-testers</a> → <b>Gruppe beitreten</b>."
+],
+"7fa7efe967": [
+"On your Android phone, open <a data-umami-event=\"tester-prueba\" href=\"https://play.google.com/apps/testing/co.com.monsalve.kinstride\">the Kinstride test on Google Play</a> → <b>Become a tester</b>.",
+"Öffne auf deinem Android-Handy <a data-umami-event=\"tester-prueba\" href=\"https://play.google.com/apps/testing/co.com.monsalve.kinstride\">den Kinstride-Test auf Google Play</a> → <b>Tester werden</b>."
+],
+"f48703adf0": [
+"Install Kinstride from <a data-umami-event=\"tester-instalar\" href=\"https://play.google.com/store/apps/details?id=co.com.monsalve.kinstride\">Google Play</a> and <b>keep it installed for 14 days</b>. Walk as usual; one expedition helps a lot.",
+"Installiere Kinstride über <a data-umami-event=\"tester-instalar\" href=\"https://play.google.com/store/apps/details?id=co.com.monsalve.kinstride\">Google Play</a> und <b>lass es 14 Tage lang installiert</b>. Geh wie gewohnt wandern; eine Expedition hilft sehr."
+],
+"6d37733d57": [
+"Tell us what you think, or anything that fails: <b>lince.revision@gmail.com</b>",
+"Sag uns, was du denkst oder was nicht funktioniert: <b>lince.revision@gmail.com</b>"
+],
+"90fca0b67c": [
+"The group is named after Lince, our other app; it is the right one. If step 2 says the app is not available, wait a few minutes after joining the group and try again.",
+"Die Gruppe ist nach Lince benannt, unserer anderen App; sie ist die richtige. Wenn in Schritt 2 steht, die App sei nicht verfügbar, warte nach dem Beitritt zur Gruppe ein paar Minuten und versuche es erneut."
+],
+"2c3b4ec94c": [
+"No. Your answers stay in your browser. We only count how many people start the test and which lineage they got, with no name and no cookies.",
+"Nein. Deine Antworten bleiben in deinem Browser. Wir zählen nur, wie viele Menschen den Test starten und welche Abstammung sie erhalten haben, ohne Namen und ohne Cookies."
+],
+"b6aee4272a": [
+"Not sure which one is yours? <a href=\"/test/\">Take the walking test</a>.",
+"Nicht sicher, welche deine ist? <a href=\"/test/\">Mach den Wandertest</a>."
+],
+"5e6e02c413": [
+"Kinstride is in closed testing on Android. Test it for 14 days and see what your real walks say, or join the community on Discord to claim your lineage role.",
+"Kinstride befindet sich auf Android im geschlossenen Test. Teste es 14 Tage lang und sieh, was deine echten Wanderungen sagen, oder tritt der Community auf Discord bei, um deine Abstammungsrolle zu erhalten."
+],
+"7ec699b1c6": [
+"Join Discord",
+"Discord beitreten"
+],
+"a3c6b2b7b8": [
+"<a href=\"/test/\">Walking test</a> · <a href=\"/lineages/\">Lineages</a> · <a href=\"https://www.tiktok.com/@kinstrideapp\" rel=\"me\">TikTok</a> · <a href=\"https://www.instagram.com/kinstrideapp/\" rel=\"me\">Instagram</a> · <a href=\"https://www.youtube.com/@Kinstride\" rel=\"me\">YouTube</a> · <a href=\"/discord/\">Discord</a> · <a href=\"/artists/\">Artists</a> · <a href=\"/privacy/\">Privacy</a> · <a href=\"/delete-data/\">Delete your data</a>",
+"<a href=\"/test/\">Wandertest</a> · <a href=\"/lineages/\">Abstammungen</a> · <a href=\"https://www.tiktok.com/@kinstrideapp\" rel=\"me\">TikTok</a> · <a href=\"https://www.instagram.com/kinstrideapp/\" rel=\"me\">Instagram</a> · <a href=\"https://www.youtube.com/@Kinstride\" rel=\"me\">YouTube</a> · <a href=\"/discord/\">Discord</a> · <a href=\"/artists/\">Künstler</a> · <a href=\"/privacy/\">Datenschutz</a> · <a href=\"/delete-data/\">Daten löschen</a>"
+],
+"e5d7e73e95": [
+"Short, lively steps, unhurried walks with plenty of stops",
+"Kurze, lebhafte Schritte, gemächliche Wanderungen mit vielen Pausen"
+],
+"772ccc9721": [
+"a Halfling",
+"ein Halbling"
+],
+"535633e4fa": [
+"Steady as stone, loves the climbs, goes the distance",
+"Standfest wie Stein, liebt die Anstiege, hält die Distanz durch"
+],
+"4a139593c2": [
+"a Dwarf",
+"ein Zwerg"
+],
+"04eb428f46": [
+"Does it all: climbs, speed, distance and running. The hardest lineage to earn",
+"Kann alles: Anstiege, Tempo, Distanz und Laufen. Die am schwersten zu erlangende Abstammung"
+],
+"427b0b1415": [
+"a Human",
+"ein Mensch"
+],
+"bc2bbaf6f6": [
+"Quick and light, a pace that never wavers",
+"Schnell und leicht, ein Tempo, das nie schwankt"
+],
+"ac4438d577": [
+"an Elf",
+"ein Elf"
+],
+"0ff76b5e9c": [
+"All in, hard from start to finish",
+"Volle Kraft, von Anfang bis Ende hart"
+],
+"95a3366022": [
+"an Orc",
+"ein Ork"
+],
+"65f0c108fe": [
+"Slow to start, never stops, for hours",
+"Langsam im Start, hört nie auf, stundenlang"
+],
+"5082c1325b": [
+"Tiny, rapid steps and a curious path",
+"Winzige, schnelle Schritte und ein neugieriger Weg"
+],
+"a11a42d8ee": [
+"a Gnome",
+"ein Gnom"
+],
+"292697c59c": [
+"Giant strides for your height",
+"Riesige Schritte für deine Größe"
+],
+"6e751c3b2a": [
+"a Goliath",
+"ein Goliath"
+],
+"28f5af2f69": [
+"Fiery bursts: run, walk, run again",
+"Feurige Schübe: rennen, gehen, wieder rennen"
+],
+"e09bca64d1": [
+"On an ordinary walk, your pace is…",
+"Bei einem gewöhnlichen Spaziergang ist dein Tempo …"
+],
+"66eaa49c69": [
+"Unhurried. People pass me",
+"Gemächlich. Die Leute überholen mich"
+],
+"117c6f40a5": [
+"Relaxed, a normal stroll",
+"Entspannt, ein normaler Spaziergang"
+],
+"41d4aa6eab": [
+"Brisk, like I have somewhere to be",
+"Zügig, als hätte ich irgendwo einen Termin"
+],
+"25e9d4ac82": [
+"Fast. I pass almost everyone",
+"Schnell. Ich überhole fast alle"
+],
+"d182aa1157": [
+"For your height, your steps are…",
+"Für deine Größe sind deine Schritte …"
+],
+"daf03e4ceb": [
+"Tiny and very quick",
+"Winzig und sehr schnell"
+],
+"95fde7934f": [
+"Short and relaxed",
+"Kurz und entspannt"
+],
+"b551471858": [
+"About average",
+"Etwa durchschnittlich"
+],
+"11eda67f9b": [
+"Long",
+"Lang"
+],
+"56fac95653": [
+"Huge. Friends need extra steps to keep up",
+"Riesig. Freunde brauchen zusätzliche Schritte, um mitzuhalten"
+],
+"f9e53a2f11": [
+"A typical walk lasts…",
+"Ein typischer Spaziergang dauert …"
+],
+"15ecf57f8c": [
+"Under 30 minutes",
+"Unter 30 Minuten"
+],
+"6145254b6f": [
+"Around 50 minutes",
+"Etwa 50 Minuten"
+],
+"717d54f8a8": [
+"An hour and a half",
+"Eineinhalb Stunden"
+],
+"b81eb44d79": [
+"Two hours or more",
+"Zwei Stunden oder mehr"
+],
+"7f5daba4a0": [
+"How often do you stop?",
+"Wie oft machst du Pausen?"
+],
+"3d44633ddb": [
+"Almost never",
+"Fast nie"
+],
+"7c041a6b8e": [
+"Once in a while",
+"Ab und zu"
+],
+"f1eb510c61": [
+"A few times an hour",
+"Mehrmals pro Stunde"
+],
+"2cd592e4d4": [
+"All the time. There is so much to see",
+"Ständig. Es gibt so viel zu sehen"
+],
+"e3b7bec570": [
+"Hills on your walks?",
+"Hügel auf deinen Wegen?"
+],
+"d450747b63": [
+"Flat, please",
+"Bitte flach"
+],
+"d7a7e5f9c9": [
+"A few slopes",
+"Ein paar Steigungen"
+],
+"95528e5caa": [
+"I look for them",
+"Ich suche sie"
+],
+"d7d289f0eb": [
+"The steeper the better",
+"Je steiler, desto besser"
+],
+"151416593c": [
+"From start to finish, your rhythm…",
+"Von Anfang bis Ende dein Rhythmus …"
+],
+"2b1e50d909": [
+"Never changes",
+"Ändert sich nie"
+],
+"c48fa5f78b": [
+"Barely changes",
+"Ändert sich kaum"
+],
+"103a1078bf": [
+"Depends on my mood",
+"Hängt von meiner Laune ab"
+],
+"e3959dbe9c": [
+"Comes in bursts: fast, slow, fast",
+"Kommt in Schüben: schnell, langsam, schnell"
+],
+"df303aea47": [
+"Do you run?",
+"Läufst du?"
+],
+"80c3052d33": [
+"Never",
+"Nie"
+],
+"05fe901a44": [
+"A few steps now and then",
+"Ab und zu ein paar Schritte"
+],
+"2d840bf0f0": [
+"I mix running and walking",
+"Ich mische Laufen und Gehen"
+],
+"d405cab261": [
+"I run most of the way",
+"Ich laufe fast den ganzen Weg"
+],
+"c23d175aaa": [
+"How often do you go out?",
+"Wie oft gehst du raus?"
+],
+"e510cf6552": [
+"One or two days a week",
+"Ein oder zwei Tage pro Woche"
+],
+"6ff53dada9": [
+"Three or four days a week",
+"Drei oder vier Tage pro Woche"
+],
+"0599f59a8f": [
+"Most days",
+"An den meisten Tagen"
+],
+"3b2eb51310": [
+"Every day",
+"Jeden Tag"
+],
+"002ff59811": [
+"Question",
+"Frage"
+],
+"c32ae9f4a7": [
+"← Back",
+"← Zurück"
+],
+"8e76087c8a": [
+"You walk like {}",
+"Du gehst wie {}"
+],
+"a82c817304": [
+"More about the {}",
+"Mehr über {}"
+],
+"1be40590bf": [
+"Share my result",
+"Mein Ergebnis teilen"
+],
+"c2e98476ef": [
+"Link copied",
+"Link kopiert"
+],
+"f7609863de": [
+"Take it again",
+"Noch einmal machen"
+],
+"3ce54424cf": [
+"A rare lineage: in the app, Pro reveals it.",
+"Eine seltene Abstammung: In der App zeigt Pro sie dir."
+],
+"9b4fb44299": [
+"An estimate from your answers. The app reads your real walks, so it may tell you something else.",
+"Eine Schätzung anhand deiner Antworten. Die App liest deine echten Wanderungen, daher kann sie dir etwas anderes sagen."
+],
+"e8c7c1b7cd": [
+"Walk with the Android app",
+"Wandere mit der Android-App"
+],
+"dbb753d1f2": [
+"Claim your {} role on Discord",
+"Hol dir deine Rolle {} auf Discord"
+],
+"c3ce141109": [
+"/#tester",
+"/#tester"
+],
+"93c1af6bb9": [
+"I walk like {}. Which lineage do you walk like?",
+"Ich gehe wie {}. Wie gehst du?"
+],
+"2d84501fff": [
+"The 9 Fantasy Lineages of Kinstride, by Walking Style",
+"Die 9 Fantasy-Abstammungen von Kinstride nach Gehstil"
+],
+"929a0b3c51": [
+"Halfling, Dwarf, Human, Elf, Orc, Barkfolk, Gnome, Goliath and Emberkin: how each one walks, and what the Kinstride walking RPG measures.",
+"Halbling, Zwerg, Mensch, Elf, Ork, Rindenvolk, Gnom, Goliath und Glutvolk: wie jede geht und was das Wander-RPG Kinstride misst."
+],
+"c4a4c8bc74": [
+"Nine lineages, nine ways of walking",
+"Neun Abstammungen, neun Arten zu gehen"
+],
+"2e16adbaf3": [
+"You don’t pick your lineage in Kinstride. The app reads four weeks of your walks and tells you who you walk like. When your walking changes, your lineage changes too.",
+"Deine Abstammung wählst du in Kinstride nicht aus. Die App liest vier Wochen deiner Wanderungen und sagt dir, wie du gehst. Wenn sich dein Gehen ändert, ändert sich auch deine Abstammung."
+],
+"f1964034c2": [
+"Short, lively steps, unhurried walks with plenty of stops.",
+"Kurze, lebhafte Schritte, gemächliche Wanderungen mit vielen Pausen."
+],
+"29b0e99650": [
+"Steady as stone, loves the climbs, goes the distance.",
+"Standfest wie Stein, liebt die Anstiege, hält die Distanz durch."
+],
+"2eb7886fde": [
+"Dwarf: Steady as stone, loves the climbs, goes the distance",
+"Zwerg: Standfest wie Stein, liebt die Anstiege, hält die Distanz durch"
+]
+}

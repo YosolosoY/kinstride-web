@@ -17,6 +17,8 @@ h2{font-size:30px;margin:40px 0 10px;border-bottom:2px solid var(--tinta);paddin
 a{color:var(--acento);text-underline-offset:3px}
 .resumen{background:var(--hoja);border:1.5px solid var(--tinta);border-radius:0;padding:16px 20px}
 .pie{margin-top:48px;font-size:14px;color:var(--suave)}
+.idiomas{margin-top:14px;font-size:14px;color:var(--suave)}
+.idiomas a{color:inherit}
 ul{padding-left:22px}
 li{margin:4px 0}
 /* Página principal */

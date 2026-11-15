@@ -8,7 +8,24 @@ RAIZ = Path(__file__).parent
 KS = Path.home() / 'Projects/kinstride'
 F = KS / 'assets/fonts'
 ORDEN = ['mediano', 'enano', 'humano', 'elfo', 'orco', 'arboreo', 'gnomo', 'goliat', 'ascuano']
-TXT = {'en': ('WHICH LINEAGE DO YOU WALK LIKE?', 'Free walking test · getkinstride.com'), 'es': ('¿A QUÉ LINAJE TE PARECES AL CAMINAR?', 'Test gratis · getkinstride.com')}
+TXT = {'en': ('WHICH LINEAGE DO YOU WALK LIKE?', 'Free walking test · getkinstride.com'), 'es': ('¿A QUÉ LINAJE TE PARECES AL CAMINAR?', 'Test gratis · getkinstride.com'),
+       'pt': ('COM QUAL LINHAGEM VOCÊ CAMINHA?', 'Teste de caminhada grátis · getkinstride.com'),
+       'fr': ('À QUELLE LIGNÉE RESSEMBLES-TU QUAND TU MARCHES ?', 'Test de marche gratuit · getkinstride.com'),
+       'de': ('WELCHER ABSTAMMUNG ENTSPRICHT DEIN GANG?', 'Gratis-Wandertest · getkinstride.com'),
+       'it': ('CON QUALE LIGNAGGIO CAMMINI?', 'Test di camminata gratuito · getkinstride.com')}
+NUEVOS = ('pt', 'fr', 'de', 'it')
+CARPETA_TEST = {'pt': 'teste', 'fr': 'test', 'de': 'test', 'it': 'test'}
+
+
+def datos_idioma(lang):
+    """Nombre y resumen de cada linaje: en/es de datos/linajes-*.json; el resto, del test ya traducido de la página."""
+    if lang in ('en', 'es'):
+        return json.loads((RAIZ / f'datos/linajes-{lang}.json').read_text())
+    import re
+    h = (RAIZ / lang / CARPETA_TEST[lang] / 'index.html').read_text()
+    d = json.loads(re.search(r'<script[^>]*id="datos-test"[^>]*>(.*?)</script>', h, re.S).group(1))
+    return {'razas': [{'id': k, 'nombre': v['nombre'], 'resumen': v['resumen']} for k, v in d['razas'].items()]}
+
 
 
 def fondo():
@@ -42,8 +59,13 @@ gd = KS / 'store/grafico-destacado-en.png'
 if gd.exists():
     Image.open(gd).convert('RGB').save(RAIZ / 'img/compartir.jpg', quality=86, optimize=True, progressive=True)
 
-for lang in ('en', 'es'):
-    datos = json.loads((RAIZ / f'datos/linajes-{lang}.json').read_text())
+for lang in ('es',) + NUEVOS:  # el gráfico destacado de cada idioma (el de inglés ya es compartir.jpg)
+    g = KS / f'store/grafico-destacado-{lang}.png'
+    if g.exists():
+        Image.open(g).convert('RGB').save(RAIZ / f'img/compartir-{lang}.jpg', quality=86, optimize=True, progressive=True)
+
+for lang in ('en', 'es') + NUEVOS:
+    datos = datos_idioma(lang)
     pregunta, pie = TXT[lang]
     titulo = ImageFont.truetype(F / 'SairaExtraCondensed_800ExtraBold.ttf', 108)
     medio = ImageFont.truetype(F / 'IMFellEnglish_400Regular_Italic.ttf', 46)
@@ -57,7 +79,12 @@ for lang in ('en', 'es'):
         d.text((70, 64), 'KINSTRIDE', font=marca, fill=(242, 194, 48))
         y = parrafo(d, r['nombre'].upper(), titulo, 70, 126, 680, (237, 237, 232), 108)
         y = parrafo(d, r['resumen'], medio, 70, y + 14, 680, (180, 182, 189), 56)
-        d.text((70, 496), pregunta, font=chico, fill=(242, 194, 48))
+        lineas = []  # la pregunta no debe pisar la carta (x ≥ 790): se parte en renglones de hasta 680 px
+        for pal in pregunta.split():
+            if lineas and d.textlength(f'{lineas[-1]} {pal}', font=chico) <= 680: lineas[-1] += f' {pal}'
+            else: lineas.append(pal)
+        for i, ln in enumerate(lineas):
+            d.text((70, 496 - 36 * (len(lineas) - 1) + 36 * i), ln, font=chico, fill=(242, 194, 48))
         d.text((70, 540), pie.split(' · ')[1], font=chico, fill=(237, 237, 232))
         img.save(RAIZ / f"img/og-{lang}-{r['id']}.jpg", quality=85, optimize=True, progressive=True)
     img = fondo()

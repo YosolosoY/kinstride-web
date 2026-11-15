@@ -1,0 +1,1432 @@
+{
+ "Barbarian": {
+  "pt": "Bárbaro",
+  "fr": "Barbare",
+  "de": "Barbar",
+  "it": "Barbaro"
+ },
+ "Bard": {
+  "pt": "Bardo",
+  "fr": "Barde",
+  "de": "Barde",
+  "it": "Bardo"
+ },
+ "Cleric": {
+  "pt": "Clérigo",
+  "fr": "Clerc",
+  "de": "Kleriker",
+  "it": "Chierico"
+ },
+ "Druid": {
+  "pt": "Druida",
+  "fr": "Druide",
+  "de": "Druide",
+  "it": "Druido"
+ },
+ "Fighter": {
+  "pt": "Guerreiro",
+  "fr": "Guerrier",
+  "de": "Kämpfer",
+  "it": "Guerriero"
+ },
+ "Long distances outdoors": {
+  "pt": "Longas distâncias ao ar livre",
+  "fr": "Longues distances en plein air",
+  "de": "Lange Strecken unter freiem Himmel",
+  "it": "Lunghe distanze all'aperto"
+ },
+ "Monk": {
+  "pt": "Monge",
+  "fr": "Moine",
+  "de": "Mönch",
+  "it": "Monaco"
+ },
+ "Never misses a day": {
+  "pt": "Nunca perde um dia",
+  "fr": "Ne rate jamais un jour",
+  "de": "Lässt keinen Tag aus",
+  "it": "Non salta mai un giorno"
+ },
+ "Paladin": {
+  "pt": "Paladino",
+  "fr": "Paladin",
+  "de": "Paladin",
+  "it": "Paladino"
+ },
+ "Parks and nature": {
+  "pt": "Parques e natureza",
+  "fr": "Parcs et nature",
+  "de": "Parks und Natur",
+  "it": "Parchi e natura"
+ },
+ "Ranger": {
+  "pt": "Patrulheiro",
+  "fr": "Rôdeur",
+  "de": "Waldläufer",
+  "it": "Ranger",
+  "nota": "En italiano 'Ranger' es el término habitual en los RPG; 'Esploratore' sonaría menos a clase de juego."
+ },
+ "Rogue": {
+  "pt": "Ladino",
+  "fr": "Roublard",
+  "de": "Schurke",
+  "it": "Ladro"
+ },
+ "Sorcerer": {
+  "pt": "Feiticeiro",
+  "fr": "Ensorceleur",
+  "de": "Zauberer",
+  "it": "Stregone"
+ },
+ "Walks at night": {
+  "pt": "Caminha à noite",
+  "fr": "Marche la nuit",
+  "de": "Wandert nachts",
+  "it": "Cammina di notte"
+ },
+ "Walks with the Company": {
+  "pt": "Caminha com a Companhia",
+  "fr": "Marche avec la Compagnie",
+  "de": "Wandert mit den Gefährten",
+  "it": "Cammina con la Compagnia",
+  "revisado_agy": [
+   "de"
+  ]
+ },
+ "Warlock": {
+  "pt": "Bruxo",
+  "fr": "Occultiste",
+  "de": "Hexenmeister",
+  "it": "Warlock",
+  "nota": "En italiano se mantiene 'Warlock', como en los RPG de uso común."
+ },
+ "Wizard": {
+  "pt": "Mago",
+  "fr": "Magicien",
+  "de": "Magier",
+  "it": "Mago"
+ },
+ "Before Dawn": {
+  "pt": "Antes do amanhecer",
+  "fr": "Avant l'aube",
+  "de": "Vor der Dämmerung",
+  "it": "Prima dell'alba"
+ },
+ "Five Suns": {
+  "pt": "Cinco sóis",
+  "fr": "Cinq soleils",
+  "de": "Fünf Sonnen",
+  "it": "Cinque soli"
+ },
+ "The Long March": {
+  "pt": "A longa marcha",
+  "fr": "La longue marche",
+  "de": "Der lange Marsch",
+  "it": "La lunga marcia"
+ },
+ "The Traveller's Week": {
+  "pt": "A semana do viajante",
+  "fr": "La semaine du voyageur",
+  "de": "Die Woche des Reisenden",
+  "it": "La settimana del viandante"
+ },
+ "Up the Slope": {
+  "pt": "Ladeira acima",
+  "fr": "En montant la pente",
+  "de": "Den Hang hinauf",
+  "it": "Su per la salita"
+ },
+ "Graphite": {
+  "pt": "Grafite",
+  "fr": "Graphite",
+  "de": "Graphit",
+  "it": "Grafite"
+ },
+ "Mustard": {
+  "pt": "Mostarda",
+  "fr": "Moutarde",
+  "de": "Senf",
+  "it": "Senape"
+ },
+ "Paper": {
+  "pt": "Papel",
+  "fr": "Papier",
+  "de": "Papier",
+  "it": "Carta",
+  "nota": "Nombre de un tema de color; en italiano 'Carta' es más natural que 'Papiro'."
+ },
+ "Road Menders’ Week": {
+  "pt": "Semana dos Reparadores de Estradas",
+  "fr": "Semaine des Cantonniers",
+  "de": "Woche der Wegebauer",
+  "it": "Settimana dei Cantonieri",
+  "revisado_agy": [
+   "pt"
+  ]
+ },
+ "The Harvest Fair": {
+  "pt": "A Feira da Colheita",
+  "fr": "La Foire des Moissons",
+  "de": "Der Erntemarkt",
+  "it": "La Fiera del Raccolto"
+ },
+ "The Week of Fires": {
+  "pt": "A Semana das Fogueiras",
+  "fr": "La Semaine des Feux",
+  "de": "Die Woche der Feuer",
+  "it": "La Settimana dei Fuochi"
+ },
+ "CHA": {
+  "pt": "CAR",
+  "fr": "CHA",
+  "de": "CHA",
+  "it": "CAR"
+ },
+ "CON": {
+  "pt": "CON",
+  "fr": "CON",
+  "de": "KON",
+  "it": "COS"
+ },
+ "Cadence": {
+  "pt": "Cadência",
+  "fr": "Cadence",
+  "de": "Schrittfrequenz",
+  "it": "Cadenza"
+ },
+ "Camps found": {
+  "pt": "Acampamentos encontrados",
+  "fr": "Campements trouvés",
+  "de": "Lagerplätze gefunden",
+  "it": "Accampamenti trovati"
+ },
+ "Charisma": {
+  "pt": "Carisma",
+  "fr": "Charisme",
+  "de": "Charisma",
+  "it": "Carisma"
+ },
+ "Company walks": {
+  "pt": "Caminhadas com a Companhia",
+  "fr": "Marches avec la Compagnie",
+  "de": "Wanderungen mit den Gefährten",
+  "it": "Cammini con la Compagnia",
+  "revisado_agy": [
+   "de"
+  ]
+ },
+ "Constitution": {
+  "pt": "Constituição",
+  "fr": "Constitution",
+  "de": "Konstitution",
+  "it": "Costituzione"
+ },
+ "DEX": {
+  "pt": "DES",
+  "fr": "DEX",
+  "de": "GES",
+  "it": "DES"
+ },
+ "Dexterity": {
+  "pt": "Destreza",
+  "fr": "Dextérité",
+  "de": "Geschicklichkeit",
+  "it": "Destrezza"
+ },
+ "Endurance": {
+  "pt": "Resistência",
+  "fr": "Endurance",
+  "de": "Ausdauer",
+  "it": "Resistenza"
+ },
+ "INT": {
+  "pt": "INT",
+  "fr": "INT",
+  "de": "INT",
+  "it": "INT"
+ },
+ "Intelligence": {
+  "pt": "Inteligência",
+  "fr": "Intelligence",
+  "de": "Intelligenz",
+  "it": "Intelligenza"
+ },
+ "STR": {
+  "pt": "FOR",
+  "fr": "FOR",
+  "de": "STÄ",
+  "it": "FOR",
+  "revisado_agy": [
+   "de"
+  ]
+ },
+ "Strength": {
+  "pt": "Força",
+  "fr": "Force",
+  "de": "Stärke",
+  "it": "Forza"
+ },
+ "WIS": {
+  "pt": "SAB",
+  "fr": "SAG",
+  "de": "WEI",
+  "it": "SAG"
+ },
+ "Wisdom": {
+  "pt": "Sabedoria",
+  "fr": "Sagesse",
+  "de": "Weisheit",
+  "it": "Saggezza"
+ },
+ "A Good Day's Walk": {
+  "pt": "Um bom dia de caminhada",
+  "fr": "Une bonne journée de marche",
+  "de": "Ein guter Wandertag",
+  "it": "Una buona giornata di cammino"
+ },
+ "A Legendary Day": {
+  "pt": "Um dia lendário",
+  "fr": "Une journée légendaire",
+  "de": "Ein legendärer Tag",
+  "it": "Una giornata leggendaria"
+ },
+ "A Long Day": {
+  "pt": "Um longo dia",
+  "fr": "Une longue journée",
+  "de": "Ein langer Tag",
+  "it": "Una lunga giornata"
+ },
+ "A Month in Boots": {
+  "pt": "Um mês de botas",
+  "fr": "Un mois en bottes",
+  "de": "Ein Monat in Stiefeln",
+  "it": "Un mese con gli stivali",
+  "revisado_agy": [
+   "fr"
+  ]
+ },
+ "A Thousand Roads": {
+  "pt": "Mil estradas",
+  "fr": "Mille routes",
+  "de": "Tausend Wege",
+  "it": "Mille strade"
+ },
+ "Back in Hearthvale": {
+  "pt": "De volta ao Vale da Lareira",
+  "fr": "De retour à Val-Foyer",
+  "de": "Zurück in Herdtal",
+  "it": "Di nuovo a Valfocolare",
+  "nota": "Traduzco 'Hearthvale' (hearth + vale) literalmente, no la referencia 'Valleapacible'. Conviene fijar el mismo nombre en todos los textos que mencionen el lugar.",
+  "revisado_agy": [
+   "pt",
+   "fr",
+   "it"
+  ]
+ },
+ "Beginnings": {
+  "pt": "Começos",
+  "fr": "Débuts",
+  "de": "Anfänge",
+  "it": "Inizi"
+ },
+ "Beyond the Gate": {
+  "pt": "Além do portão",
+  "fr": "Au-delà du portail",
+  "de": "Jenseits des Tors",
+  "it": "Oltre il cancello"
+ },
+ "Boots On": {
+  "pt": "Botas calçadas",
+  "fr": "Bottes aux pieds",
+  "de": "Stiefel an",
+  "it": "Stivali ai piedi"
+ },
+ "Climber": {
+  "pt": "Escalador",
+  "fr": "Grimpeur",
+  "de": "Kletterer",
+  "it": "Scalatore"
+ },
+ "Climbs": {
+  "pt": "Subidas",
+  "fr": "Montées",
+  "de": "Anstiege",
+  "it": "Salite"
+ },
+ "Consistency": {
+  "pt": "Constância",
+  "fr": "Constance",
+  "de": "Beständigkeit",
+  "it": "Costanza"
+ },
+ "Dust on Your Boots": {
+  "pt": "Poeira nas suas botas",
+  "fr": "Poussière sur tes bottes",
+  "de": "Staub auf deinen Stiefeln",
+  "it": "Polvere sui tuoi stivali"
+ },
+ "Events of the year": {
+  "pt": "Eventos do ano",
+  "fr": "Événements de l'année",
+  "de": "Ereignisse des Jahres",
+  "it": "Eventi dell'anno"
+ },
+ "First Campfire": {
+  "pt": "Primeira fogueira",
+  "fr": "Premier feu de camp",
+  "de": "Erstes Lagerfeuer",
+  "it": "Primo falò"
+ },
+ "First Ride": {
+  "pt": "Primeira cavalgada",
+  "fr": "Première chevauchée",
+  "de": "Erster Ritt",
+  "it": "Prima cavalcata"
+ },
+ "Half Marathon": {
+  "pt": "Meia maratona",
+  "fr": "Semi-marathon",
+  "de": "Halbmarathon",
+  "it": "Mezza maratona"
+ },
+ "Hot on the Trail": {
+  "pt": "No encalço",
+  "fr": "Sur la piste",
+  "de": "Heiße Spur",
+  "it": "Sulle tracce"
+ },
+ "In one day": {
+  "pt": "Em um dia",
+  "fr": "En un jour",
+  "de": "An einem Tag",
+  "it": "In un giorno"
+ },
+ "In one outing": {
+  "pt": "Em uma saída",
+  "fr": "En une sortie",
+  "de": "Auf einer Tour",
+  "it": "In un'uscita"
+ },
+ "In the Fair’s Book": {
+  "pt": "No livro da feira",
+  "fr": "Dans le livre de la foire",
+  "de": "Im Buch des Jahrmarkts",
+  "it": "Nel libro della fiera"
+ },
+ "Keeper of the Light": {
+  "pt": "Guardião da luz",
+  "fr": "Gardien de la lumière",
+  "de": "Hüter des Lichts",
+  "it": "Custode della luce",
+  "nota": "El español dice 'Faro', pero el inglés dice 'Light'. He seguido el inglés (luz, quizá la del Farol de Brasa). Si se refiere a un faro, habría que cambiarlo a Farol/Phare/Leuchtturm/Faro."
+ },
+ "Leagues Behind": {
+  "pt": "Léguas para trás",
+  "fr": "Des lieues derrière",
+  "de": "Meilen hinter dir",
+  "it": "Leghe alle spalle",
+  "revisado_agy": [
+   "fr",
+   "de"
+  ]
+ },
+ "Legend of the Lantern": {
+  "pt": "Lenda da lanterna",
+  "fr": "Légende de la lanterne",
+  "de": "Legende der Laterne",
+  "it": "Leggenda della lanterna"
+ },
+ "Marathon": {
+  "pt": "Maratona",
+  "fr": "Marathon",
+  "de": "Marathon",
+  "it": "Maratona"
+ },
+ "No Looking Back": {
+  "pt": "Sem olhar para trás",
+  "fr": "Sans se retourner",
+  "de": "Ohne Blick zurück",
+  "it": "Senza voltarsi"
+ },
+ "Peak Seeker": {
+  "pt": "Buscador de cumes",
+  "fr": "Chercheur de sommets",
+  "de": "Gipfelsucher",
+  "it": "Cercatore di vette"
+ },
+ "Rider of the Road": {
+  "pt": "Cavaleiro da estrada",
+  "fr": "Cavalier de la route",
+  "de": "Reiter der Straße",
+  "it": "Cavaliere della strada"
+ },
+ "Rides (by bike)": {
+  "pt": "Cavalgadas (de bicicleta)",
+  "fr": "Chevauchées (à vélo)",
+  "de": "Ausritte (mit dem Rad)",
+  "it": "Cavalcate (in bici)"
+ },
+ "Road Mender’s Helper": {
+  "pt": "Ajudante dos reparadores de estrada",
+  "fr": "Aide des cantonniers",
+  "de": "Gehilfe der Wegebauer",
+  "it": "Aiutante dei cantonieri",
+  "revisado_agy": [
+   "de"
+  ]
+ },
+ "Sure-Footed": {
+  "pt": "Passo seguro",
+  "fr": "Pied sûr",
+  "de": "Trittsicher",
+  "it": "Passo sicuro",
+  "revisado_agy": [
+   "fr"
+  ]
+ },
+ "The First Hundred": {
+  "pt": "Os primeiros cem",
+  "fr": "Les cent premiers",
+  "de": "Die ersten Hundert",
+  "it": "I primi cento"
+ },
+ "The road": {
+  "pt": "A estrada",
+  "fr": "La route",
+  "de": "Die Straße",
+  "it": "La strada"
+ },
+ "Three Suns": {
+  "pt": "Três sóis",
+  "fr": "Trois soleils",
+  "de": "Drei Sonnen",
+  "it": "Tre soli"
+ },
+ "Uphill": {
+  "pt": "Ladeira acima",
+  "fr": "En montée",
+  "de": "Bergauf",
+  "it": "In salita"
+ },
+ "Basilisk": {
+  "pt": "Basilisco",
+  "fr": "Basilic",
+  "de": "Basilisk",
+  "it": "Basilisco"
+ },
+ "Bugbear": {
+  "pt": "Bugbear",
+  "fr": "Gobelours",
+  "de": "Grottenschrat",
+  "it": "Bugbear",
+  "revisado_agy": [
+   "de"
+  ]
+ },
+ "Cockatrice": {
+  "pt": "Cocatriz",
+  "fr": "Cocatrice",
+  "de": "Cockatrice",
+  "it": "Cocatrice"
+ },
+ "Dryad": {
+  "pt": "Dríade",
+  "fr": "Dryade",
+  "de": "Dryade",
+  "it": "Driade"
+ },
+ "Ettercap": {
+  "pt": "Ettercap",
+  "fr": "Ettercap",
+  "de": "Ettercap",
+  "it": "Ettercap"
+ },
+ "Gargoyle": {
+  "pt": "Gárgula",
+  "fr": "Gargouille",
+  "de": "Gargoyle",
+  "it": "Gargoyle"
+ },
+ "Ghoul": {
+  "pt": "Carniçal",
+  "fr": "Goule",
+  "de": "Ghul",
+  "it": "Ghoul"
+ },
+ "Giant Spider": {
+  "pt": "Aranha gigante",
+  "fr": "Araignée géante",
+  "de": "Riesenspinne",
+  "it": "Ragno gigante"
+ },
+ "Goblin": {
+  "pt": "Goblin",
+  "fr": "Gobelin",
+  "de": "Goblin",
+  "it": "Goblin"
+ },
+ "Griffon": {
+  "pt": "Grifo",
+  "fr": "Griffon",
+  "de": "Greif",
+  "it": "Grifone"
+ },
+ "Harpy": {
+  "pt": "Harpia",
+  "fr": "Harpie",
+  "de": "Harpyie",
+  "it": "Arpia"
+ },
+ "Hippogriff": {
+  "pt": "Hipogrifo",
+  "fr": "Hippogriffe",
+  "de": "Hippogreif",
+  "it": "Ippogrifo"
+ },
+ "Hobgoblin": {
+  "pt": "Hobgoblin",
+  "fr": "Hobgobelin",
+  "de": "Hobgoblin",
+  "it": "Hobgoblin"
+ },
+ "Hydra": {
+  "pt": "Hidra",
+  "fr": "Hydre",
+  "de": "Hydra",
+  "it": "Idra"
+ },
+ "Kobold": {
+  "pt": "Kobold",
+  "fr": "Kobold",
+  "de": "Kobold",
+  "it": "Coboldo"
+ },
+ "Manticore": {
+  "pt": "Mantícora",
+  "fr": "Manticore",
+  "de": "Mantikor",
+  "it": "Manticora"
+ },
+ "Mimic": {
+  "pt": "Mímico",
+  "fr": "Mimique",
+  "de": "Mimic",
+  "it": "Mimic"
+ },
+ "Minotaur": {
+  "pt": "Minotauro",
+  "fr": "Minotaure",
+  "de": "Minotaurus",
+  "it": "Minotauro"
+ },
+ "Ogre": {
+  "pt": "Ogro",
+  "fr": "Ogre",
+  "de": "Oger",
+  "it": "Ogre"
+ },
+ "Owlbear": {
+  "pt": "Urso-coruja",
+  "fr": "Hibours",
+  "de": "Eulenbär",
+  "it": "Orsogufo"
+ },
+ "Pegasus": {
+  "pt": "Pégaso",
+  "fr": "Pégase",
+  "de": "Pegasus",
+  "it": "Pegaso"
+ },
+ "Roc": {
+  "pt": "Roc",
+  "fr": "Roc",
+  "de": "Roc",
+  "it": "Roc"
+ },
+ "Rust Monster": {
+  "pt": "Monstro da ferrugem",
+  "fr": "Rouilleur",
+  "de": "Rostmonster",
+  "it": "Mostro della ruggine"
+ },
+ "Satyr": {
+  "pt": "Sátiro",
+  "fr": "Satyre",
+  "de": "Satyr",
+  "it": "Satiro"
+ },
+ "Shambling Mound": {
+  "pt": "Monte cambaleante",
+  "fr": "Tertre errant",
+  "de": "Wandelnder Haufen",
+  "it": "Cumulo vagante",
+  "nota": "No hay término establecido en todos los idiomas; son versiones descriptivas de la criatura (montón de vegetación que camina)."
+ },
+ "Skeleton": {
+  "pt": "Esqueleto",
+  "fr": "Squelette",
+  "de": "Skelett",
+  "it": "Scheletro"
+ },
+ "Specter": {
+  "pt": "Espectro",
+  "fr": "Spectre",
+  "de": "Gespenst",
+  "it": "Spettro"
+ },
+ "Stirge": {
+  "pt": "Stirge",
+  "fr": "Strige",
+  "de": "Stirge",
+  "it": "Stirge"
+ },
+ "Troll": {
+  "pt": "Troll",
+  "fr": "Troll",
+  "de": "Troll",
+  "it": "Troll"
+ },
+ "Wight": {
+  "pt": "Wight",
+  "fr": "Wight",
+  "de": "Grabunhold",
+  "it": "Wight",
+  "nota": "El español usa 'tumulario' (término tolkieniano). En pt, fr e it no hay equivalente claro, así que conservo 'Wight'; en alemán se usa Grabunhold."
+ },
+ "Worg": {
+  "pt": "Warg",
+  "fr": "Worg",
+  "de": "Warg",
+  "it": "Warg"
+ },
+ "Wyvern": {
+  "pt": "Wyvern",
+  "fr": "Vouivre",
+  "de": "Wyvern",
+  "it": "Viverna"
+ },
+ "Zombie": {
+  "pt": "Zumbi",
+  "fr": "Zombie",
+  "de": "Zombie",
+  "it": "Zombie"
+ },
+ "Aldith": {
+  "pt": "Aldith",
+  "fr": "Aldith",
+  "de": "Aldith",
+  "it": "Aldith"
+ },
+ "Deepvale": {
+  "pt": "Vale Fundo",
+  "fr": "Valprofond",
+  "de": "Tieftal",
+  "it": "Valfonda"
+ },
+ "Ember Lantern": {
+  "pt": "Lanterna de Brasa",
+  "fr": "Lanterne de Braise",
+  "de": "Glutlaterne",
+  "it": "Lanterna di Brace"
+ },
+ "Goat Pass": {
+  "pt": "Passagem das Cabras",
+  "fr": "Col des Chèvres",
+  "de": "Ziegenpass",
+  "it": "Passo delle Capre"
+ },
+ "Greenwall": {
+  "pt": "Muralha Verde",
+  "fr": "Muraille Verte",
+  "de": "Grünwall",
+  "it": "Muro Verde"
+ },
+ "Magpies": {
+  "pt": "Pegas",
+  "fr": "Pies",
+  "de": "Elstern",
+  "it": "Gazze"
+ },
+ "Wenna": {
+  "pt": "Wenna",
+  "fr": "Wenna",
+  "de": "Wenna",
+  "it": "Wenna"
+ },
+ "Bearer of Far Tidings": {
+  "pt": "Portador de Notícias Distantes",
+  "fr": "Porteur de Nouvelles Lointaines",
+  "de": "Überbringer ferner Kunde",
+  "it": "Portatore di Notizie Lontane"
+ },
+ "Doorstep Wanderer": {
+  "pt": "Andarilho da Soleira",
+  "fr": "Rôdeur du Seuil",
+  "de": "Schwellenwanderer",
+  "it": "Vagabondo della Soglia"
+ },
+ "Frontier Scout": {
+  "pt": "Explorador da Fronteira",
+  "fr": "Éclaireur des Confins",
+  "de": "Grenzspäher",
+  "it": "Esploratore di Frontiera"
+ },
+ "Hedge Rover": {
+  "pt": "Errante das Sebes",
+  "fr": "Rôdeur des Haies",
+  "de": "Heckenstreuner",
+  "it": "Errante delle Siepi"
+ },
+ "Highland Guide": {
+  "pt": "Guia das Terras Altas",
+  "fr": "Guide des Hautes Terres",
+  "de": "Hochlandführer",
+  "it": "Guida degli Altipiani"
+ },
+ "Hill Tracker": {
+  "pt": "Rastreador das Colinas",
+  "fr": "Pisteur des Collines",
+  "de": "Hügelfährtenleser",
+  "it": "Rintracciatore delle Colline"
+ },
+ "Keeper of Fords": {
+  "pt": "Guardião dos Vaus",
+  "fr": "Gardien des Gués",
+  "de": "Hüter der Furten",
+  "it": "Custode dei Guadi"
+ },
+ "Lane Walker": {
+  "pt": "Caminhante das Veredas",
+  "fr": "Marcheur des Sentiers",
+  "de": "Weggänger",
+  "it": "Camminatore dei Sentieri"
+ },
+ "Legend of the Farwander": {
+  "pt": "Lenda das Terras Distantes",
+  "fr": "Légende des Terres Lointaines",
+  "de": "Legende der Fernlande",
+  "it": "Leggenda delle Terre Lontane",
+  "nota": "Sigo la referencia en español, que trata 'Farwander' como 'Tierras Lejanas' y no como nombre propio. Si es un nombre propio, habría que conservarlo."
+ },
+ "Lineage Champion": {
+  "pt": "Campeão da Linhagem",
+  "fr": "Champion de la Lignée",
+  "de": "Champion der Abstammung",
+  "it": "Campione del Lignaggio"
+ },
+ "Mapmaker": {
+  "pt": "Cartógrafo",
+  "fr": "Cartographe",
+  "de": "Kartograf",
+  "it": "Cartografo"
+ },
+ "Master of Old Roads": {
+  "pt": "Mestre das Estradas Antigas",
+  "fr": "Maître des Vieilles Routes",
+  "de": "Meister der Alten Straßen",
+  "it": "Maestro delle Antiche Strade"
+ },
+ "Moor Warden": {
+  "pt": "Guardião da Charneca",
+  "fr": "Gardien de la Lande",
+  "de": "Moorwächter",
+  "it": "Guardiano della Brughiera"
+ },
+ "Mountain-Crosser": {
+  "pt": "Cruzador de Montanhas",
+  "fr": "Traverse-Monts",
+  "de": "Bergüberschreiter",
+  "it": "Valicamonti"
+ },
+ "Road Veteran": {
+  "pt": "Veterano da Estrada",
+  "fr": "Vétéran des Routes",
+  "de": "Straßenveteran",
+  "it": "Veterano della Strada"
+ },
+ "Teller of Roads": {
+  "pt": "Narrador de Estradas",
+  "fr": "Conteur de Routes",
+  "de": "Straßenerzähler",
+  "it": "Narratore di Strade",
+  "revisado_agy": [
+   "pt"
+  ]
+ },
+ "The Unwearied": {
+  "pt": "O Incansável",
+  "fr": "L'Infatigable",
+  "de": "Der Unermüdliche",
+  "it": "L'Instancabile"
+ },
+ "Trailblazer": {
+  "pt": "Desbravador",
+  "fr": "Défricheur",
+  "de": "Wegbereiter",
+  "it": "Apripista"
+ },
+ "Walker of Storms": {
+  "pt": "Caminhante das Tempestades",
+  "fr": "Marcheur des Tempêtes",
+  "de": "Sturmwanderer",
+  "it": "Camminatore delle Tempeste"
+ },
+ "Wayfinder of the Wilds": {
+  "pt": "Orientador dos Ermos",
+  "fr": "Guide des Terres Sauvages",
+  "de": "Wegfinder der Wildnis",
+  "it": "Cercatore di Vie delle Terre Selvagge"
+ },
+ "Abandoned Campfire": {
+  "pt": "Fogueira Abandonada",
+  "fr": "Feu de Camp Abandonné",
+  "de": "Verlassenes Lagerfeuer",
+  "it": "Falò Abbandonato"
+ },
+ "Birch Grove": {
+  "pt": "Bosque de Bétulas",
+  "fr": "Bois de Bouleaux",
+  "de": "Birkenhain",
+  "it": "Boschetto di Betulle"
+ },
+ "Broken Tower": {
+  "pt": "Torre Quebrada",
+  "fr": "Tour Brisée",
+  "de": "Zerbrochener Turm",
+  "it": "Torre Spezzata"
+ },
+ "Crossing of Ways": {
+  "pt": "Encruzilhada",
+  "fr": "Croisée des Chemins",
+  "de": "Wegkreuzung",
+  "it": "Crocevia"
+ },
+ "Ford of Reeds": {
+  "pt": "Vau dos Juncos",
+  "fr": "Gué des Roseaux",
+  "de": "Schilffurt",
+  "it": "Guado dei Giunchi"
+ },
+ "Lonely Farmstead": {
+  "pt": "Sítio Solitário",
+  "fr": "Ferme Solitaire",
+  "de": "Einsamer Hof",
+  "it": "Fattoria Solitaria"
+ },
+ "Mossy Well": {
+  "pt": "Poço Musgoso",
+  "fr": "Puits Moussu",
+  "de": "Moosiger Brunnen",
+  "it": "Pozzo Muschioso"
+ },
+ "Old Stone Bridge": {
+  "pt": "Velha Ponte de Pedra",
+  "fr": "Vieux Pont de Pierre",
+  "de": "Alte Steinbrücke",
+  "it": "Vecchio Ponte di Pietra"
+ },
+ "Standing Stone": {
+  "pt": "Pedra Erguida",
+  "fr": "Menhir",
+  "de": "Menhir",
+  "it": "Pietra Eretta"
+ },
+ "Windy Lookout": {
+  "pt": "Mirante do Vento",
+  "fr": "Belvédère du Vent",
+  "de": "Windiger Aussichtspunkt",
+  "it": "Belvedere Ventoso"
+ },
+ "Achievements": {
+  "pt": "Conquistas",
+  "fr": "Succès",
+  "de": "Erfolge",
+  "it": "Obiettivi"
+ },
+ "Backpack": {
+  "pt": "Mochila",
+  "fr": "Sac à dos",
+  "de": "Rucksack",
+  "it": "Zaino"
+ },
+ "Bestiary": {
+  "pt": "Bestiário",
+  "fr": "Bestiaire",
+  "de": "Bestiarium",
+  "it": "Bestiario"
+ },
+ "Class": {
+  "pt": "Classe",
+  "fr": "Classe",
+  "de": "Klasse",
+  "it": "Classe"
+ },
+ "Company": {
+  "pt": "Companhia",
+  "fr": "Compagnie",
+  "de": "Gefährten",
+  "it": "Compagnia"
+ },
+ "Distance": {
+  "pt": "Distância",
+  "fr": "Distance",
+  "de": "Distanz",
+  "it": "Distanza"
+ },
+ "Expedition": {
+  "pt": "Expedição",
+  "fr": "Expédition",
+  "de": "Expedition",
+  "it": "Spedizione"
+ },
+ "Journal": {
+  "pt": "Diário",
+  "fr": "Journal",
+  "de": "Tagebuch",
+  "it": "Diario"
+ },
+ "Landmark": {
+  "pt": "Lugar",
+  "fr": "Lieu",
+  "de": "Wegmarke",
+  "it": "Luogo"
+ },
+ "Level": {
+  "pt": "Nível",
+  "fr": "Niveau",
+  "de": "Stufe",
+  "it": "Livello"
+ },
+ "Lineage": {
+  "pt": "Linhagem",
+  "fr": "Lignée",
+  "de": "Abstammung",
+  "it": "Lignaggio"
+ },
+ "Narrator": {
+  "pt": "Narrador",
+  "fr": "Narrateur",
+  "de": "Erzähler",
+  "it": "Narratore"
+ },
+ "Pace": {
+  "pt": "Ritmo",
+  "fr": "Allure",
+  "de": "Tempo",
+  "it": "Ritmo"
+ },
+ "Routes": {
+  "pt": "Rotas",
+  "fr": "Itinéraires",
+  "de": "Routen",
+  "it": "Percorsi"
+ },
+ "Steps": {
+  "pt": "Passos",
+  "fr": "Pas",
+  "de": "Schritte",
+  "it": "Passi"
+ },
+ "Stride": {
+  "pt": "Passada",
+  "fr": "Foulée",
+  "de": "Schrittlänge",
+  "it": "Falcata",
+  "nota": "Sigo la referencia 'Paso' y la regla de 'step'. Si 'Stride' se refiere a la longitud de zancada y debe distinguirse de 'Steps', usar pt 'Passada', fr 'Foulée', de 'Schrittlänge', it 'Falcata'."
+ },
+ "Barkfolk": {
+  "pt": "Arbóreo",
+  "fr": "Écorcien",
+  "de": "Rindenvolk",
+  "it": "Arboreo",
+  "nota": "Término inventado en inglés. Propongo equivalentes naturales que evocan corteza o árbol, no calcos literales."
+ },
+ "Dwarf": {
+  "pt": "Anão",
+  "fr": "Nain",
+  "de": "Zwerg",
+  "it": "Nano"
+ },
+ "Elf": {
+  "pt": "Elfo",
+  "fr": "Elfe",
+  "de": "Elf",
+  "it": "Elfo"
+ },
+ "Emberkin": {
+  "pt": "Brasiano",
+  "fr": "Braisien",
+  "de": "Glutvolk",
+  "it": "Braciano",
+  "nota": "Término inventado. Propongo equivalentes que evocan brasas, no calcos literales."
+ },
+ "Gnome": {
+  "pt": "Gnomo",
+  "fr": "Gnome",
+  "de": "Gnom",
+  "it": "Gnomo"
+ },
+ "Goliath": {
+  "pt": "Golias",
+  "fr": "Goliath",
+  "de": "Goliath",
+  "it": "Golia"
+ },
+ "Halfling": {
+  "pt": "Halfling",
+  "fr": "Halfelin",
+  "de": "Halbling",
+  "it": "Halfling"
+ },
+ "Human": {
+  "pt": "Humano",
+  "fr": "Humain",
+  "de": "Mensch",
+  "it": "Umano"
+ },
+ "No lineage yet": {
+  "pt": "Ainda sem linhagem",
+  "fr": "Pas encore de lignée",
+  "de": "Noch keine Abstammung",
+  "it": "Ancora nessun lignaggio"
+ },
+ "Orc": {
+  "pt": "Orc",
+  "fr": "Orc",
+  "de": "Ork",
+  "it": "Orco"
+ },
+ "Crossroads Inn": {
+  "pt": "Estalagem da Encruzilhada",
+  "fr": "Auberge du Carrefour",
+  "de": "Gasthaus zum Kreuzweg",
+  "it": "Locanda del Crocevia"
+ },
+ "Crown Rock": {
+  "pt": "Rocha da Coroa",
+  "fr": "Roche de la Couronne",
+  "de": "Kronfels",
+  "it": "Rupe della Corona"
+ },
+ "Deepvale Sanctuary": {
+  "pt": "Refúgio do Vale Fundo",
+  "fr": "Refuge de Valprofond",
+  "de": "Zuflucht von Tieftal",
+  "it": "Rifugio di Valfonda",
+  "revisado_agy": [
+   "fr"
+  ]
+ },
+ "Free Stretch": {
+  "pt": "Trecho Livre",
+  "fr": "Tronçon Libre",
+  "de": "Freie Strecke",
+  "it": "Tratto Libero"
+ },
+ "Hearthvale": {
+  "pt": "Vale da Lareira",
+  "fr": "Val-Foyer",
+  "de": "Herdtal",
+  "it": "Valfocolare",
+  "nota": "La referencia en español 'Valleapacible' no refleja 'hearth'. Traduzco 'hearth' (hogar, lar) y 'vale', con la misma lógica que Deepvale, que es un lugar con palabras comunes."
+ },
+ "Lantern Bridge": {
+  "pt": "Ponte das Lanternas",
+  "fr": "Pont des Lanternes",
+  "de": "Laternenbrücke",
+  "it": "Ponte delle Lanterne"
+ },
+ "Saltbell": {
+  "pt": "Sinosal",
+  "fr": "Clochesel",
+  "de": "Salzglocke",
+  "it": "Campanasale",
+  "nota": "Calco de «salt» + «bell», como Campanasal en español. En pt se usa «sino» (campana de iglesia) por sonar más natural que «campainha»."
+ },
+ "The Amber Canopy": {
+  "pt": "O Dossel Âmbar",
+  "fr": "La Canopée d'Ambre",
+  "de": "Das Bernsteindach",
+  "it": "La Volta d'Ambra"
+ },
+ "The Cinder Peak": {
+  "pt": "O Pico das Cinzas",
+  "fr": "Le Pic des Cendres",
+  "de": "Der Aschegipfel",
+  "it": "Il Picco di Cenere"
+ },
+ "The Dragon Road": {
+  "pt": "A Estrada do Dragão",
+  "fr": "La Route du Dragon",
+  "de": "Die Drachenstraße",
+  "it": "La Via del Drago",
+  "nota": "Si 'Dragon' se refiere a la dragona del juego, usar femenino: pt 'da Dragoa', fr 'de la Dragonne', de 'Drachin', it 'della Drago(nessa)'. Aquí se tradujo como dragón genérico, igual que el español."
+ },
+ "The Dragon's Crown": {
+  "pt": "A Coroa do Dragão",
+  "fr": "La Couronne du Dragon",
+  "de": "Die Drachenkrone",
+  "it": "La Corona del Drago",
+  "nota": "Mismo caso que 'The Dragon Road': si alude a la dragona, pasar a femenino."
+ },
+ "The Goat Pass": {
+  "pt": "A Passagem das Cabras",
+  "fr": "Le Col des Chèvres",
+  "de": "Der Ziegenpass",
+  "it": "Il Passo delle Capre"
+ },
+ "The Greenwall": {
+  "pt": "A Muralha Verde",
+  "fr": "La Muraille Verte",
+  "de": "Der Grünwall",
+  "it": "Il Muro Verde",
+  "revisado_agy": [
+   "pt",
+   "fr",
+   "de"
+  ]
+ },
+ "The Hunt": {
+  "pt": "A Caçada",
+  "fr": "La Chasse",
+  "de": "Die Jagd",
+  "it": "La Caccia"
+ },
+ "The Last Library": {
+  "pt": "A Última Biblioteca",
+  "fr": "La Dernière Bibliothèque",
+  "de": "Die Letzte Bibliothek",
+  "it": "L'Ultima Biblioteca"
+ },
+ "The Last Stretch": {
+  "pt": "O Último Trecho",
+  "fr": "La Dernière Ligne droite",
+  "de": "Die Letzte Etappe",
+  "it": "L'Ultimo Tratto"
+ },
+ "The Long Grass": {
+  "pt": "A Grama Alta",
+  "fr": "L'Herbe Haute",
+  "de": "Das Hohe Gras",
+  "it": "L'Erba Alta"
+ },
+ "The Long Road": {
+  "pt": "A Longa Estrada",
+  "fr": "La Longue Route",
+  "de": "Der Lange Weg",
+  "it": "La Lunga Strada",
+  "nota": "El español dice 'El Gran Viaje'; se mantuvo el sentido literal del inglés. Ajustar si es el título de la travesía completa."
+ },
+ "The Pale Marshes": {
+  "pt": "Os Pântanos Pálidos",
+  "fr": "Les Marais Pâles",
+  "de": "Die Bleichen Sümpfe",
+  "it": "Le Paludi Pallide"
+ },
+ "The Road Home": {
+  "pt": "O Caminho de Volta",
+  "fr": "Le Chemin du Retour",
+  "de": "Der Heimweg",
+  "it": "La Strada di Casa"
+ },
+ "The Slate Hills": {
+  "pt": "As Colinas de Ardósia",
+  "fr": "Les Collines d'Ardoise",
+  "de": "Die Schieferhügel",
+  "it": "Le Colline d'Ardesia"
+ },
+ "The Sunken Halls": {
+  "pt": "Os Salões Afundados",
+  "fr": "Les Salles Englouties",
+  "de": "Die Versunkenen Hallen",
+  "it": "Le Sale Sommerse"
+ },
+ "The Trampled Ford": {
+  "pt": "O Vau Pisoteado",
+  "fr": "Le Gué Piétiné",
+  "de": "Die Zertrampelte Furt",
+  "it": "Il Guado Calpestato"
+ },
+ "The Weaver's Pass": {
+  "pt": "A Passagem da Tecelã",
+  "fr": "Le Col de la Tisserande",
+  "de": "Der Pass der Weberin",
+  "it": "Il Passo della Tessitrice"
+ },
+ "The Wraith Spire": {
+  "pt": "A Torre Espectral",
+  "fr": "La Tour Spectrale",
+  "de": "Der Geisterturm",
+  "it": "La Torre Spettrale"
+ },
+ "Watchers' Crag": {
+  "pt": "Penhasco dos Vigias",
+  "fr": "Roc des Guetteurs",
+  "de": "Wächterfelsen",
+  "it": "Rupe delle Sentinelle"
+ },
+ "the Farwander": {
+  "pt": "as Terras Distantes",
+  "fr": "les Terres Lointaines",
+  "de": "die Fernlande",
+  "it": "le Terre Lontane",
+  "nota": "Se mantiene el 'the' en minúscula como en el original; en alemán el sustantivo lleva mayúscula obligatoria."
+ },
+ "Saltmere Quay": {
+  "pt": "Cais do Salobro",
+  "fr": "Quai du Lac-Salé",
+  "de": "Salzsee-Kai",
+  "it": "Molo del Lago Salato",
+  "nota": "«Saltmere» es sal + «mere» (laguna). En pt sigo «Salobre» del español (Salobro); en fr, de e it traduzco literalmente como «lago salado». Omito el artículo inicial que lleva el español («El Muelle…») porque el original inglés no lo tiene."
+ },
+ "Sealwater Strait": {
+  "pt": "Estreito das Focas",
+  "fr": "Détroit des Phoques",
+  "de": "Robbensund",
+  "it": "Stretto delle Foche"
+ },
+ "Shepherd’s Rise": {
+  "pt": "Ladeira do Pastor",
+  "fr": "Côte du Berger",
+  "de": "Hirtenanstieg",
+  "it": "Salita del Pastore"
+ },
+ "The Last Lighthouse": {
+  "pt": "O Último Farol",
+  "fr": "Le Dernier Phare",
+  "de": "Der Letzte Leuchtturm",
+  "it": "L'Ultimo Faro"
+ },
+ "The Milepost Road": {
+  "pt": "A Estrada dos Marcos",
+  "fr": "La Route des Bornes",
+  "de": "Die Meilensteinstraße",
+  "it": "La Strada dei Cippi"
+ },
+ "The Still Bay": {
+  "pt": "A Baía Quieta",
+  "fr": "La Baie Tranquille",
+  "de": "Die Stille Bucht",
+  "it": "La Baia Quieta"
+ },
+ "The Windmeadows": {
+  "pt": "Os Prados do Vento",
+  "fr": "Les Prairies du Vent",
+  "de": "Die Windwiesen",
+  "it": "I Prati del Vento"
+ },
+ "By water": {
+  "pt": "Por água",
+  "fr": "Sur l'eau",
+  "de": "Zu Wasser",
+  "it": "Per acqua"
+ },
+ "On foot": {
+  "pt": "A pé",
+  "fr": "À pied",
+  "de": "Zu Fuß",
+  "it": "A piedi"
+ },
+ "On horseback": {
+  "pt": "A cavalo",
+  "fr": "À cheval",
+  "de": "Zu Pferd",
+  "it": "A cavallo"
+ },
+ "Fire Goliath": {
+  "pt": "Golias do Fogo",
+  "fr": "Goliath de Feu",
+  "de": "Feuer-Goliath",
+  "it": "Golia del Fuoco"
+ },
+ "Forest Gnome": {
+  "pt": "Gnomo da Floresta",
+  "fr": "Gnome des Forêts",
+  "de": "Waldgnom",
+  "it": "Gnomo delle Foreste"
+ },
+ "Frost Goliath": {
+  "pt": "Golias do Gelo",
+  "fr": "Goliath de Givre",
+  "de": "Frost-Goliath",
+  "it": "Golia del Gelo"
+ },
+ "High Elf": {
+  "pt": "Alto Elfo",
+  "fr": "Haut-Elfe",
+  "de": "Hochelf",
+  "it": "Alto Elfo"
+ },
+ "Nightfall Elf": {
+  "pt": "Elfo do Anoitecer",
+  "fr": "Elfe du Crépuscule",
+  "de": "Dämmerelf",
+  "it": "Elfo del Crepuscolo"
+ },
+ "Rock Gnome": {
+  "pt": "Gnomo das Rochas",
+  "fr": "Gnome des Roches",
+  "de": "Felsgnom",
+  "it": "Gnomo delle Rocce"
+ },
+ "Stone Goliath": {
+  "pt": "Golias da Pedra",
+  "fr": "Goliath de Pierre",
+  "de": "Stein-Goliath",
+  "it": "Golia della Pietra"
+ },
+ "Storm Goliath": {
+  "pt": "Golias da Tempestade",
+  "fr": "Goliath de Tempête",
+  "de": "Sturm-Goliath",
+  "it": "Golia della Tempesta"
+ },
+ "Wood Elf": {
+  "pt": "Elfo da Floresta",
+  "fr": "Elfe des Bois",
+  "de": "Waldelf",
+  "it": "Elfo dei Boschi"
+ },
+ "Hadda Corbel": {
+  "pt": "Hadda Corbel",
+  "fr": "Hadda Corbel",
+  "de": "Hadda Corbel",
+  "it": "Hadda Corbel"
+ },
+ "Sir Osric": {
+  "pt": "Sir Osric",
+  "fr": "Sir Osric",
+  "de": "Sir Osric",
+  "it": "Sir Osric"
+ },
+ "Tilda Bramble": {
+  "pt": "Tilda Bramble",
+  "fr": "Tilda Bramble",
+  "de": "Tilda Bramble",
+  "it": "Tilda Bramble"
+ },
+ "Wren Ashby": {
+  "pt": "Wren Ashby",
+  "fr": "Wren Ashby",
+  "de": "Wren Ashby",
+  "it": "Wren Ashby"
+ },
+ "Arguing with a map": {
+  "pt": "Discutindo com um mapa",
+  "fr": "Se dispute avec une carte",
+  "de": "Streitet mit einer Karte",
+  "it": "Discute con una mappa"
+ },
+ "Still packing": {
+  "pt": "Ainda arrumando a mochila",
+  "fr": "Fait encore son sac",
+  "de": "Packt noch",
+  "it": "Sta ancora preparando lo zaino"
+ },
+ "The Great Crossing": {
+  "pt": "A Grande Travessia",
+  "fr": "La Grande Traversée",
+  "de": "Die Große Überquerung",
+  "it": "La Grande Traversata"
+ }
+}
