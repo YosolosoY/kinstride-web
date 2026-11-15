@@ -262,11 +262,11 @@ ART = {
   resumen='Kinstride is an Android walking game. Every image in it (creatures, scenes, travellers, portraits, objects) can be drawn by a human illustrator, with the artist’s name on every piece. If you are an illustrator and want real work in a published app, this page explains how.',
   secs=[
    ('Why we are doing this', '<p>Kinstride is an independent project. Today its images were generated with AI, and we want to replace them with human work. You get real, published work with a brief, a style guide and review. Later, users will be able to choose which artist’s drawings they see in the app, or see a mix of all of them.</p>'),
-   ('What you get', '<ul><li><b>Credit on every piece</b>: your name and a link to your Instagram (or to your website or portfolio if you do not use Instagram) on each of your images, on the postcards users share and on an “Artists” page inside the app.</li><li>An “Artists” page in the app and on this site, with your link.</li><li>A signed letter confirming the collaboration: what you did, how many pieces, the date and the Google Play link.</li></ul><p class="nota">Your work counts as “published” when a version that includes it reaches production on Google Play. We will tell you the date.</p>'),
+   ('What you get', '<ul><li><b>Credit on every piece</b>: your name and a link to your Instagram (or to your website or portfolio if you do not use Instagram) on each of your images, on the postcards users share and on an “Artists” page inside the app.</li><li>An “Artists” page in the app and on this site, with your link.</li><li>A signed letter confirming the collaboration: what you did, how many pieces, the date and the Google Play link.</li><li><b>Payment:</b> US$50 once your first 10 pieces are accepted. You can deliver more: pieces accepted later carry your credit and are not paid additionally. A piece is any illustration that ends up accepted.</li></ul><p class="nota">Your work counts as “published” when a version that includes it reaches production on Google Play. We will tell you the date.</p>'),
    ('What the app needs (281 pieces)', '<div class="tabla"><table><thead><tr><th>Type</th><th>Pieces</th><th>What it is</th></tr></thead><tbody><tr><td>Bestiary</td><td>33</td><td>One creature per plate</td></tr><tr><td>Scenes</td><td>32</td><td>12 places + 20 road stretches</td></tr><tr><td>Travellers</td><td>4</td><td>Characters met on the road</td></tr><tr><td>Portraits</td><td>108</td><td>9 lineages × 12 classes</td></tr><tr><td>Objects</td><td>104</td><td>One magic object, centred</td></tr></tbody></table></div><p>You can try all 281 pieces, but you do not have to do them all. You receive the list with exact file names and the text the app shows for each one.</p>'),
    ('Style: Kinstride identity, your touch', '<ul><li><b>Fixed:</b> field-notebook look, ink or marker sketch; black and greys only (the app inks it in its own colour, day and night); plain white background; no text or signature inside the image; a recognisable subject with personality.</li><li><b>Yours:</b> your line, hatching, proportions, stylisation, humour, pose and details.</li><li><b>Delivery:</b> PNG, 3:4 (min. 1800×2400 px) for creatures, travellers and portraits; 4:5 (1800×2250) for scenes; 1:1 (1536×1536) for objects.</li><li><b>Not allowed:</b> characters or creatures from other franchises, logos, brands, and generative AI to create your piece.</li></ul>'),
    ('Terms in short', '<ul><li>You own your work and may show it in your portfolio, social media and CV.</li><li>Kinstride may use it in the app, the store, this site and its promotion, always with your credit. The licence is non-exclusive and of indefinite duration: your piece can stay in Kinstride for as long as it exists.</li><li>Only technical changes are made (ink colour, crop, size, background). Kinstride may add motion to your piece, including with third-party AI tools; it does not publish animations that change your design and does not control how those tools treat files.</li><li>Kinstride does not use your art to train AI or to imitate your style.</li></ul><p class="nota">This is a summary; the collaboration is confirmed in a short signed licence.</p>'),
-   ('How to join', '<ol><li>Press the button below. It opens a Google Drive folder with the style guide (PDF), the list of pieces and reference images.</li><li>The folder is private. Sign in with your Google account and press <b>Request access</b>; add your name and Instagram handle (or your website or portfolio if you have no Instagram) in the message.</li><li>When access is granted you will see the guide and the references.</li></ol><p class="botones"><a class="boton" href="__URL__" rel="noopener">Request access to the folder</a></p><p class="nota">The reference images are the app’s current AI-made art: use them as a guide for what to draw and how to compose it. Do not copy or trace them.</p>'),
+   ('How to join', '<p><b>We accept 2 new illustrators each month.</b></p><ol><li>Press the button below. It opens a Google Drive folder with the style guide (PDF), the list of pieces and reference images.</li><li>The folder is private. Sign in with your Google account and press <b>Request access</b>; add your name and Instagram handle (or your website or portfolio if you have no Instagram) in the message.</li><li>When access is granted you will see the guide and the references.</li></ol><p class="botones"><a class="boton" href="__URL__" rel="noopener">Request access to the folder</a></p><p class="nota">The reference images are the app’s current AI-made art: use them as a guide for what to draw and how to compose it. Do not copy or trace them.</p>'),
  ]),
  'es': dict(ruta='/es/artistas/', otra='/artists/', lang='es', t='Artistas · Kinstride',
   d='Ilustradores: cómo poner tu arte en Kinstride, con crédito en cada pieza. Guía de estilo e imágenes de referencia, acceso gratis por solicitud.',
@@ -274,11 +274,11 @@ ART = {
   resumen='Kinstride es un juego de caminar para Android. Todas sus imágenes (criaturas, escenas, viajeros, retratos y objetos) pueden ser dibujadas por ilustradores humanos, con el nombre del artista en cada pieza. Si eres ilustrador y quieres trabajo real en una app publicada, aquí te explico cómo.',
   secs=[
    ('Por qué lo hacemos', '<p>Kinstride es un proyecto independiente. Hoy sus imágenes se generaron con IA y queremos reemplazarlas por obra humana. Tú obtienes trabajo real y publicado, con brief, guía de estilo y revisión. Más adelante, los usuarios podrán elegir en la app los dibujos de qué artista quieren ver, o ver la mezcla de todos.</p>'),
-   ('Qué recibes', '<ul><li><b>Crédito en cada pieza</b>: tu nombre y un enlace a tu Instagram (o a tu web o portafolio si no usas Instagram) en cada imagen tuya, en las postales que los usuarios comparten y en una página «Artistas» dentro de la app.</li><li>Una página «Artistas» en la app y en este sitio, con tu enlace.</li><li>Una carta firmada que confirma la colaboración: qué hiciste, cuántas piezas, la fecha y el enlace de Google Play.</li></ul><p class="nota">Tu trabajo cuenta como «publicado» cuando una versión que lo incluya llegue a producción en Google Play. Te avisaremos la fecha.</p>'),
+   ('Qué recibes', '<ul><li><b>Crédito en cada pieza</b>: tu nombre y un enlace a tu Instagram (o a tu web o portafolio si no usas Instagram) en cada imagen tuya, en las postales que los usuarios comparten y en una página «Artistas» dentro de la app.</li><li>Una página «Artistas» en la app y en este sitio, con tu enlace.</li><li>Una carta firmada que confirma la colaboración: qué hiciste, cuántas piezas, la fecha y el enlace de Google Play.</li><li><b>Pago:</b> US$50 cuando se acepten tus primeras 10 piezas. Puedes entregar más: las piezas aceptadas después llevan tu crédito y no se pagan aparte. Pieza es toda ilustración que quede aceptada.</li></ul><p class="nota">Tu trabajo cuenta como «publicado» cuando una versión que lo incluya llegue a producción en Google Play. Te avisaremos la fecha.</p>'),
    ('Qué necesita la app (281 piezas)', '<div class="tabla"><table><thead><tr><th>Tipo</th><th>Piezas</th><th>Qué es</th></tr></thead><tbody><tr><td>Bestiario</td><td>33</td><td>Una criatura por lámina</td></tr><tr><td>Escenas</td><td>32</td><td>12 lugares + 20 tramos de camino</td></tr><tr><td>Viajeros</td><td>4</td><td>Personajes del camino</td></tr><tr><td>Retratos</td><td>108</td><td>9 linajes × 12 clases</td></tr><tr><td>Objetos</td><td>104</td><td>Un objeto mágico, centrado</td></tr></tbody></table></div><p>Puedes intentar las 281 piezas, pero no tienes que hacerlas todas. Recibes la lista con el nombre de archivo exacto y el texto que la app muestra en cada una.</p>'),
    ('Estilo: la identidad de Kinstride, con tu toque', '<ul><li><b>Fijo:</b> aspecto de cuaderno de campo, boceto a tinta o marcador; solo negro y grises (la app lo pinta con su color, de día y de noche); fondo blanco liso; sin texto ni firma dentro de la imagen; un sujeto reconocible y con personalidad.</li><li><b>Tuyo:</b> tu trazo, rayado, proporciones, estilización, humor, pose y detalles.</li><li><b>Entrega:</b> PNG, 3:4 (mín. 1800×2400 px) para criaturas, viajeros y retratos; 4:5 (1800×2250) para escenas; 1:1 (1536×1536) para objetos.</li><li><b>No se permite:</b> personajes o criaturas de otras franquicias, logos, marcas ni IA generativa para crear tu pieza.</li></ul>'),
    ('Condiciones en resumen', '<ul><li>La obra es tuya y puedes mostrarla en tu portafolio, redes y CV.</li><li>Kinstride la usa en la app, la tienda, este sitio y su promoción, siempre con tu crédito. La licencia es no exclusiva y de duración indefinida: tu pieza puede seguir en Kinstride mientras exista.</li><li>Solo se hacen cambios técnicos (color de tinta, recorte, tamaño, fondo). Kinstride puede añadir movimiento a tu pieza, también con herramientas de IA de terceros; no publica animaciones que cambien tu diseño y no controla cómo esas herramientas tratan los archivos.</li><li>Kinstride no usa tu arte para entrenar IA ni para imitar tu estilo.</li></ul><p class="nota">Es un resumen; la colaboración se confirma en una licencia corta firmada.</p>'),
-   ('Cómo participar', '<ol><li>Pulsa el botón de abajo. Abre una carpeta de Google Drive con la guía de estilo (PDF), la lista de piezas y las imágenes de referencia.</li><li>La carpeta es privada. Entra con tu cuenta de Google y pulsa <b>Solicitar acceso</b>; escribe tu nombre y tu @ de Instagram (o tu web o portafolio si no tienes Instagram) en el mensaje.</li><li>Cuando te den acceso verás la guía y las referencias.</li></ol><p class="botones"><a class="boton" href="__URL__" rel="noopener">Solicitar acceso a la carpeta</a></p><p class="nota">Las imágenes de referencia son el arte actual de la app, hecho con IA: úsalas como guía de qué dibujar y cómo componerlo. No las copies ni las calques.</p>'),
+   ('Cómo participar', '<p><b>Aceptamos 2 ilustradores nuevos cada mes.</b></p><ol><li>Pulsa el botón de abajo. Abre una carpeta de Google Drive con la guía de estilo (PDF), la lista de piezas y las imágenes de referencia.</li><li>La carpeta es privada. Entra con tu cuenta de Google y pulsa <b>Solicitar acceso</b>; escribe tu nombre y tu @ de Instagram (o tu web o portafolio si no tienes Instagram) en el mensaje.</li><li>Cuando te den acceso verás la guía y las referencias.</li></ol><p class="botones"><a class="boton" href="__URL__" rel="noopener">Solicitar acceso a la carpeta</a></p><p class="nota">Las imágenes de referencia son el arte actual de la app, hecho con IA: úsalas como guía de qué dibujar y cómo componerlo. No las copies ni las calques.</p>'),
  ])
 }
 # Artistas con obra en la app (datos/artistas.json, exportado de la app con scripts/tienda/artistas-sitio.ts). Con la lista
@@ -286,9 +286,13 @@ ART = {
 _ILUS = {'en': ('Illustrators', 'The illustrations in Kinstride are drawn by these artists. Each piece carries the artist’s name.'),
          'es': ('Ilustradores', 'Las ilustraciones de Kinstride las dibujan estos artistas. Cada pieza lleva el nombre de quien la dibujó.')}
 _ARTISTAS_APP = json.loads((Path(__file__).parent / 'datos' / 'artistas.json').read_text()) if (Path(__file__).parent / 'datos' / 'artistas.json').exists() else []
+from articulo_artistas import ARTICULOS, ENLACES
+ART['en']['secs'].append(ENLACES['en'])
+ART['es']['secs'].append(ENLACES['es'])
+ART.update(ARTICULOS)
 for _k, _a in ART.items():
-    _cuerpo = ''.join(f'<h2>{h}</h2>{c}' for h, c in _a['secs']).replace('__URL__', generar_linajes.ARTISTAS)
-    if _ARTISTAS_APP:
+    _cuerpo = _a.get('cuerpo') or ''.join(f'<h2>{h}</h2>{c}' for h, c in _a['secs']).replace('__URL__', generar_linajes.ARTISTAS)
+    if _ARTISTAS_APP and not _a.get('articulo'):
         _li = ''.join(f'<li><a href="{x["enlace"]}" rel="noopener">{x["nombre"]}</a> · {x["visible"]}</li>' for x in _ARTISTAS_APP)
         _cuerpo = f'<h2>{_ILUS[_k][0]}</h2><p>{_ILUS[_k][1]}</p><ul>{_li}</ul>' + _cuerpo
     _pag = f"""<!doctype html>
@@ -301,7 +305,7 @@ for _k, _a in ART.items():
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta property="og:title" content="{_a['t']}">
 <meta property="og:description" content="{_a['d']}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{'article' if _a.get('articulo') else 'website'}">
 <meta property="og:site_name" content="Kinstride">
 <meta property="og:locale" content="{'es_419' if _a['lang'] == 'es' else 'en_US'}">
 <meta property="og:image" content="{SITIO}/img/compartir.jpg">
@@ -311,14 +315,15 @@ for _k, _a in ART.items():
 <meta property="og:url" content="{SITIO}{_a['ruta']}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{SITIO}{_a['ruta']}">
-<link rel="alternate" hreflang="en" href="{SITIO}/artists/">
-<link rel="alternate" hreflang="es" href="{SITIO}/es/artistas/">
-<link rel="alternate" hreflang="x-default" href="{SITIO}/artists/">
+<link rel="alternate" hreflang="en" href="{SITIO}{_a['ruta'] if _a['lang'] == 'en' else _a['otra']}">
+<link rel="alternate" hreflang="es" href="{SITIO}{_a['ruta'] if _a['lang'] == 'es' else _a['otra']}">
+<link rel="alternate" hreflang="x-default" href="{SITIO}{_a['ruta'] if _a['lang'] == 'en' else _a['otra']}">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/img/favicon-96.png" type="image/png" sizes="96x96">
 <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
 <link rel="stylesheet" href="/estilo.css">
 {UMAMI}
+{_a.get('head_extra', '')}
 </head>
 <body>
 <main>
@@ -339,7 +344,7 @@ for _k, _a in ART.items():
 (RAIZ / 'index.html').write_text(pagina(T['en']))
 (RAIZ / 'es' / 'index.html').write_text(pagina(T['es']))
 (RAIZ / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
-direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/', '/artists/', '/es/artistas/'] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD)
+direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/', '/artists/', '/es/artistas/'] + [x['ruta'] for x in ARTICULOS.values()] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD)
 (RAIZ / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                   + ''.join(f'<url><loc>{SITIO}{d}</loc><lastmod>{__import__('datetime').date.today().isoformat()}</lastmod></url>\n' for d in direcciones) + '</urlset>\n')
 (RAIZ / '404.html').write_text('''<!doctype html>
