@@ -280,8 +280,7 @@ def pagina_evento(e, evs, lang, umami, srd, linajes):
     f = None if clasificar(e) == 'pend' else fechas_mostrar(e, lang)  # sin 2027 anunciado: la ficha dice «aún sin anunciar», no el texto del radar
     anio = (e.get('fecha_inicio') or '2027')[:4]
     corto = cortar((e.get('lugar') or '').split(',')[0], 46) if e.get('lugar') else ''
-    if not f:
-        f = 'dates on the official page' if lang == 'en' else 'fechas en la página oficial'
+    fd = f or ('dates on the official page' if lang == 'en' else 'fechas en la página oficial')  # solo para la meta descripción
     lugar = (f' · {corto}' if corto else '')
     v = fecha_larga(e['verificado'], lang) if e.get('verificado') else fecha_larga(HOY, lang)
     est = clasificar(e)
@@ -294,7 +293,7 @@ def pagina_evento(e, evs, lang, umami, srd, linajes):
             titulo = l['t_rec2'].format(n=nt)
         desc = l['d_rec'].format(n=n, c=c, f=cortar(e.get('fechas_texto') or '', 60), l=lugar, v=v)
     else:
-        titulo, desc = l['t_conf'].format(n=nt, a=anio), l['d_conf'].format(n=n, f=f or '', l=lugar, v=v)
+        titulo, desc = l['t_conf'].format(n=nt, a=anio), l['d_conf'].format(n=n, f=fd, l=lugar, v=v)
         if len(titulo) > 65:
             titulo = l['t_conf2'].format(n=nt, a=anio)
     titulo = titulo_ok(titulo)
