@@ -917,6 +917,547 @@
    "con_evidencia": true
   },
   {
+   "id": "ludolab-sala-labco-biblored",
+   "ciudad": "bogota",
+   "nombre": "LudoLab (Sala LabCo, BibloRed)",
+   "tipo": "convention",
+   "comunidades": [
+    "juegos de mesa",
+    "accesibilidad"
+   ],
+   "fechas_texto": "Sesiones semanales los jueves a las 4:00 p. m.: 29 oct (Aula 2), 5, 12, 19 y 26 nov y 3 dic de 2026",
+   "fecha_inicio": "2026-10-29",
+   "fecha_fin": "2026-12-03",
+   "recurrente": true,
+   "lugar": "Sala LabCo, Biblioteca pública del Deporte, CEFE Chapinero, Calle 82 # 10-69, piso 7",
+   "organizador": "BibloRed",
+   "url_oficial": "https://bogota.gov.co/que-hacer/cultura/participa-en-actividades-gratis-en-salas-labco-en-el-cefe-chapinero",
+   "fuentes": [
+    "https://bogota.gov.co/que-hacer/cultura/participa-en-actividades-gratis-en-salas-labco-en-el-cefe-chapinero"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": "Laboratorio de cocreación de BibloRed para explorar y adaptar juegos de mesa, de modo que sean más accesibles, sobre todo para personas con discapacidad visual y auditiva. Está abierto a personas con y sin discapacidad, y las sesiones incluyen interpretación en Lengua de Señas Colombiana.",
+   "precio": "Gratis, con inscripción en el formulario de BibloRed",
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "filbo-feria-internacional-del-libro-de-bogota",
+   "ciudad": "bogota",
+   "nombre": "FILBo - Feria Internacional del Libro de Bogotá",
+   "tipo": "convention",
+   "comunidades": [
+    "libros",
+    "fantasía",
+    "ciencia ficción"
+   ],
+   "fechas_texto": "20 de abril al 3 de mayo de 2027",
+   "fecha_inicio": "2027-04-20",
+   "fecha_fin": "2027-05-03",
+   "recurrente": false,
+   "lugar": "Corferias (sede de la edición 2026; RCN no confirma el lugar de 2027)",
+   "organizador": "Cámara Colombiana del Libro y Corferias",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.noticiasrcn.com/colombia/sharjah-emiratos-arabes-invitado-de-honor-filbo-2027-1065098",
+    "https://visitbogota.co/en/events-calendar/bogota-international-book-fair-2026"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": "21 de abril – 4 de mayo de 2026, Corferias",
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "bogota-special-championships-pokemon-tcg",
+   "ciudad": "bogota",
+   "nombre": "Bogota Special Championships (Pokémon TCG)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Pokémon",
+    "TCG"
+   ],
+   "fechas_texto": "Sin edición 2027 confirmada en lo que vi",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Radisson Bogotá Metrotel (edición 2024)",
+   "organizador": "Play! Pokémon",
+   "url_oficial": null,
+   "fuentes": [
+    "https://serebii.net/playpokemon/2025/bogotaspecialchampionships.shtml",
+    "https://victoryroad.pro/2025-bogota/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2025 (Bogotá, fechas no verificadas); 2024-12-07/08 en el Radisson Bogotá Metrotel",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "bogota-wcq-regional-yu-gi-oh",
+   "ciudad": "bogota",
+   "nombre": "Bogota WCQ Regional (Yu-Gi-Oh!)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Yu-Gi-Oh!",
+    "TCG"
+   ],
+   "fechas_texto": "Sin edición 2026 ni 2027 anunciada en lo que vi",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": null,
+   "organizador": "Konami",
+   "url_oficial": null,
+   "fuentes": [
+    "https://ygoprodeck.com/tournament/bogota-wcq-regional-4959",
+    "https://ygoprodeck.com/tournament/bogota-wcq-regional-2410"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2025-08-10 (250 duelistas); también 2024-11-24 y 2024-01-14",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "bogota-board-game-boletin-y-guia-de-espacios-para-jugar",
+   "ciudad": "bogota",
+   "nombre": "Bogotá Board Game (boletín y guía de espacios para jugar)",
+   "tipo": "convention",
+   "comunidades": [
+    "juegos de mesa"
+   ],
+   "fechas_texto": "Boletín con publicaciones entre agosto de 2025 y octubre de 2026; no vi un calendario de eventos recurrentes",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Varios espacios de la ciudad",
+   "organizador": "Bogotá Board Game",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bogotaboardgame.substack.com/archive"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "caminatas-ecologicas-de-la-secretaria-distrital-de-ambiente",
+   "ciudad": "bogota",
+   "nombre": "Caminatas ecológicas de la Secretaría Distrital de Ambiente (humedales Torca, Techo, Capellanía y Quiba)",
+   "tipo": "trek",
+   "comunidades": [
+    "senderismo",
+    "caminatas",
+    "naturaleza"
+   ],
+   "fechas_texto": "Programación mensual. En abril de 2026 fueron el 14, 20, 23 y 27, a las 9:00 a. m.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "Secretaría Distrital de Ambiente de Bogotá",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/planes-en-bogota-caminatas-ecologicas-secretaria-ambiente-abril-2026"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "comic-con-colombia",
+   "ciudad": "bogota",
+   "nombre": "Comic Con Colombia",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "anime",
+    "manga",
+    "cosplay",
+    "videojuegos"
+   ],
+   "fechas_texto": "Sin fecha oficial 2027. Un listado de terceros (EventsEye) la ubica provisionalmente en junio de 2027, con signo de interrogación. Edición 2026: 26 al 29 de junio.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Corferias, Carrera 37 #24-67",
+   "organizador": "Planet Comics con Corferias",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bogota.gov.co/mi-ciudad/desarrollo-economico/emprendedores-bogota-presentes-en-comic-con-26-al-29-de-junio-2026",
+    "https://www.eventseye.com/fairs/f-comic-con-colombia-bogota-26390-1.html",
+    "https://visitbogota.co/en/events-calendar/comic-con-colombia"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2026-06-26 al 2026-06-29, Corferias, Bogotá",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "draco-hobby-center-bogota-torneos-de-magic",
+   "ciudad": "bogota",
+   "nombre": "Draco Hobby Center Bogotá (torneos de Magic)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Pokémon",
+    "Yu-Gi-Oh!"
+   ],
+   "fechas_texto": "Sin calendario verificado. Horario de la tienda según guía: lun-vie 10:00-20:00, sáb 10:00-22:00, dom 14:00-18:00",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Carrera 16 # 76-27, piso 2",
+   "organizador": "Draco Hobby Center",
+   "url_oficial": null,
+   "fuentes": [
+    "https://dracostore.co/",
+    "https://kyotohobbystore.com/comprar-magic-en-colombia/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "festival-hobby-land",
+   "ciudad": "bogota",
+   "nombre": "Festival Hobby Land",
+   "tipo": "convention",
+   "comunidades": [
+    "hobbies",
+    "juegos",
+    "coleccionismo"
+   ],
+   "fechas_texto": "Sin edición 2026 ni 2027 encontrada. Última edición: 30 y 31 de agosto de 2025, de 10:00 a 18:00.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Hall Gastronómico de Avenida Chile Centro Comercial y Financiero, Calle 72 No 10-34",
+   "organizador": "Avenida Chile Centro Comercial y Financiero",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bogota.gov.co/que-hacer/cultura/planes-en-bogota-festival-hobby-land-30-y-31-de-agosto-2025"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2025-08-30 al 2025-08-31, Avenida Chile, Bogotá",
+   "descripcion": null,
+   "precio": "Gratuito (edición 2025)",
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "hidden-tcg-store-torneos-y-espacio-de-juego",
+   "ciudad": "bogota",
+   "nombre": "Hidden TCG Store (torneos y espacio de juego)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Pokémon",
+    "TCG"
+   ],
+   "fechas_texto": "Sin calendario publicado en su sitio; hay que consultar por teléfono o redes",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Calle 52 # 24-18, Teusaquillo",
+   "organizador": "Hidden TCG Store",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.hiddentcgstore.com/",
+    "https://tcgcolombia.com/blog/donde-comprar-cartas-pokemon-bogota/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "play4cards-torneos-y-eventos",
+   "ciudad": "bogota",
+   "nombre": "Play4Cards (torneos y eventos)",
+   "tipo": "tcg",
+   "comunidades": [
+    "TCG"
+   ],
+   "fechas_texto": "Sin fechas publicadas en las fuentes que vi",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "Play4Cards",
+   "url_oficial": null,
+   "fuentes": [
+    "https://tcgcolombia.com/blog/donde-comprar-cartas-pokemon-bogota/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "rol-en-casa-el-taller-de-historias",
+   "ciudad": "bogota",
+   "nombre": "Rol en Casa – El Taller de Historias",
+   "tipo": "convention",
+   "comunidades": [
+    "rol",
+    "D&D"
+   ],
+   "fechas_texto": "Sin frecuencia ni días publicados; la página de Patreon no los da",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "El Taller de Historias (dirección no publicada en lo que vi)",
+   "organizador": "Rol en Casa",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.patreon.com/rolencasa"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Por membresía en Patreon (monto no verificado)",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "sofa-salon-del-ocio-y-la-fantasia",
+   "ciudad": "bogota",
+   "nombre": "SOFA (Salón del Ocio y la Fantasía)",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "manga",
+    "cosplay",
+    "videojuegos",
+    "juegos de mesa",
+    "rol",
+    "K-pop"
+   ],
+   "fechas_texto": "Sin fecha 2027 encontrada. Edición 2026: 8 al 12 de octubre. Edición 2025: 9 al 13 de octubre.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Corferias (accesos El Arco, Cra 37 #24-67, y La Esperanza)",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.noticiasrcn.com/tendencias/sofa-2026-en-bogota-precios-horarios-y-las-principales-actividades-1070104",
+    "https://bogota.gov.co/mi-ciudad/desarrollo-economico/como-llegar-en-que-horarios-y-que-hacer-en-sofa-2026-en-corferias",
+    "https://visitbogota.co/en/evento/sofa-hall-of-leisure-and-fantasy-4918",
+    "https://www.noticiasrcn.com/tendencias/asi-sera-sofa-2026-en-bogota-fechas-espacios-y-experiencias-1057461",
+    "https://www.enter.co/?p=587683"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2026-10-08 al 2026-10-12, Corferias, Bogotá",
+   "descripcion": null,
+   "precio": "Varía por día (no confirmado). Gratis para menores de 7 años y mayores de 70 con documento.",
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "scrollcast-comunidad-de-rol",
+   "ciudad": "bogota",
+   "nombre": "Scrollcast (comunidad de rol)",
+   "tipo": "convention",
+   "comunidades": [
+    "rol",
+    "D&D"
+   ],
+   "fechas_texto": "Sin fechas verificadas",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": null,
+   "organizador": "Scrollcast",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.patreon.com/scrollcast/about"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "sociedad-tolkien-colombia-orodruin-stco",
+   "ciudad": "bogota",
+   "nombre": "Sociedad Tolkien Colombia Orodruin (STCO)",
+   "tipo": "fandom",
+   "comunidades": [
+    "Tolkien",
+    "fantasía"
+   ],
+   "fechas_texto": "Sin fechas ni eventos encontrados. No hallé un Tolkien Reading Day 2026 en Bogotá.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": null,
+   "organizador": "Sociedad Tolkien Colombia Orodruin",
+   "url_oficial": null,
+   "fuentes": [
+    "https://tolkiengateway.net/wiki/Sociedad_Tolkien_Colombia_Orodruin"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "tcg-collectibles-colombia",
+   "ciudad": "bogota",
+   "nombre": "TCG Collectibles Colombia",
+   "tipo": "tcg",
+   "comunidades": [
+    "Yu-Gi-Oh!",
+    "Pokémon",
+    "Magic"
+   ],
+   "fechas_texto": "Sin calendario verificado",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": null,
+   "organizador": "TCG Collectibles Colombia",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.facebook.com/tcgcollectiblescolombia/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "uwucon",
+   "ciudad": "bogota",
+   "nombre": "UWUCON",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "K-pop",
+    "cosplay",
+    "videojuegos",
+    "cómics"
+   ],
+   "fechas_texto": "Sin edición 2026 ni 2027 encontrada. Última edición: 23 y 24 de agosto de 2025.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Plaza Claro (según un medio; la nota de la Alcaldía no indica el recinto)",
+   "organizador": "No confirmado",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/el-mundo-geek-se-tomo-bogota-en-un-gran-evento-lleno-de-creatividad",
+    "https://www.diariodelsur.com.co/?p=384375"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2025-08-23 al 2025-08-24, Bogotá",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "unlimited-hobby-center-torneos-yu-gi-oh-y-magic",
+   "ciudad": "bogota",
+   "nombre": "Unlimited Hobby Center (torneos Yu-Gi-Oh! y Magic)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Yu-Gi-Oh!",
+    "Magic",
+    "TCG"
+   ],
+   "fechas_texto": "Sin calendario verificado. Horario de la tienda según guía: dom 13:30-18:00, lun-mié 12:30-20:00, jue-sáb 12:30-21:00",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Carrera 13 # 46-64, piso 2, Chapinero",
+   "organizador": "Unlimited Hobby Center",
+   "url_oficial": null,
+   "fuentes": [
+    "https://tcgcolombia.com/blog/donde-comprar-cartas-pokemon-bogota/",
+    "https://kyotohobbystore.com/comprar-magic-en-colombia/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "valhalla-hobby-center-torneos-y-eventos-de-magic",
+   "ciudad": "bogota",
+   "nombre": "Valhalla Hobby Center (torneos y eventos de Magic)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Pokémon"
+   ],
+   "fechas_texto": "Sin calendario verificado. Horario de la tienda según guía: todos los días 10:00-20:00 (viernes hasta 21:00)",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Calle 150 # 16-56, Local 2074",
+   "organizador": "Valhalla Hobby Center",
+   "url_oficial": null,
+   "fuentes": [
+    "https://kyotohobbystore.com/comprar-magic-en-colombia/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "northwest-side-chicago-board-game-friends-stay-and-play-game",
    "ciudad": "chicago",
    "nombre": "Northwest Side Chicago Board Game Friends – Stay and Play Game Cafe (Learn & Play, 3rd Thursday Game Night, D&D)",

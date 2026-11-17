@@ -398,5 +398,10 @@
   "descripcion": "An anime convention produced by Silk Road Productions. The program includes general panels on anime-related topics, a Dynamic Room with interactive hands-on sessions, and a maid cafe with games. It also lists a game room, cosplay meetups and a cosplay contest.",
   "fuente": "https://sandiegoanimecon.com/",
   "fecha": "2026-11-17"
+ },
+ "bogota/ludolab-sala-labco-biblored": {
+  "descripcion": "Laboratorio de cocreación de BibloRed para explorar y adaptar juegos de mesa, de modo que sean más accesibles, sobre todo para personas con discapacidad visual y auditiva. Está abierto a personas con y sin discapacidad, y las sesiones incluyen interpretación en Lengua de Señas Colombiana.",
+  "fuente": "https://bogota.gov.co/que-hacer/cultura/participa-en-actividades-gratis-en-salas-labco-en-el-cefe-chapinero",
+  "fecha": "2026-11-17"
  }
 }
