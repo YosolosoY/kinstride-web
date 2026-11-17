@@ -1258,34 +1258,33 @@
    "nombre": "SOFA (Salón del Ocio y la Fantasía)",
    "tipo": "anime-comic",
    "comunidades": [
-    "anime",
-    "manga",
     "cosplay",
     "videojuegos",
-    "juegos de mesa",
-    "rol",
-    "K-pop"
+    "cómics",
+    "cultura geek"
    ],
    "fechas_texto": "Sin fecha 2027 encontrada. Edición 2026: 8 al 12 de octubre. Edición 2025: 9 al 13 de octubre.",
    "fecha_inicio": null,
    "fecha_fin": null,
-   "recurrente": true,
-   "lugar": "Corferias (accesos El Arco, Cra 37 #24-67, y La Esperanza)",
+   "recurrente": false,
+   "lugar": "Corferias, Bogotá",
    "organizador": null,
-   "url_oficial": null,
+   "url_oficial": "https://enelsofa.com",
    "fuentes": [
     "https://www.noticiasrcn.com/tendencias/sofa-2026-en-bogota-precios-horarios-y-las-principales-actividades-1070104",
     "https://bogota.gov.co/mi-ciudad/desarrollo-economico/como-llegar-en-que-horarios-y-que-hacer-en-sofa-2026-en-corferias",
     "https://visitbogota.co/en/evento/sofa-hall-of-leisure-and-fantasy-4918",
     "https://www.noticiasrcn.com/tendencias/asi-sera-sofa-2026-en-bogota-fechas-espacios-y-experiencias-1057461",
-    "https://www.enter.co/?p=587683"
+    "https://www.enter.co/?p=587683",
+    "https://enelsofa.com",
+    "https://www.eltiempo.com/bogota/sofa-2025-el-festival-de-la-cultura-geek-tendra-una-nueva-edicion-en-bogota-estas-son-las-fechas-precios-horarios-e-invitados-3494316"
    ],
    "estado": "sin_2027",
-   "ultima_edicion": "2026-10-08 al 2026-10-12, Corferias, Bogotá",
-   "descripcion": null,
+   "ultima_edicion": "8 al 12 de octubre de 2026, Corferias, Bogotá (la anterior fue del 9 al 13 de octubre de 2025)",
+   "descripcion": "Festival de cultura geek de Bogotá con cosplay, videojuegos, cómics y emprendimientos. Sus últimas ediciones (2024, 2025 y 2026) se realizaron en octubre en Corferias.",
    "precio": "Varía por día (no confirmado). Gratis para menores de 7 años y mayores de 70 con documento.",
    "verificado": "2026-11-17",
-   "origen": "radar",
+   "origen": "manual+radar",
    "con_evidencia": true
   },
   {
