@@ -1282,7 +1282,7 @@
    "estado": "sin_2027",
    "ultima_edicion": "8 al 12 de octubre de 2026, Corferias, Bogotá (la anterior fue del 9 al 13 de octubre de 2025)",
    "descripcion": "Festival de cultura geek de Bogotá con cosplay, videojuegos, cómics y emprendimientos. Sus últimas ediciones (2024, 2025 y 2026) se realizaron en octubre en Corferias.",
-   "precio": "Varía por día (no confirmado). Gratis para menores de 7 años y mayores de 70 con documento.",
+   "precio": "Gratis para menores de 7 años y mayores de 70 con documento.",
    "verificado": "2026-11-17",
    "origen": "manual+radar",
    "con_evidencia": true
@@ -1386,7 +1386,7 @@
    "fecha_fin": null,
    "recurrente": true,
    "lugar": "Plaza Claro (según un medio; la nota de la Alcaldía no indica el recinto)",
-   "organizador": "No confirmado",
+   "organizador": null,
    "url_oficial": null,
    "fuentes": [
     "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/el-mundo-geek-se-tomo-bogota-en-un-gran-evento-lleno-de-creatividad",
