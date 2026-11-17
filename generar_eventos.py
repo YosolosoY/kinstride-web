@@ -23,6 +23,7 @@ MIN_CIUDAD = 3  # una ciudad con menos eventos verificados no tiene página (ser
 
 CIUDADES = {
     'santiago': dict(lang='es', nombre='Santiago', pais='Chile'),
+    'bogota': dict(lang='es', nombre='Bogotá', pais='Colombia'),
     'los-angeles': dict(lang='en', nombre='Los Angeles', pais='USA'),
     'san-diego': dict(lang='en', nombre='San Diego', pais='USA'),
     'chicago': dict(lang='en', nombre='Chicago', pais='USA'),
@@ -89,8 +90,8 @@ L = {
         priv='We use your email only to reply about this listing and delete it once the event is checked or on request; see the', priv_link='privacy policy', sin_js='This form needs JavaScript.'),
     'es': dict(
         loc='es_419', eventos='Eventos', h_hub='Eventos de fantasía, juegos y anime cerca de ti',
-        hub_desc='Convenciones, torneos de cartas, encuentros de fantasía y ferias en Santiago de Chile, con fechas comprobadas en la página del organizador.',
-        hub_t='Eventos de fantasía, juegos y anime en Santiago (2027)',
+        hub_desc='Convenciones, torneos de cartas, encuentros de fantasía y ferias en Santiago de Chile, con fechas comprobadas en la página del organizador.', hub_desc2='Convenciones, torneos de cartas, encuentros de fantasía y ferias en Santiago de Chile y Bogotá, con fechas comprobadas en la página del organizador.',
+        hub_t='Eventos de fantasía, juegos y anime en Santiago (2027)', hub_t2='Eventos de fantasía, juegos y anime: Santiago y Bogotá',
         hub_intro='Convenciones, torneos, ferias y encuentros para quienes juegan, leen y se disfrazan. Solo llamamos «confirmada» a una fecha cuando la leímos en la página del propio organizador, y decimos cuándo la revisamos por última vez.',
         ciudad_t='Eventos de fantasía, juegos y anime en {c} (2027)', ciudad_t_title='Eventos de fantasía, juegos y anime en {c} (2027)',
         ciudad_desc='{n} eventos de fantasía, juegos de mesa, cartas y anime en {c}: {k} con fecha confirmada en la página oficial, más los que esperan fechas de 2027.',
@@ -351,8 +352,9 @@ def pagina_hub(lang, evs, umami, srd):
     prox = sorted([e for e in evs if CIUDADES[e['ciudad']]['lang'] == lang and clasificar(e) == 'conf' and tiene_pagina(e)], key=lambda e: e['fecha_inicio'] or '9999')[:10]
     tarjetas = ''.join(f'<li><b><a href="{ruta_ciudad(c, lang)}">{esc(CIUDADES[c]["nombre"])}</a></b><br><span class="dato">{esc(l["cuenta"].format(n=len(por[c])))}</span></li>' for c in ciudades)
     prox_html = f'<h2>{l["s_conf"]}</h2><ul class="eventos">' + ''.join(item_lista(e, lang) + '' for e in prox) + '</ul>' if prox else ''
-    titulo = titulo_ok(l['hub_t'])
-    desc = cortar(l['hub_desc'].format(n=len(ciudades)), 160)
+    varias = lang == 'es' and len(ciudades) > 1  # Bogotá se nombra solo cuando ya tiene página
+    titulo = titulo_ok(l['hub_t2'] if varias else l['hub_t'])
+    desc = cortar((l['hub_desc2'] if varias else l['hub_desc']).format(n=len(ciudades)), 160)
     cuerpo = f'''<main class="principal">
 <div class="ancho">
 <h1>{l['h_hub']}</h1>

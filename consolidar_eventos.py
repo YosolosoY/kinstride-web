@@ -26,7 +26,7 @@ PILOTO = Path.home() / 'Projects/kinstride/archivo/trabajo/eventos-piloto/evento
 AGREGADORES = ('fancons.com', 'animecons.com', 'rostercon.com', 'eventbrite', 'meetup.com', 'facebook.com', 'instagram.com', 'tiktok.com', 'reddit.com',
                'thepopverse.com', 'allevents', 'eventeny.com', 'anihk.com', 'cantonfair', 'jufair', 'tickpick', 'wikipedia', 'dittobase', 'eventsforgamers')
 
-CIUDAD_DE = {'Los Angeles': 'los-angeles', 'San Diego': 'san-diego', 'Chicago': 'chicago', 'New York': 'new-york', 'Atlanta': 'atlanta', 'Houston': 'houston', 'Denver': 'denver', 'Santiago': 'santiago'}
+CIUDAD_DE = {'Los Angeles': 'los-angeles', 'San Diego': 'san-diego', 'Chicago': 'chicago', 'New York': 'new-york', 'Atlanta': 'atlanta', 'Houston': 'houston', 'Denver': 'denver', 'Santiago': 'santiago', 'Bogotá': 'bogota', 'Bogota': 'bogota'}
 
 # palabra clave (en el tipo/comunidades/nombre) -> categoría
 CATEGORIAS = [
