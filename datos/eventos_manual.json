@@ -548,5 +548,37 @@
   "verificado": "2026-11-17",
   "nota": null,
   "origen": "manual"
+ },
+ {
+  "id": "sofa-salon-del-ocio-y-la-fantasia",
+  "ciudad": "bogota",
+  "nombre": "SOFA (Salón del Ocio y la Fantasía)",
+  "tipo": "anime-comic",
+  "comunidades": [
+   "cosplay",
+   "videojuegos",
+   "cómics",
+   "cultura geek"
+  ],
+  "fechas_texto": null,
+  "fecha_inicio": null,
+  "fecha_fin": null,
+  "recurrente": false,
+  "lugar": "Corferias, Bogotá",
+  "organizador": null,
+  "url_oficial": "https://enelsofa.com",
+  "fuentes": [
+   "https://enelsofa.com",
+   "https://bogota.gov.co/mi-ciudad/desarrollo-economico/como-llegar-en-que-horarios-y-que-hacer-en-sofa-2026-en-corferias",
+   "https://www.eltiempo.com/bogota/sofa-2025-el-festival-de-la-cultura-geek-tendra-una-nueva-edicion-en-bogota-estas-son-las-fechas-precios-horarios-e-invitados-3494316"
+  ],
+  "estado": "sin_2027",
+  "ultima_edicion": "8 al 12 de octubre de 2026, Corferias, Bogotá (la anterior fue del 9 al 13 de octubre de 2025)",
+  "descripcion": "Festival de cultura geek de Bogotá con cosplay, videojuegos, cómics y emprendimientos. Sus últimas ediciones (2024, 2025 y 2026) se realizaron en octubre en Corferias.",
+  "precio": null,
+  "evidencia": null,
+  "verificado": "2026-11-17",
+  "nota": null,
+  "origen": "manual"
  }
 ]
