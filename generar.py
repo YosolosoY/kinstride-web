@@ -245,7 +245,7 @@ def pagina(t: dict) -> str:
 </div>
 </main>
 <footer class="ancho">
-<p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="{generar_linajes.INSTAGRAM}" rel="me">Instagram</a> · <a href="{generar_linajes.YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{generar_linajes.ARTISTAS_URL[t['lang']]}">{generar_linajes.ARTISTAS_T[t['lang']]}</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a></p>
+<nav><p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="{generar_linajes.INSTAGRAM}" rel="me">Instagram</a> · <a href="{generar_linajes.YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{generar_linajes.ARTISTAS_URL[t['lang']]}">{generar_linajes.ARTISTAS_T[t['lang']]}</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a></p></nav>
 <p class="pie legal">{SRD}</p>
 </footer>
 </body>

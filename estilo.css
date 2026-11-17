@@ -86,8 +86,9 @@ tbody th{font-weight:700}
 .tester ol{padding-left:22px}
 .tester li{margin:8px 0}
 .nota{font-size:14px;color:var(--suave)}
-.legal{font-size:12px;margin-top:10px}
+.legal{font-size:12px;margin-top:10px;max-width:75ch}
 @media (max-width:860px){
+.pie:not(.legal) a,.idiomas a{display:inline-block;padding:13px 4px}
 .heroe-dentro{grid-template-columns:1fr;padding:36px 20px 28px;min-height:0}
 .heroe{background-image:url(/img/mapa-1000.webp)}
 .heroe::before{background:linear-gradient(rgba(20,21,24,.92),rgba(20,21,24,.78))}
