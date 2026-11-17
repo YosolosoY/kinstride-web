@@ -1,1 +1,7 @@
 __pycache__/
+
+# eventos: datos internos del radar y entorno local (no se publican)
+datos/eventos-crudo/
+datos/eventos-completo.json
+.venv/
+__pycache__/

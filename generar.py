@@ -8,6 +8,7 @@ Hojas de ejemplo y pantallas: ~/Projects/kinstride/scripts/tienda/hojas.mjs
 import json
 from pathlib import Path
 
+import generar_eventos
 import generar_linajes
 
 RAIZ = Path(__file__).parent
@@ -245,7 +246,7 @@ def pagina(t: dict) -> str:
 </div>
 </main>
 <footer class="ancho">
-<nav><p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="{generar_linajes.INSTAGRAM}" rel="me">Instagram</a> · <a href="{generar_linajes.YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{generar_linajes.ARTISTAS_URL[t['lang']]}">{generar_linajes.ARTISTAS_T[t['lang']]}</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a></p></nav>
+<nav><p class="pie"><a href="{t['test_url']}">{t['test_t']}</a> · <a href="{t['linajes_url']}">{t['linajes_t']}</a> · <a href="{generar_linajes.RUTA[t['lang']]['eventos']}">{generar_linajes.EVENTOS_T[t['lang']]}</a> · <a href="{generar_linajes.TIKTOK}" rel="me">TikTok</a> · <a href="{generar_linajes.INSTAGRAM}" rel="me">Instagram</a> · <a href="{generar_linajes.YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{generar_linajes.ARTISTAS_URL[t['lang']]}">{generar_linajes.ARTISTAS_T[t['lang']]}</a> · <a href="{t['priv']}">{t['priv_t']}</a> · <a href="{t['borrar']}">{t['borrar_t']}</a></p></nav>
 <p class="pie legal">{SRD}</p>
 </footer>
 </body>
@@ -349,7 +350,7 @@ for _k, _a in ART.items():
 (RAIZ / 'index.html').write_text(pagina(T['en']))
 (RAIZ / 'es' / 'index.html').write_text(pagina(T['es']))
 (RAIZ / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
-direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/', '/artists/', '/es/artistas/'] + [x['ruta'] for x in ARTICULOS.values()] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD)
+direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/', '/artists/', '/es/artistas/'] + [x['ruta'] for x in ARTICULOS.values()] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD) + generar_eventos.generar(RAIZ, SITIO, UMAMI, SRD)
 (RAIZ / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                   + ''.join(f'<url><loc>{SITIO}{d}</loc><lastmod>{__import__('datetime').date.today().isoformat()}</lastmod></url>\n' for d in direcciones) + '</urlset>\n')
 (RAIZ / '404.html').write_text('''<!doctype html>

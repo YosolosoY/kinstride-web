@@ -163,3 +163,19 @@ th em{font-weight:500;font-style:normal;color:var(--acento)}
 .test-linajes{grid-template-columns:repeat(3,1fr)}
 }
 .boton.secundario.claro{color:#EDEDE8;border-color:#EDEDE8}
+
+/* Eventos (2026-11-17) */
+.eventos{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px}
+.eventos li{background:var(--hoja);border:1.5px solid var(--borde);padding:12px 14px}
+.eventos .dato{color:var(--suave);font-size:15px}
+.eventos.ciudades{grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.ev-linaje{display:grid;grid-template-columns:110px 1fr;gap:16px;align-items:start;background:var(--hoja);border:1.5px solid var(--borde);padding:14px}
+.ev-linaje img{width:100%;height:auto;display:block;background:#F6F5F0;border:1px solid var(--borde)}
+.ev-linaje p{margin:0 0 8px}
+.formulario{display:grid;gap:14px;margin-top:16px}
+.formulario label{display:grid;gap:4px;font-weight:700;font-size:15px}
+.formulario input,.formulario select,.formulario textarea{font:inherit;font-weight:400;padding:10px 12px;border:1.5px solid var(--borde);background:var(--hoja);color:var(--tinta);border-radius:0;width:100%}
+.formulario .trampa{position:absolute;left:-9999px;height:0;overflow:hidden}
+button.boton{cursor:pointer;-webkit-appearance:none;appearance:none}
+.tabla td,.tabla th{overflow-wrap:anywhere}
+.tabla table{width:100%}

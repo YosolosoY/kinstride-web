@@ -27,3 +27,18 @@ La caché de traducciones (`datos/i18n-sitio/<idioma>.json`, por huella del text
 - Capturas de la app por idioma: `node scripts/tienda/hojas.mjs <idioma> <carpeta>` (en el repo de la app, con `npx expo start --web --port 8091`) y convertirlas a `img/<idioma>-*.webp` (480 y 240 px; hojas 720 y 360). Si falta `img/<idioma>-X.webp`, la página usa la de inglés.
 - Auditoría SEO: revisar título (≤65), descripción (70–165), canonical, `lang`, un solo h1, hreflang recíproco con `x-default`, og/twitter, JSON-LD válido, alt, ancho/alto de imágenes, enlaces y sitemap. `lastmod` del sitemap = fecha en que se genera.
 - El dato estructurado `MobileApplication` no lleva `aggregateRating` ni `review` a propósito: Google los exige para el resultado enriquecido y no se inventan; agregarlos cuando haya reseñas reales.
+
+## Eventos (2026-11-17): `/events/` (EE. UU., en) y `/es/eventos/` (Santiago, es)
+
+Calendario de eventos de fantasía, juegos y anime por ciudad, con fechas comprobadas en la página del organizador y un ángulo de linajes. Un solo idioma por ciudad: NO se traduce a pt/fr/de/it (`idiomas_sitio.py` solo toma su lista fija `EN_PAG`).
+
+```
+./actualizar_eventos.sh     # trae el radar del homeserver → consolida → genera → idiomas → restaura privacidad → audita. NO publica.
+python3 auditar_eventos.py  # solo la auditoría (título ≤65, descripción 70–165, canonical, h1, enlaces, idioma, sitemap…)
+```
+- Datos: `datos/eventos_manual.json` (verificados a mano, manda sobre el radar campo a campo) + `datos/eventos-crudo/` (radar) + `datos/eventos-descripciones.json` → `datos/eventos.json` (lo escribe `consolidar_eventos.py`; el estado más fuerte gana: confirmada > sin_2027 > solo_terceros).
+- Radar (homeserver `~/sistema/`): `radar_eventos.py` (miércoles 03:00, 8 ciudades × 3 trabajos), `enriquecer_eventos.py` (miércoles 05:30, descripción factual desde la web oficial), `vigila_eventos.py` (lunes 09:00, avisa por Telegram cuando una web oficial publica 2027), `pistas_facebook.py` (Apify; necesita `~/.config/apify/token`). Todo usa `claude -p` con la suscripción, nunca la API.
+- Formulario de organizadores: n8n `KinstrideEvento01x` (POST `https://n8n.monsalve.com.co/webhook/kinstride-evento`) → `/srv/automatizacion/eventos/envios.jsonl` + aviso por Telegram. Página `/events/submit/` y `/es/eventos/enviar/` (noindex).
+- Reglas: página propia solo para «confirmada» y «sin_2027» con web oficial y última edición; ciudad con página solo con ≥3 eventos (`MIN_CIUDAD`); el ángulo de linaje se rotula como opinión nuestra; cada página dice fecha de verificación y no-afiliación.
+- TRAMPAS: `generar.py` sin `idiomas_sitio.py construir` deja las páginas sin hreflang de 6 idiomas; `construir` pisa privacidad pt/fr/de/it (el script las restaura con `git checkout`); `python3 -I generar.py` falla (no ve los módulos hermanos); `.venv/` (bs4, playwright) está excluido de git.
+- Tras publicar: `ssh homeserver 'python3 ~/sistema/medicion_cambios.py --registrar getkinstride.com /events/ "…"'` (y `/es/eventos/`) para medir a 28 días.

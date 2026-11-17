@@ -15,7 +15,8 @@ ARTISTAS_T = {'en': 'Artists', 'es': 'Artistas'}
 ARTISTAS_URL = {'en': '/artists/', 'es': '/es/artistas/'}
 SLUG = {'en': {'mediano': 'halfling', 'enano': 'dwarf', 'humano': 'human', 'elfo': 'elf', 'orco': 'orc', 'arboreo': 'barkfolk', 'gnomo': 'gnome', 'goliat': 'goliath', 'ascuano': 'emberkin'},
         'es': {'mediano': 'mediano', 'enano': 'enano', 'humano': 'humano', 'elfo': 'elfo', 'orco': 'orco', 'arboreo': 'arboreo', 'gnomo': 'gnomo', 'goliat': 'goliat', 'ascuano': 'ascuano'}}
-RUTA = {'en': {'inicio': '/', 'test': '/test/', 'linajes': '/lineages/'}, 'es': {'inicio': '/es/', 'test': '/es/test/', 'linajes': '/es/linajes/'}}
+RUTA = {'en': {'inicio': '/', 'test': '/test/', 'linajes': '/lineages/', 'eventos': '/events/'}, 'es': {'inicio': '/es/', 'test': '/es/test/', 'linajes': '/es/linajes/', 'eventos': '/es/eventos/'}}
+EVENTOS_T = {'en': 'Events', 'es': 'Eventos'}
 ORDEN = ['mediano', 'enano', 'humano', 'elfo', 'orco', 'arboreo', 'gnomo', 'goliat', 'ascuano']
 
 # Cada respuesta es una estimación de las medidas de la app, en sus mismas unidades.
@@ -176,14 +177,14 @@ def cabeza(lang, sitio, umami, titulo, desc, url, otra, og, extra=''):
 
 def barra(lang, otra):
     t = T[lang]
-    return f'''<header class="barra"><nav class="barra-dentro"><a class="marca" href="{RUTA[lang]['inicio']}" aria-label="{t['marca']}">KINSTRIDE</a><span><a href="{RUTA[lang]['test']}">{t['nav_test']}</a><a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a><a href="{otra}">{t['otro']}</a></span></nav></header>
+    return f'''<header class="barra"><nav class="barra-dentro"><a class="marca" href="{RUTA[lang]['inicio']}" aria-label="{t['marca']}">KINSTRIDE</a><span><a href="{RUTA[lang]['test']}">{t['nav_test']}</a><a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a><a href="{RUTA[lang]['eventos']}">{EVENTOS_T[lang]}</a><a href="{otra}">{t['otro']}</a></span></nav></header>
 '''
 
 
 def pie(lang, srd):
     t = T[lang]
     return f'''<footer class="ancho">
-<p class="pie"><a href="{RUTA[lang]['test']}">{t['nav_test']}</a> · <a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a> · <a href="{TIKTOK}" rel="me">TikTok</a> · <a href="{INSTAGRAM}" rel="me">Instagram</a> · <a href="{YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{ARTISTAS_URL[lang]}">{ARTISTAS_T[lang]}</a> · <a href="{t['priv'][0]}">{t['priv'][1]}</a> · <a href="{t['borrar'][0]}">{t['borrar'][1]}</a></p>
+<p class="pie"><a href="{RUTA[lang]['test']}">{t['nav_test']}</a> · <a href="{RUTA[lang]['linajes']}">{t['nav_linajes']}</a> · <a href="{RUTA[lang]['eventos']}">{EVENTOS_T[lang]}</a> · <a href="{TIKTOK}" rel="me">TikTok</a> · <a href="{INSTAGRAM}" rel="me">Instagram</a> · <a href="{YOUTUBE}" rel="me">YouTube</a> · <a href="/discord/">Discord</a> · <a href="{ARTISTAS_URL[lang]}">{ARTISTAS_T[lang]}</a> · <a href="{t['priv'][0]}">{t['priv'][1]}</a> · <a href="{t['borrar'][0]}">{t['borrar'][1]}</a></p>
 <p class="pie legal">{srd}</p>
 </footer>
 </body>
