@@ -81,7 +81,7 @@ def misma(a, b):
     return menor <= mayor and (len(menor) >= 2 or len(mayor) <= 2)
 
 
-VOZ_AGENTE = re.compile(r"(\bnot (named|stated|specified|listed|announced|indicated|shown)\b|\bfetched\b|third-party|\bI (could|did|found|couldn|saw|opened)|\bmy\b|no pude|no encontr|encontr[ée]|\babr[ií]\b|no se indica|no figura|no especific|no indicad|seg[uú]n (un|el|la|los|las) (art|list|sitio|resultado)|sin confirmar|\bunknown\b|desconoc|\?|e\.g\.|p\. ej\.|\(per\s|\b(does|did|do) not\b|n\x27t\b|the page|la p[aá]gina no|\bfancons\b|\bsource:)", re.I)
+VOZ_AGENTE = re.compile(r"(\bnot (named|stated|specified|listed|announced|indicated|shown)\b|\bfetched\b|third-party|\bI (could|did|found|couldn|saw|opened)|\bmy\b|no pude|no encontr|encontr[ée]|\babr[ií]\b|no se indica|no figura|no especific|no indicad|seg[uú]n (un|el|la|los|las) (art|list|sitio|resultado)|sin confirmar|no confirmad|\bunknown\b|desconoc|\?|e\.g\.|p\. ej\.|\(per\s|\b(does|did|do) not\b|n\x27t\b|the page|la p[aá]gina no|\bfancons\b|\bsource:)", re.I)
 
 
 def sin_voz_agente(txt):

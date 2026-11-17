@@ -277,7 +277,7 @@ def fecha_larga(iso, lang):
 def pagina_evento(e, evs, lang, umami, srd, linajes):
     l, cd = L[lang], CIUDADES[e['ciudad']]
     n, c = e['nombre'], cd['nombre']
-    f = fechas_mostrar(e, lang)
+    f = None if clasificar(e) == 'pend' else fechas_mostrar(e, lang)  # sin 2027 anunciado: la ficha dice «aún sin anunciar», no el texto del radar
     anio = (e.get('fecha_inicio') or '2027')[:4]
     corto = cortar((e.get('lugar') or '').split(',')[0], 46) if e.get('lugar') else ''
     if not f:
