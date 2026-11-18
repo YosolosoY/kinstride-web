@@ -72,7 +72,7 @@ L = {
         ciudad_t='Fantasy, gaming & anime events in {c} (2027)', ciudad_t_title='Fantasy, Gaming & Anime Events in {c} (2027)',
         ciudad_desc='{n} fantasy, tabletop, card-game and anime events around {c}: {k} with dates confirmed on the official page, plus those still waiting for 2027 dates.',
         ciudad_intro='Events around {c}. Each listing says whether its date is confirmed on the organizer’s own page. Last update: {f}.',
-        s_conf='Dates confirmed', s_rep='Reported, not yet confirmed by the organizer', s_pend='Waiting for 2027 dates', s_rec='Recurring and local', s_pasado='Already happened',
+        s_conf='Dates confirmed', s_dir='Communities and stores: check their own calendar', s_rep='Reported, not yet confirmed by the organizer', s_pend='Waiting for 2027 dates', s_rec='Recurring and local', s_pasado='Already happened',
         st_conf='Confirmed on the official site', st_rep='Reported by media or listings; not yet confirmed by the organizer', st_pend='2027 dates not announced yet', st_rec='Recurring',
         f_fechas='Dates', f_estado='Status', f_lugar='Venue', f_ciudad='City', f_org='Organizer', f_precio='Price', f_oficial='Official site', f_ultima='Last edition', f_chequeo='Last checked',
         t_conf='{n} {a}: Dates, Location & Details', t_conf2='{n} {a}: Dates & Location', t_pend='{n} 2027: What We Know So Far', t_rec='{n} in {c}: Schedule & Location', t_rec2='{n}: Schedule & Location',
@@ -96,7 +96,7 @@ L = {
         ciudad_t='Eventos de fantasía, juegos y anime en {c} (2027)', ciudad_t_title='Eventos de fantasía, juegos y anime en {c} (2027)',
         ciudad_desc='{n} eventos de fantasía, juegos de mesa, cartas y anime en {c}: {k} con fecha confirmada en la página oficial, más los que esperan fechas de 2027.',
         ciudad_intro='Eventos en {c}. Cada ficha dice si su fecha está confirmada en la página del propio organizador. Última actualización: {f}.',
-        s_conf='Fecha confirmada', s_rep='Informados, sin confirmar por el organizador', s_pend='Esperando fechas de 2027', s_rec='Recurrentes y locales', s_pasado='Ya ocurrieron',
+        s_conf='Fecha confirmada', s_dir='Comunidades y tiendas: consulta su calendario', s_rep='Informados, sin confirmar por el organizador', s_pend='Esperando fechas de 2027', s_rec='Recurrentes y locales', s_pasado='Ya ocurrieron',
         st_conf='Confirmada en el sitio oficial', st_rep='Informada por medios o listados; aún sin confirmar por el organizador', st_pend='Fechas de 2027 aún sin anunciar', st_rec='Recurrente',
         f_fechas='Fechas', f_estado='Estado', f_lugar='Lugar', f_ciudad='Ciudad', f_org='Organiza', f_precio='Precio', f_oficial='Sitio oficial', f_ultima='Última edición', f_chequeo='Última revisión',
         t_conf='{n} {a}: fechas, lugar y detalles', t_conf2='{n} {a}: fechas y lugar', t_pend='{n} 2027: lo que sabemos', t_rec='{n} en {c}: horarios y lugar', t_rec2='{n}: horarios y lugar',
@@ -172,7 +172,12 @@ def ruta_ciudad(c, lang):
     return f"{BASE[lang]}{c}/"
 
 
+RX_SIN = re.compile(r'^\s*(sin (calendario|fechas?|frecuencia|horario)|no (calendar|schedule|dates)|no (hay )?(calendario|fechas))|\bno vi (un )?calendario', re.I)
+
+
 def clasificar(e):
+    if e['estado'] == 'solo_terceros' and RX_SIN.search(e.get('fechas_texto') or ''):
+        return 'dir'  # comunidad o tienda sin calendario verificable: se lista aparte, sin fechas ni dirección de terceros
     if e.get('recurrente') and e['estado'] != 'sin_2027':
         return 'rec'
     if e['estado'] == 'solo_terceros':
@@ -230,8 +235,13 @@ def migas(items):
 
 def item_lista(e, lang, con_estado=False):
     l = L[lang]
+    if clasificar(e) == 'dir':
+        corto = re.split(r'\s*[(–—]\s*|\s-\s', e['nombre'])[0].strip() or e['nombre']
+        fuente = (e.get('fuentes') or [''])[0]
+        enlace = f' <small>(<a href="{esc(fuente)}" rel="noopener nofollow">{"source" if lang == "en" else "fuente"}</a>)</small>' if fuente else ''
+        return f'<li><b>{esc(corto)}</b>{enlace}</li>'
     f = (esc(cortar(e.get('fechas_texto') or '', 90)) if clasificar(e) == 'rec' else None) or fecha_txt(e, lang)
-    if e['estado'] == 'sin_2027' and not e.get('recurrente'):
+    if clasificar(e) == 'pend':
         f = l['sin_fecha'] + (' · ' + l['ult'].format(u=esc(cortar(e['ultima_edicion'], 90))) if e.get('ultima_edicion') else '')
     elif not f:
         f = esc(cortar(e.get('fechas_texto') or '', 90)) or l['sin_fecha']
@@ -246,12 +256,12 @@ def item_lista(e, lang, con_estado=False):
 
 def pagina_ciudad(c, evs, lang, umami, srd):
     l, cd = L[lang], CIUDADES[c]
-    n, k = len(evs), sum(1 for e in evs if clasificar(e) in ('conf', 'rec'))
+    n, k = sum(1 for e in evs if clasificar(e) != 'dir'), sum(1 for e in evs if clasificar(e) in ('conf', 'rec'))
     titulo = titulo_ok(l['ciudad_t_title'].format(c=cd['nombre']))
     desc = cortar(l['ciudad_desc'].format(n=n, c=cd['nombre'], k=k), 160)
-    grupos = {g: [e for e in evs if clasificar(e) == g] for g in ('conf', 'rec', 'pend', 'rep', 'pasado')}
+    grupos = {g: [e for e in evs if clasificar(e) == g] for g in ('conf', 'rec', 'pend', 'rep', 'dir', 'pasado')}
     secs = ''
-    for g, tit in (('conf', 's_conf'), ('rec', 's_rec'), ('pend', 's_pend'), ('rep', 's_rep'), ('pasado', 's_pasado')):
+    for g, tit in (('conf', 's_conf'), ('rec', 's_rec'), ('pend', 's_pend'), ('rep', 's_rep'), ('dir', 's_dir'), ('pasado', 's_pasado')):
         if grupos[g]:
             secs += f'<h2>{l[tit]}</h2><ul class="eventos">' + ''.join(item_lista(e, lang) for e in grupos[g]) + '</ul>'
     cuerpo = f'''<main class="principal">

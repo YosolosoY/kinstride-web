@@ -81,7 +81,7 @@ def misma(a, b):
     return menor <= mayor and (len(menor) >= 2 or len(mayor) <= 2)
 
 
-VOZ_AGENTE = re.compile(r"(\bnot (named|stated|specified|listed|announced|indicated|shown)\b|\bfetched\b|third-party|\bI (could|did|found|couldn|saw|opened)|\bmy\b|no pude|no encontr|encontr[ée]|\babr[ií]\b|no se indica|no figura|no especific|no indicad|seg[uú]n (un|el|la|los|las) (art|list|sitio|resultado)|sin confirmar|no confirmad|\bunknown\b|desconoc|\?|e\.g\.|p\. ej\.|\(per\s|\b(does|did|do) not\b|n\x27t\b|the page|la p[aá]gina no|\bfancons\b|\bsource:)", re.I)
+VOZ_AGENTE = re.compile(r"(\bnot (named|stated|specified|listed|announced|indicated|shown)\b|\bfetched\b|third-party|\bI (could|did|found|couldn|saw|opened)|\bmy\b|no pude|no encontr|encontr[ée]|\babr[ií]\b|no se indica|no figura|no especific|no indicad|seg[uú]n (un|el|la|los|las) (art|list|sitio|resultado)|sin confirmar|no confirmad|\bunknown\b|desconoc|\?|e\.g\.|p\. ej\.|\(per\s|seg[uú]n (un|una|el|la|los|las)\b|\blo que vi\b|\bno vi\b|\bvi\b|no verificad|sin edici[oó]n|\bencontrad[ao]\b|en lo que|no indica|no hall[eé]|no (hay|encontr)|\b(does|did|do) not\b|n\x27t\b|the page|la p[aá]gina no|\bfancons\b|\bsource:)", re.I)
 
 
 def sin_voz_agente(txt):
@@ -99,6 +99,8 @@ def organizador_limpio(o):
 
 
 def lugar_limpio(l):
+    if l:
+        l = re.sub(r'\s*\([^)]*\)', lambda m: '' if VOZ_AGENTE.search(m.group(0)) else m.group(0), l)
     if l and VOZ_AGENTE.search(l):
         return None
     if not l:
@@ -172,7 +174,7 @@ def desde_radar():
             vistos.add(k)
             salida.append(dict(
                 id=slug(e['nombre']), ciudad=c, nombre=re.sub(r'\s*20\d\d$', '', e['nombre']).strip(), tipo=categoria(e.get('tipo'), ' '.join(e.get('comunidades') or []), e['nombre']),
-                comunidades=e.get('comunidades') or [], fechas_texto=sin_voz_agente(e.get('fechas_texto')) or e.get('fechas_texto'), fecha_inicio=e.get('fecha_inicio') if estado != 'sin_2027' else None,
+                comunidades=e.get('comunidades') or [], fechas_texto=sin_voz_agente(e.get('fechas_texto')), fecha_inicio=e.get('fecha_inicio') if estado != 'sin_2027' else None,
                 fecha_fin=e.get('fecha_fin') if estado != 'sin_2027' else None, recurrente=bool(e.get('recurrente')), lugar=lugar_limpio(e.get('lugar')), organizador=organizador_limpio(e.get('organizador')),
                 url_oficial=url if estado != 'solo_terceros' else None, fuentes=[u for u in [url] + (e.get('url_fuente_extra') or []) if u], estado=estado,
                 ultima_edicion=sin_voz_agente(e.get('ultima_edicion')), descripcion=None, precio=sin_voz_agente(e.get('precio')), evidencia=ev,

@@ -580,5 +580,33 @@
   "verificado": "2026-11-17",
   "nota": null,
   "origen": "manual"
+ },
+ {
+  "id": "filbo",
+  "ciudad": "bogota",
+  "nombre": "FILBo",
+  "tipo": "fandom",
+  "comunidades": [
+   "libros"
+  ],
+  "fechas_texto": "20 de abril al 3 de mayo de 2027 (según prensa; sin confirmar en la web oficial)",
+  "fecha_inicio": "2027-04-20",
+  "fecha_fin": "2027-05-03",
+  "recurrente": false,
+  "lugar": "Corferias, Bogotá",
+  "organizador": null,
+  "url_oficial": null,
+  "fuentes": [
+   "https://cambiocolombia.com/cultura/articulo/2026/9/sharjah-un-emirato-arabe-sera-el-pais-invitado-de-filbo-2027",
+   "https://www.noticiasrcn.com/colombia/sharjah-emiratos-arabes-invitado-de-honor-filbo-2027-1065098"
+  ],
+  "estado": "solo_terceros",
+  "ultima_edicion": null,
+  "descripcion": null,
+  "precio": null,
+  "evidencia": null,
+  "verificado": null,
+  "nota": null,
+  "origen": "manual"
  }
 ]
