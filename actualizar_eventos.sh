@@ -25,5 +25,6 @@ for lang in ('pt', 'fr', 'de', 'it'):
             f.write_text(h2); n += 1
 print(f'enlace de eventos quitado de {n} páginas pt/fr/de/it')
 PY
+python3 enlace_guia.py  # enlace del pie a /guides/ en las páginas en inglés (después de construir)
 python3 auditar_eventos.py
 echo "Listo. Nada publicado: revisa 'git status' y publica solo cuando se ordene."

@@ -291,6 +291,9 @@ from articulo_artistas import ARTICULOS, ENLACES
 ART['en']['secs'].append(ENLACES['en'])
 ART['es']['secs'].append(ENLACES['es'])
 ART.update(ARTICULOS)
+from guia_walking_rpg import ENTRADA as _GUIA
+_GUIA['cuerpo'] += f'<h2>License notice</h2><p><small>{SRD}</small></p>'
+ART['guia_rpg'] = _GUIA
 for _k, _a in ART.items():
     _cuerpo = _a.get('cuerpo') or ''.join(f'<h2>{h}</h2>{c}' for h, c in _a['secs']).replace('__URL__', generar_linajes.ARTISTAS)
     if not _a.get('articulo'):
@@ -301,6 +304,8 @@ for _k, _a in ART.items():
     if _ARTISTAS_APP and not _a.get('articulo'):
         _li = ''.join(f'<li><a href="{x["enlace"]}" rel="noopener">{x["nombre"]}</a> · {x["visible"]}</li>' for x in _ARTISTAS_APP)
         _cuerpo = f'<h2>{_ILUS[_k][0]}</h2><p>{_ILUS[_k][1]}</p><ul>{_li}</ul>' + _cuerpo
+    _hreflang = '' if not _a.get('otra') else '\n'.join(f'<link rel="alternate" hreflang="{h}" href="{SITIO}{r}">' for h, r in [
+        ('en', _a['ruta'] if _a['lang'] == 'en' else _a['otra']), ('es', _a['ruta'] if _a['lang'] == 'es' else _a['otra']), ('x-default', _a['ruta'] if _a['lang'] == 'en' else _a['otra'])])
     _pag = f"""<!doctype html>
 <html lang="{_a['lang']}">
 <head>
@@ -321,9 +326,7 @@ for _k, _a in ART.items():
 <meta property="og:url" content="{SITIO}{_a['ruta']}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{SITIO}{_a['ruta']}">
-<link rel="alternate" hreflang="en" href="{SITIO}{_a['ruta'] if _a['lang'] == 'en' else _a['otra']}">
-<link rel="alternate" hreflang="es" href="{SITIO}{_a['ruta'] if _a['lang'] == 'es' else _a['otra']}">
-<link rel="alternate" hreflang="x-default" href="{SITIO}{_a['ruta'] if _a['lang'] == 'en' else _a['otra']}">
+{_hreflang}
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/img/favicon-96.png" type="image/png" sizes="96x96">
 <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32">
@@ -335,7 +338,7 @@ for _k, _a in ART.items():
 <main>
 <a class="marca" href="/">KINSTRIDE</a>
 <h1>{_a['h1']}</h1>
-<p><a href="{_a['otra']}">{_a['otro']}</a></p>
+{f'<p><a href="{_a["otra"]}">{_a["otro"]}</a></p>' if _a.get('otra') else ''}
 <p class="resumen">{_a['resumen']}</p>
 {_cuerpo}
 <p class="pie"><a href="{'/' if _a['lang'] == 'en' else '/es/'}">Kinstride</a></p>
@@ -350,7 +353,7 @@ for _k, _a in ART.items():
 (RAIZ / 'index.html').write_text(pagina(T['en']))
 (RAIZ / 'es' / 'index.html').write_text(pagina(T['es']))
 (RAIZ / 'robots.txt').write_text(f'User-agent: *\nAllow: /\n\nSitemap: {SITIO}/sitemap.xml\n')
-direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/', '/artists/', '/es/artistas/'] + [x['ruta'] for x in ARTICULOS.values()] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD) + generar_eventos.generar(RAIZ, SITIO, UMAMI, SRD)
+direcciones = ['/', '/es/', '/privacy/', '/es/privacidad/', '/artists/', '/es/artistas/'] + [x['ruta'] for x in ART.values() if x.get('articulo')] + generar_linajes.generar(RAIZ, SITIO, UMAMI, SRD) + generar_eventos.generar(RAIZ, SITIO, UMAMI, SRD)
 (RAIZ / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                   + ''.join(f'<url><loc>{SITIO}{d}</loc><lastmod>{__import__('datetime').date.today().isoformat()}</lastmod></url>\n' for d in direcciones) + '</urlset>\n')
 (RAIZ / '404.html').write_text('''<!doctype html>

@@ -28,6 +28,10 @@ La caché de traducciones (`datos/i18n-sitio/<idioma>.json`, por huella del text
 - Auditoría SEO: revisar título (≤65), descripción (70–165), canonical, `lang`, un solo h1, hreflang recíproco con `x-default`, og/twitter, JSON-LD válido, alt, ancho/alto de imágenes, enlaces y sitemap. `lastmod` del sitemap = fecha en que se genera.
 - El dato estructurado `MobileApplication` no lleva `aggregateRating` ni `review` a propósito: Google los exige para el resultado enriquecido y no se inventan; agregarlos cuando haya reseñas reales.
 
+## Guía en inglés (2026-11-18): `/guides/best-walking-rpg-apps-android/`
+
+Texto en `guia_walking_rpg.py` (solo inglés, no se traduce; generar.py la importa). Su enlace en el pie de las páginas EN lo añade `python3 enlace_guia.py` DESPUÉS de `idiomas_sitio.py construir` (no va en los generadores: cambiaría el texto del pie y pt/fr/de/it quedarían sin traducir en esa línea). `actualizar_eventos.sh` ya lo llama.
+
 ## Eventos (2026-11-17): `/events/` (EE. UU., en) y `/es/eventos/` (Santiago, es)
 
 Calendario de eventos de fantasía, juegos y anime por ciudad, con fechas comprobadas en la página del organizador y un ángulo de linajes. Un solo idioma por ciudad: NO se traduce a pt/fr/de/it (`idiomas_sitio.py` solo toma su lista fija `EN_PAG`).
