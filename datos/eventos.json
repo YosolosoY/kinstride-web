@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17",
+ "actualizado": "2026-11-18",
  "eventos": [
   {
    "id": "georgia-renaissance-festival-fall-fling",
@@ -80,7 +80,9 @@
    "fuentes": [
     "https://www.awa-con.com/",
     "https://www.animecons.com/events/state.php/GA",
-    "https://fancons.com/events/state.php/GA"
+    "https://fancons.com/events/state.php/GA",
+    "https://awa-con.com",
+    "https://www.rostercon.com/en/location/usa-en/georgia/atlanta-en"
    ],
    "estado": "confirmada",
    "ultima_edicion": "November 19-22, 2026 (this edition; no 2027 dates found on the official site)",
@@ -119,33 +121,69 @@
    "con_evidencia": true
   },
   {
-   "id": "okecon-tcg-atlanta-november",
+   "id": "atlanta-tcg-con",
    "ciudad": "atlanta",
-   "nombre": "OkeCon TCG Atlanta (November)",
+   "nombre": "Atlanta TCG Con",
    "tipo": "tcg",
    "comunidades": [
     "Pokémon",
-    "Yu-Gi-Oh!",
     "Magic",
+    "Yu-Gi-Oh!",
     "Lorcana",
-    "One Piece"
+    "TCG"
    ],
-   "fechas_texto": "Saturday Nov 21 – Sunday Nov 22, 2026",
+   "fechas_texto": "No 2027 date found on the organizer's site. Edition XIII ran Oct 16-18, 2026 (Fri 3-10 PM, Sat-Sun 10 AM-5 PM).",
    "fecha_inicio": "2026-11-21",
    "fecha_fin": "2026-11-22",
-   "recurrente": false,
-   "lugar": "Georgia International Convention Center (venue per treasurehunter.show; CardShopFinder says venue TBA)",
-   "organizador": null,
+   "recurrente": true,
+   "lugar": "Charlie's Collectible Show, 6009 Memorial Dr Unit 14, Stone Mountain, GA 30083",
+   "organizador": "Charlie's Collectible Show",
    "url_oficial": null,
    "fuentes": [
     "https://www.treasurehunter.show/show/okecon-tcg-atlanta-atlanta-ga-2026-11-21",
-    "https://thecardshopfinder.com/event/okecon-tcg-atlanta-atlanta-2026-11/"
+    "https://thecardshopfinder.com/event/okecon-tcg-atlanta-atlanta-2026-11/",
+    "https://www.charliescollectibleshow.com",
+    "https://www.tcdb.com/CardShows.cfm?ID=35560&MODE=VIEW",
+    "https://happeningnext.com/event/atlanta-tcg-con-x-eid3a0dn5xubx"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
    "descripcion": null,
-   "precio": "Not confirmed",
-   "verificado": null,
+   "precio": "Free entry per the organizer's site",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "charlie-s-collectible-show-ccs-weekly-friday-events-and-card",
+   "ciudad": "atlanta",
+   "nombre": "Charlie's Collectible Show (CCS) – weekly Friday events and card shows",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Pokémon",
+    "Yu-Gi-Oh!",
+    "Lorcana",
+    "One Piece",
+    "Riftbound",
+    "anime"
+   ],
+   "fechas_texto": "Every Friday 3-10 PM (weekly events). Upcoming shows listed on the site: CCS Card Show XI, Nov 21-22, 2026 (10 AM-5 PM); CCS Black Friday, Nov 27, 2026 (10 AM-10 PM); Artist Alley Atlanta V, Nov 28-29, 2026 (10 AM-5 PM). Undated: cEDH 50k, Riftbound 50k, Christmas Card Show, Georgia Beyblade XII CCS Winter.",
+   "fecha_inicio": "2026-11-21",
+   "fecha_fin": "2026-11-22",
+   "recurrente": true,
+   "lugar": "Charlie's Collectible Show, 6009 Memorial Dr Unit 14, Stone Mountain, GA 30083",
+   "organizador": "Charlie's Collectible Show",
+   "url_oficial": "https://www.charliescollectibleshow.com",
+   "fuentes": [
+    "https://www.charliescollectibleshow.com",
+    "https://thecardshopfinder.com/ga/?tag=events"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free entry and free parking per the site; tournament entry is extra (a Riftbound tournament listed $100).",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -167,6 +205,59 @@
    "url_oficial": null,
    "fuentes": [
     "https://www.meetup.com/the-hiking-league/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "magic-the-gathering-for-teens-chamblee-library",
+   "ciudad": "atlanta",
+   "nombre": "Magic: The Gathering for Teens (Chamblee Library)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic"
+   ],
+   "fechas_texto": "Google Events hint: Nov 28, 2:00 PM.",
+   "fecha_inicio": "2026-11-28",
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Chamblee Library, DeKalb County Public Library, Chamblee, GA",
+   "organizador": "DeKalb County Public Library",
+   "url_oficial": null,
+   "fuentes": [
+    "https://events.dekalblibrary.org/event/15659617"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "kingdom-of-giants-concert",
+   "ciudad": "atlanta",
+   "nombre": "Kingdom of Giants (concert)",
+   "tipo": "convention",
+   "comunidades": [
+    "music"
+   ],
+   "fechas_texto": "Wed Dec 9, 2026, 6:00 PM",
+   "fecha_inicio": "2026-12-09",
+   "fecha_fin": "2026-12-09",
+   "recurrente": false,
+   "lugar": "The Masquerade (Purgatory stage)",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.tickpick.com/buy-kingdom-of-giants-tickets-purgatory-stage-at-masquerade-ga-12-9-26-6pm/8180626/",
+    "https://app.discotech.me/events/38253706-kingdom-of-giants-at-the-masquerade-purgatory"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -199,6 +290,32 @@
    ],
    "estado": "solo_terceros",
    "ultima_edicion": "Sunday, May 3, 2026 (Marriott, 11 AM–5 PM, per an Eventbrite listing)",
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "atlanta-pokemon-regional-championships",
+   "ciudad": "atlanta",
+   "nombre": "2027 Atlanta Pokémon Regional Championships",
+   "tipo": "tcg",
+   "comunidades": [
+    "Pokémon"
+   ],
+   "fechas_texto": "January 15-17, 2027",
+   "fecha_inicio": "2027-01-15",
+   "fecha_fin": "2027-01-17",
+   "recurrente": false,
+   "lugar": null,
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.dittobase.com/championships/events/atlanta-2027"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
    "descripcion": null,
    "precio": null,
    "verificado": null,
@@ -250,7 +367,8 @@
    "url_oficial": "https://www.atlantabrickcon.com/",
    "fuentes": [
     "https://www.atlantabrickcon.com/",
-    "https://fancons.com/events/state.php/GA"
+    "https://fancons.com/events/state.php/GA",
+    "https://www.facebook.com/events/1773090658153614/"
    ],
    "estado": "confirmada",
    "ultima_edicion": "February 7-8, 2026 (Gas South)",
@@ -284,6 +402,35 @@
    "descripcion": null,
    "precio": null,
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "decepta-con-xii",
+   "ciudad": "atlanta",
+   "nombre": "Decepta Con XII",
+   "tipo": "convention",
+   "comunidades": [
+    "social deduction",
+    "Werewolf",
+    "board games"
+   ],
+   "fechas_texto": "February 12-15, 2027",
+   "fecha_inicio": "2027-02-12",
+   "fecha_fin": "2027-02-15",
+   "recurrente": false,
+   "lugar": "Le Méridien Atlanta Perimeter, 111 Perimeter Center West",
+   "organizador": "Werewolf ATL",
+   "url_oficial": "https://deceptacon.werewolfatl.com",
+   "fuentes": [
+    "https://deceptacon.werewolfatl.com",
+    "https://happeningnext.com/event/decepta-con-xii-2027-eid1ef0kr3eh21r"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -341,6 +488,35 @@
    "descripcion": "A family-friendly tabletop gaming convention from the team behind the Southern-Fried Gaming Expo. It covers board games, role-playing games, miniatures and card games, and offers a weekend event schedule and a gaming library for attendees, plus a Game Master program and vendors.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "jordancon",
+   "ciudad": "atlanta",
+   "nombre": "JordanCon",
+   "tipo": "fandom",
+   "comunidades": [
+    "Wheel of Time",
+    "fantasy books",
+    "Sanderson/Cosmere"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": "2027-04-16",
+   "fecha_fin": "2027-04-18",
+   "recurrente": false,
+   "lugar": "Crowne Plaza Atlanta Perimeter at Ravinia",
+   "organizador": "JordanCon",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.jordancon.org",
+    "https://www.sharedaudiences.com/events/jordancon-2027"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": "April 17–19, 2026 (from the banner alt text)",
+   "descripcion": null,
+   "precio": "2027 membership $85, rising from Oct 15",
+   "verificado": null,
    "origen": "radar",
    "con_evidencia": true
   },
@@ -486,13 +662,99 @@
    "url_oficial": null,
    "fuentes": [
     "https://www.meetup.com/atlrpg",
-    "https://atlrpg.org/calendar"
+    "https://atlrpg.org/calendar",
+    "https://meetup.com/atlrpg"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "No admission fee listed on the Meetup page; first-time players get a free pre-generated character and dice. Venue food and drinks are separate.",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "atlanime-fest",
+   "ciudad": "atlanta",
+   "nombre": "Atlanime Fest",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "gaming",
+    "fashion"
+   ],
+   "fechas_texto": "2026 edition: Oct 15-18 (second annual); no 2027 date found",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Underground Atlanta (main day), Monday Night Garage and Monday Night West Midtown (side events)",
+   "organizador": "Atlanime Fest",
+   "url_oficial": "https://www.atlanimefest.com/",
+   "fuentes": [
+    "https://www.atlanimefest.com/",
+    "https://roughdraftatlanta.com/2026/09/29/atlanime-fest-returns-to-atlanta-oct-15-18/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "October 15-18, 2026",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "atlanta-d-d-meetup",
+   "ciudad": "atlanta",
+   "nombre": "Atlanta D&D Meetup",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "TTRPG"
+   ],
+   "fechas_texto": "Recurring. The Meetup page lists the same ATLRPG-run schedule: Thu Nov 19 and Thu Nov 26, 2026 at 7:00 PM at The Independent, with other venues on other nights.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "The Independent, 931 Monroe Dr NE, Suite C-205, Atlanta, GA",
+   "organizador": "ATLRPG",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/atlantadnd",
+    "https://meetup.com/atlrpg"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
    "descripcion": null,
    "precio": null,
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "atlanta-outdoor-club-group-hikes",
+   "ciudad": "atlanta",
+   "nombre": "Atlanta Outdoor Club – group hikes",
+   "tipo": "trek",
+   "comunidades": [
+    "hiking",
+    "trekking"
+   ],
+   "fechas_texto": "Several outings per week. Examples: Wed Nov 18, 2026 (Kennesaw, 12 miles); Sat Nov 21 (Garrard Landing walk); Sun Nov 22 (Vickery Creek); Sat Nov 28 (Kennesaw Mountain).",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Varies by outing",
+   "organizador": "Atlanta Outdoor Club",
+   "url_oficial": "https://www.atlantaoutdoorclub.com/event",
+   "fuentes": [
+    "https://www.atlantaoutdoorclub.com/event",
+    "https://www.atlantaoutdoorclub.com/aboutus/membership.asp"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Membership is free",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -562,15 +824,20 @@
    "ciudad": "atlanta",
    "nombre": "DaggerCon",
    "tipo": "convention",
-   "comunidades": [],
+   "comunidades": [
+    "fantasy",
+    "fandom",
+    "tabletop"
+   ],
    "fechas_texto": "edicion 2026: 2026-03-13 y 14, Midtown; 2027 sin fecha",
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": false,
-   "lugar": null,
+   "lugar": "Renaissance Atlanta Midtown Hotel, 866 W. Peachtree St",
    "organizador": null,
-   "url_oficial": null,
+   "url_oficial": "https://dagger-con.com",
    "fuentes": [
+    "https://dagger-con.com",
     "https://metroatlantaceo.com/news/2026/01/daggercon-brings-two-days-fantasy-fandom-and-community-midtown-atlanta-march-1314-2026"
    ],
    "estado": "sin_2027",
@@ -578,7 +845,36 @@
    "descripcion": null,
    "precio": null,
    "verificado": "2026-11-17",
-   "origen": "manual",
+   "origen": "manual+radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "dice-city-magic-and-commander-events",
+   "ciudad": "atlanta",
+   "nombre": "Dice City (Magic and Commander events)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander",
+    "Pokémon",
+    "board games"
+   ],
+   "fechas_texto": "No schedule published in the listing. Open Mon-Thu and Sun 1-10 PM, Fri-Sat 1 PM-midnight. The listing mentions a Commander league and tournaments.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Dice City, 512 Flat Shoals Ave SE #2, Atlanta, GA 30316",
+   "organizador": "Dice City",
+   "url_oficial": null,
+   "fuentes": [
+    "https://thecardshopfinder.com/ga/atlanta/dice-city/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
    "con_evidencia": true
   },
   {
@@ -889,6 +1185,119 @@
    "con_evidencia": true
   },
   {
+   "id": "nexus-nights-riftbound-pokemon-tuesday-night-tcg-tcg-tuesday",
+   "ciudad": "atlanta",
+   "nombre": "Nexus Nights: Riftbound / Pokémon Tuesday Night TCG (TCG Tuesday)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Pokémon",
+    "Riftbound",
+    "One Piece",
+    "TTRPG"
+   ],
+   "fechas_texto": "A separate Battle & Brew listing mentions a TCG Training Day on the second Sunday of each month.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Battle & Brew, 5920 Roswell Rd, Ste A-120, Sandy Springs, GA",
+   "organizador": "Battle & Brew",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.exploretock.com/battleandbrew/event/584455/nexus-nights-riftbound-pokemon-tuesday-night-tcg"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "outdoor-enthusiasts-east-of-atlanta-meetup",
+   "ciudad": "atlanta",
+   "nombre": "Outdoor Enthusiasts East of Atlanta (Meetup)",
+   "tipo": "trek",
+   "comunidades": [
+    "hiking",
+    "stargazing"
+   ],
+   "fechas_texto": "Irregular.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Varies",
+   "organizador": "Outdoor Enthusiasts East of Atlanta",
+   "url_oficial": "https://www.meetup.com/outdoorenthusiastseastofatlanta",
+   "fuentes": [
+    "https://www.meetup.com/outdoorenthusiastseastofatlanta"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "Stargazing at HLCO, Rutledge, Oct 17, 2026",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "proto-atl",
+   "ciudad": "atlanta",
+   "nombre": "Proto ATL",
+   "tipo": "convention",
+   "comunidades": [
+    "board games",
+    "game design",
+    "industry"
+   ],
+   "fechas_texto": "2026 edition: four days, about late May 2026 (hotel block May 27 to June 1, 2026); no 2027 date found",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Atlanta Marriott Perimeter Center, 246 Perimeter Center Pkwy NE",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.gameconhq.com/proto-atl",
+    "https://tabletop.events/conventions/proto-atl-2026"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "twelfth-night-sca-kingdom-of-atlantia",
+   "ciudad": "atlanta",
+   "nombre": "Twelfth Night 2027 (SCA, Kingdom of Atlantia)",
+   "tipo": "faire",
+   "comunidades": [
+    "SCA",
+    "medieval"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Maola at Riverside",
+   "organizador": "Kingdom of Atlantia",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.12thnight.atlantia.sca.org/newcomers/",
+    "https://atlantia.sca.org/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Day admission $25 members / $35 non-members; Feast $15; camping $5; children 6 and under free",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "vinings-cosmic-book-club",
    "ciudad": "atlanta",
    "nombre": "Vinings Cosmic Book Club",
@@ -989,10 +1398,11 @@
    "url_oficial": null,
    "fuentes": [
     "https://serebii.net/playpokemon/2025/bogotaspecialchampionships.shtml",
-    "https://victoryroad.pro/2025-bogota/"
+    "https://victoryroad.pro/2025-bogota/",
+    "https://victoryroad.pro/2024-bogota/"
    ],
-   "estado": "solo_terceros",
-   "ultima_edicion": null,
+   "estado": "sin_2027",
+   "ultima_edicion": "2024-12-07 al 2024-12-08, Radisson Bogotá Metrotel",
    "descripcion": null,
    "precio": null,
    "verificado": "2026-11-17",
@@ -1099,16 +1509,19 @@
    "recurrente": true,
    "lugar": "Corferias, Carrera 37 #24-67",
    "organizador": "Planet Comics con Corferias",
-   "url_oficial": null,
+   "url_oficial": "https://bogota.comicconcolombia.com/",
    "fuentes": [
     "https://bogota.gov.co/mi-ciudad/desarrollo-economico/emprendedores-bogota-presentes-en-comic-con-26-al-29-de-junio-2026",
     "https://www.eventseye.com/fairs/f-comic-con-colombia-bogota-26390-1.html",
-    "https://visitbogota.co/en/events-calendar/comic-con-colombia"
+    "https://visitbogota.co/en/events-calendar/comic-con-colombia",
+    "https://bogota.comicconcolombia.com/",
+    "https://bogota.gov.co/que-hacer/cultura/vive-la-comic-con-2026-en-corferias-bogota-del-26-al-29-de-junio-2026",
+    "https://www.eventseye.com/ferias/f-comic-con-colombia-bogota-26390-3.html"
    ],
    "estado": "sin_2027",
    "ultima_edicion": "2026-06-26 al 2026-06-29, Corferias, Bogotá",
    "descripcion": null,
-   "precio": null,
+   "precio": "Bogotá.gov.co la describe como gratuita, lo cual contradice la venta de entradas por día y Full Pass que reportan otros medios; verificar con el organizador.",
    "verificado": "2026-11-17",
    "origen": "radar",
    "con_evidencia": true
@@ -1139,6 +1552,93 @@
    "descripcion": null,
    "precio": null,
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "el-salon-del-rol-comunidad-de-discord",
+   "ciudad": "bogota",
+   "nombre": "El Salón Del Rol (comunidad de Discord)",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "rol de mesa"
+   ],
+   "fechas_texto": "Sin fechas ni frecuencia.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://discord.com/servers/el-salon-del-rol-850799316301250560"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "eventos-presenciales-de-rol-de-scrollcast",
+   "ciudad": "bogota",
+   "nombre": "Eventos presenciales de rol de Scrollcast",
+   "tipo": "convention",
+   "comunidades": [
+    "rol de mesa",
+    "D&D"
+   ],
+   "fechas_texto": "Sin frecuencia indicada.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "\"Son Geniales\" (sede mencionada, sin dirección); también tienen un stand anual en SOFA",
+   "organizador": "Scrollcast",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.patreon.com/scrollcast/about"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "festival-geek-planetario-de-bogota",
+   "ciudad": "bogota",
+   "nombre": "Festival Geek (Planetario de Bogotá)",
+   "tipo": "tcg",
+   "comunidades": [
+    "juegos de mesa",
+    "Magic",
+    "Pokémon TCG",
+    "One Piece TCG",
+    "ciencia ficción",
+    "fantasía",
+    "cultura pop"
+   ],
+   "fechas_texto": "Edición 2026: sábado 23 y domingo 24 de mayo de 2026, 10:00 a. m. a 9:00 p. m. Sin fechas para 2027; las tres ediciones (2024, 2025, 2026) fueron en mayo.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Planetario de Bogotá, Calle 26B #5-93",
+   "organizador": "Instituto Distrital de las Artes",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bogota.gov.co/que-hacer/cultura/programacion-del-festival-de-ciencia-ficcion-en-planetario-bogota-2026",
+    "https://visitbogota.co/en/events-calendar/3rd-geek-festival-possible-universes"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "23–24 de mayo de 2026 (3.ª edición, \"universos posibles\")",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -1189,6 +1689,32 @@
    "fuentes": [
     "https://www.hiddentcgstore.com/",
     "https://tcgcolombia.com/blog/donde-comprar-cartas-pokemon-bogota/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "juegos-de-mesa-bogota-comunidad-de-juegos-de-mesa",
+   "ciudad": "bogota",
+   "nombre": "Juegos de Mesa Bogotá (comunidad de juegos de mesa)",
+   "tipo": "convention",
+   "comunidades": [
+    "juegos de mesa"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "Grupo \"Juegos de Mesa Bogotá\"",
+   "url_oficial": null,
+   "fuentes": [
+    "https://boardgamegeek.com/guild/1128"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -1314,6 +1840,64 @@
    "con_evidencia": true
   },
   {
+   "id": "sendero-guadalupeaguanoso-caminos-de-los-cerros-orientales",
+   "ciudad": "bogota",
+   "nombre": "Sendero Guadalupe–Aguanoso (Caminos de los Cerros Orientales)",
+   "tipo": "trek",
+   "comunidades": [
+    "senderismo",
+    "aventura"
+   ],
+   "fechas_texto": "Recurrente: sábados, domingos y festivos, de 6:30 a. m. a 12:00 m. (último ingreso 9:00 a.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "Alcaldía de Bogotá / Acueducto de Bogotá",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bogota.gov.co/mi-ciudad/ambiente/habilitado-nuevo-camino-para-recorrer-cerros-de-guadalupe-aguanoso",
+    "https://www.eltiempo.com/vida/viajar/guadalupe-aguanoso-horarios-para-visitar-estos-cerros-de-bogota-787557",
+    "https://gme.acueducto.com.co/visitas/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "sendero-quebrada-la-vieja-caminos-de-los-cerros-orientales",
+   "ciudad": "bogota",
+   "nombre": "Sendero Quebrada La Vieja (Caminos de los Cerros Orientales)",
+   "tipo": "trek",
+   "comunidades": [
+    "senderismo",
+    "aventura"
+   ],
+   "fechas_texto": "m. a 10 a. m. y sábado y domingo de 6 a. m. a 11 a. m. Otras notas dan horarios distintos.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Cerros Orientales, Chapinero; operado por la EAAB",
+   "organizador": "Acueducto de Bogotá / Alcaldía de Bogotá",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.elespectador.com/bogota/caminatas-ecologicas-de-semana-santa-horarios-rutas-y-recomendaciones/",
+    "https://bogota.gov.co/mi-ciudad/habitat/agendate-y-visita-los-caminos-de-los-cerros-orientales-en-bogota",
+    "https://gme.acueducto.com.co/visitas/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "sociedad-tolkien-colombia-orodruin-stco",
    "ciudad": "bogota",
    "nombre": "Sociedad Tolkien Colombia Orodruin (STCO)",
@@ -1341,6 +1925,33 @@
    "con_evidencia": true
   },
   {
+   "id": "south-america-world-championship-qualifier-yu-gi-oh",
+   "ciudad": "bogota",
+   "nombre": "South America World Championship Qualifier (Yu-Gi-Oh!)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Yu-Gi-Oh!"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "El Cubo Colsubsidio, Ave Cra 30 #52-77, Teusaquillo",
+   "organizador": "Konami",
+   "url_oficial": "https://registration.yugioh-card.com/Events/Details.aspx?id=4779",
+   "fuentes": [
+    "https://registration.yugioh-card.com/Events/Details.aspx?id=4779",
+    "https://ygoprodeck.com/tournament/bogota-wcq-regional-4959"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2025-06-06 al 2025-06-08, El Cubo Colsubsidio",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "tcg-collectibles-colombia",
    "ciudad": "bogota",
    "nombre": "TCG Collectibles Colombia",
@@ -1359,6 +1970,32 @@
    "url_oficial": null,
    "fuentes": [
     "https://www.facebook.com/tcgcollectiblescolombia/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "tiendas-oficiales-de-torneo-ots-de-yu-gi-oh-en-bogota",
+   "ciudad": "bogota",
+   "nombre": "Tiendas oficiales de torneo (OTS) de Yu-Gi-Oh! en Bogotá",
+   "tipo": "tcg",
+   "comunidades": [
+    "Yu-Gi-Oh!"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "Konami; cada tienda organiza sus propios eventos",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.yugioh-card.com/lat-am/events/tournament_locations_lat-am/"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -1456,9 +2093,39 @@
    "con_evidencia": true
   },
   {
+   "id": "bonus-round-game-cafe-board-game-mixer-magic-the-gathering-c",
+   "ciudad": "chicago",
+   "nombre": "Bonus Round Game Cafe - Board Game Mixer, Magic: The Gathering Cube Night and Commander",
+   "tipo": "tcg",
+   "comunidades": [
+    "board games",
+    "Magic",
+    "Commander"
+   ],
+   "fechas_texto": "Board Game Mixer: monthly, Jul 2, 2026 to Jun 4, 2027, 7:00 PM to 10:00 PM, per the Tock listing. A search result describes the Commander night as the fourth Tuesday of the month.",
+   "fecha_inicio": "2026-07-02",
+   "fecha_fin": "2027-06-04",
+   "recurrente": true,
+   "lugar": "Bonus Round Game Cafe, 3230 N Clark St, Chicago",
+   "organizador": "Bonus Round Game Cafe",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bonusroundcafe.com/",
+    "https://www.exploretock.com/bonusroundgamecafe/event/562079/board-game-mixer",
+    "https://www.exploretock.com/bonusroundgamecafe/event/558099/magic-the-gathering-cube-night"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "northwest-side-chicago-board-game-friends-stay-and-play-game",
    "ciudad": "chicago",
-   "nombre": "Northwest Side Chicago Board Game Friends – Stay and Play Game Cafe (Learn & Play, 3rd Thursday Game Night, D&D)",
+   "nombre": "Stay and Play Game Cafe - Dungeons & Dragons and Learn & Play Community Socials",
    "tipo": "convention",
    "comunidades": [
     "D&D",
@@ -1473,7 +2140,9 @@
    "organizador": "Northwest Side Chicago Board Game Friends",
    "url_oficial": null,
    "fuentes": [
-    "https://www.meetup.com/northwest-side-chicago-board-game-friends/"
+    "https://www.meetup.com/northwest-side-chicago-board-game-friends/",
+    "https://www.timeout.com/chicago/things-to-do/the-best-gaming-lounges-cafes-and-shops-in-chicago",
+    "https://meetup.com/northwest-side-chicago-board-game-friends/events/jbfqqtyhcnbdc"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -1515,7 +2184,7 @@
   {
    "id": "prism-games-chicago-weekly-tcg-play-star-wars-unlimited-rift",
    "ciudad": "chicago",
-   "nombre": "Prism Games Chicago – weekly TCG play (Star Wars Unlimited, Riftbound) and release events",
+   "nombre": "Prism Games Chicago - Casual Commander Night",
    "tipo": "tcg",
    "comunidades": [
     "Magic",
@@ -1533,10 +2202,11 @@
    "url_oficial": "https://www.prismgameschicago.com",
    "fuentes": [
     "https://www.prismgameschicago.com",
-    "https://yopki.com/explore/us/il/chicago/events/magic-the-gathering-casual-commander-night-07-09-26"
+    "https://yopki.com/explore/us/il/chicago/events/magic-the-gathering-casual-commander-night-07-09-26",
+    "https://yopki.com/explore/us/il/chicago/events/magic-the-gathering-casual-commander-night-06-11-26"
    ],
    "estado": "confirmada",
-   "ultima_edicion": null,
+   "ultima_edicion": "2026-06-11",
    "descripcion": "Prism Games Chicago is an LGBTQ+ owned board game shop with a play space and a growing demo library. It hosts scheduled events, including Sunday Star Wars Unlimited and Riftbound play, Commander tournaments, and One Piece release and prerelease events.",
    "precio": null,
    "verificado": "2026-11-17",
@@ -1565,6 +2235,34 @@
    "ultima_edicion": null,
    "descripcion": null,
    "precio": "No cover; the group asks attendees to make a purchase",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "animechicago",
+   "ciudad": "chicago",
+   "nombre": "AnimeChicago",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "manga",
+    "cosplay"
+   ],
+   "fechas_texto": "Recurring 2026 program: Manga Discussion on the 2nd Sunday, Anime Discussion on the 3rd Thursday, Anime Showcase on random Tuesdays, Art Lounge on Wednesdays, Anime Sampler on the 3rd Saturday of each quarter. In person: 20th Anniversary Party & Gift Exchange on Thu Dec 10, 2026, 6:00 PM. The Meetup page shows no 2027 dates yet.",
+   "fecha_inicio": "2026-12-10",
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "AnimeChicago",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/animechicago"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
    "verificado": null,
    "origen": "radar",
    "con_evidencia": true
@@ -1600,7 +2298,7 @@
   {
    "id": "agog-mensa-chicago-gaming-convention",
    "ciudad": "chicago",
-   "nombre": "AGOG (Mensa Chicago gaming convention)",
+   "nombre": "AGOG (Annual Gathering of Gamers)",
    "tipo": "convention",
    "comunidades": [
     "board games",
@@ -1621,8 +2319,38 @@
    "estado": "confirmada",
    "ultima_edicion": null,
    "descripcion": "AGOG is a weekend gaming event run by Chicago Area Mensa and open to everyone, with no Mensa membership required. It has a 24-hour game room with hundreds of games, a few tournaments, teach-and-play sessions, RPG one-shots, and a megagame.",
-   "precio": null,
+   "precio": "Adults $95-$125 (rises by date, $125 at the door); youth 9-17 $60-$85; non-members add $10; ages 8 and under free",
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "capricon-47",
+   "ciudad": "chicago",
+   "nombre": "Capricon 47",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "sci-fi",
+    "fantasy",
+    "tabletop gaming",
+    "cosplay"
+   ],
+   "fechas_texto": "January 28th-31st, 2027",
+   "fecha_inicio": "2027-01-28",
+   "fecha_fin": "2027-01-31",
+   "recurrente": false,
+   "lugar": "Marriott Chicago O'Hare, 8535 West Higgins Road, Chicago, IL 60631",
+   "organizador": "Capricon",
+   "url_oficial": "https://www.capricon.org",
+   "fuentes": [
+    "https://www.capricon.org",
+    "https://www.capricon.org/capricon46/departments/gaming/"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -1717,7 +2445,7 @@
   {
    "id": "c2e2-chicago-comic-entertainment-expo",
    "ciudad": "chicago",
-   "nombre": "C2E2 (Chicago Comic & Entertainment Expo)",
+   "nombre": "C2E2",
    "tipo": "anime-comic",
    "comunidades": [
     "comics",
@@ -1931,6 +2659,34 @@
    "con_evidencia": true
   },
   {
+   "id": "haunted-halloween-half-marathon-5k",
+   "ciudad": "chicago",
+   "nombre": "Haunted Halloween Half Marathon & 5K",
+   "tipo": "trek",
+   "comunidades": [
+    "costume running",
+    "Halloween"
+   ],
+   "fechas_texto": "Sun October 24 2027",
+   "fecha_inicio": "2027-10-24",
+   "fecha_fin": "2027-10-24",
+   "recurrente": false,
+   "lugar": "Diversey Event Space, 2611 N Cannon Drive, across from the Notebaert Nature Museum",
+   "organizador": null,
+   "url_oficial": "https://runsignup.com/Race/IL/Chicago/HauntedHalloweenHalf",
+   "fuentes": [
+    "https://runsignup.com/Race/IL/Chicago/HauntedHalloweenHalf",
+    "https://halfmarathons.net/races/haunted-halloween-half-marathon-5k"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Half marathon $55, 5K $35 (prices rise after Jan 21, 2027)",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "haunted-halloween-half-marathon-5km",
    "ciudad": "chicago",
    "nombre": "Haunted Halloween Half Marathon & 5km",
@@ -1992,6 +2748,62 @@
    "con_evidencia": true
   },
   {
+   "id": "board-game-night-at-the-dojo-chicago-game-lovers",
+   "ciudad": "chicago",
+   "nombre": "Board Game Night at the Dojo (Chicago Game Lovers)",
+   "tipo": "convention",
+   "comunidades": [
+    "board games",
+    "card games"
+   ],
+   "fechas_texto": "Every Wednesday from 4:00 PM, with open play running late. The next date is Wed Nov 18, 2026.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Chicagoland Games: The Dice Dojo, 5550 N. Broadway Ave, Chicago, IL 60640",
+   "organizador": "Chicago Game Lovers",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/chicagogames/",
+    "https://www.chicagolandgames.com"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "chicago-backpackers",
+   "ciudad": "chicago",
+   "nombre": "Chicago Backpackers",
+   "tipo": "trek",
+   "comunidades": [
+    "backpacking",
+    "trekking",
+    "camping"
+   ],
+   "fechas_texto": "Monthly social (Wed Nov 18 and Wed Dec 16, 2026, 6:30-9:30 PM). Trips: Dec 11-13, 2026 at Point Beach State Forest, WI; Mar 6, 2027 at Forest Glen Preserve, Westville, IL.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Sully's House (second floor), 1501 N Dayton St, Chicago; overnight trips within about 6 hours of Chicago",
+   "organizador": "Chicago Backpackers",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/chicago-backpackers"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Socials: no price listed. Point Beach trip $25 per person. Forest Glen trip $5 cash per person.",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "chicago-game-lovers-chicagogames-board-game-night-at-the-doj",
    "ciudad": "chicago",
    "nombre": "Chicago Game Lovers (Chicagogames) – Board Game Night at the Dojo",
@@ -2021,9 +2833,65 @@
    "con_evidencia": true
   },
   {
+   "id": "chicago-hiking-outdoors-social-group",
+   "ciudad": "chicago",
+   "nombre": "Chicago Hiking, Outdoors, & Social Group",
+   "tipo": "trek",
+   "comunidades": [
+    "hiking",
+    "trekking",
+    "outdoors"
+   ],
+   "fechas_texto": "Nov 21 and Nov 22, 2026)",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Forest preserves around Chicago",
+   "organizador": "Chicago Hiking, Outdoors, & Social Group",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/chicagohos/",
+    "https://www.meetup.com/ChicagoHOS/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "chicago-and-midwestern-hiking-group-midwest-hikers",
+   "ciudad": "chicago",
+   "nombre": "Chicago and Midwestern Hiking Group (Midwest Hikers)",
+   "tipo": "trek",
+   "comunidades": [
+    "hiking",
+    "trekking"
+   ],
+   "fechas_texto": "Nov 22, Nov 29, Dec 6 night hike at 3:30 PM, Dec 13, 2026)",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Lake County and other suburban preserves; exact meeting spots are for members only",
+   "organizador": "Chicago and Midwestern Hiking Group",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/midwesthikers"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free (some Wisconsin state parks charge entrance fees)",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "chicagoland-games-the-dice-dojo-in-store-tcg-events-magic-po",
    "ciudad": "chicago",
-   "nombre": "Chicagoland Games: The Dice Dojo – in-store TCG events (Magic, Pokémon)",
+   "nombre": "Chicagoland Games: Dice Dojo (store events: Magic, TCG and tabletop)",
    "tipo": "tcg",
    "comunidades": [
     "Magic",
@@ -2042,7 +2910,9 @@
     "https://www.chicagolandgames.com/events",
     "https://events.ticketleap.com/events/dicedojo",
     "https://fabtcg.com/en/locator/chicagoland-games-dice-dojo",
-    "https://tappedout.net/meets/dice-dojo/"
+    "https://tappedout.net/meets/dice-dojo/",
+    "https://www.chicagolandgames.com",
+    "https://www.meetup.com/chicagogames/"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -2081,6 +2951,90 @@
    "con_evidencia": true
   },
   {
+   "id": "dark-tower-comics-logan-square-pauper-and-after-school-magic",
+   "ciudad": "chicago",
+   "nombre": "Dark Tower Comics - Logan Square (Pauper and After School Magic)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "comics"
+   ],
+   "fechas_texto": "Unverified Google Events hints: Pauper on Thu Nov 19, 2026 at 7:00 PM and After School Magic on Wed Nov 18, 2026 at 3:00 PM.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Dark Tower Comics, Logan Square, Chicago",
+   "organizador": "Dark Tower Comics",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.darktowercomics.com/pages/event-calendar"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "darkness-emergent-chicago",
+   "ciudad": "chicago",
+   "nombre": "Darkness Emergent Chicago",
+   "tipo": "faire",
+   "comunidades": [
+    "LARP",
+    "Vampire: The Masquerade",
+    "tabletop"
+   ],
+   "fechas_texto": "November 2027 (no specific days announced)",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": null,
+   "organizador": "By Night Studios",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bynightstudios.com/events/chicago-2027"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": "2024 gathering at the Palmer House, Chicago",
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "evanston-games-cafe-magic-and-pokemon-leagues-d-d-go-club",
+   "ciudad": "chicago",
+   "nombre": "Evanston Games & Cafe - Magic and Pokémon leagues, D&D, Go Club",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Pokémon",
+    "D&D",
+    "Go"
+   ],
+   "fechas_texto": "Magic leagues Tuesday, Wednesday and Sunday. Pokémon leagues Tuesday and Saturday. D&D on weekends. Go Club on Saturdays at 1 PM.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Evanston Games & Cafe, Evanston",
+   "organizador": "Evanston Games & Cafe",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.timeout.com/chicago/things-to-do/the-best-gaming-lounges-cafes-and-shops-in-chicago"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "good-games-chicago-magic-pokemon-and-lorcana-events",
    "ciudad": "chicago",
    "nombre": "Good Games Chicago – Magic, Pokémon and Lorcana events",
@@ -2092,7 +3046,7 @@
     "Lorcana",
     "Sorcery"
    ],
-   "fechas_texto": null,
+   "fechas_texto": "Directory listings say events run every night. The Flesh and Blood locator lists Armory day as Thursday. A Lorcana set championship ran there on Jun 14, 2026.",
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": true,
@@ -2102,7 +3056,63 @@
    "fuentes": [
     "https://thecardshopfinder.com/il/chicago/good-games-chicago/",
     "https://fabtcg.com/en/locator/good-games-chicago",
-    "https://yopki.com/explore/us/il/chicago/events/magic-the-gathering-casual-commander-night-06-11-26"
+    "https://yopki.com/explore/us/il/chicago/events/magic-the-gathering-casual-commander-night-06-11-26",
+    "https://tcg.ravensburgerplay.com/events/628332",
+    "https://www.goodgamesna.com/venue/good-games-chicago"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Lorcana set championship entry was $20",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "mtg-wednesday-casual-commander-free-play",
+   "ciudad": "chicago",
+   "nombre": "MTG - Wednesday Casual Commander Free Play",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander",
+    "board games"
+   ],
+   "fechas_texto": "A Google Events hint shows Wed Nov 18, 2026 at 7:00 PM.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Evergreen Social Whiskey & BoardGame Tavern, Evergreen Park, IL",
+   "organizador": "Evergreen Social Whiskey & BoardGame Tavern",
+   "url_oficial": null,
+   "fuentes": [],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "portal-realm-sci-fi-and-fantasy-book-club",
+   "ciudad": "chicago",
+   "nombre": "Portal Realm (sci-fi and fantasy book club)",
+   "tipo": "convention",
+   "comunidades": [
+    "fantasy",
+    "sci-fi",
+    "books"
+   ],
+   "fechas_texto": "Monthly; next meeting Saturday, December 5, 2026, 11:00 AM",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "A coffee shop on the North Side, zip 60640",
+   "organizador": "Portal Realm",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bookclubs.com/join-a-book-club/club/portal-realm"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -2226,6 +3236,32 @@
    "con_evidencia": true
   },
   {
+   "id": "wednesday-game-night-and-thursday-game-night-at-snakes-latte",
+   "ciudad": "chicago",
+   "nombre": "WEDNESDAY Game Night and THURSDAY Game Night at Snakes & Lattes Chicago (Logan Square)",
+   "tipo": "convention",
+   "comunidades": [
+    "board games"
+   ],
+   "fechas_texto": "Weekly, per the event titles. Wednesdays from 5:00 PM and Thursdays from 5:30 PM. The next dates are Nov 18 and Nov 19, 2026.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Snakes & Lattes Chicago, 1965 N Milwaukee Ave, Chicago",
+   "organizador": "Chicago Game Lovers, at Snakes & Lattes",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/chicagogames/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "$7 gaming admission or $7 minimum food/drink purchase",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "windycon",
    "ciudad": "chicago",
    "nombre": "Windycon",
@@ -2256,6 +3292,34 @@
    "con_evidencia": true
   },
   {
+   "id": "bards-of-the-bar-time-traveler-s-edition-and-rex-s-grand-fin",
+   "ciudad": "denver",
+   "nombre": "Bards of the Bar: Time Traveler's Edition and Rex's Grand Finale",
+   "tipo": "faire",
+   "comunidades": [
+    "Renaissance faire",
+    "costume",
+    "fantasy"
+   ],
+   "fechas_texto": "Friday, November 20, 2026; doors 7 PM, show 8-10 PM",
+   "fecha_inicio": "2026-11-20",
+   "fecha_fin": "2026-11-20",
+   "recurrente": false,
+   "lugar": "Fiction Beer Company",
+   "organizador": "Fiction Beer Company",
+   "url_oficial": "https://www.fictionbeer.com/events",
+   "fuentes": [
+    "https://www.fictionbeer.com/events"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "denver-sci-fi-book-club",
    "ciudad": "denver",
    "nombre": "Denver Sci-Fi Book Club",
@@ -2279,6 +3343,59 @@
    "descripcion": null,
    "precio": null,
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "western-wonderland",
+   "ciudad": "denver",
+   "nombre": "Western Wonderland",
+   "tipo": "convention",
+   "comunidades": [
+    "seasonal festival"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": "2026-11-28",
+   "fecha_fin": "2026-11-29",
+   "recurrente": false,
+   "lugar": "Main Campus Plaza, National Western Center, 4850 National Western Drive",
+   "organizador": "National Western Center",
+   "url_oficial": "https://www.nationalwesterncenter.com/events/western-wonderland/",
+   "fuentes": [
+    "https://www.nationalwesterncenter.com/events/western-wonderland/"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "holiday-pictures-w-santa-krampus",
+   "ciudad": "denver",
+   "nombre": "Holiday Pictures w/ Santa & Krampus",
+   "tipo": "convention",
+   "comunidades": [
+    "folklore",
+    "Krampus"
+   ],
+   "fechas_texto": "Sunday, November 29, 2026, 3-8 PM (Santa 3-5 PM, Krampus 6-8 PM)",
+   "fecha_inicio": "2026-11-29",
+   "fecha_fin": "2026-11-29",
+   "recurrente": false,
+   "lugar": "Fiction Beer Company taproom",
+   "organizador": "Fiction Beer Company",
+   "url_oficial": "https://www.fictionbeer.com/events",
+   "fuentes": [
+    "https://www.fictionbeer.com/events"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "$15 for a few minutes with the photographer",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -2449,7 +3566,8 @@
    "organizador": "Society for Creative Anachronism, Barony of Caerthe",
    "url_oficial": null,
    "fuentes": [
-    "https://www.meetup.com/caerthe"
+    "https://www.meetup.com/caerthe",
+    "https://denverite.com/2026/08/27/denver-society-for-creative-anachronism/"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -2521,6 +3639,32 @@
    "con_evidencia": true
   },
   {
+   "id": "d-d-encounters-and-campaign-meetup-at-the-wizard-s-chest",
+   "ciudad": "denver",
+   "nombre": "D&D Encounters and Campaign Meetup at The Wizard's Chest",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D"
+   ],
+   "fechas_texto": "D&D Encounters (drop-in, ages 18+) every Monday 6:30-10:30 pm. Campaign Meetup every Wednesday 6:30-10:30 pm. D&D Learn-to-Play Dec 6, 2026, 12-3 pm.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "The Wizard's Chest, 451 Broadway, Denver, CO 80203",
+   "organizador": "The Wizard's Chest",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.wizardschest.com/events"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "$5 per session. Learn-to-Play is $10 prepaid.",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "denver-central-games-weekly-magic-the-gathering-events",
    "ciudad": "denver",
    "nombre": "Denver Central Games weekly Magic events",
@@ -2540,7 +3684,8 @@
    "fuentes": [
     "https://tappedout.net/meets/denver-central-games-2/",
     "https://thecardshopfinder.com/co/denver/denver-central-games/",
-    "https://www.denvercentralgames.com/event-cal"
+    "https://www.denvercentralgames.com/event-cal",
+    "https://www.denvercentralgames.com"
    ],
    "estado": "confirmada",
    "ultima_edicion": null,
@@ -2662,6 +3807,35 @@
    "con_evidencia": true
   },
   {
+   "id": "denver-horror-gaming-society-formerly-denver-lovecraftian-ga",
+   "ciudad": "denver",
+   "nombre": "Denver Horror Gaming Society (formerly Denver Lovecraftian Gaming Society)",
+   "tipo": "convention",
+   "comunidades": [
+    "horror RPG",
+    "Call of Cthulhu",
+    "Mörk Borg",
+    "board games"
+   ],
+   "fechas_texto": "Mörk Borg campaign: usually 2 or 3 Saturday afternoon sessions per month at 1:00 PM MST, about 3 hours each. No general schedule is stated.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Online on Discord (no physical venue listed)",
+   "organizador": "Denver Horror Gaming Society",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/cthulhuindenver/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "denver-lovecraftian-gaming-society-denver-horror-gaming-soci",
    "ciudad": "denver",
    "nombre": "Denver Lovecraftian Gaming Society (Denver Horror Gaming Society)",
@@ -2722,6 +3896,35 @@
    "con_evidencia": true
   },
   {
+   "id": "enchanted-grounds-game-nights-magic-drafts-and-d-d-meetups",
+   "ciudad": "denver",
+   "nombre": "Enchanted Grounds – game nights, Magic drafts and D&D meetups",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "D&D",
+    "board games"
+   ],
+   "fechas_texto": "Weekly events (game nights, Magic drafts, D&D meetups).",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Enchanted Grounds, 3615 W Bowles Ave, Unit 5-6, Littleton, CO; 8800 S Colorado Blvd, Highlands Ranch, CO",
+   "organizador": "Enchanted Grounds",
+   "url_oficial": null,
+   "fuentes": [
+    "https://enchantedgrounds.com",
+    "https://enchantedgrounds.com/pages/enchanted-grounds-littleton-event-calendar"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "genghiscon",
    "ciudad": "denver",
    "nombre": "GenghisCon",
@@ -2751,6 +3954,33 @@
    "precio": null,
    "verificado": "2026-11-17",
    "origen": "manual+radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "ghost-events-gaming-yu-gi-oh-tournaments",
+   "ciudad": "denver",
+   "nombre": "Ghost Events & Gaming – Yu-Gi-Oh! tournaments",
+   "tipo": "tcg",
+   "comunidades": [
+    "Yu-Gi-Oh!",
+    "Pokémon"
+   ],
+   "fechas_texto": "One listing says Wednesday, Friday and Saturday tournaments; another says Monday through Saturday.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Ghost Events & Gaming, South Holly St., Denver",
+   "organizador": "Ghost Events & Gaming",
+   "url_oficial": null,
+   "fuentes": [
+    "https://thecardshopfinder.com/co/denver/ghost-events-gaming/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
    "con_evidencia": true
   },
   {
@@ -2810,6 +4040,34 @@
    "con_evidencia": true
   },
   {
+   "id": "magic-the-gathering-commander-casual-night-and-friday-night",
+   "ciudad": "denver",
+   "nombre": "Magic: The Gathering Commander & Casual Night and Friday Night Magic at The Wizard's Chest",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander"
+   ],
+   "fechas_texto": "Commander & Casual Night every Thursday 6:30-10:30 pm. Friday Night Magic Draft every Friday 6:30-11 pm (play starts at 7 pm).",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "The Wizard's Chest, 451 Broadway, Denver, CO 80203",
+   "organizador": "The Wizard's Chest",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.wizardschest.com/events",
+    "http://www.wizardschest.com/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "FNM Draft entry is three play boosters.",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "mile-high-tcg-tournament-card-show",
    "ciudad": "denver",
    "nombre": "Mile High TCG Tournament & Card Show",
@@ -2841,6 +4099,64 @@
    "con_evidencia": false
   },
   {
+   "id": "miniatures-night-at-the-wizard-s-chest",
+   "ciudad": "denver",
+   "nombre": "Miniatures Night at The Wizard's Chest",
+   "tipo": "convention",
+   "comunidades": [
+    "Warhammer",
+    "miniatures"
+   ],
+   "fechas_texto": "Every Friday 6:30-11 pm. Miniatures Painting 101 (free) Dec 6, 2026, 11 am-1 pm.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "The Wizard's Chest, 451 Broadway, Denver, CO 80203",
+   "organizador": "The Wizard's Chest",
+   "url_oficial": "https://www.wizardschest.com/events",
+   "fuentes": [
+    "https://www.wizardschest.com/events"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "nan-desu-kan",
+   "ciudad": "denver",
+   "nombre": "Nan Desu Kan",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "manga",
+    "cosplay",
+    "gaming"
+   ],
+   "fechas_texto": "No 2027 dates found. It usually runs over Labor Day weekend.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Gaylord Rockies Resort & Convention Center, 6700 N Gaylord Rockies Blvd, Aurora, CO 80019",
+   "organizador": "Nan Desu Kan",
+   "url_oficial": "https://www.nandesukan.org/",
+   "fuentes": [
+    "https://www.nandesukan.org/",
+    "https://www.ndkdenver.org/",
+    "https://animecons.com/events/info/25034/nan-desu-kan-2025"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "Nan Desu Kan 29, September 4-6, 2026, Gaylord Rockies, Aurora",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "one-trail-at-a-time",
    "ciudad": "denver",
    "nombre": "One Trail at a Time",
@@ -2858,6 +4174,60 @@
    "url_oficial": null,
    "fuentes": [
     "https://www.meetup.com/one-trail-at-a-time/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "rocky-mountain-collectibles-yu-gi-oh-daily-events",
+   "ciudad": "denver",
+   "nombre": "Rocky Mountain Collectibles – Yu-Gi-Oh! daily events",
+   "tipo": "tcg",
+   "comunidades": [
+    "Yu-Gi-Oh!"
+   ],
+   "fechas_texto": "Daily events (advanced format and speed duels), plus remote duel tournaments.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Rocky Mountain Collectibles, Montbello area, northeast Denver",
+   "organizador": "Rocky Mountain Collectibles",
+   "url_oficial": null,
+   "fuentes": [
+    "https://thecardshopfinder.com/co/denver/rocky-mountain-collectibles/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "ship-of-the-dead-rpg-club",
+   "ciudad": "denver",
+   "nombre": "Ship of the Dead RPG Club",
+   "tipo": "convention",
+   "comunidades": [
+    "OSR",
+    "RPG",
+    "Pirate Borg"
+   ],
+   "fechas_texto": "About once a month on Saturdays, with a 3:00 PM game and a 7:00 PM block (no fixed schedule stated).",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Enchanted Grounds, 3615 W Bowles Ave, Littleton, CO",
+   "organizador": "Limithron and the Ship of the Dead Podcast",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/shipofthedead/"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -2898,7 +4268,7 @@
   {
    "id": "tacticon-colorado",
    "ciudad": "denver",
-   "nombre": "TactiCon Colorado",
+   "nombre": "Tacticon",
    "tipo": "convention",
    "comunidades": [
     "board games",
@@ -2911,17 +4281,44 @@
    "fecha_fin": null,
    "recurrente": false,
    "lugar": "Hyatt Regency Aurora-Denver Conference Center, 13200 E 14th Pl",
-   "organizador": null,
+   "organizador": "Gamer Girl Games LLC",
    "url_oficial": "https://tabletop.events/conventions/tacticon",
    "fuentes": [
     "https://tabletop.events/conventions/tacticon",
-    "https://tabletop.events/conventions/tacticon-colorado-2025"
+    "https://tabletop.events/conventions/tacticon-colorado-2025",
+    "http://gamergirlgames.com"
    ],
    "estado": "sin_2027",
    "ultima_edicion": "2026 edition at the Hyatt Regency Aurora-Denver.",
    "descripcion": "Tabletop gaming convention for new and veteran players, with board, miniatures, card and role-playing games. It has a miniatures gaming area with vendor booths, an adjacent Artists Alley for artists to show and sell work, and convention staff on hand throughout.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "the-denver-boardgames-meetup-group",
+   "ciudad": "denver",
+   "nombre": "The Denver Boardgames Meetup Group",
+   "tipo": "convention",
+   "comunidades": [
+    "board games"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "The Denver Boardgames Meetup Group",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/the-denver-boardgames-meetup-group/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
    "origen": "radar",
    "con_evidencia": true
   },
@@ -2952,24 +4349,21 @@
    "con_evidencia": true
   },
   {
-   "id": "wizard-s-chest-weekly-game-nights-commander-fnm-draft-riftbo",
+   "id": "the-wizards-chest-game-room-events-commander-organized-play",
    "ciudad": "denver",
-   "nombre": "Wizard's Chest weekly game nights (Commander, FNM Draft, Riftbound, D&D, Star Wars Unlimited, Pokémon meetup)",
+   "nombre": "The Wizards Chest - game room events (Commander, organized play)",
    "tipo": "tcg",
    "comunidades": [
     "Magic",
-    "Pokémon",
-    "D&D",
-    "Star Wars Unlimited",
-    "Riftbound",
-    "miniatures"
+    "Commander",
+    "TCG"
    ],
-   "fechas_texto": "Weekly: Mon Pokémon TCG Meetup 4-6pm, Riftbound Nexus Nights and D&D Encounters 6:30-10:30pm; Tue BattleTech and LGBTQ+ Game Night; Wed X-Wing and D&D Campaign Meetup; Thu MTG Commander & Casual Night; Fri FNM Draft; Sat Star Wars Unlimited and Board Game Meetup.",
+   "fechas_texto": null,
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": true,
-   "lugar": "The Wizard's Chest, 451 Broadway, Denver, CO 80203",
-   "organizador": "The Wizard's Chest",
+   "lugar": "The Wizards Chest, 451 Broadway, Denver, CO 80203",
+   "organizador": "The Wizards Chest",
    "url_oficial": null,
    "fuentes": [
     "https://www.wizardschest.com/events/",
@@ -2978,8 +4372,41 @@
    "estado": "solo_terceros",
    "ultima_edicion": null,
    "descripcion": null,
-   "precio": "Mostly $3-$5 per session (Riftbound $5, D&D Encounters $5, FNM Draft $3 play boosters); some events free",
+   "precio": null,
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "the-wizard-s-chest-weekly-game-nights-commander-friday-night",
+   "ciudad": "denver",
+   "nombre": "Wizard's Chest weekly game nights (Commander, FNM Draft, Riftbound, D&D, Star Wars Unlimited, Pokémon meetup)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Pokémon",
+    "D&D",
+    "board games",
+    "Star Wars Unlimited",
+    "Riftbound"
+   ],
+   "fechas_texto": "Weekly. Mon: Pokémon TCG Meetup 4-6pm, Riftbound Nexus Nights and D&D Encounters 6:30-10:30pm. Tue: BattleTech, LGBTQ+ Game Night. Wed: X-Wing, D&D Campaign Meetup. Thu: MTG Commander & Casual Night 6:30-10:30pm, Netrunner. Fri: Friday Night Magic Draft (starts 7pm), Miniatures Night, Star Wars Unlimited. Sat: Board Game Meetup, Star Wars Unlimited: Twin Suns.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "The Wizard's Chest, 451 Broadway, Denver, CO 80203",
+   "organizador": "The Wizard's Chest",
+   "url_oficial": "https://www.wizardschest.com/events/",
+   "fuentes": [
+    "https://www.wizardschest.com/events/",
+    "https://thecardshopfinder.com/co/denver/the-wizards-chest/",
+    "https://paizo.com/retailers/TheWizardsChest"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Riftbound Nexus Nights $5; D&D Encounters $5 per session; LGBTQ+ Game Night and Saturday Board Game Meetup free; FNM entry is three play boosters",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -3009,6 +4436,35 @@
    "descripcion": "A renaissance-themed festival with sections for families, adults 21+ and first-time visitors. It offers an entertainment schedule with performers, themed weekends, guided tours, shops, food and drink, and camping and lodging options.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "the-houston-gauntlet-tabletop-rpg-community",
+   "ciudad": "houston",
+   "nombre": "The Houston Gauntlet - Tabletop RPG Community",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "Daggerheart",
+    "tabletop RPG"
+   ],
+   "fechas_texto": "Meets 2-3 times per week, typically 7:00 PM; Wednesdays are One Shots night. Next listed: Wed Nov 18 and Wed Nov 25, 2026, 7:00 PM",
+   "fecha_inicio": "2026-11-18",
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Jax Grill Shepherd, 1613 Shepherd Dr, Houston, TX 77007",
+   "organizador": "The Houston Gauntlet",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/gauntlet-rpg/",
+    "https://www.houstongauntlet.com"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
    "origen": "radar",
    "con_evidencia": true
   },
@@ -3096,6 +4552,34 @@
    "con_evidencia": true
   },
   {
+   "id": "dungeons-blerds-gravy-on-my-gauntlets",
+   "ciudad": "houston",
+   "nombre": "Dungeons & Blerds: Gravy on My Gauntlets",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "improv",
+    "tabletop RPG"
+   ],
+   "fechas_texto": "Saturday, Nov 28, 2026, 7:00 PM (monthly series; Season Zero)",
+   "fecha_inicio": "2026-11-28",
+   "fecha_fin": "2026-11-28",
+   "recurrente": false,
+   "lugar": "Midtown Bar & Grill, 415 W. Gray, Houston",
+   "organizador": "Culture House HTX",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.broadwayworld.com/houston/article/Culture-House-HTX-to-Present-DUNGEONS-BLERDS-GRAVY-ON-MY-GAUNTLETS-in-November-20261110"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": "October 2026 edition: The Curse of Reaganomics",
+   "descripcion": null,
+   "precio": "$18 advance / $25 at the door; $12 early-bird (limited); $35 Grand Adventurer; $60 party pack for four",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "houston-sci-fi-fantasy-book-club-elves-welcome",
    "ciudad": "houston",
    "nombre": "Houston Sci-Fi/Fantasy Book Club (Elves welcome!)",
@@ -3172,7 +4656,7 @@
     "https://meetup.com/asgard-games-houston"
    ],
    "estado": "solo_terceros",
-   "ultima_edicion": null,
+   "ultima_edicion": "Elysia D&D 5e Campaign, Sat Nov 7, 2026",
    "descripcion": null,
    "precio": null,
    "verificado": null,
@@ -3290,7 +4774,9 @@
    "fuentes": [
     "https://kimokawaii.net",
     "https://fancons.com/events/schedule.php?loc=usTX",
-    "https://animecons.ca/organizer/184/silverback-events"
+    "https://animecons.ca/organizer/184/silverback-events",
+    "https://kimokawaii.net/",
+    "https://animecons.com/events/state.php/TX"
    ],
    "estado": "confirmada",
    "ultima_edicion": "June 6-7, 2026, Lone Star Convention & Expo Center, Conroe (5th annual)",
@@ -3357,6 +4843,35 @@
    "descripcion": "An anime convention marking its 20th anniversary, with voice and cosplay guests. It features a cosplay contest, karaoke battle, fashion show, Wrestle Matsuri, Anime Academy workshops, LARP, and a rave, plus an Exhibit Hall with Artist Alley and video games, and an 18+ goods area.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "the-nostalgia-con",
+   "ciudad": "houston",
+   "nombre": "The Nostalgia Con",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "retro gaming",
+    "pop culture",
+    "cosplay"
+   ],
+   "fechas_texto": "July 10-11, 2027",
+   "fecha_inicio": "2027-07-10",
+   "fecha_fin": "2027-07-11",
+   "recurrente": false,
+   "lugar": "George R. Brown Convention Center",
+   "organizador": "The Nostalgia Con",
+   "url_oficial": "https://www.thenostalgiacon.com/",
+   "fuentes": [
+    "https://www.thenostalgiacon.com/",
+    "https://cantonfair.net/event/57809-the-nostalgia-con"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "From $32",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -3446,6 +4961,35 @@
    "con_evidencia": true
   },
   {
+   "id": "3rd-realm-gaming-group",
+   "ciudad": "houston",
+   "nombre": "3rd Realm Gaming Group",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "wargames",
+    "board games",
+    "card games"
+   ],
+   "fechas_texto": "No recurring schedule or upcoming events listed; past events were a D&D Learn 2 Play on a Sunday at 2:00 PM and an opening event on a Saturday at 4:30 PM",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Past events at Awesome Entertainment, 9006 S Fry Rd STE h1, Katy, TX",
+   "organizador": "3rd Realm Gaming Group",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/3rd-realm-gaming-group/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "asgard-games-space-city-eternal-premodern-1k",
    "ciudad": "houston",
    "nombre": "Asgard Games – Space City Eternal Premodern 1K",
@@ -3473,26 +5017,54 @@
    "con_evidencia": true
   },
   {
-   "id": "astral-gaming-commander-nights-and-tournaments",
+   "id": "astral-gaming-magic-rcqs-and-tcg-events",
    "ciudad": "houston",
-   "nombre": "Astral Gaming – Commander nights and tournaments",
+   "nombre": "Astral Gaming (Magic RCQs and TCG events)",
    "tipo": "tcg",
    "comunidades": [
     "Magic",
-    "Commander",
     "Pokémon",
-    "Lorcana"
+    "Lorcana",
+    "One Piece"
    ],
-   "fechas_texto": "Commander nights and tournaments; days are not published. The store is closed Wednesdays.",
+   "fechas_texto": "No schedule found. The store hosted Regional Championship Qualifiers (RCQ #2 and RCQ #3, Oct 12, 2025)",
    "fecha_inicio": null,
    "fecha_fin": null,
-   "recurrente": true,
+   "recurrente": false,
    "lugar": "Astral Gaming, 13243 Jones Rd A, Houston, TX 77070",
-   "organizador": "Astral Gaming LLC",
+   "organizador": "Astral Gaming",
    "url_oficial": null,
    "fuentes": [
     "https://www.astralgamingllc.com/",
-    "https://thecardshopfinder.com/tx/houston/astral-gaming/"
+    "https://thecardshopfinder.com/tx/houston/astral-gaming/",
+    "https://apps.magicjudges.org/events/14067"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "Astral Gaming RCQ #3, 2025-10-12",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "city-walks-houston",
+   "ciudad": "houston",
+   "nombre": "City Walks Houston",
+   "tipo": "trek",
+   "comunidades": [
+    "walking",
+    "hiking"
+   ],
+   "fechas_texto": "Usually Sunday afternoons, 6–7 miles. Next: Nov 22 2:00 PM (Midtown Boba Tea Crawl), Nov 29 5:00 PM, Dec 6 3:00 PM",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "City Walks Houston",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/city-walks-houston/"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -3529,9 +5101,38 @@
    "con_evidencia": true
   },
   {
+   "id": "coral-sword-friday-magic-the-gathering-nights-and-game-night",
+   "ciudad": "houston",
+   "nombre": "Coral Sword Friday Magic: The Gathering nights and game nights",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "board games",
+    "RPG"
+   ],
+   "fechas_texto": "Fridays (Magic: The Gathering nights), per a 2018 report and a review; the current schedule is unconfirmed",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Coral Sword, 1318 Telephone Rd Ste 3, Houston, TX 77023",
+   "organizador": "Coral Sword",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.houstoniamag.com/articles/coral-sword-game-cafe",
+    "https://www.houstoniamag.com/bars/coral-sword"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Cover of about $30 per one review; an older newsletter listed a $10 Standard event",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "dragon-s-lair-comics-and-fantasy-houston-north-daily-events",
    "ciudad": "houston",
-   "nombre": "Dragon's Lair Comics and Fantasy Houston North – daily events (incl. Friday Night Magic, RPG Open Play)",
+   "nombre": "Dragon's Lair Comics & Fantasy - Houston North (RPG Open Play Night and Magic events)",
    "tipo": "tcg",
    "comunidades": [
     "Magic",
@@ -3546,27 +5147,56 @@
    "organizador": "Dragon's Lair Comics and Fantasy",
    "url_oficial": null,
    "fuentes": [
-    "https://www.dlair.net/houston-north/"
+    "https://www.dlair.net/houston-north/",
+    "https://dlair.net/houston-north",
+    "https://www.dlair.net/houston-north/?p=2612"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
    "descripcion": null,
+   "precio": "Free (RPG open play, per snippet)",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "game-haven-willowbrook-mall-sunday-commander",
+   "ciudad": "houston",
+   "nombre": "Game Haven Willowbrook Mall (Sunday Commander)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander"
+   ],
+   "fechas_texto": "A May 2026 listing shows a Sunday Commander session at 1 PM; the current schedule is unconfirmed",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Game Haven, Willowbrook Mall, Houston",
+   "organizador": "Game Haven",
+   "url_oficial": null,
+   "fuentes": [
+    "https://ma.to/event/mtg-commander-game-haven-31-may-2026"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": "2026-05-31",
+   "descripcion": null,
    "precio": null,
    "verificado": null,
    "origen": "radar",
-   "con_evidencia": false
+   "con_evidencia": true
   },
   {
    "id": "halcyon-games-nightly-events-pokemon-league-magic-lorcana",
    "ciudad": "houston",
-   "nombre": "Halcyon Games – nightly events (Pokémon League, Magic, Lorcana)",
+   "nombre": "Halcyon Games (Pokémon League, Magic and Lorcana events)",
    "tipo": "tcg",
    "comunidades": [
     "Pokémon",
     "Magic",
     "Lorcana"
    ],
-   "fechas_texto": null,
+   "fechas_texto": "Events every night and on the weekends; the store site gives no specific days. A directory listing says Pokémon League, Magic and Lorcana events run through the week",
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": true,
@@ -3575,13 +5205,74 @@
    "url_oficial": "https://www.halcyon.games/",
    "fuentes": [
     "https://www.halcyon.games/",
-    "https://thecardshopfinder.com/tx/spring/halcyon-games/"
+    "https://thecardshopfinder.com/tx/spring/halcyon-games/",
+    "https://www.halcyon.games/events",
+    "https://www.halcyon.games"
    ],
    "estado": "confirmada",
    "ultima_edicion": null,
    "descripcion": "A local game store north of Houston selling board games, trading card games, roleplaying games and Warhammer miniatures. Its play space for 32 players hosts events every night and on weekends, and a private room can be rented. It carries Pokémon, Magic, Lorcana and Flesh and Blood.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "houston-arcade-expo",
+   "ciudad": "houston",
+   "nombre": "Houston Arcade Expo",
+   "tipo": "convention",
+   "comunidades": [
+    "arcade",
+    "retro gaming",
+    "pinball"
+   ],
+   "fechas_texto": "No 2027 date found",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Houston Marriott Westchase",
+   "organizador": "Houston Arcade Expo",
+   "url_oficial": "https://www.houstonarcadeexpo.com/",
+   "fuentes": [
+    "https://www.houstonarcadeexpo.com/",
+    "https://houstonarcadeexpo.ticketspice.com/houston-arcade-expo-2026"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "November 13-15, 2026",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "houston-celebrity-comic-con",
+   "ciudad": "houston",
+   "nombre": "Houston Celebrity Comic Con",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "celebrities",
+    "cosplay",
+    "gaming"
+   ],
+   "fechas_texto": "No 2027 date announced",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "NRG Center / Reliant Center, NRG Park",
+   "organizador": "Zimmad Events",
+   "url_oficial": "https://www.eventeny.com/events/houstoncelebritycomiccon-18492",
+   "fuentes": [
+    "https://www.eventeny.com/events/houstoncelebritycomiccon-18492",
+    "https://www.nrgpark.com/event/houston-celebrity-comic-con/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "October 17-18, 2026 (NRG Park listing); the 2025 edition ran Sep 20-21, 2025",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -3612,6 +5303,35 @@
    "descripcion": null,
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "pelicon",
+   "ciudad": "houston",
+   "nombre": "PeliCON",
+   "tipo": "convention",
+   "comunidades": [
+    "board games",
+    "RPG",
+    "tabletop"
+   ],
+   "fechas_texto": "No 2027 date found",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Charles T. Doyle Convention Center, 2010 5th Ave N",
+   "organizador": "Galveston Gaming Expo",
+   "url_oficial": "https://tabletop.events/conventions/the-pelicon-2026",
+   "fuentes": [
+    "https://tabletop.events/conventions/the-pelicon-2026",
+    "https://tabletop.events/conventions/the-pelicon-2026/pages/about-us4"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "May 15-17, 2026",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -3676,24 +5396,80 @@
    "con_evidencia": true
   },
   {
-   "id": "the-houston-gauntlet-tabletop-rpg-community",
+   "id": "tsumicon-texas",
    "ciudad": "houston",
-   "nombre": "The Houston Gauntlet - Tabletop RPG Community",
-   "tipo": "convention",
+   "nombre": "TsumiCon Texas",
+   "tipo": "anime-comic",
    "comunidades": [
-    "D&D",
-    "Daggerheart",
-    "tabletop RPG"
+    "anime",
+    "cosplay"
    ],
-   "fechas_texto": null,
+   "fechas_texto": "No 2027 date found",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Houston Marriott Westchase",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://animecons.ca/events/schedule.php?loc=usTX"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "October 24-26, 2025",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "weekly-board-game-night-greater-houston-area-board-gamers-me",
+   "ciudad": "houston",
+   "nombre": "Weekly Board Game Night (Greater Houston Area Board Gamers Meetup / Houston Recommended Boardgames)",
+   "tipo": "tcg",
+   "comunidades": [
+    "board games",
+    "TCG",
+    "RPG"
+   ],
+   "fechas_texto": "Weekly, Wednesdays 6:30 PM (Heights) and Thursdays 6:30 PM (Richmond), per past event listings",
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": true,
-   "lugar": "Jax Grill Shepherd, 1613 Shepherd Dr, Houston, TX 77007",
-   "organizador": "The Houston Gauntlet",
+   "lugar": null,
+   "organizador": "Greater Houston Area Board Gamers Meetup",
    "url_oficial": null,
    "fuentes": [
-    "https://www.meetup.com/gauntlet-rpg/"
+    "https://www.meetup.com/houston-recommended-boardgames-meetup-group/",
+    "https://www.meetup.com/houston-recommended-boardgames-meetup-group/events/314223121/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "ladies-book-club-for-fantasy-supernatural-fans-meetup",
+   "ciudad": "los-angeles",
+   "nombre": "Ladies Book Club for Fantasy & Supernatural Fans (Meetup)",
+   "tipo": "convention",
+   "comunidades": [
+    "fantasy books",
+    "romantasy",
+    "book club"
+   ],
+   "fechas_texto": "Monthly or twice monthly. Next: Thu Nov 19, 7:00 PM (A Pack for Autumn); Wed Dec 16, 7:00 PM (ACOTAR #4 and #5, 21+)",
+   "fecha_inicio": "2026-11-19",
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "Ladies Book Club for Fantasy & Supernatural Fans",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/supernatural-womens-book-club-meetup-group"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -3736,9 +5512,62 @@
    "con_evidencia": true
   },
   {
+   "id": "a-faery-hunt-amazing-adventure",
+   "ciudad": "los-angeles",
+   "nombre": "A Faery Hunt Amazing Adventure",
+   "tipo": "convention",
+   "comunidades": [],
+   "fechas_texto": "Sunday, November 22, 2026 at 10:30 AM PST",
+   "fecha_inicio": "2026-11-22",
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Orcutt Ranch - West Hills, California",
+   "organizador": "A Faery Hunt",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.facebook.com/events/996084553490305/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "a-faery-hunt-magical-adventure",
+   "ciudad": "los-angeles",
+   "nombre": "A Faery Hunt Magical Adventure",
+   "tipo": "tcg",
+   "comunidades": [
+    "faeries",
+    "fantasy",
+    "family"
+   ],
+   "fechas_texto": "Sunday, November 22, 2026, 10:30 a.m. (the company runs more dates through the year)",
+   "fecha_inicio": "2026-11-22",
+   "fecha_fin": "2026-11-22",
+   "recurrente": true,
+   "lugar": "Orcutt Ranch, 23600 Roscoe Blvd",
+   "organizador": "A Faery Hunt",
+   "url_oficial": "https://afaeryhunt.com",
+   "fuentes": [
+    "https://afaeryhunt.com",
+    "https://feverup.com/m/129732/en"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "$20–$40 per person; children 23 months and under free",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "story-games-la-indie-rpg-game-night-at-geeky-teas-games",
    "ciudad": "los-angeles",
-   "nombre": "Story Games LA: Indie RPG Game Night at Geeky Teas & Games",
+   "nombre": "Story Games LA – Indie RPG Game Night",
    "tipo": "convention",
    "comunidades": [
     "indie RPG",
@@ -3753,13 +5582,44 @@
    "url_oficial": null,
    "fuentes": [
     "https://www.meetup.com/story-games-la/",
-    "https://www.meetup.com/story-games-la/events/307464677"
+    "https://www.meetup.com/story-games-la/events/307464677",
+    "https://www.meetup.com/story-games-la/events/312775312"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
    "descripcion": null,
    "precio": "$8 cover paid directly to Geeky Teas",
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "latino-comics-expo",
+   "ciudad": "los-angeles",
+   "nombre": "Latino Comics Expo",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "indie comics",
+    "art"
+   ],
+   "fechas_texto": "December 5-6, 2026, Sat 11:00 AM - Sun 6:00 PM",
+   "fecha_inicio": "2026-12-05",
+   "fecha_fin": "2026-12-06",
+   "recurrente": false,
+   "lugar": "Museum of Latin American Art (MOLAA), 628 Alamitos Avenue",
+   "organizador": "Latino Comics Expo / MOLAA",
+   "url_oficial": "https://molaa.org/events/2026/12/05/latino-comics-expo",
+   "fuentes": [
+    "https://molaa.org/events/2026/12/05/latino-comics-expo",
+    "https://www.visitlongbeach.com/events/latino-comics-expo/",
+    "https://culture.lacity.gov/event/2026-latino-comics-expo"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -3788,6 +5648,116 @@
    "descripcion": null,
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "a-faery-hunt-and-their-animal-friends-final-performance",
+   "ciudad": "los-angeles",
+   "nombre": "A Faery Hunt And Their Animal Friends - Final Performance",
+   "tipo": "convention",
+   "comunidades": [],
+   "fechas_texto": "Sunday, December 6, 2026 at 10:30 AM PST",
+   "fecha_inicio": "2026-12-06",
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "11001 N Farralone Ave, Chatsworth, CA 91311, United States",
+   "organizador": "A Faery Hunt, Kindred Spirits Care Farm",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.facebook.com/events/1371178778465761/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "santa-runs-griffith-park-5k-10k",
+   "ciudad": "los-angeles",
+   "nombre": "Santa Runs Griffith Park (5K/10K)",
+   "tipo": "trek",
+   "comunidades": [
+    "costume run",
+    "5K",
+    "10K"
+   ],
+   "fechas_texto": "December 6, 2026",
+   "fecha_inicio": "2026-12-06",
+   "fecha_fin": "2026-12-06",
+   "recurrente": false,
+   "lugar": "Griffith Park",
+   "organizador": "Run With Us - Pasadena; registration via RunSignup",
+   "url_oficial": "https://runsignup.com/Race/CA/LosAngeles/SantaRunsGriffithPark",
+   "fuentes": [
+    "https://runsignup.com/Race/CA/LosAngeles/SantaRunsGriffithPark",
+    "https://racematcher.com/race/santa-runs-griffith-park-ca"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "5K $30–$54; 10K $35–$59; Kids Dash $20 (plus fees)",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "comic-arts-los-angeles-cala",
+   "ciudad": "los-angeles",
+   "nombre": "Comic Arts Los Angeles (CALA)",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "zines",
+    "indie art"
+   ],
+   "fechas_texto": "December 12-13, 2026",
+   "fecha_inicio": "2026-12-12",
+   "fecha_fin": "2026-12-13",
+   "recurrente": false,
+   "lugar": "Homenetmen Ararat North Campus, 3000 Dolores St",
+   "organizador": "Comic Arts Los Angeles",
+   "url_oficial": "https://www.comicartsla.com/",
+   "fuentes": [
+    "https://www.comicartsla.com/",
+    "https://en.wikipedia.org/wiki/Comic_Arts_Los_Angeles"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "nightmare-before-christmas-a-dark-holiday-market",
+   "ciudad": "los-angeles",
+   "nombre": "Nightmare Before Christmas: A Dark Holiday Market",
+   "tipo": "convention",
+   "comunidades": [
+    "gothic",
+    "oddities",
+    "market"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": "2026-12-19",
+   "fecha_fin": "2026-12-19",
+   "recurrente": false,
+   "lugar": "Tarzana Community & Cultural Center, 19130 Ventura Blvd",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.thecraftmap.com/fair/nightmare-before-christmas-a-dark-holiday-market-los-angeles-ca"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
    "origen": "radar",
    "con_evidencia": true
   },
@@ -3872,6 +5842,7 @@
    "fuentes": [
     "https://www.strategicon.net/",
     "https://fancons.com/events/info/24585/orccon-2025",
+    "https://paizo.com/events/v5748mkg47ok5",
     "https://www.strategicon.net"
    ],
    "estado": "confirmada",
@@ -3999,7 +5970,12 @@
     "https://www.anime-expo.org/2026/07/10/anime-expo-2026-wraps-its-35th-edition-with-attendees-from-over-65-countries-and-over-1400-hours-of-programming/",
     "https://animelosangeles.org/",
     "https://www.visitlongbeach.com/events/animé-los-angeles",
-    "https://www.cantonfair.net/event/13357-anime-los-angeles"
+    "https://www.cantonfair.net/event/13357-anime-los-angeles",
+    "https://animelosangeles.org/wp-content/uploads/2026/06/ALA-22-2027-Sponsorship-Marketing-Kit-v2.pdf",
+    "https://thegameofnerds.com/2026/01/19/anime-los-angeles-hits-a-new-record-of-21k-attendees",
+    "https://www.animepasadena.com/",
+    "https://anihk.com/en/events/anime-pasadena-2026",
+    "https://www.visitpasadena.com/media/press-releases/anime-pasadena-2025-returns-this-november/"
    ],
    "estado": "confirmada",
    "ultima_edicion": "Anime Expo 2026 (35th edition), July 2026, Los Angeles Convention Center",
@@ -4068,6 +6044,36 @@
    "precio": null,
    "verificado": "2026-11-17",
    "origen": "manual+radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "fan-expo-anaheim-special-edition",
+   "ciudad": "los-angeles",
+   "nombre": "FAN EXPO Anaheim: Special Edition",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "cosplay",
+    "pop culture",
+    "gaming"
+   ],
+   "fechas_texto": "No 2027 edition found",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Anaheim Convention Center",
+   "organizador": "FAN EXPO HQ",
+   "url_oficial": "https://fanexpohq.com/fanexpoanaheim/about-the-show",
+   "fuentes": [
+    "https://fanexpohq.com/fanexpoanaheim/about-the-show",
+    "https://www.laughingplace.com/disney-entertainment/fan-expo-anaheim-special-edition-2026/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "June 26-28, 2026, Anaheim Convention Center (first edition)",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
    "con_evidencia": true
   },
   {
@@ -4164,6 +6170,35 @@
    "con_evidencia": true
   },
   {
+   "id": "l-a-comic-con",
+   "ciudad": "los-angeles",
+   "nombre": "L.A. Comic Con",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "cosplay",
+    "pop culture"
+   ],
+   "fechas_texto": "No 2027 dates announced",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Los Angeles Convention Center, 1201 S Figueroa St",
+   "organizador": "L.A. Comic Con",
+   "url_oficial": "https://comicconla.com/recent-news",
+   "fuentes": [
+    "https://comicconla.com/recent-news",
+    "https://www.laconventioncenter.com/events/detail/la-comic-con-2026"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "October 30 - November 1, 2026 (15th year), Los Angeles Convention Center",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "l-a-hiking-group-weekly-tuesday-hikes",
    "ciudad": "los-angeles",
    "nombre": "L.A. Hiking Group (weekly Tuesday hikes)",
@@ -4184,6 +6219,91 @@
    "fuentes": [
     "https://www.meetup.com/los-angeles-hiking-group/",
     "https://www.meetup.com/en-au/los-angeles-hiking-group"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "los-angeles-hiking-group-l-a-hiking-group",
+   "ciudad": "los-angeles",
+   "nombre": "Los Angeles Hiking Group (L.A. Hiking Group)",
+   "tipo": "trek",
+   "comunidades": [
+    "hiking",
+    "trail running",
+    "walking"
+   ],
+   "fechas_texto": "Hikes every Tuesday night; Wednesday 6:00 PM outings ('Wednesday Warriors') and many other listed events",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Varies by outing (Meetup)",
+   "organizador": "L.A. Hiking Group",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/Los-Angeles-Hiking-Group"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "los-angeles-science-fantasy-society-lasfs-weekly-meeting",
+   "ciudad": "los-angeles",
+   "nombre": "Los Angeles Science Fantasy Society (LASFS) weekly meeting",
+   "tipo": "convention",
+   "comunidades": [
+    "sci-fi",
+    "fantasy",
+    "fandom"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "LASFS clubhouse, 8819 Reseda Blvd",
+   "organizador": "Los Angeles Science Fantasy Society",
+   "url_oficial": "https://lasfs.org",
+   "fuentes": [
+    "https://lasfs.org",
+    "https://lasfs.org/calendar/"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "mtg-commander-wednesdays-overlook-maps",
+   "ciudad": "los-angeles",
+   "nombre": "MTG Commander Wednesdays (Overlook Maps)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander"
+   ],
+   "fechas_texto": "Weekly Commander gathering on Wednesdays at 5:00 PM, per a search-result snippet",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Overlook Maps, 21727 Devonshire St, Chatsworth, CA",
+   "organizador": "Overlook Maps",
+   "url_oficial": null,
+   "fuentes": [
+    "https://overlookmaps.com",
+    "https://overlookmaps.com/events/mtg-commander-wednesdays-8193472377286748"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -4310,6 +6430,35 @@
    "con_evidencia": true
   },
   {
+   "id": "san-gabriel-valley-adventurers-league-d-d-at-odyssey-games",
+   "ciudad": "los-angeles",
+   "nombre": "San Gabriel Valley Adventurers League (D&D) at Odyssey Games",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "Adventurers League",
+    "tabletop"
+   ],
+   "fechas_texto": null,
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Odyssey Games, 1795 E Colorado Blvd (Thursday sessions at Crown City Games, 42 East Colorado Blvd)",
+   "organizador": "San Gabriel Valley Adventurers League",
+   "url_oficial": "https://sgvadventurersleague.carrd.co/",
+   "fuentes": [
+    "https://sgvadventurersleague.carrd.co/",
+    "https://www.laconservancy.org/learn/historic-places/odyssey-games-pasadena/"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free per an older Meetup post; not confirmed on the current page",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "socal-gaming-expo",
    "ciudad": "los-angeles",
    "nombre": "SoCal Gaming Expo",
@@ -4333,6 +6482,60 @@
    "descripcion": "A gaming convention open to anyone who loves gaming, regardless of age, race or nationality. It has a vendor marketplace, Tetris World Championships and esports tournaments, a free-play arcade, a gaming area and skate ramps, and guests including YouTubers and voice actors, along with cosplay.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "socal-pride-hikes",
+   "ciudad": "los-angeles",
+   "nombre": "SoCal Pride Hikes",
+   "tipo": "trek",
+   "comunidades": [
+    "hiking",
+    "LGBTQ+"
+   ],
+   "fechas_texto": "Weekly hikes; next listed: Sat Dec 12 (2026), 9:30 AM, Beacon Hill Fern Canyon Loop, 3.6 mi",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Varies",
+   "organizador": "SoCal Pride Hikes",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/socal-pride-hikes"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "tolkien-forever-tolkien-society-smial-tolkien-reading-day-ho",
+   "ciudad": "los-angeles",
+   "nombre": "Tolkien Forever (Tolkien Society smial) – Tolkien Reading Day / Hobbit Day events",
+   "tipo": "fandom",
+   "comunidades": [
+    "Tolkien"
+   ],
+   "fechas_texto": "Historically around Tolkien Reading Day (March 25) and Hobbit Day (September 22); no 2027 date found",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Varies (past: The Last Bookstore, downtown LA; Griffith Park for Hobbit Day)",
+   "organizador": "Tolkien Forever",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.theonering.net/torwp/category/events/tolkien-reading-day-events/page/3/",
+    "https://www.facebook.com/groups/TolkienForever"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": "Latest coverage found is around 2017 (Reading Day at The Last Bookstore)",
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
    "origen": "radar",
    "con_evidencia": true
   },
@@ -4362,6 +6565,90 @@
    "descripcion": null,
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "turn-zero-games-friday-night-magic-and-commander-nights",
+   "ciudad": "los-angeles",
+   "nombre": "Turn Zero Games: Friday Night Magic and Commander nights",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic: The Gathering",
+    "Commander"
+   ],
+   "fechas_texto": "Friday Night Magic and Commander nights (days and times not given); store open Mon–Fri 12–10 PM, Sat 11–8, Sun 11–6",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Turn Zero Games, 4423 W 12th St",
+   "organizador": "Turn Zero Games",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.turnzerogames.com/",
+    "https://thecardshopfinder.com/ca/los-angeles/turn-zero-games/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "westside-tabletop-adventure-games-mace-playtest-sessions",
+   "ciudad": "los-angeles",
+   "nombre": "Westside Tabletop Adventure Games (MACE playtest sessions)",
+   "tipo": "faire",
+   "comunidades": [
+    "tabletop RPG",
+    "medieval fantasy",
+    "miniatures",
+    "board games"
+   ],
+   "fechas_texto": "Past sessions were Saturdays at 2:00 PM (Oct 10, 17, 24, 31).",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "West LA, near Wilshire & Bundy (exact address not given)",
+   "organizador": "Westside Tabletop Adventure Games",
+   "url_oficial": "https://www.meetup.com/westside-tabletop-adventure-games/",
+   "fuentes": [
+    "https://www.meetup.com/westside-tabletop-adventure-games/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "Saturday, 2026-10-31, 2:00 PM (MACE playtest, West LA)",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "two-headed-giant-commander-night-magic-the-gathering-star-tr",
+   "ciudad": "new-york",
+   "nombre": "Two-Headed Giant Commander Night – Magic: The Gathering | Star Trek",
+   "tipo": "trek",
+   "comunidades": [
+    "Magic",
+    "Commander"
+   ],
+   "fechas_texto": "Event window Nov 13, 2026 to Jan 28, 2027; each store sets its own night",
+   "fecha_inicio": "2026-11-13",
+   "fecha_fin": "2027-01-28",
+   "recurrente": false,
+   "lugar": "Participating WPN stores; find local ones via the Wizards store locator",
+   "organizador": "Wizards of the Coast",
+   "url_oficial": null,
+   "fuentes": [
+    "https://wpn.wizards.com/en/event/two-headed-giant-commander-night-star-trek"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
    "origen": "radar",
    "con_evidencia": true
   },
@@ -4443,13 +6730,98 @@
    "url_oficial": "https://www.cradleofaviation.org/plan_your_visit/event_calendar.html/event/2026/12/06/festival-of-games-/571751",
    "fuentes": [
     "https://www.cradleofaviation.org/plan_your_visit/event_calendar.html/event/2026/12/06/festival-of-games-/571751",
-    "https://fanconhub.com/us/NY"
+    "https://fanconhub.com/us/NY",
+    "https://festivalofgamesny.com",
+    "https://scifisland.com/?p=2085"
    ],
    "estado": "confirmada",
    "ultima_edicion": "December 13-14, 2025",
    "descripcion": "A two-day holiday shopping and gaming event presented by Cradle-Con and the Long Island Retro Gaming Expo. It features local small businesses selling retro games, toys, comics and collectibles, unlimited play on over 60 arcade classics, retro consoles, workshops, and table-top and board games.",
    "precio": "Ticket details listed as \"More details to come\"; admission includes unlimited play on 60+ arcade classics.",
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "christmas-con",
+   "ciudad": "new-york",
+   "nombre": "Christmas Con",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "pop culture",
+    "collectibles"
+   ],
+   "fechas_texto": "Dec 11–13, 2026",
+   "fecha_inicio": "2026-12-11",
+   "fecha_fin": "2026-12-13",
+   "recurrente": false,
+   "lugar": "New Jersey Convention and Exposition Center, Edison, NJ",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://fancons.com/events/schedule.php?loc=usNJ"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "edison-anime-fest",
+   "ciudad": "new-york",
+   "nombre": "Edison Anime-Fest",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "manga"
+   ],
+   "fechas_texto": "Dec 12, 2026",
+   "fecha_inicio": "2026-12-12",
+   "fecha_fin": "2026-12-12",
+   "recurrente": false,
+   "lugar": "Hilton Garden Inn Edison/Raritan Center",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://fancons.com/events/schedule.php?loc=usNJ"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "winter-wggcon",
+   "ciudad": "new-york",
+   "nombre": "WGGCon",
+   "tipo": "convention",
+   "comunidades": [
+    "board games",
+    "RPG",
+    "miniatures"
+   ],
+   "fechas_texto": "January 9–10, 2027",
+   "fecha_inicio": "2027-01-09",
+   "fecha_fin": "2027-01-10",
+   "recurrente": false,
+   "lugar": "Hotel MTK, Mount Kisco, NY",
+   "organizador": "Westchester Gaming Guild",
+   "url_oficial": "http://www.westchestergaming.org/wggcon/",
+   "fuentes": [
+    "http://www.westchestergaming.org/wggcon/",
+    "https://fancons.com/events/schedule.php?loc=usNY"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -4506,6 +6878,64 @@
    "descripcion": null,
    "precio": null,
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "super-jersey-comic-expo",
+   "ciudad": "new-york",
+   "nombre": "Super Jersey Comic Expo",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "collectibles"
+   ],
+   "fechas_texto": "April 17 & 18, 2027, 10am–5pm",
+   "fecha_inicio": "2027-04-17",
+   "fecha_fin": "2027-04-18",
+   "recurrente": false,
+   "lugar": "Iron Peak Sports & Events, Hillsborough, NJ",
+   "organizador": "Nuff Sed",
+   "url_oficial": "https://www.superjerseyexpo.com",
+   "fuentes": [
+    "https://www.superjerseyexpo.com",
+    "https://comicsxf.com/?p=56103",
+    "https://www.newjerseystage.com/articles2/2025/12/22/super-jersey-comic-expo-announces-new-2026-home-at-iron-peak-sports-and-events-in-hillsborough/"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": "The 2026 expo was cancelled after a dome collapse. A one-day Super Jersey Summer Spectacular was planned for Aug 29, 2026.",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "castle-point-anime-convention",
+   "ciudad": "new-york",
+   "nombre": "Castle Point Anime Convention",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "manga",
+    "cosplay"
+   ],
+   "fechas_texto": "April 24–25, 2027",
+   "fecha_inicio": "2027-04-24",
+   "fecha_fin": "2027-04-25",
+   "recurrente": false,
+   "lugar": "Meadowlands Exposition Center, Secaucus, NJ",
+   "organizador": "Castle Point Anime Convention",
+   "url_oficial": "https://www.castlepointanime.com/info/faqs",
+   "fuentes": [
+    "https://www.castlepointanime.com/info/faqs",
+    "https://www.treasurehunter.show/show/castle-point-anime-convention-2026-secaucus-nj-2026-04-25"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Walk-up prices were higher.",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -4652,34 +7082,35 @@
    "con_evidencia": true
   },
   {
-   "id": "anime-nyc",
+   "id": "nyc-anime-gaming-meetup-group",
    "ciudad": "new-york",
    "nombre": "Anime NYC",
    "tipo": "anime-comic",
    "comunidades": [
     "anime",
     "manga",
-    "cosplay",
     "gaming"
    ],
-   "fechas_texto": "August 26-29, 2027",
+   "fechas_texto": "Wednesday Game & Stream Nights at 7 PM are online; in-person events appear irregularly; a weekly manga reading in Central Park (Columbus Circle) was listed for Aug 2026",
    "fecha_inicio": "2027-08-26",
    "fecha_fin": "2027-08-29",
-   "recurrente": false,
+   "recurrente": true,
    "lugar": "Javits Center",
-   "organizador": "Anime NYC",
-   "url_oficial": null,
+   "organizador": "NYC Anime & Gaming Meetup Group",
+   "url_oficial": "https://www.meetup.com/nyc-anime-gaming-meetup/",
    "fuentes": [
     "https://animenyc.com/",
     "https://fanconhub.com/us/NY",
     "https://www.meetup.com/anime-gaming-nyc/",
-    "https://www.meetup.com/anime-gaming-nyc/events/315990602/"
+    "https://www.meetup.com/anime-gaming-nyc/events/315990602/",
+    "https://www.meetup.com/nyc-anime-gaming-meetup/",
+    "https://www.meetup.com/anime-gaming-nyc/events/315963564/"
    ],
-   "estado": "solo_terceros",
-   "ultima_edicion": "Aug 13, 2026 (Board Game Night in the Bronx)",
+   "estado": "sin_2027",
+   "ultima_edicion": "Art of Manga @ Brooklyn Museum, Nov 7, 2026",
    "descripcion": null,
    "precio": null,
-   "verificado": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -4740,6 +7171,36 @@
    "descripcion": "A pop culture convention for fans of comics, anime, gaming, fantasy, sci-fi and horror, including cosplayers and families. It features a show floor, Artist Alley, Cosplay Central with the Crown Championships of Cosplay, live stage content, celebrity and creator guests, autographs and photo ops.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "derpycon",
+   "ciudad": "new-york",
+   "nombre": "DerpyCon",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "gaming",
+    "tabletop",
+    "cosplay"
+   ],
+   "fechas_texto": "October 29–31, 2027",
+   "fecha_inicio": "2027-10-29",
+   "fecha_fin": "2027-10-31",
+   "recurrente": false,
+   "lugar": "Hyatt Regency New Brunswick",
+   "organizador": "DerpyCon",
+   "url_oficial": "https://www.derpycon.com/",
+   "fuentes": [
+    "https://www.derpycon.com/",
+    "https://fancons.com/events/schedule.php?loc=usNJ"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -4875,13 +7336,42 @@
    "organizador": "Brooklyn-Based Board Gaming",
    "url_oficial": null,
    "fuentes": [
-    "https://meetup.com/brooklyn-based-board-gaming"
+    "https://meetup.com/brooklyn-based-board-gaming",
+    "https://www.meetup.com/brooklyn-based-board-gaming/events/306922120"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
    "descripcion": null,
    "precio": "$8 per event, paid to Squarrel Cafe",
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "bushwick-gaming-club-weekly-magic-nights-monday-night-comman",
+   "ciudad": "new-york",
+   "nombre": "Bushwick Gaming Club weekly Magic nights (Monday Night Commander, Monday Night Draft, Wednesday Commander Night, Learn-to-Play Night)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander",
+    "Pokémon"
+   ],
+   "fechas_texto": "Mondays: Commander and Draft (doors 6pm, games 7pm); Tuesdays: Learn-to-Play Night; Wednesdays: Commander Night (listed as weekly). Also one-offs such as the PokéGhouls Pokémon Meetup on Sun Nov 22 2026.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Bushwick Gaming Club, 1519 Decatur St, Suite 108E (Box Factory building), Ridgewood, NY",
+   "organizador": "Bushwick Gaming Club",
+   "url_oficial": "https://ma.to/venue/bushwick_gaming_club",
+   "fuentes": [
+    "https://ma.to/venue/bushwick_gaming_club"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Commander $12 (includes a pack); Learn-to-Play $10; Draft prices vary (Star Trek draft $30)",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -4909,6 +7399,35 @@
    "descripcion": "A tabletop gaming convention with hundreds of board and card games, role-playing and LARP events, wargames and miniatures. It also has national championship qualifiers for Spades, Hearts, Euchre and Doomlings, game libraries, game shows and a dealers' room.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "eternal-con-the-long-island-comic-con",
+   "ciudad": "new-york",
+   "nombre": "Eternal Con: The Long Island Comic Con",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "cosplay",
+    "pop culture"
+   ],
+   "fechas_texto": "No 2027 dates found.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "David S. Mack Sports and Exhibition Complex, Hofstra University",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://scifisland.com/?p=5132",
+    "https://checkout.conventions.leapevent.tech/eh/Eternal_Con_2026"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "September 12–13, 2026 (moved from July), Hofstra University",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -4969,6 +7488,35 @@
    "descripcion": null,
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "friday-tabletop-night-at-da-basement-games-nyc-plays-games",
+   "ciudad": "new-york",
+   "nombre": "Friday tabletop night at Da Basement Games (NYC Plays Games)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Lorcana",
+    "tabletop"
+   ],
+   "fechas_texto": "Every Friday, about 5:00 PM to late (the event page shown was dated Fri Feb 20, 2026)",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Da Basement Games, 180 Ashford St, Brooklyn, NY",
+   "organizador": "NYC Plays Games",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/nycplaysgames/events/313148603",
+    "https://www.meetup.com/nycplaysgames/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
    "origen": "radar",
    "con_evidencia": true
   },
@@ -5088,6 +7636,63 @@
    "con_evidencia": true
   },
   {
+   "id": "medieval-festival-at-fort-tryon-park",
+   "ciudad": "new-york",
+   "nombre": "Medieval Festival at Fort Tryon Park",
+   "tipo": "faire",
+   "comunidades": [
+    "medieval",
+    "jousting",
+    "Renaissance faire"
+   ],
+   "fechas_texto": "Usually held on a Sunday in autumn (late Sept or early Oct). The only date on the official page is October 2, 2022.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Cloisters Lawn, Fort Tryon Park",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://forttryonpark.org/event/medieval-festival/",
+    "https://www.renfest.org/festivals/medieval-festival-at-fort-tryon-park"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "njr-adirondack-mountain-club-north-jersey-ramapo-chapter-hik",
+   "ciudad": "new-york",
+   "nombre": "NJR Adirondack Mountain Club (North Jersey Ramapo Chapter) hikes",
+   "tipo": "trek",
+   "comunidades": [
+    "hiking",
+    "trekking",
+    "outdoors"
+   ],
+   "fechas_texto": "Hikes on weekends, Tuesdays and Thursdays throughout the year. Examples: Sat Nov 21 (strenuous, 7:45 AM; moderate Dater Mountain Park, 9:00 AM); Sun Nov 22 (AT NJ #4, 9:00 AM); Tue Nov 24 (Pine Meadow Lake, 9:00 AM).",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Trailheads in NJ and NY, such as Ramapo, Pine Meadow Lake and the Appalachian Trail NJ",
+   "organizador": "Adirondack Mountain Club, North Jersey Ramapo Chapter",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/NJR-Adirondack-Mountain-Club/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "nyc-area-friends-of-jrr-tolkien-fantasy",
    "ciudad": "new-york",
    "nombre": "NYC Area Friends of JRR Tolkien & Fantasy",
@@ -5106,7 +7711,9 @@
    "url_oficial": "https://www.meetup.com/nyc-area-friends-of-tolkien-fantasy/",
    "fuentes": [
     "https://www.meetup.com/nyc-area-friends-of-tolkien-fantasy/",
-    "https://thetolkienist.com/2014/12/20/meetup-nyc-area-friends-tolkien-fantasy/"
+    "https://thetolkienist.com/2014/12/20/meetup-nyc-area-friends-tolkien-fantasy/",
+    "https://www.meetup.com/NYC-Area-Friends-of-Tolkien-Fantasy/",
+    "https://thetolkienist.com/2026/03/21/tolkien-reading-day-2026-events-the-global-map/"
    ],
    "estado": "sin_2027",
    "ultima_edicion": "Tolkien Reading Day gathering, 2025-03-27 (also a Jan 3, 2025 birthday toast)",
@@ -5145,6 +7752,34 @@
    "con_evidencia": true
   },
   {
+   "id": "nycruns-haunted-island-5k",
+   "ciudad": "new-york",
+   "nombre": "NYCRUNS Haunted Island 5K",
+   "tipo": "trek",
+   "comunidades": [
+    "costume running",
+    "Halloween"
+   ],
+   "fechas_texto": "The 2026 edition was around Oct 25, 2026; no 2027 date was found.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Roosevelt Island",
+   "organizador": "NYCRUNS",
+   "url_oficial": "https://nycruns.com/race/nycruns-haunted-island-5K",
+   "fuentes": [
+    "https://nycruns.com/race/nycruns-haunted-island-5K",
+    "https://www.govisland.com/things-to-do/events/nycruns-haunted-island-5k"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "Around 2026-10-25, per search listings only",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "next-move-cafe-tcg-and-d-d-nights",
    "ciudad": "new-york",
    "nombre": "Next Move Cafe – TCG and D&D nights",
@@ -5171,6 +7806,32 @@
    "ultima_edicion": null,
    "descripcion": null,
    "precio": "Board game entry $10 Mon–Thu, $12 Fri–Sun",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "the-brooklyn-strategist-queer-board-game-night",
+   "ciudad": "new-york",
+   "nombre": "The Brooklyn Strategist Queer Board Game Night",
+   "tipo": "convention",
+   "comunidades": [
+    "board games"
+   ],
+   "fechas_texto": "Every 3rd Sunday of the month",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "The Brooklyn Strategist, 333 Court Street, Brooklyn, NY",
+   "organizador": "The Brooklyn Strategist",
+   "url_oficial": null,
+   "fuentes": [
+    "https://meetup.com/brooklyn-strategist-evening-events-games-meetup/events/cbgtctyhchbxb"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
    "verificado": null,
    "origen": "radar",
    "con_evidencia": true
@@ -5263,31 +7924,33 @@
    "con_evidencia": true
   },
   {
-   "id": "twenty-sided-store-commander-and-magic-events",
+   "id": "twenty-sided-store-events-commander-mana-sisters-board-game",
    "ciudad": "new-york",
    "nombre": "Twenty Sided Store Commander and Magic events",
    "tipo": "tcg",
    "comunidades": [
     "Magic",
-    "Commander",
-    "board games"
+    "board games",
+    "D&D"
    ],
-   "fechas_texto": null,
+   "fechas_texto": "Commander Mana Sisters: 2nd Saturday 12:15p; Board Game Social: 1st and 3rd Saturdays 12:15p; Blood on the Clocktower: 2nd and 4th Fridays 7p (18+); SideQuest Adventures (RPG): Saturdays 3:45p",
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": true,
-   "lugar": "Twenty Sided Store, 280 Grand St, Brooklyn, NY",
+   "lugar": "Twenty Sided Store, 280 Grand Street, Brooklyn, NY 11211",
    "organizador": "Twenty Sided Store",
-   "url_oficial": null,
+   "url_oficial": "https://www.twentysidedstore.com/",
    "fuentes": [
     "https://twentysidedstore.com/products/mtg-casual-commander",
-    "https://www.atly.com/location/TwentySided"
+    "https://www.atly.com/location/TwentySided",
+    "https://www.twentysidedstore.com/",
+    "https://twentysidedstore.com/pages/calendar"
    ],
-   "estado": "solo_terceros",
+   "estado": "confirmada",
    "ultima_edicion": null,
    "descripcion": null,
-   "precio": null,
-   "verificado": null,
+   "precio": "Commander $15; Board Game Social $12; Clocktower $20; SideQuest $0–$20",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -5315,6 +7978,33 @@
    "descripcion": null,
    "precio": null,
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "uptown-enclave-tabletop-roleplaying-games-nyc-open-table-ttr",
+   "ciudad": "new-york",
+   "nombre": "Uptown Enclave Tabletop Roleplaying Games NYC (open-table TTRPG events)",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "tabletop RPG"
+   ],
+   "fechas_texto": "No fixed schedule listed; past events were monthly Sunday QuestFest sessions and a Wednesday 7 PM weekly night",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Fort Washington Collegiate Church, 729 W 181st St; Hex & Company, 2871 Broadway",
+   "organizador": "Uptown Enclave TTRPG NYC",
+   "url_oficial": "https://meetup.com/uptown-enclave-ttrpg-nyc",
+   "fuentes": [
+    "https://meetup.com/uptown-enclave-ttrpg-nyc"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "QuestFest, Jun 8, 2025 (Fort Washington Collegiate Church)",
+   "descripcion": null,
+   "precio": "Free",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -5404,6 +8094,67 @@
    "con_evidencia": true
   },
   {
+   "id": "westchester-gaming-group-weekly-nights-commander-night-thurs",
+   "ciudad": "new-york",
+   "nombre": "Westchester Gaming Group weekly nights (Commander Night Thursdays, Pokemon League, Warhammer Wednesday, Board Game Night)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander",
+    "Pokémon",
+    "Warhammer",
+    "board games"
+   ],
+   "fechas_texto": "Commander Night: Thursdays from 6 PM (not on Thanksgiving, Christmas Eve or New Year's Eve); Board Game Night: Wednesdays 7–9:30 PM; Warhammer Wednesday: Wednesdays 6–9 PM; Pokemon League: Thursdays 6 PM and Saturdays 2 PM",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "New Kawaii, 1 Bridge St, Suite 105, Irvington; 3rd Universe, 35 North Riverside Ave, Croton-on-Hudson",
+   "organizador": "Westchester Gaming Group",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/westchester-gaming-group/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Commander and Board Game Night $10; Warhammer Wednesday $5 (store credit)",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "stgarr-sca-practices-crown-province-of-stgarr-nyc",
+   "ciudad": "new-york",
+   "nombre": "Østgarðr SCA practices (Crown Province of Østgarðr, NYC)",
+   "tipo": "faire",
+   "comunidades": [
+    "SCA",
+    "medieval",
+    "historical fencing",
+    "archery"
+   ],
+   "fechas_texto": "Recurring practices (fighting, fencing, archery, dance, arts). A search snippet from the group's site mentions Tuesdays in Brooklyn and most Sunday afternoons on Staten Island. The official page gives no days or times; see its calendar.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Public parks and members' homes; Brooklyn practices reported at McCarren Park",
+   "organizador": "Crown Province of Østgarðr",
+   "url_oficial": null,
+   "fuentes": [
+    "https://ostgardr.eastkingdom.org/what-do-we-do",
+    "https://ostgardr.eastkingdom.org/wordpress/calendar/",
+    "https://ostgardr.eastkingdom.org/category/martial-activities"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free to attend; membership optional",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "east-county-tabletop-roleplaying-and-board-games-group-meetu",
    "ciudad": "san-diego",
    "nombre": "East County Tabletop Roleplaying and Board Games Group (Meetup): Paper Fights! Commander Night, Miniature War Game Night, TACademy and Sunday Open Board Gaming",
@@ -5436,7 +8187,7 @@
   {
    "id": "role-players-san-diego-meetup-rpg-chat-play-and-campaigns",
    "ciudad": "san-diego",
-   "nombre": "Role Players San Diego (Meetup): RPG Chat & Play and campaigns",
+   "nombre": "Role Players San Diego (Meetup)",
    "tipo": "convention",
    "comunidades": [
     "D&D",
@@ -5447,7 +8198,7 @@
    "fecha_inicio": "2026-11-21",
    "fecha_fin": "2026-12-13",
    "recurrente": true,
-   "lugar": null,
+   "lugar": "Varies: Tea n More (Clairemont Mesa Blvd), Masonic Lodge 407 (La Mesa), The Privateer (Oceanside)",
    "organizador": "Role Players San Diego",
    "url_oficial": null,
    "fuentes": [
@@ -5457,7 +8208,7 @@
    "estado": "solo_terceros",
    "ultima_edicion": null,
    "descripcion": null,
-   "precio": null,
+   "precio": "RPG Tabletop Takeover listed at $10; other sessions not checked",
    "verificado": null,
    "origen": "radar",
    "con_evidencia": true
@@ -5489,6 +8240,90 @@
    "con_evidencia": true
   },
   {
+   "id": "take-a-hike-san-diego-hiking-meetup-full-moon-hikes",
+   "ciudad": "san-diego",
+   "nombre": "Take A Hike! (San Diego hiking Meetup, Full Moon hikes)",
+   "tipo": "trek",
+   "comunidades": [
+    "hiking",
+    "trekking",
+    "Meetup"
+   ],
+   "fechas_texto": "Recurring with published outings. Example: Tue Nov 24, 2026, 6:00 PM, Full Beaver Moon hike on Cowles from Lake Murray, plus happy hour.",
+   "fecha_inicio": "2026-11-24",
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Cowles Mountain via Lake Murray and other San Diego trails",
+   "organizador": "Take A Hike!",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/find/?keywords=hiking&location=us--ca--San%20Diego"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "rpg-tabletop-takeover-sdra",
+   "ciudad": "san-diego",
+   "nombre": "RPG Tabletop Takeover (SDRA)",
+   "tipo": "convention",
+   "comunidades": [
+    "TTRPG",
+    "D&D"
+   ],
+   "fechas_texto": "Sun Nov 29, 2026: morning session (doors 10:00 AM, games 11:00 AM) and afternoon session (3:00 PM sign-ups, games 4:00 PM)",
+   "fecha_inicio": "2026-11-29",
+   "fecha_fin": "2026-11-29",
+   "recurrente": false,
+   "lugar": "Masonic Lodge 407, 4731 Date Ave, La Mesa, CA 91942",
+   "organizador": "San Diego Roleplaying Association",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/Role-Players-San-Diego/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "$10 at the door (cash or Venmo). GMs run games free.",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "yuletide-medieval-festival",
+   "ciudad": "san-diego",
+   "nombre": "Yuletide Medieval Festival",
+   "tipo": "faire",
+   "comunidades": [
+    "Renaissance faire",
+    "medieval",
+    "jousting"
+   ],
+   "fechas_texto": "December 5–6 & 12–13, 2026. Saturdays 10 am–8 pm, Sundays 10 am–6 pm.",
+   "fecha_inicio": "2026-12-05",
+   "fecha_fin": "2026-12-13",
+   "recurrente": false,
+   "lugar": "El Monte County Park, 15805 El Monte Road, Lakeside, CA 92040",
+   "organizador": "Historic Event Productions",
+   "url_oficial": "https://yuletidemedievalfestival.com/",
+   "fuentes": [
+    "https://yuletidemedievalfestival.com/",
+    "https://www.therenlist.com/fairs/yuletide-medieval-festival"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": "2025 edition (The Renlist shows 2024 dates of Dec 6–15 at the same park)",
+   "descripcion": null,
+   "precio": "Adults $35; military and seniors 65+ $30; kids 10 and under free; parking $10 shuttle or $35 premium; St. Nicholas Day Feast is a separate ticket",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "tavern-tales-events-adventures-and-find-your-party-d-d-and-d",
    "ciudad": "san-diego",
    "nombre": "Tavern Tales Events: Adventures and Find Your Party (D&D and Daggerheart at breweries and game stores)",
@@ -5513,6 +8348,35 @@
    "descripcion": null,
    "precio": "From about $15 to $28.52 per ticket",
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "san-diego-santa-run",
+   "ciudad": "san-diego",
+   "nombre": "San Diego Santa Run",
+   "tipo": "trek",
+   "comunidades": [
+    "costume run",
+    "5K",
+    "holiday"
+   ],
+   "fechas_texto": "Saturday, December 12, 2026",
+   "fecha_inicio": "2026-12-12",
+   "fecha_fin": "2026-12-12",
+   "recurrente": false,
+   "lugar": "Start/finish at 912 Garnet Ave, San Diego, CA 92109",
+   "organizador": "San Diego Running Co.",
+   "url_oficial": "http://sandiegorunningco.com/santarun",
+   "fuentes": [
+    "http://sandiegorunningco.com/santarun",
+    "https://www.sandiego.org/events-festivals/san-diego-santa-run/ef28bd5d595a11f1a7f2"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": "2025 (racecenter.com lists a 2025 San Diego Santa Run)",
+   "descripcion": null,
+   "precio": "Santa Run 5K $59.99; Kids Mile $41.99; Dog Mile $41.99 (fees included)",
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -5697,6 +8561,37 @@
    "con_evidencia": true
   },
   {
+   "id": "san-diego-comic-con",
+   "ciudad": "san-diego",
+   "nombre": "San Diego Comic-Con",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "anime",
+    "cosplay",
+    "gaming",
+    "D&D"
+   ],
+   "fechas_texto": "July 22-25, 2027, with Preview Night on July 21",
+   "fecha_inicio": "2027-07-22",
+   "fecha_fin": "2027-07-25",
+   "recurrente": false,
+   "lugar": "San Diego Convention Center",
+   "organizador": "Comic-Con International",
+   "url_oficial": "https://www.comic-con.org/cci/",
+   "fuentes": [
+    "https://www.comic-con.org/cci/",
+    "https://www.thepopverse.com/events/comic-con-international-san-diego-2027/"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": "July 2026 (57th Comic-Con)",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "san-diego-anime-con",
    "ciudad": "san-diego",
    "nombre": "Anime San Diego",
@@ -5724,6 +8619,36 @@
    "descripcion": "An anime convention produced by Silk Road Productions. The program includes general panels on anime-related topics, a Dynamic Room with interactive hands-on sessions, and a maid cafe with games. It also lists a game room, cosplay meetups and a cosplay contest.",
    "precio": null,
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "bards-cards-friday-night-magic-commander-league-pokemon-tcg",
+   "ciudad": "san-diego",
+   "nombre": "Bards & Cards – Friday Night Magic, Commander League, Pokémon TCG and Disney Lorcana events",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Pokémon",
+    "Lorcana",
+    "Commander"
+   ],
+   "fechas_texto": "Recurring. The homepage names the events but gives no days or times; tickets and schedules are on its Events page",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Bards & Cards, 936 5th Avenue, San Diego, CA",
+   "organizador": "Bards & Cards",
+   "url_oficial": null,
+   "fuentes": [
+    "https://bardsandcards.com",
+    "https://bardsandcards.com/pages/events"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
    "origen": "radar",
    "con_evidencia": true
   },
@@ -5788,21 +8713,47 @@
    "con_evidencia": true
   },
   {
-   "id": "brute-force-games-weekly-tournaments-lorcana-mondays-and-cas",
+   "id": "comic-con-museum-resident-free-tuesday",
    "ciudad": "san-diego",
-   "nombre": "Brute Force Games: weekly tournaments, Lorcana Mondays and casual Commander",
-   "tipo": "tcg",
+   "nombre": "Comic-Con Museum - Resident Free Tuesday",
+   "tipo": "anime-comic",
    "comunidades": [
-    "Magic",
-    "Pokémon",
-    "Yu-Gi-Oh!",
-    "Lorcana"
+    "comics",
+    "pop culture",
+    "sci-fi"
    ],
-   "fechas_texto": "No days or times confirmed.",
+   "fechas_texto": "2nd Tuesday of most calendar months, free for San Diego County residents",
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": true,
-   "lugar": "Brute Force Games, 3755 Murphy Canyon Rd",
+   "lugar": "Comic-Con Museum, Balboa Park",
+   "organizador": "Comic-Con Museum",
+   "url_oficial": "https://www.comic-con.org/museum",
+   "fuentes": [
+    "https://www.comic-con.org/museum"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "Free for San Diego County residents",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "commander-free-play-brute-force-games",
+   "ciudad": "san-diego",
+   "nombre": "Commander Free Play (Brute Force Games)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander"
+   ],
+   "fechas_texto": "From a Google Events hint: Nov 18, 12:00 PM. Store listings mention weekly events and Friday Night Magic Commander nights.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Brute Force Games, 3755 Murphy Canyon Rd, San Diego, CA",
    "organizador": "Brute Force Games",
    "url_oficial": null,
    "fuentes": [
@@ -5813,6 +8764,33 @@
    "descripcion": null,
    "precio": null,
    "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "d-d-chat-play-d-d-classics-san-diego-d-d-meetup",
+   "ciudad": "san-diego",
+   "nombre": "D&D Chat & Play / D&D Classics (San Diego D&D Meetup)",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "TTRPG"
+   ],
+   "fechas_texto": "Chat & Play appears to be Saturdays at 11:00 AM and Classics on Wednesdays at 6:00 PM.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Tea n More (7380 Clairemont Mesa Blvd #111) and Lestat's Coffee House (3343 Adams Avenue)",
+   "organizador": "San Diego D&D Meetup group",
+   "url_oficial": "https://www.meetup.com/sd-dnd/",
+   "fuentes": [
+    "https://www.meetup.com/sd-dnd/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2026-11-14 (D&D Chat & Play at Tea n More)",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -5843,6 +8821,124 @@
    "descripcion": null,
    "precio": "Only an out-of-date 2024 figure: $27 adult, $12 children 5 to 11",
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "friday-night-magic-hobbytown-santee",
+   "ciudad": "san-diego",
+   "nombre": "Friday Night Magic (HobbyTown Santee)",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Commander"
+   ],
+   "fechas_texto": "KPBS listing: 3:30 PM–7 PM, ongoing daily from April 3 to April 24, 2026. The title says Friday Night Magic, so the 'daily' wording conflicts with it.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "HobbyTown Santee, 9747 Mission Gorge Road, Santee, CA 92071",
+   "organizador": "HobbyTown Santee",
+   "url_oficial": "https://www.kpbs.org/events/ongoing/magic-the-gathering-friday-night-magic-commander-night",
+   "fuentes": [
+    "https://www.kpbs.org/events/ongoing/magic-the-gathering-friday-night-magic-commander-night"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2026-04-03 to 2026-04-24",
+   "descripcion": null,
+   "precio": "$5, Eventbrite ticket required",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "brute-force-games-weekly-tournaments-lorcana-mondays-and-cas",
+   "ciudad": "san-diego",
+   "nombre": "Friday Night Magic and weekly Magic/Commander events at Brute Force Games",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Pokémon",
+    "Yu-Gi-Oh!",
+    "Lorcana"
+   ],
+   "fechas_texto": "No days or times confirmed.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Brute Force Games, 3755 Murphy Canyon Rd",
+   "organizador": "Brute Force Games",
+   "url_oficial": null,
+   "fuentes": [
+    "https://thecardshopfinder.com/ca/san-diego/brute-force-games/",
+    "https://www.bruteforcegames.com"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "game-empire-san-diego-in-store-game-nights-and-tournaments",
+   "ciudad": "san-diego",
+   "nombre": "Game Empire San Diego – in-store game nights and tournaments",
+   "tipo": "tcg",
+   "comunidades": [
+    "Magic",
+    "Pokémon",
+    "Warhammer",
+    "board games",
+    "TTRPG"
+   ],
+   "fechas_texto": "Recurring. The store page links to a calendar but lists no event days or times.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Game Empire, 5037 Shawline St, San Diego, CA 92111",
+   "organizador": "Game Empire",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.gameempire.com",
+    "https://win.wizkids.com:443/openstore-gameempire.php"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "gamercon",
+   "ciudad": "san-diego",
+   "nombre": "GamerCon",
+   "tipo": "convention",
+   "comunidades": [
+    "board games",
+    "tabletop RPG",
+    "miniatures",
+    "retro gaming"
+   ],
+   "fechas_texto": "No 2027 dates found. The 2026 edition was listed for May 15-17, 2026",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Tenth Avenue Arts Center, 930 Tenth Avenue",
+   "organizador": "GamerCon",
+   "url_oficial": null,
+   "fuentes": [
+    "https://gamercon.com",
+    "https://thescenesd.com/event/gamercon/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -5930,9 +9026,36 @@
    "con_evidencia": true
   },
   {
+   "id": "san-diego-boardgames-group-several-weekly-and-monthly-meetup",
+   "ciudad": "san-diego",
+   "nombre": "San Diego Boardgames Group (several weekly and monthly meetups)",
+   "tipo": "convention",
+   "comunidades": [
+    "board games",
+    "Blood on the Clocktower"
+   ],
+   "fechas_texto": "From a Meetup search listing: Friday 5:00 PM gaming night; Wednesday 6:00 PM at Denny's Kearny Mesa; Saturday 12:00–6:00 PM strategy and 4X games; Tuesday 5:00 PM at IHOP Imperial Beach; Blood on the Clocktower every two weeks on Mondays at 6:00 PM",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Includes Denny's Kearny Mesa and IHOP Imperial Beach",
+   "organizador": "San Diego Boardgames Group",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.meetup.com/find/?keywords=board%20games&location=us--ca--San%20Diego"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "san-diego-roleplaying-association-meetup-open-campaign-and-s",
    "ciudad": "san-diego",
-   "nombre": "San Diego Roleplaying Association (Meetup): Open Campaign and Shadowdark",
+   "nombre": "San Diego Roleplaying Association (SDRA) – Meetup events",
    "tipo": "convention",
    "comunidades": [
     "D&D",
@@ -5947,12 +9070,14 @@
    "organizador": "San Diego Roleplaying Association",
    "url_oficial": null,
    "fuentes": [
-    "https://www.meetup.com/dnd-354/"
+    "https://www.meetup.com/dnd-354/",
+    "https://www.meetup.com/Role-Players-San-Diego/",
+    "https://linktr.ee/SanDiegoTTRPGs"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": "Open Campaign, Wed 2026-08-12",
    "descripcion": null,
-   "precio": null,
+   "precio": "Varies. Some events are free to join; the RPG Tabletop Takeover is $10 at the door",
    "verificado": null,
    "origen": "radar",
    "con_evidencia": true
@@ -5982,6 +9107,64 @@
    "ultima_edicion": "Nov 3, 2026 (November book: Omeros)",
    "descripcion": null,
    "precio": "$3 per event; first event free",
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "santee-summer-knights-medieval-valentine-santee-kiwanis-medi",
+   "ciudad": "san-diego",
+   "nombre": "Santee Summer Knights / Medieval Valentine (Santee Kiwanis medieval series)",
+   "tipo": "faire",
+   "comunidades": [
+    "Renaissance faire",
+    "medieval",
+    "jousting"
+   ],
+   "fechas_texto": "A Medieval Valentine event is reported for February 2027, with no exact dates found. Summer Knights ran June 5–7, 2026.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "9000 Edgemoor Dr, Santee, CA 92071 (Summer Knights venue)",
+   "organizador": "Kiwanis Club of Santee",
+   "url_oficial": null,
+   "fuentes": [
+    "https://santeesummerknights.com",
+    "https://eastcountymagazine.org/santee-to-transform-into-medieval-kingdom-for-summer-knights-community-festival/print/"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": "Summer Knights, June 5–7, 2026",
+   "descripcion": null,
+   "precio": null,
+   "verificado": null,
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "tavern-tales-sd-find-your-party-adventures-d-d-and-daggerhea",
+   "ciudad": "san-diego",
+   "nombre": "Tavern Tales SD – Find Your Party / Adventures (D&D and Daggerheart nights)",
+   "tipo": "convention",
+   "comunidades": [
+    "D&D",
+    "Daggerheart",
+    "TTRPG"
+   ],
+   "fechas_texto": "Recurring, almost every week at various venues. Listed examples: Sat 2026-11-21 1:00 PM (Arcana Brewing), Sun 2026-11-22 10:00 AM (At Ease Games), Sat 2026-12-12 11:30 AM (Bards & Cards)",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": null,
+   "organizador": "Tavern Tales Events",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.eventbrite.com/o/110591018841",
+    "https://www.eventbrite.com/o/tavern-tales-sd-110591018841"
+   ],
+   "estado": "solo_terceros",
+   "ultima_edicion": null,
+   "descripcion": null,
+   "precio": "From about $15 (Find Your Party) to about $28.52 (Adventures)",
    "verificado": null,
    "origen": "radar",
    "con_evidencia": true
@@ -6073,52 +9256,57 @@
    "id": "festigame",
    "ciudad": "santiago",
    "nombre": "Festigame",
-   "tipo": "anime-comic",
-   "comunidades": [],
-   "fechas_texto": "2026-12-10 a 2026-12-13",
+   "tipo": "tcg",
+   "comunidades": [
+    "videojuegos",
+    "cosplay",
+    "K-pop",
+    "esports"
+   ],
+   "fechas_texto": "Jueves 10 al domingo 13 de diciembre de 2026, 11:00 a 20:00 (último ingreso 18:00)",
    "fecha_inicio": "2026-12-10",
    "fecha_fin": "2026-12-13",
    "recurrente": false,
    "lugar": "Cenco Florida, Av. Vicuña Mackenna Oriente 6100",
    "organizador": null,
-   "url_oficial": null,
+   "url_oficial": "https://feverup.com/m/779274",
    "fuentes": [
+    "https://feverup.com/m/779274",
     "https://www.meganoticias.cl/tendencias/533302-festigame-2026-fechas-entradas-como-comprar-6-10-2026.html"
    ],
-   "estado": "solo_terceros",
-   "ultima_edicion": null,
+   "estado": "confirmada",
+   "ultima_edicion": "25 de octubre de 2025, Movistar Arena (según Meganoticias)",
    "descripcion": null,
-   "precio": "desde $12.900 (Fever)",
-   "verificado": null,
-   "origen": "manual",
+   "precio": "Entrada general $12.900; Team Pack 4x3 $38.700; Festipack $59.900; Pack todos los días $58.000 (CLP)",
+   "verificado": "2026-11-18",
+   "origen": "manual+radar",
    "con_evidencia": true
   },
   {
-   "id": "campeonato-regional-pokemon-santiago",
+   "id": "santiago-pokemon-tcg-regional-championships",
    "ciudad": "santiago",
    "nombre": "Campeonato Regional Pokemon Santiago",
    "tipo": "tcg",
    "comunidades": [
-    "Pokémon",
-    "TCG",
-    "VGC"
+    "Pokémon"
    ],
-   "fechas_texto": "2027-02-27 y 2027-02-28",
+   "fechas_texto": "7 y 8 de febrero de 2026 (ya realizado)",
    "fecha_inicio": "2027-02-27",
    "fecha_fin": "2027-02-28",
    "recurrente": false,
-   "lugar": null,
+   "lugar": "Espacio Riesco",
    "organizador": "Play! Pokémon",
-   "url_oficial": null,
+   "url_oficial": "https://rk9.gg/tournament/ST01bmgM9jIqCvBYdzy3",
    "fuentes": [
     "https://www.dittobase.com/championships/events/santiago-2027",
-    "https://rk9.gg/tournament/ST01bmgM9jIqCvBYdzy3"
+    "https://rk9.gg/tournament/ST01bmgM9jIqCvBYdzy3",
+    "https://serebii.net/playpokemon/2026/santiagoregionalchampionships.shtml"
    ],
-   "estado": "solo_terceros",
-   "ultima_edicion": "7 y 8 de febrero de 2026, Espacio Riesco (Av. El Salto 5000, Huechuraba), organizada por Big Bang Copag según RK9",
+   "estado": "sin_2027",
+   "ultima_edicion": "7-8 febrero 2026, Espacio Riesco",
    "descripcion": null,
    "precio": null,
-   "verificado": null,
+   "verificado": "2026-11-18",
    "origen": "manual+radar",
    "con_evidencia": true
   },
@@ -6211,6 +9399,33 @@
    "con_evidencia": true
   },
   {
+   "id": "cardfest-chile",
+   "ciudad": "santiago",
+   "nombre": "Cardfest Chile",
+   "tipo": "tcg",
+   "comunidades": [
+    "TCG",
+    "cartas coleccionables"
+   ],
+   "fechas_texto": "Sábado 11 de abril de 2026, 12:00 a 19:00 (ya realizado)",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Espacio Vicente Valdés, Vicente Valdés 395, La Florida",
+   "organizador": "Creado por Antonio García",
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.encancha.cl/enlahora/panoramas/2026/03/11/cardfest-chile-2026-fecha-lugar-y-de-que-trata-el-evento-de-cartas-coleccionables-mas-grande-del-pais/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "11 abril 2026, La Florida",
+   "descripcion": null,
+   "precio": "Gratis",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "comic-con-chile",
    "ciudad": "santiago",
    "nombre": "Comic Con Chile",
@@ -6243,9 +9458,38 @@
    "con_evidencia": true
   },
   {
+   "id": "corrida-magik",
+   "ciudad": "santiago",
+   "nombre": "Corrida MágiK",
+   "tipo": "trek",
+   "comunidades": [
+    "running",
+    "carreras solidarias"
+   ],
+   "fechas_texto": "Sin fecha 2027 anunciada. La 3ª edición fue el domingo 15 de noviembre de 2026.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Parque Inés de Suárez",
+   "organizador": "Fundación Nuestros Hijos, Prokart y Mi Duende Mágico",
+   "url_oficial": "https://www.corridamagica.cl",
+   "fuentes": [
+    "https://www.corridamagica.cl",
+    "https://g5noticias.cl/2026/09/26/tras-su-social-run-familiar-la-3a-corrida-magik-invita-a-inscribirse-para-correr-el-15-de-noviembre/",
+    "https://www.radioagricultura.cl/noticias/nacional/corrida-magik-convoco-a-9-mil-personas-por-los-ninos-con-cancer_20261115/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "15 de noviembre de 2026, Parque Inés de Suárez (más de 9.000 participantes, según Radio Agricultura)",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
    "id": "de-trekking-grupo-de-salidas",
    "ciudad": "santiago",
-   "nombre": "De Trekking (grupo de salidas)",
+   "nombre": "De Trekking",
    "tipo": "trek",
    "comunidades": [
     "trekking",
@@ -6256,7 +9500,7 @@
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": true,
-   "lugar": null,
+   "lugar": "Cerros y rutas cercanas a Santiago (varía por salida)",
    "organizador": "De Trekking",
    "url_oficial": null,
    "fuentes": [
@@ -6270,7 +9514,35 @@
    "precio": null,
    "verificado": null,
    "origen": "radar",
-   "con_evidencia": false
+   "con_evidencia": true
+  },
+  {
+   "id": "expo-roll-a-game",
+   "ciudad": "santiago",
+   "nombre": "Expo Roll a Game",
+   "tipo": "convention",
+   "comunidades": [
+    "juegos de mesa",
+    "diseñadores chilenos"
+   ],
+   "fechas_texto": "Edición 2025: 1 y 2 de noviembre",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Centro Cultural Gabriela Mistral (GAM)",
+   "organizador": "Ludichile, con apoyo del Ministerio de las Culturas, las Artes y el Patrimonio",
+   "url_oficial": "https://26trans.gam.cl/en/what-to-do-in-gam/activities/roll-game-chile/",
+   "fuentes": [
+    "https://26trans.gam.cl/en/what-to-do-in-gam/activities/roll-game-chile/",
+    "https://www.24horas.cl/tendencias/llega-a-chile-gran-feria-de-juegos-de-mesa-descubre-todos-los-detalles"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "1 y 2 de noviembre de 2025, GAM",
+   "descripcion": null,
+   "precio": "Gratuita",
+   "verificado": "2026-11-18",
+   "origen": "radar",
+   "con_evidencia": true
   },
   {
    "id": "expogame",
@@ -6299,6 +9571,34 @@
    "precio": "Los montos están en una imagen en Puntoticket. Todas las entradas aparecían agotadas.",
    "verificado": "2026-11-17",
    "origen": "manual+radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "feria-medieval-mercado-y-juglares",
+   "ciudad": "santiago",
+   "nombre": "Feria Medieval \"Mercado y Juglares\"",
+   "tipo": "faire",
+   "comunidades": [
+    "medieval",
+    "recreación histórica",
+    "fantasía"
+   ],
+   "fechas_texto": "Sin fecha 2027 publicada.",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "recurrente": true,
+   "lugar": "Casa de la Cultura La Cava, Tristán Matta 521",
+   "organizador": null,
+   "url_oficial": null,
+   "fuentes": [
+    "https://www.elmostrador.cl/datos-utiles/2026/08/02/lluvia-el-fin-de-semana-6-panoramas-imperdibles-en-santiago-desde-0-para-este-1-y-2-de-agosto/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "1-2 de agosto de 2026, San Miguel",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
+   "origen": "radar",
    "con_evidencia": true
   },
   {
@@ -6416,15 +9716,22 @@
    "ciudad": "santiago",
    "nombre": "Rol Libre",
    "tipo": "convention",
-   "comunidades": [],
+   "comunidades": [
+    "rol",
+    "fantasía",
+    "ciencia ficción",
+    "horror"
+   ],
    "fechas_texto": "ultima: #3, 2026-10-03, Museo Ciudadano Benjamin Vicuna Mackenna, 12:00-16:30; proxima sin fecha (boletin #14, 2026-11-14: 'mesas mas frecuentes')",
    "fecha_inicio": null,
    "fecha_fin": null,
    "recurrente": false,
    "lugar": null,
-   "organizador": null,
-   "url_oficial": null,
+   "organizador": "Rol Libre",
+   "url_oficial": "https://buttondown.com/rol-libre/archive/rol-libre-edicion-de-invierno/",
    "fuentes": [
+    "https://buttondown.com/rol-libre/archive/rol-libre-edicion-de-invierno/",
+    "https://buttondown.com/rol-libre/archive/23-de-mayo-rol-libre-en-patrimonio-ludico/",
     "https://buttondown.com/rol-libre/archive/"
    ],
    "estado": "sin_2027",
@@ -6432,7 +9739,7 @@
    "descripcion": null,
    "precio": null,
    "verificado": "2026-11-17",
-   "origen": "manual",
+   "origen": "manual+radar",
    "con_evidencia": true
   },
   {
@@ -6514,7 +9821,8 @@
     "https://cartasmagicsur.cl/torneos/",
     "https://fabtcg.com/en/locator/magicsur-chile",
     "https://www.levelup.com/noticias/chile-sera-sede-en-diciembre-del-torneo-mas-importante-de-magic-del-continente-el-south-america-magic-series/",
-    "https://www.cartasmagicsur.cl"
+    "https://www.cartasmagicsur.cl",
+    "https://www.cartasmagicsur.cl/torneos"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -6522,7 +9830,7 @@
    "precio": null,
    "verificado": null,
    "origen": "radar",
-   "con_evidencia": false
+   "con_evidencia": true
   },
   {
    "id": "trading-fest-chile",
