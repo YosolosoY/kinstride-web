@@ -2,6 +2,7 @@
 Borrador original: homeserver ~/sistema/borradores/kinstride/2026-11-18_best-walking-rpg-apps-android.md (fuentes verificadas allí).
 Lo de Kinstride (hoja de personaje, linajes, artistas) sale del código de la app y de las páginas del sitio."""
 import json as _json
+import play
 
 RUTA = '/guides/best-walking-rpg-apps-android/'
 SITIO_ = 'https://getkinstride.com'
@@ -13,7 +14,7 @@ _IDS = ['distinction', 'compared', 'notes', 'choose', 'fits', 'table', 'artists'
 _FAQ = [
  ('Does Kinstride use GPS?', 'Kinstride counts your real kilometers to move you along the map. The way you walk (climbs, cadence, endurance and more) decides your lineage and your character’s abilities.'),
  ('Can I use my Kinstride character in a tabletop role-playing game?', 'The character sheet follows the usual layout: six abilities, armor, hit points and proficiency bonus, with the formulas from the SRD 5.2. Ask your game master whether the table accepts it. See “Use it at your table” above for what it does and does not include.'),
- ('Is Kinstride on Google Play?', 'Not yet at the time of writing (November 18, 2026). The app is waiting for Google Play’s production review, so there is no download link here.'),
+ ('Is Kinstride on Google Play?', (f'Yes. Kinstride is free on <a href="{play.url("guia-faq")}">Google Play</a>, with no ads and no distance limit.' if play.LIVE else 'Not yet at the time of writing (November 18, 2026). The app is waiting for Google Play’s production review, so there is no download link here.')),
  ('Who draws the art in Kinstride?', 'Illustration students and artists, credited by name on each piece. We accept 2 new illustrators each month and pay US$50 once the first 10 pieces are accepted. See the artists page.'),
 ]
 
@@ -57,7 +58,7 @@ SECS = [
   '<p>Kinstride is an Android app we are building, and we make it, so weigh this section accordingly. Your real kilometers move you across a fantasy map, and <b>the way you walk decides your character</b>: your climbs, cadence, endurance and routine pick one of nine lineages and a class. '
   'Steps-to-map is the same basic idea as several apps above, so we do not claim it is new. We have not proven it keeps people walking longer, and we have no retention data to show you.</p>'
   f'<p>Meet the lineages: {_LINAJES}. The <a href="/lineages/">lineages page</a> describes each one, and the <a href="/test/">test</a> shows which fits how you walk.</p>'
-  '<p>At the time of writing (November 18, 2026) Kinstride is not yet on the Google Play store: it is waiting for the production review, so there is no download link here.</p>'),
+  + (f'<p>Kinstride is free on <a href="{play.url("guia-texto")}">Google Play</a>, with no ads and no distance limit.</p>' if play.LIVE else '<p>At the time of writing (November 18, 2026) Kinstride is not yet on the Google Play store: it is waiting for the production review, so there is no download link here.</p>')),
  ('Use it at your table',
   '<p>We designed the character so it can sit at a role-playing table. Your character sheet has the layout a tabletop player expects: <b>six abilities</b> (Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma, each from 8 to 20), a modifier for each, armor class, hit points by class and level, and a proficiency bonus. '
   'The numbers are not rolled: they come from how you walk. Climbing hills raises Strength, a steady cadence raises Dexterity, long outings raise Constitution, camps found raise Intelligence, consistency raises Wisdom, and walking with company raises Charisma.</p>'

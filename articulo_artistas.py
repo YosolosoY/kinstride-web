@@ -53,6 +53,11 @@ ARTICULOS = {
  ]),
 }
 import json as _json
+import play
+if play.LIVE:  # ya en producción: quitar «sigue en pruebas»
+    for _k in ('art_en', 'art_es'):
+        _a = ARTICULOS[_k]
+        _a['secs'] = [(h, c.replace('At the time of writing (November 2026) it is still in testing on Google Play, and its images', 'It is available on Google Play, and its images').replace('Al momento de escribir esto (noviembre de 2026) sigue en pruebas en Google Play, y sus imágenes', 'Está disponible en Google Play y sus imágenes')) for h, c in _a['secs']]
 SITIO_ = 'https://getkinstride.com'
 for _k, _a in ARTICULOS.items():
     _l = _a['lang']; _h = H[_l]

@@ -28,6 +28,14 @@ La caché de traducciones (`datos/i18n-sitio/<idioma>.json`, por huella del text
 - Auditoría SEO: revisar título (≤65), descripción (70–165), canonical, `lang`, un solo h1, hreflang recíproco con `x-default`, og/twitter, JSON-LD válido, alt, ancho/alto de imágenes, enlaces y sitemap. `lastmod` del sitemap = fecha en que se genera.
 - El dato estructurado `MobileApplication` no lleva `aggregateRating` ni `review` a propósito: Google los exige para el resultado enriquecido y no se inventan; agregarlos cuando haya reseñas reales.
 
+## Salida a producción (Play): un solo interruptor
+
+`play.py` (`LIVE`, por defecto apagado; se enciende con la variable `PLAY_LIVE=1`). Cuando LIVE: la portada (6 idiomas) cambia «Ser tester» por «Descárgala en Google Play» con UTM por lugar (`home-hero`, `home-seccion`, `cta-linajes`, `test-resultado`, `guia-faq`, `guia-texto`), desaparece la sección de testers, las páginas de linajes/test/eventos cambian su aviso de «prueba cerrada» por el enlace a Play, y la guía y el artículo de artistas quitan «aún no está / sigue en pruebas». Las traducciones pt/fr/de/it de los 5 textos nuevos YA están en `datos/i18n-sitio/*.json` (escritas a mano 2026-11-18).
+
+**Automático:** `activar_play.sh` (timer de usuario `kinstride-play.timer`, cada hora, clon aparte en `~/.local/share/kinstride-play/`) hace TODO esto solo cuando la ficha abre: enciende `play.py`, reconstruye, audita, commit + push, actualiza `dev-web` (dev.monsalve.com.co), verifica en vivo y avisa por Telegram. Ensayo sin publicar: `ENSAYO=1 ./activar_play.sh`.
+
+Día del lanzamiento a mano (cuando `https://play.google.com/store/apps/details?id=co.com.monsalve.kinstride` ya no dé 404): 1) cambiar el valor por defecto en `play.py` a `'1'`; 2) `./construir_sitio.sh`; 3) revisar `git diff --stat` y 3 páginas; 4) commit + push; 5) pedir indexación de la portada. Antes: `PLAY_LIVE=1 ./construir_sitio.sh` para ensayar y `./construir_sitio.sh` para volver. `construir_sitio.sh` reemplaza a los pasos sueltos (generar → construir → restaurar privacidad → enlace de la guía).
+
 ## Guía en inglés (2026-11-18): `/guides/best-walking-rpg-apps-android/`
 
 Texto en `guia_walking_rpg.py` (solo inglés, no se traduce; generar.py la importa). Su enlace en el pie de las páginas EN lo añade `python3 enlace_guia.py` DESPUÉS de `idiomas_sitio.py construir` (no va en los generadores: cambiaría el texto del pie y pt/fr/de/it quedarían sin traducir en esa línea). `actualizar_eventos.sh` ya lo llama.

@@ -10,6 +10,7 @@ from pathlib import Path
 
 import generar_eventos
 import generar_linajes
+import play
 
 RAIZ = Path(__file__).parent
 SITIO = 'https://getkinstride.com'
@@ -34,6 +35,8 @@ T = {
         bajada='A fantasy walking RPG for Android that reads how you really walk. No manual logging: your steps carry you across an illustrated world, and your stride reveals your lineage.',
         ser_tester='Become a tester', test_t='Take the walking test', test_url='/test/', linajes_url='/lineages/', linajes_t='Read about all nine lineages', tiktok='TikTok',
         aviso='In closed testing: to install it today, join as a tester.',
+        get_play='Get it on Google Play', aviso_live='Free to download. No ads and no distance limit.', play_t='Get Kinstride',
+        play_intro='Kinstride is free on Google Play, with no ads and no distance limit. Take the walking test first if you want to know which lineage you walk like.',
         como_t='How it works',
         como=[('You walk', 'Daily steps count on their own. Walks from your watch count too. Or start an expedition and GPS measures your pace, stride, climbs and rests.'),
               ('The world opens', 'Every step moves your marker across the Farwander. The fog lifts, and every few steps there is a camp with its own story.'),
@@ -94,6 +97,8 @@ T = {
         bajada='Un juego de rol para caminar, en Android, que mide cómo caminas de verdad. Sin registrar nada a mano: tus pasos te llevan por un mundo ilustrado y tu forma de andar revela tu linaje.',
         ser_tester='Ser tester', test_t='Hacer el test de caminar', test_url='/es/test/', linajes_url='/es/linajes/', linajes_t='Conoce los nueve linajes', tiktok='TikTok',
         aviso='En prueba cerrada: para instalarla hoy, entra como tester.',
+        get_play='Descárgala en Google Play', aviso_live='Descarga gratis. Sin anuncios y sin límite de distancia.', play_t='Consigue Kinstride',
+        play_intro='Kinstride es gratis en Google Play, sin anuncios y sin límite de distancia. Haz primero el test de caminar si quieres saber con qué linaje caminas.',
         como_t='Cómo funciona',
         como=[('Caminas', 'Tus pasos del día cuentan solos, y las caminatas de tu reloj también. O inicia una expedición y el GPS mide tu ritmo, tu paso, las subidas y los descansos.'),
               ('El mundo se abre', 'Cada paso mueve tu marcador por Las Tierras Lejanas. La niebla se levanta y, cada poco, aparece una parada con su propia historia.'),
@@ -173,6 +178,15 @@ def pagina(t: dict) -> str:
     rutas = ''.join(f'<article><h3>{n}</h3><p class="dato">{d}</p><p>{p}</p></article>' for n, d, p in t['rutas'])
     crecer = ''.join(f'<li><b>{n}</b> {p}</li>' for n, p in t['crecer'])
     pasos = ''.join(f'<li>{p}</li>' for p in t['pasos'])
+    if play.LIVE:  # ya en producción: botón de Play, sin sección de testers
+        boton_principal = f'<a class="boton" href="{play.url("home-hero")}" data-umami-event="ir-play">{t["get_play"]}</a>'
+        aviso = t['aviso_live']
+        seccion_tester = (f'<section id="instalar" class="resumen tester"><h2>{t["play_t"]}</h2><p>{t["play_intro"]}</p>'
+                          f'<p class="botones"><a class="boton" href="{play.url("home-seccion")}" data-umami-event="ir-play">{t["get_play"]}</a></p></section>')
+    else:
+        boton_principal = f'<a class="boton" href="#tester" data-umami-event="ser-tester">{t["ser_tester"]}</a>'
+        aviso = t['aviso']
+        seccion_tester = f'<section id="tester" class="resumen tester"><h2>{t["tester_t"]}</h2><p>{t["tester_intro"]}</p><ol>{pasos}</ol><p class="nota">{t["tester_nota"]}</p></section>'
     return f'''<!doctype html>
 <html lang="{l}">
 <head>
@@ -218,8 +232,8 @@ def pagina(t: dict) -> str:
 <span class="marca">KINSTRIDE</span>
 <h1>{t['h1']}</h1>
 <p class="bajada">{t['bajada']}</p>
-<p class="botones"><a class="boton" href="#tester" data-umami-event="ser-tester">{t['ser_tester']}</a> <a class="boton secundario claro" href="{t['test_url']}" data-umami-event="ir-test">{t['test_t']}</a></p>
-<p class="aviso">{t['aviso']}</p>
+<p class="botones">{boton_principal} <a class="boton secundario claro" href="{t['test_url']}" data-umami-event="ir-test">{t['test_t']}</a></p>
+<p class="aviso">{aviso}</p>
 </div>
 <div class="abanico" aria-hidden="true">{img_hoja('kael', ABANICO_TAM)}{img_hoja('orrin', ABANICO_TAM)}{img_hoja('mira', ABANICO_TAM, 'fetchpriority="high"')}</div>
 </div>
@@ -242,7 +256,7 @@ def pagina(t: dict) -> str:
 <section class="amplia"><h2>{t['crecer_t']}</h2><ul class="crecer">{crecer}</ul></section>
 <section class="amplia"><h2>{t['grupo_t']}</h2><p class="intro">{t['grupo_p']}</p></section>
 <section class="amplia"><h2>{t['pro_t']}</h2><div class="tabla"><table><thead><tr><th>{t['col'][0]}</th><th>{t['col'][1]}</th><th>{t['col'][2]}</th></tr></thead><tbody>{filas}</tbody></table></div><p class="nota">{t['pro_n']}</p></section>
-<section id="tester" class="resumen tester"><h2>{t['tester_t']}</h2><p>{t['tester_intro']}</p><ol>{pasos}</ol><p class="nota">{t['tester_nota']}</p></section>
+{seccion_tester}
 </div>
 </main>
 <footer class="ancho">

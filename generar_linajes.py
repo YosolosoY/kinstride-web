@@ -5,6 +5,8 @@ aquí solo van los textos propios del sitio.
 """
 import json
 import re
+
+import play
 from pathlib import Path
 
 TIKTOK = 'https://www.tiktok.com/@kinstrideapp'
@@ -65,6 +67,7 @@ T = {
         variantes_t='Variants', variantes_p='With Pro, where and how you walk can make you a variant:', otros_t='The other lineages', raro_pag='A rare lineage. Kinstride calculates it for everyone; Pro reveals it.', gratis_pag='One of the six lineages open to everyone.', intro_miga='Lineages',
         tester_p='Kinstride is in closed testing on Android. Test it for 14 days and see what your real walks say, or join the community on Discord to claim your lineage role.',
         discord_btn='Join Discord',
+        cta_live_p='Kinstride is free on Google Play, with no ads and no distance limit. Join the community on Discord to claim your lineage role.', get_play='Get it on Google Play',
     ),
     'es': dict(
         marca='Inicio de Kinstride', pag_desc='{resumen}. Cómo camina {art}, qué mide Kinstride y un test gratis de linajes.', nav_test='Test de caminar', nav_linajes='Linajes', otro='English', tester='Ser tester', tester_url='/es/#tester',
@@ -99,6 +102,7 @@ T = {
         variantes_t='Variantes', variantes_p='Con Pro, dónde y cómo caminas puede volverte una variante:', otros_t='Los otros linajes', raro_pag='Un linaje raro. Kinstride lo calcula para todos; Pro lo revela.', gratis_pag='Uno de los seis linajes abiertos a todos.', intro_miga='Linajes',
         tester_p='Kinstride está en prueba cerrada en Android. Pruébala 14 días y mira qué dicen tus caminatas reales, o entra a nuestra comunidad en Discord para reclamar el rol de tu linaje.',
         discord_btn='Entrar a Discord',
+        cta_live_p='Kinstride es gratis en Google Play, sin anuncios y sin límite de distancia. Entra a nuestra comunidad en Discord para reclamar el rol de tu linaje.', get_play='Descárgala en Google Play',
     ),
 }
 
@@ -203,6 +207,8 @@ def pagina_test(lang, raiz, sitio, umami, srd):
     razas = {r['id']: {'nombre': r['nombre'], 'resumen': r['resumen'], 'pro': r['pro'], 'conArticulo': C[r['id']][lang]['art'], 'url': url_linaje(lang, r['id']), 'img': f"/img/raza-{r['id']}.webp"} for r in datos['razas']}
     preguntas = [{'q': q, 'a': [[o, RESPUESTAS[i][j]] for j, o in enumerate(ops)]} for i, (q, ops) in enumerate(t['preguntas'])]
     textos = {k: t[k] for k in ('pregunta', 'atras', 'caminas', 'ver', 'compartir', 'copiado', 'repetir', 'raro', 'estimado', 'ir_app', 'ir_discord', 'tester_url')} | {'textoCompartir': t['texto_compartir']}
+    if play.LIVE:  # el botón del resultado del test lleva a la ficha, no al formulario de testers
+        textos['tester_url'] = play.url('test-resultado')
     j = json.dumps({'reglas': datos['reglas'], 'razas': razas, 'preguntas': preguntas, 't': textos}, ensure_ascii=False, separators=(',', ':'))
     faq = ''.join(f'<h3>{q}</h3><p>{a}</p>' for q, a in t['faq'])
     u, o = RUTA[lang]['test'], RUTA[otro]['test']
@@ -231,7 +237,13 @@ def miga(sitio, items):
 
 def cta(lang):
     t = T[lang]
-    return f'''<section class="resumen tester"><p>{t['test_cta_p']} <a href="{RUTA[lang]['test']}">{t['test_cta']}</a>.</p><p>{t['tester_p']}</p><p class="botones"><a class="boton" href="{t['tester_url']}" data-umami-event="ser-tester">{t['tester']}</a> <a class="boton secundario" href="/discord/" data-umami-event="cta-discord">{t['discord_btn']}</a></p></section>
+    if play.LIVE:
+        texto = t['cta_live_p']
+        boton = f'<a class="boton" href="{play.url("cta-linajes")}" data-umami-event="ir-play">{t["get_play"]}</a>'
+    else:
+        texto = t['tester_p']
+        boton = f'<a class="boton" href="{t["tester_url"]}" data-umami-event="ser-tester">{t["tester"]}</a>'
+    return f'''<section class="resumen tester"><p>{t['test_cta_p']} <a href="{RUTA[lang]['test']}">{t['test_cta']}</a>.</p><p>{texto}</p><p class="botones">{boton} <a class="boton secundario" href="/discord/" data-umami-event="cta-discord">{t['discord_btn']}</a></p></section>
 '''
 
 
