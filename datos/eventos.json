@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18",
+ "actualizado": "2026-11-25",
  "eventos": [
   {
    "id": "georgia-renaissance-festival-fall-fling",
@@ -2497,7 +2497,8 @@
     "https://fanconhub.com/us/IL",
     "https://rosemont.com/desconvention/event/anime-central-6/",
     "https://animemagic.org",
-    "https://www.rostercon.com/en/event-convention/anime-magic-2027"
+    "https://www.rostercon.com/en/event-convention/anime-magic-2027",
+    "https://www.facebook.com/events/3014527268898176/"
    ],
    "estado": "confirmada",
    "ultima_edicion": "May 15-17, 2026",
@@ -4744,7 +4745,8 @@
    "fuentes": [
     "https://www.comicpalooza.com/",
     "https://www.eventticketscenter.com/comicpalooza-houston-tickets/1433099/e",
-    "https://www.comicpalooza.com/general-information/"
+    "https://www.comicpalooza.com/general-information/",
+    "https://www.facebook.com/events/1297148775464307/"
    ],
    "estado": "solo_terceros",
    "ultima_edicion": null,
@@ -4957,6 +4959,36 @@
    "descripcion": "A Día de los Muertos-themed race for runners and walkers, with a Kids Dash, 1 Mile Run, 5K, Quarter Marathon, Half Marathon and virtual option. It has a pre-race costume contest, mariachi bands at the start line, finisher medals and themed shirts.",
    "precio": "5K $35, Quarter Marathon $35, Half Marathon $49 (rise after Feb 1, 2027)",
    "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "houston-arcade-expo",
+   "ciudad": "houston",
+   "nombre": "Houston Arcade Expo",
+   "tipo": "convention",
+   "comunidades": [
+    "arcade",
+    "retro gaming",
+    "pinball"
+   ],
+   "fechas_texto": "No 2027 date found",
+   "fecha_inicio": "2027-11-12",
+   "fecha_fin": null,
+   "recurrente": false,
+   "lugar": "Houston Marriott Westchase",
+   "organizador": "Houston Arcade Expo",
+   "url_oficial": "https://www.houstonarcadeexpo.com/",
+   "fuentes": [
+    "https://www.houstonarcadeexpo.com/",
+    "https://houstonarcadeexpo.ticketspice.com/houston-arcade-expo-2026",
+    "https://www.facebook.com/events/2195883984694964/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "November 13-15, 2026",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
@@ -5214,35 +5246,6 @@
    "descripcion": "A local game store north of Houston selling board games, trading card games, roleplaying games and Warhammer miniatures. Its play space for 32 players hosts events every night and on weekends, and a private room can be rented. It carries Pokémon, Magic, Lorcana and Flesh and Blood.",
    "precio": null,
    "verificado": "2026-11-17",
-   "origen": "radar",
-   "con_evidencia": true
-  },
-  {
-   "id": "houston-arcade-expo",
-   "ciudad": "houston",
-   "nombre": "Houston Arcade Expo",
-   "tipo": "convention",
-   "comunidades": [
-    "arcade",
-    "retro gaming",
-    "pinball"
-   ],
-   "fechas_texto": "No 2027 date found",
-   "fecha_inicio": null,
-   "fecha_fin": null,
-   "recurrente": false,
-   "lugar": "Houston Marriott Westchase",
-   "organizador": "Houston Arcade Expo",
-   "url_oficial": "https://www.houstonarcadeexpo.com/",
-   "fuentes": [
-    "https://www.houstonarcadeexpo.com/",
-    "https://houstonarcadeexpo.ticketspice.com/houston-arcade-expo-2026"
-   ],
-   "estado": "sin_2027",
-   "ultima_edicion": "November 13-15, 2026",
-   "descripcion": null,
-   "precio": null,
-   "verificado": "2026-11-18",
    "origen": "radar",
    "con_evidencia": true
   },
