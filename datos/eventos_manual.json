@@ -608,5 +608,66 @@
   "verificado": null,
   "nota": null,
   "origen": "manual"
+ },
+ {
+  "id": "bushwick-gaming-club-weekly-magic-nights-monday-night-comman",
+  "ciudad": "new-york",
+  "nombre": "Bushwick Gaming Club weekly Magic nights (Monday Night Commander, Monday Night Draft, Wednesday Commander Night, Learn-to-Play Night)",
+  "tipo": "tcg",
+  "comunidades": [
+   "Magic",
+   "Commander",
+   "Pokémon"
+  ],
+  "recurrente": true,
+  "lugar": "Bushwick Gaming Club, 1519 Decatur St, Suite 108E (Box Factory building), Ridgewood, NY",
+  "organizador": "Bushwick Gaming Club",
+  "url_oficial": "https://ma.to/venue/bushwick_gaming_club",
+  "fuentes": [
+   "https://ma.to/venue/bushwick_gaming_club"
+  ],
+  "estado": "confirmada",
+  "ultima_edicion": null,
+  "descripcion": null,
+  "precio": "Commander $12 (includes a pack); Learn-to-Play $10; Draft prices vary (Star Trek draft $30)",
+  "fecha_inicio": null,
+  "fecha_fin": null,
+  "evidencia": null,
+  "nota": "Verificado 2026-11-28 en ma.to/venue/bushwick_gaming_club (listado actualizado 27 nov 2026). Corrige el aviso del vigilante del 2026-11-23.",
+  "origen": "manual",
+  "verificado": "2026-11-28",
+  "fechas_texto": "Mondays: Monday Night Commander (6 pm) and a draft night (7 pm); Tuesdays: Learn-to-Play Night (6 pm); Wednesdays: Commander Night (6 pm). One-off events, such as the Value Vintage Tournament on Sun Dec 13, 2026, are on the venue listing."
+ },
+ {
+  "id": "twenty-sided-store-events-commander-mana-sisters-board-game",
+  "ciudad": "new-york",
+  "nombre": "Twenty Sided Store Commander and Magic events",
+  "tipo": "tcg",
+  "comunidades": [
+   "Magic",
+   "board games",
+   "D&D"
+  ],
+  "recurrente": true,
+  "lugar": "Twenty Sided Store, 280 Grand Street, Brooklyn, NY 11211",
+  "organizador": "Twenty Sided Store",
+  "url_oficial": "https://www.twentysidedstore.com/",
+  "fuentes": [
+   "https://twentysidedstore.com/products/mtg-casual-commander",
+   "https://www.atly.com/location/TwentySided",
+   "https://www.twentysidedstore.com/",
+   "https://twentysidedstore.com/pages/calendar"
+  ],
+  "estado": "confirmada",
+  "ultima_edicion": null,
+  "descripcion": null,
+  "precio": "Commander $15; Board Game Social $12; Clocktower $20; SideQuest $0–$20",
+  "fecha_inicio": null,
+  "fecha_fin": null,
+  "evidencia": null,
+  "nota": "Verificado 2026-11-28 en los títulos de cada evento en la tienda oficial (twentysidedstore.com, búsqueda de productos); el calendario usa JavaScript.",
+  "origen": "manual",
+  "verificado": "2026-11-28",
+  "fechas_texto": "Commander Casual: Wednesdays 6:45p and Sundays 12:15p; Commander Mana Sisters: 2nd Saturday 12:15p; Board Game Social: 1st and 3rd Saturdays 12:15p; Blood on the Clocktower: 2nd and 4th Fridays 7p; SideQuest Adventures (RPG): Saturdays 3:45p"
  }
 ]
