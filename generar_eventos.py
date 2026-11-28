@@ -271,7 +271,7 @@ def pagina_ciudad(c, evs, lang, umami, srd):
 <p class="intro">{esc(l['ciudad_intro'].format(c=cd['nombre'], f=fecha_larga(HOY, lang)))} {esc(l['cuenta'].format(n=n))}.</p>
 {secs}
 <section class="resumen tester"><h2>{l['envia_t']}</h2><p>{l['envia_p']}</p><p class="botones"><a class="boton" href="{ENVIAR[lang]}" data-umami-event="enviar-evento">{l['envia_b']}</a></p></section>
-{GL.cta(lang)}
+{GL.cta(lang, 'eventos-' + c)}
 </div>
 </main>
 '''
@@ -346,7 +346,7 @@ def pagina_evento(e, evs, lang, umami, srd, linajes):
 <h2>{l['fuentes_t']}</h2>
 <p>{esc(l['fuentes_p'].format(n=n))}</p>
 {otros_html}
-{GL.cta(lang)}
+{GL.cta(lang, 'eventos-' + e['ciudad'])}
 </div>
 </main>
 '''
@@ -371,7 +371,7 @@ def pagina_hub(lang, evs, umami, srd):
 <ul class="eventos ciudades">{tarjetas}</ul>
 {prox_html}
 <section class="resumen tester"><h2>{l['envia_t']}</h2><p>{l['envia_p']}</p><p class="botones"><a class="boton" href="{ENVIAR[lang]}" data-umami-event="enviar-evento">{l['envia_b']}</a></p></section>
-{GL.cta(lang)}
+{GL.cta(lang, 'eventos-hub')}
 </div>
 </main>
 '''

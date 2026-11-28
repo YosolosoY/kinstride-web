@@ -235,11 +235,11 @@ def miga(sitio, items):
         {'@type': 'ListItem', 'position': i + 1, 'name': n, 'item': sitio + u} for i, (n, u) in enumerate(items)]}, ensure_ascii=False) + '</script>'
 
 
-def cta(lang):
+def cta(lang, campana='cta-linajes'):
     t = T[lang]
     if play.LIVE:
         texto = t['cta_live_p']
-        boton = f'<a class="boton" href="{play.url("cta-linajes")}" data-umami-event="ir-play">{t["get_play"]}</a>'
+        boton = f'<a class="boton" href="{play.url(campana)}" data-umami-event="ir-play">{t["get_play"]}</a>'
     else:
         texto = t['tester_p']
         boton = f'<a class="boton" href="{t["tester_url"]}" data-umami-event="ser-tester">{t["tester"]}</a>'

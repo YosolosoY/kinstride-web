@@ -669,5 +669,61 @@
   "origen": "manual",
   "verificado": "2026-11-28",
   "fechas_texto": "Commander Casual: Wednesdays 6:45p and Sundays 12:15p; Commander Mana Sisters: 2nd Saturday 12:15p; Board Game Social: 1st and 3rd Saturdays 12:15p; Blood on the Clocktower: 2nd and 4th Fridays 7p; SideQuest Adventures (RPG): Saturdays 3:45p"
+ },
+ {
+  "tipo": "anime-comic",
+  "comunidades": [
+   "anime",
+   "cosplay"
+  ],
+  "recurrente": false,
+  "precio": null,
+  "evidencia": null,
+  "verificado": "2026-11-28",
+  "nota": "Verificado en sandiegoanimecon.com 2026-11-28. Distinta de Anime San Diego (animesandiego.com).",
+  "origen": "manual",
+  "fecha_inicio": null,
+  "fecha_fin": null,
+  "id": "san-diego-anime-con",
+  "ciudad": "san-diego",
+  "nombre": "San Diego Anime Con",
+  "fechas_texto": "2027 dates not announced yet",
+  "lugar": "DoubleTree by Hilton San Diego Mission Valley",
+  "organizador": "Silk Road Productions",
+  "url_oficial": "https://sandiegoanimecon.com/",
+  "fuentes": [
+   "https://sandiegoanimecon.com/"
+  ],
+  "estado": "sin_2027",
+  "ultima_edicion": "November 13–15, 2026, DoubleTree by Hilton San Diego Mission Valley",
+  "descripcion": "An anime convention from Silk Road Productions, the team behind Fangaea Con, Scream Diego, AniPop and AnimeLand. The 2026 edition was its third annual show."
+ },
+ {
+  "tipo": "anime-comic",
+  "comunidades": [
+   "anime",
+   "cosplay"
+  ],
+  "recurrente": false,
+  "precio": null,
+  "evidencia": null,
+  "verificado": "2026-11-28",
+  "nota": "La web oficial (2026-11-28) dice que la edición 2026 ya pasó; no da fechas ni sede.",
+  "origen": "manual",
+  "fecha_inicio": null,
+  "fecha_fin": null,
+  "id": "anime-pasadena",
+  "ciudad": "los-angeles",
+  "nombre": "Anime Pasadena",
+  "fechas_texto": "2027 dates not announced yet",
+  "lugar": "Pasadena, California",
+  "organizador": null,
+  "url_oficial": "https://www.animepasadena.com/",
+  "fuentes": [
+   "https://www.animepasadena.com/"
+  ],
+  "estado": "sin_2027",
+  "ultima_edicion": "2026",
+  "descripcion": null
  }
 ]

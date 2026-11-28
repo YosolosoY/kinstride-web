@@ -182,6 +182,18 @@ def desde_radar():
     return salida
 
 
+def dominio(u):
+    m = re.match(r'https?://(?:www\.)?([^/]+)', u or '')
+    return m.group(1).lower() if m else None
+
+
+def otro_dominio(a, b):
+    """Dos eventos con web oficial propia y distinta no son el mismo, aunque el nombre se parezca
+    (2026-11-28: «Anime Magic!» y «Anime Central» se fundían por la palabra «anime»)."""
+    da, db = dominio(a.get('url_oficial')), dominio(b.get('url_oficial'))
+    return bool(da and db and da != db and nucleo(a['nombre']) != nucleo(b['nombre']))  # mismo núcleo (AGOG) = mismo evento aunque cambie el dominio
+
+
 def consolidar():
     manual = json.loads((DATOS / 'eventos_manual.json').read_text()) if (DATOS / 'eventos_manual.json').exists() else []
     radar = desde_radar() if CRUDO.exists() else []
@@ -191,7 +203,7 @@ def consolidar():
         e = dict(e)
         e['lugar'] = lugar_limpio(e.get('lugar'))
         for k, r in enumerate(lista):
-            if r['ciudad'] == e['ciudad'] and misma(r['nombre'], e['nombre']):
+            if r['ciudad'] == e['ciudad'] and misma(r['nombre'], e['nombre']) and not otro_dominio(r, e):
                 fuerte, debil = (e, r) if PRIO[e['estado']] > PRIO[r['estado']] or (PRIO[e['estado']] == PRIO[r['estado']] and e.get('origen') == 'manual') else (r, e)
                 f = dict(fuerte)
                 for kk, v in debil.items():
@@ -199,7 +211,8 @@ def consolidar():
                         f[kk] = v
                 f['fuentes'] = list(dict.fromkeys((r.get('fuentes') or []) + (e.get('fuentes') or [])))
                 f['origen'] = 'manual+radar' if {r.get('origen'), e.get('origen')} >= {'manual', 'radar'} else f.get('origen')
-                f['nombre'] = min((r['nombre'], e['nombre']), key=len) if len(min(r['nombre'], e['nombre'], key=len)) >= 3 else f['nombre']
+                if fuerte.get('origen') != 'manual':  # el nombre verificado a mano no se cambia por uno más corto del radar
+                    f['nombre'] = min((r['nombre'], e['nombre']), key=len) if len(min(r['nombre'], e['nombre'], key=len)) >= 3 else f['nombre']
                 lista[k] = f
                 break
         else:

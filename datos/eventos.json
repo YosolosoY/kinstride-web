@@ -3436,7 +3436,7 @@
   {
    "id": "anime-central-acen",
    "ciudad": "chicago",
-   "nombre": "Anime Magic!",
+   "nombre": "Anime Central",
    "tipo": "anime-comic",
    "comunidades": [
     "anime",
@@ -3455,8 +3455,6 @@
     "https://www.acen.org",
     "https://fanconhub.com/us/IL",
     "https://rosemont.com/desconvention/event/anime-central-6/",
-    "https://animemagic.org",
-    "https://www.rostercon.com/en/event-convention/anime-magic-2027",
     "https://www.facebook.com/events/3014527268898176/"
    ],
    "estado": "confirmada",
@@ -3641,6 +3639,35 @@
    "estado": "confirmada",
    "ultima_edicion": "August 14-16, 2026",
    "descripcion": "A three-day fan culture convention for fans of comics, sci-fi, horror, anime, gaming and cosplay, as well as families. It has celebrity guests, autograph and photo sessions, panels, a costume showcase, gaming booths, an Artist Alley and shopping.",
+   "precio": null,
+   "verificado": "2026-11-17",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "anime-magic",
+   "ciudad": "chicago",
+   "nombre": "Anime Magic!",
+   "tipo": "tcg",
+   "comunidades": [
+    "anime",
+    "manga",
+    "cosplay"
+   ],
+   "fechas_texto": "August 27-29, 2027",
+   "fecha_inicio": "2027-08-27",
+   "fecha_fin": "2027-08-29",
+   "recurrente": false,
+   "lugar": "Hyatt Regency O'Hare & Donald E. Stephens Convention Center",
+   "organizador": "Anime Magic",
+   "url_oficial": "https://animemagic.org",
+   "fuentes": [
+    "https://animemagic.org",
+    "https://www.rostercon.com/en/event-convention/anime-magic-2027"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": null,
+   "descripcion": null,
    "precio": null,
    "verificado": "2026-11-17",
    "origen": "radar",
@@ -7677,7 +7704,7 @@
   {
    "id": "comic-arts-los-angeles-cala",
    "ciudad": "los-angeles",
-   "nombre": "Los Angeles Comic Con",
+   "nombre": "Comic Arts Los Angeles (CALA)",
    "tipo": "anime-comic",
    "comunidades": [
     "comics",
@@ -7693,12 +7720,10 @@
    "url_oficial": "https://www.comicartsla.com/",
    "fuentes": [
     "https://www.comicartsla.com/",
-    "https://en.wikipedia.org/wiki/Comic_Arts_Los_Angeles",
-    "https://comicconla.com/",
-    "https://comicconla.com/faq"
+    "https://en.wikipedia.org/wiki/Comic_Arts_Los_Angeles"
    ],
    "estado": "confirmada",
-   "ultima_edicion": "Oct 30 - Nov 1, 2026, Los Angeles Convention Center",
+   "ultima_edicion": null,
    "descripcion": "A curated festival of independent comic artists, where independent artists exhibit their work. Applications to exhibit this year are closed, and the page invites visitors to join the mailing list or follow on social media for further updates.",
    "precio": null,
    "verificado": "2026-11-18",
@@ -7960,7 +7985,6 @@
    "organizador": "Collect A Con",
    "url_oficial": "https://collectaconusa.com/losangeles/",
    "fuentes": [
-    "https://www.eventbrite.com/e/los-angeles-asn-jayboog-live-in-concert-the-globe-theatre-18-tickets-2004419902887",
     "https://collectaconusa.com/losangeles/",
     "https://collectaconusa.com/"
    ],
@@ -8057,10 +8081,7 @@
     "https://www.visitlongbeach.com/events/animé-los-angeles",
     "https://www.cantonfair.net/event/13357-anime-los-angeles",
     "https://animelosangeles.org/wp-content/uploads/2026/06/ALA-22-2027-Sponsorship-Marketing-Kit-v2.pdf",
-    "https://thegameofnerds.com/2026/01/19/anime-los-angeles-hits-a-new-record-of-21k-attendees",
-    "https://www.animepasadena.com/",
-    "https://anihk.com/en/events/anime-pasadena-2026",
-    "https://www.visitpasadena.com/media/press-releases/anime-pasadena-2025-returns-this-november/"
+    "https://thegameofnerds.com/2026/01/19/anime-los-angeles-hits-a-new-record-of-21k-attendees"
    ],
    "estado": "confirmada",
    "ultima_edicion": "Anime Expo 2026 (35th edition), July 2026, Los Angeles Convention Center",
@@ -8157,6 +8178,66 @@
    "precio": null,
    "verificado": "2026-11-28",
    "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "id": "los-angeles-comic-con",
+   "ciudad": "los-angeles",
+   "nombre": "Los Angeles Comic Con",
+   "tipo": "anime-comic",
+   "comunidades": [
+    "comics",
+    "cosplay",
+    "pop culture",
+    "sci-fi/fantasy"
+   ],
+   "fechas_texto": "Oct. 22-24, 2027",
+   "fecha_inicio": "2027-10-22",
+   "fecha_fin": "2027-10-24",
+   "recurrente": false,
+   "lugar": "Los Angeles Convention Center, 1201 S Figueroa St",
+   "organizador": "Los Angeles Comic Con",
+   "url_oficial": "https://comicconla.com/",
+   "fuentes": [
+    "https://www.eventbrite.com/e/los-angeles-asn-jayboog-live-in-concert-the-globe-theatre-18-tickets-2004419902887",
+    "https://comicconla.com/",
+    "https://comicconla.com/faq"
+   ],
+   "estado": "confirmada",
+   "ultima_edicion": "Oct 30 - Nov 1, 2026, Los Angeles Convention Center",
+   "descripcion": null,
+   "precio": null,
+   "verificado": "2026-11-28",
+   "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "cosplay"
+   ],
+   "recurrente": false,
+   "precio": null,
+   "verificado": "2026-11-28",
+   "origen": "manual+radar",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "id": "anime-pasadena",
+   "ciudad": "los-angeles",
+   "nombre": "Anime Pasadena",
+   "fechas_texto": "2027 dates not announced yet",
+   "lugar": "Pasadena, California",
+   "organizador": "Anime Pasadena",
+   "url_oficial": "https://www.animepasadena.com/",
+   "fuentes": [
+    "https://www.animepasadena.com/",
+    "https://anihk.com/en/events/anime-pasadena-2026",
+    "https://www.visitpasadena.com/media/press-releases/anime-pasadena-2025-returns-this-november/"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "2026",
+   "descripcion": null,
    "con_evidencia": true
   },
   {
@@ -10162,7 +10243,7 @@
   {
    "id": "bushwick-gaming-club-weekly-magic-nights-monday-night-comman",
    "ciudad": "new-york",
-   "nombre": "Bushwick Gaming Club – Magic: The Gathering events",
+   "nombre": "Bushwick Gaming Club weekly Magic nights (Monday Night Commander, Monday Night Draft, Wednesday Commander Night, Learn-to-Play Night)",
    "tipo": "tcg",
    "comunidades": [
     "Magic",
@@ -12081,37 +12162,6 @@
    "con_evidencia": true
   },
   {
-   "id": "san-diego-anime-con",
-   "ciudad": "san-diego",
-   "nombre": "Anime San Diego",
-   "tipo": "anime-comic",
-   "comunidades": [
-    "anime",
-    "manga",
-    "cosplay"
-   ],
-   "fechas_texto": "No 2027 dates found. The 2026 edition ran Nov 13-15, 2026.",
-   "fecha_inicio": null,
-   "fecha_fin": null,
-   "recurrente": false,
-   "lugar": "DoubleTree by Hilton San Diego - Mission Valley, Hazard Center Dr",
-   "organizador": "Silk Road Productions",
-   "url_oficial": "https://sandiegoanimecon.com/",
-   "fuentes": [
-    "https://sandiegoanimecon.com/",
-    "https://www.rostercon.com/en/event-convention/san-diego-anime-con-2026",
-    "https://www.animesandiego.com/",
-    "https://www.treasurehunter.show/show/anime-san-diego-2026-san-diego-ca-2026-09-05"
-   ],
-   "estado": "sin_2027",
-   "ultima_edicion": "November 13-15, 2026, DoubleTree by Hilton San Diego - Mission Valley",
-   "descripcion": "An anime convention produced by Silk Road Productions. The program includes general panels on anime-related topics, a Dynamic Room with interactive hands-on sessions, and a maid cafe with games. It also lists a game room, cosplay meetups and a cosplay contest.",
-   "precio": null,
-   "verificado": "2026-11-17",
-   "origen": "radar",
-   "con_evidencia": true
-  },
-  {
    "id": "at-ease-games-friday-night-magic-warhammer-nights-and-d-d-ad",
    "ciudad": "san-diego",
    "nombre": "At Ease Games: Friday Night Magic, Warhammer nights and D&D Adventurers League",
@@ -12754,6 +12804,36 @@
    "precio": null,
    "verificado": null,
    "origen": "radar",
+   "con_evidencia": true
+  },
+  {
+   "tipo": "anime-comic",
+   "comunidades": [
+    "anime",
+    "cosplay"
+   ],
+   "recurrente": false,
+   "precio": null,
+   "verificado": "2026-11-28",
+   "origen": "manual+radar",
+   "fecha_inicio": null,
+   "fecha_fin": null,
+   "id": "san-diego-anime-con",
+   "ciudad": "san-diego",
+   "nombre": "San Diego Anime Con",
+   "fechas_texto": "2027 dates not announced yet",
+   "lugar": "DoubleTree by Hilton San Diego Mission Valley",
+   "organizador": "Silk Road Productions",
+   "url_oficial": "https://sandiegoanimecon.com/",
+   "fuentes": [
+    "https://sandiegoanimecon.com/",
+    "https://www.rostercon.com/en/event-convention/san-diego-anime-con-2026",
+    "https://www.animesandiego.com/",
+    "https://www.treasurehunter.show/show/anime-san-diego-2026-san-diego-ca-2026-09-05"
+   ],
+   "estado": "sin_2027",
+   "ultima_edicion": "November 13–15, 2026, DoubleTree by Hilton San Diego Mission Valley",
+   "descripcion": "An anime convention from Silk Road Productions, the team behind Fangaea Con, Scream Diego, AniPop and AnimeLand. The 2026 edition was its third annual show.",
    "con_evidencia": true
   },
   {
